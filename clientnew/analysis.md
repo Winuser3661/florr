@@ -24,18 +24,6 @@ section still leaks the whole content model and tech stack.
 | code      | 6265  | 4.66 MB |
 | data      | 3171  | 4.16 MB (strings + svg + gzip blobs) |
 
-## tech stack
-
-- **rust**: confirmed by generic type names in strings, e.g. `MultiStream<WebSocket>`.
-- **wasm-bindgen**: 361 js-interop imports, 46 exports.
-- **skia** (google's 2d/vector lib, full c++ compiled in): `SkTDArray.cpp`,
-  `SkContourMeasure.cpp`, `SkArenaAlloc.h`, `SkFont`, ganesh/gr-gl paths. this is
-  how petals/mobs (vector svg art) get drawn.
-- **glow / webgl / egl**: gpu backend under skia (`glGetProgramBinary`,
-  `glShaderBinary`, `EGL`).
-- **icu**: 395 references; the full unicode/i18n library, a big chunk of the 9 MB.
-- **networking**: websocket (`MultiStream<WebSocket>`), binary protocol.
-
 ## backend & third parties
 
 - game servers: `https://api.n.m28.io/server/`, `https://api.n.m28.io/endpoint/`
