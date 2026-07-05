@@ -1,13 +1,12 @@
 # clientnew.wasm static analysis
 
-9,386,389 bytes, WebAssembly MVP. this is the modern florr.io client (rust →
-wasm). the identity is unambiguous from embedded endpoints: `florr.io`,
-`api.n.m28.io/server/`, `api.n.m28.io/endpoint/`, `oauth2.florr.io/callback`,
-`support.florr.io`, the florr discord invite, and the qq group.
+9,386,389 bytes, WebAssembly MVP. this is the modern florr.io client. the
+identity is unambiguous from embedded `florr.io` / `support.florr.io` strings,
+the florr discord invite, and the qq group.
 
-the symbol/name section is stripped and imports/exports are minified (release
-wasm-bindgen + wasm-opt), so there's no clean named decompile. the 4.2 MB data
-section still leaks the whole content model and tech stack.
+the symbol/name section is stripped and imports/exports are minified, so there's
+no clean named decompile. the 4.2 MB data section still leaks the whole content
+model and every embedded asset.
 
 ## module structure
 
@@ -23,17 +22,6 @@ section still leaks the whole content model and tech stack.
 | elem      | 1     | function table init |
 | code      | 6265  | 4.66 MB |
 | data      | 3171  | 4.16 MB (strings + svg + gzip blobs) |
-
-## backend & third parties
-
-- game servers: `https://api.n.m28.io/server/`, `https://api.n.m28.io/endpoint/`
-  (server discovery; m28.io is the dev's infra).
-- auth: `oauth2.florr.io/callback` plus oauth against google, apple, discord
-  (`accounts.google.com/o/oauth2`, `appleid.apple.com/auth`, `discord.com/api/oauth2`).
-- payments: **xsolla** (`store.xsolla.com/api`, `secure.xsolla.com/paystation3`)
-  for the "stars" premium currency.
-- community: discord `invite/TRMtDSE`, qq `qm.qq.com/q/5dMiUwLocg`.
-- only public oauth endpoints/redirects are present; no secrets.
 
 ## content inventory (from the embedded i18n table)
 
@@ -91,7 +79,7 @@ ant_hell, factory, crystal_room, training_grounds, worm, ant_hole1-5.
 ## embedded assets
 
 - 148 svg vector assets (`<svg>`/viewBox ×151, `<path` ×1085, 271 `.svg` refs):
-  the petal/mob/ui art, drawn with skia. see `svg/`.
+  the petal/mob/ui art. see `svg/`.
 - 92 gzip blobs (base64 `H4sI…`) decode to byte grids from 12×12 up to 246×246
   (60,516 B): per-map terrain / tile / collision data. see `maps/`.
 - the full in-game changelog is embedded verbatim. see `data/changelog.txt`.

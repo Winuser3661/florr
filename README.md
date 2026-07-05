@@ -12,7 +12,7 @@ This repo is a static reverse-engineering study of the modern florr.io client.
 The client ships as a single 9 MB WebAssembly module (Rust compiled to wasm via
 wasm-bindgen). The symbol names are stripped and the imports/exports are
 minified, so there is no clean decompile, but the 4 MB data section still leaks
-the entire content model, the tech stack, and every embedded asset. All of that
+the entire content model and every embedded asset. All of that
 is extracted, decoded, and checked in under [`clientnew/`](clientnew/).
 
 ## What is here
@@ -48,7 +48,7 @@ The embedded i18n table, decoded per namespace. For each namespace there is a
 
 ### Assets ([`clientnew/svg/`](clientnew/svg/) and [`clientnew/maps/`](clientnew/maps/))
 
-- [`svg/`](clientnew/svg/) - 148 vector assets (`asset_NNN.svg`): the petal, mob, and UI art, drawn in-engine with Skia.
+- [`svg/`](clientnew/svg/) - 148 vector assets (`asset_NNN.svg`): the petal, mob, and UI art.
 - [`maps/`](clientnew/maps/) - 92 map grids decoded from the embedded gzip blobs. Each is a raw `grid_NNN.bin` byte grid plus a `grid_NNN.png` grayscale render for square grids. See [`maps/index.txt`](clientnew/maps/index.txt) for dimensions.
 
 ### Scripts ([`clientnew/scripts/`](clientnew/scripts/))
@@ -60,15 +60,11 @@ The extraction is fully reproducible from the binary:
 
 ## Findings at a glance
 
-- Tech stack: Rust plus wasm-bindgen; Skia (2D/vector) rendered on WebGL via glow; ICU for internationalization; a fixed 256 MB heap.
-- Backend and third parties: game servers at `api.n.m28.io`; auth via `oauth2.florr.io` with Google, Apple, and Discord; Xsolla for payments. Only public OAuth endpoints and redirects are present; no secrets.
 - Content inventory: 122 petals, 87 mobs, 113 talents, 10 rarities, 18 maps/biomes, 142 achievements.
 - Rarities: common, unusual, rare, epic, legendary, mythic, ultra, super, unique, eternal.
 - Assets: 148 SVG vector assets and 92 map grids ranging from 12x12 up to 246x246.
 
-See [`clientnew/analysis.md`](clientnew/analysis.md) for the detailed breakdown, and
-the section there on [what cannot be recovered from the binary alone](clientnew/analysis.md#what-cant-be-recovered-from-the-binary-alone)
-(function names, the wire protocol, and the JS-to-wasm import mapping).
+See [`clientnew/analysis.md`](clientnew/analysis.md) for the detailed breakdown.
 
 ## Reproducing
 

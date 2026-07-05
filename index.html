@@ -122,23 +122,8 @@ footer{margin-top:60px;padding-top:22px;border-top:1px solid var(--line);color:v
     <h2 class="sec">Overview</h2>
     <p class="lead">The client ships as a single stripped WebAssembly module. Symbol names are gone and the
       imports/exports are minified, so there is no clean decompile, but the 4&nbsp;MB data section still leaks
-      the entire content model, the tech stack, and every embedded asset.</p>
+      the entire content model and every embedded asset.</p>
     <div class="grid statgrid" id="stats"></div>
-    <div class="prose">
-      <h3>Tech stack</h3>
-      <p>Rust plus wasm-bindgen; Skia (Google's 2D/vector library, compiled in) rendered on WebGL via glow;
-        ICU for internationalization; a fixed 256&nbsp;MB heap. Networking is a binary WebSocket protocol.</p>
-      <h3>Backend and third parties</h3>
-      <dl class="kv">
-        <dt>Game servers</dt><dd><code>api.n.m28.io/server/</code>, <code>api.n.m28.io/endpoint/</code></dd>
-        <dt>Auth</dt><dd><code>oauth2.florr.io/callback</code> via Google, Apple, Discord</dd>
-        <dt>Payments</dt><dd>Xsolla (the "stars" premium currency)</dd>
-      </dl>
-      <p class="note">Only public OAuth endpoints and redirects are present in the binary. No secrets.</p>
-      <h3>What cannot be recovered from the binary alone</h3>
-      <p>Function names (stripped), the wire protocol (binary, not in strings), and the JS-to-wasm import
-        mapping (minified) all require live capture or the companion JS glue, which is not part of this study.</p>
-    </div>
   </section>
 
   <section id="petals"><h2 class="sec">Petals</h2><p class="lead" id="petals-lead"></p>
@@ -207,8 +192,7 @@ const nl = (s)=>{
 
 // badges + stats
 const F=D.FACTS;
-const badges=[['Rust to wasm',''],['9.4 MB binary',''],[F.functions+' functions',''],[F.imports+' imports',''],
-  ['Skia on WebGL',''],['ICU i18n',''],['256 MB heap','']];
+const badges=[['9.4 MB wasm binary',''],[F.functions+' functions',''],[F.imports+' imports',''],[F.exports+' exports','']];
 $('#badges').append(...badges.map(([b])=>el('span','badge',b)));
 const stats=[[F.petals,'petals'],[F.mobs,'mobs'],[F.talents,'talents'],[F.rarities,'rarities'],
   [F.maps,'maps / biomes'],[F.achievements,'achievements'],[F.svg,'vector assets'],[F.grids,'map grids']];
