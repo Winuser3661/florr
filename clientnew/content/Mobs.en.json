@@ -1,0 +1,341 @@
+{
+ "AnnouncementPrefix": {},
+ "AnnouncementPrefixNoRarity": {},
+ "ant_baby": {
+  "Name": "Formiga Beb",
+  "Description": "Fraca e indefesa, mas possui grandes sonhos."
+ },
+ "ant_egg": {
+  "Name": "Ovo de Formiga",
+  "Description": "Not yet an ant but perhaps soon."
+ },
+ "ant_hole": {
+  "Name": "Formigueiro",
+  "Description": "Ants go in, and come out. Can't explain that."
+ },
+ "ant_queen": {
+  "Name": "Formiga Rainha",
+  "Description": "You must have done something really bad if she's chasing you."
+ },
+ "ant_soldier": {
+  "Name": "Formiga Soldado",
+  "Description": "It's got wings and it's ready to use them."
+ },
+ "ant_soldier_diver": {
+  "Name": "Formiga Soldado",
+  "Description": "Como elas foram parar aqui?"
+ },
+ "ant_worker": {
+  "Name": "Formiga Oper",
+  "Description": "It's a bit temperamental, probably from working all the time."
+ },
+ "assembler": {
+  "Name": "Assembler",
+  "Description": ""
+ },
+ "barrel": {
+  "Name": "Barrel",
+  "Description": "Under no circumstances let this thing spill.<n/>We cannot risk another mutant insect this month."
+ },
+ "bee": {
+  "Name": "Abelha",
+  "Description": "It stings. Don't touch it."
+ },
+ "beetle": {
+  "Name": "Besouro",
+  "Description": "It's hungry and flowers are its favorite meal."
+ },
+ "beetle_hel": {
+  "Name": "Besouro",
+  "Description": "Scourge that spawns in the other plane."
+ },
+ "beetle_mummy": {
+  "Name": "Besouro",
+  "Description": "This one seems like it shouldn't be alive..."
+ },
+ "beetle_nazar": {
+  "Name": "Besouro",
+  "Description": "This one has a different pattern... what does that mean?"
+ },
+ "beetle_pharaoh": {
+  "Name": "Besouro",
+  "Description": "That thing on its head looks valuable... We should steal it."
+ },
+ "bubble": {
+  "Name": "Bubble",
+  "Description": "Pop"
+ },
+ "bumble_bee": {
+  "Name": "Bumble Bee",
+  "Description": "PRECISO CORRER."
+ },
+ "bush": {
+  "Name": "Arbusto",
+  "Description": "Don't misunderestimate me."
+ },
+ "cactus": {
+  "Name": "Cactus",
+  "Description": "Avoid touching it, it hurts."
+ },
+ "centipede": {
+  "Name": "Centipede",
+  "Description": "It's just there doing its thing."
+ },
+ "centipede_body": {
+  "Name": "Centipede",
+  "Description": "It's just there doing its thing."
+ },
+ "centipede_desert": {
+  "Name": "Centipede",
+  "Description": "Tenho que ir r"
+ },
+ "centipede_desert_body": {
+  "Name": "Centipede",
+  "Description": "Tenho que ir r"
+ },
+ "centipede_evil": {
+  "Name": "Centipede",
+  "Description": "This one loves flowers."
+ },
+ "centipede_evil_body": {
+  "Name": "Centipede",
+  "Description": "This one loves flowers."
+ },
+ "centipede_hel": {
+  "Name": "Centipede",
+  "Description": "Scourge that spawns in the other plane."
+ },
+ "centipede_hel_body": {
+  "Name": "Centipede",
+  "Description": "Scourge that spawns in the other plane."
+ },
+ "crab": {
+  "Name": "Caranguejo",
+  "Description": "Seu Siriguejo"
+ },
+ "crab_mecha": {
+  "Name": "Caranguejo",
+  "Description": "Dr. Siriguejo."
+ },
+ "crystal": {
+  "Name": "Crystal",
+  "Description": ""
+ },
+ "dandelion": {
+  "Name": "Dandelion",
+  "Description": "Fofinho."
+ },
+ "digger": {
+  "Name": "Escavador",
+  "Description": "Wrong game, bud."
+ },
+ "dummy": {
+  "Name": "Boneco de Teste",
+  "Description": "How do you have this in your gallery?"
+ },
+ "fire_ant_baby": {
+  "Name": "Baby Fire Ant",
+  "Description": "This ant is on fireeeeeeeeeeeeee."
+ },
+ "fire_ant_burrow": {
+  "Name": "Formigueiro de Fogo",
+  "Description": "What could be in here?"
+ },
+ "fire_ant_egg": {
+  "Name": "Ovo de Formiga de Fogo",
+  "Description": "This ant is not yet on fire."
+ },
+ "fire_ant_queen": {
+  "Name": "Formiga Rainha de Fogo",
+  "Description": "This ant is on fireeeeeeeeeeeeee."
+ },
+ "fire_ant_soldier": {
+  "Name": "Formiga Soldado de Fogo",
+  "Description": "This ant is on fireeeeeeeeeeeeee."
+ },
+ "fire_ant_worker": {
+  "Name": "Worker Fire Ant",
+  "Description": "This ant is on fireeeeeeeeeeeeee."
+ },
+ "firefly": {
+  "Name": "Vagalume",
+  "Description": "Oooooh shiny."
+ },
+ "firefly_magic": {
+  "Name": "Vagalume",
+  "Description": "There's something magical about this one."
+ },
+ "fly": {
+  "Name": "Mosca",
+  "Description": "Hzzzzzzzzzzzz."
+ },
+ "gambler": {
+  "Name": "Apostador",
+  "Description": "Isso pode acontecer com VOC"
+ },
+ "garbage": {
+  "Name": "Garbage",
+  "Description": "Someone's treasure..."
+ },
+ "ghost": {
+  "Name": "Fantasma",
+  "Description": "A tormented soul, freeing it is the best you can do for it."
+ },
+ "hornet": {
+  "Name": "Hornet",
+  "Description": "These aren't quite as nice as the little bees."
+ },
+ "jellyfish": {
+  "Name": "Jellyfish",
+  "Description": "Makes the most delicious jam."
+ },
+ "ladybug": {
+  "Name": "Joaninha",
+  "Description": "Cute and harmless."
+ },
+ "ladybug_dark": {
+  "Name": "Joaninha",
+  "Description": "Cute and harmless... if left unprovoked."
+ },
+ "ladybug_shiny": {
+  "Name": "Joaninha",
+  "Description": "Brilhantes, fofas e praticamente inofensivas."
+ },
+ "leafbug": {
+  "Name": "Bicho-Folha",
+  "Description": "It's not a leaf, but it is a bug."
+ },
+ "leafbug_shiny": {
+  "Name": "Bicho-Folha",
+  "Description": "This one has a special color to it..."
+ },
+ "leech": {
+  "Name": "Sangue Suga",
+  "Description": "Slurp slurp."
+ },
+ "leech_body": {
+  "Name": "Leech",
+  "Description": "Slurp slurp."
+ },
+ "mantis": {
+  "Name": "Louva-a-Deus",
+  "Description": "You better pray you don't become dinner."
+ },
+ "mecha_flower": {
+  "Name": "Mecha Flower",
+  "Description": "Someone has been making these mechanical flowers... What could this mean?"
+ },
+ "moth": {
+  "Name": "Mariposa",
+  "Description": "Facilmente se assusta, seja gentil."
+ },
+ "none": {},
+ "oracle": {
+  "Name": "Oracle",
+  "Description": ""
+ },
+ "roach": {
+  "Name": "Barata",
+  "Description": "Gotta go FAST... until they get tired."
+ },
+ "rock": {
+  "Name": "Pedra",
+  "Description": "A rock. It doesn't do much."
+ },
+ "sandstorm": {
+  "Name": "Tornado de Areia",
+  "Description": "Um tornado incontrol"
+ },
+ "scorpion": {
+  "Name": "Scorpion",
+  "Description": "IT STINGS!"
+ },
+ "shell": {
+  "Name": "Concha",
+  "Description": "Not an advertisement."
+ },
+ "silverfish": {
+  "Name": "Silverfish",
+  "Description": "Those annoying little things that eat clothes.<n/>It also loves garbage."
+ },
+ "spider": {
+  "Name": "Spider",
+  "Description": "Assustador."
+ },
+ "spider_hel": {
+  "Name": "Spider",
+  "Description": "Scourge that spawns in the other plane."
+ },
+ "spider_mecha": {
+  "Name": "Spider",
+  "Description": "Mecanicamente Assustador."
+ },
+ "sponge": {
+  "Name": "Esponja",
+  "Description": "Bob."
+ },
+ "square": {
+  "Name": "Quadrado",
+  "Description": "This shape... it looks familiar..."
+ },
+ "starfish": {
+  "Name": "Estrela-do-Mar",
+  "Description": "His name is Patrick."
+ },
+ "termite_baby": {
+  "Name": "Baby Termite",
+  "Description": "Fraco e indefeso, mas possui grandes sonhos.<n/>Essas criaturas parecem de algum jeito estar conectadas."
+ },
+ "termite_egg": {
+  "Name": "Ovo de Cupim",
+  "Description": "Not yet a termite but perhaps soon."
+ },
+ "termite_mound": {
+  "Name": "Termite Mound",
+  "Description": "Termites go in, and come out. Can't explain that."
+ },
+ "termite_overmind": {
+  "Name": "Termite Overmind",
+  "Description": "The one who oversees all."
+ },
+ "termite_soldier": {
+  "Name": "Soldier Termite",
+  "Description": "It's got wings and it's ready to use them.<n/>These creatures appear to be connected somehow."
+ },
+ "termite_worker": {
+  "Name": "Worker Termite",
+  "Description": "It's a bit temperamental, probably from working all the time.<n/>These creatures appear to be connected somehow."
+ },
+ "titan": {
+  "Name": "Titan",
+  "Description": ""
+ },
+ "tomb": {
+  "Name": "Tumba",
+  "Description": "Huh, what could be in here?"
+ },
+ "trader": {
+  "Name": "Mercante",
+  "Description": ""
+ },
+ "wasp": {
+  "Name": "Wasp",
+  "Description": "They are ANGRY."
+ },
+ "wasp_hel": {
+  "Name": "Wasp",
+  "Description": "Scourge that spawns in the other plane."
+ },
+ "wasp_mecha": {
+  "Name": "Wasp",
+  "Description": "They're MECHA ANGRY."
+ },
+ "worm": {
+  "Name": "Minhoca",
+  "Description": "It's supposed to eat dirt but this one's eating flowers."
+ },
+ "worm_guts": {
+  "Name": "Worm guts",
+  "Description": "You're not supposed to see this text. I'm calling the police."
+ }
+}

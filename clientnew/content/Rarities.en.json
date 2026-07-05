@@ -1,0 +1,32 @@
+{
+ "common": {
+  "Name": "Common"
+ },
+ "epic": {
+  "Name": "Epic"
+ },
+ "eternal": {
+  "Name": "Eternal"
+ },
+ "legendary": {
+  "Name": "Legendary"
+ },
+ "mythic": {
+  "Name": "Mythic"
+ },
+ "rare": {
+  "Name": "Rare"
+ },
+ "super": {
+  "Name": "Super"
+ },
+ "ultra": {
+  "Name": "Ultra"
+ },
+ "unique": {
+  "Name": "Unique"
+ },
+ "unusual": {
+  "Name": "Unusual"
+ }
+}

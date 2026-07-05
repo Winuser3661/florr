@@ -1,0 +1,37 @@
+{
+ "Start": [
+  "<s val=\"1.5\">Tutorial</s><n/><n/>You seem to be new here, let's get you through the basics.<n/>Click {#UI/Title/Ready} to start.",
+  "<s val=\"1.5\">",
+  "<s val=\"1.5\">Tutorial</s><n/><n/>Voc"
+ ],
+ "End": [
+  "<s val=\"1.5\">Tutorial</s><n/><n/>That's it! Remember to use the inventory to equip and unequip petals.<n/>You can click a petal to equip/unequip it.<n/><n/>Keep expanding your petal collection and good luck!",
+  "<s val=\"1.5\">",
+  "<s val=\"1.5\">Tutorial</s><n/><n/>Isso",
+  "<s val=\"1.5\">H"
+ ],
+ "MustBeAlive": [
+  "You must be alive to proceed in the tutorial.",
+  "Voc",
+  "B"
+ ],
+ "MustBeInGame": [
+  "You must be in-game for this part of the tutorial, just click the big green {#UI/Title/Ready} button.",
+  "Voc",
+  "B"
+ ],
+ "MustLeaveGame": [
+  "To proceed, abandon this game by clicking the abandon button on the top left.",
+  "Para continuar, abandone o jogo apertando no bot"
+ ],
+ "Next": [
+  "Next",
+  "Pr",
+  "Ti"
+ ],
+ "Done": [
+  "Done",
+  "Pronto",
+  "Ho"
+ ]
+}

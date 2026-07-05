@@ -1,0 +1,71 @@
+{
+ "common": [
+  "#7EEF6D"
+ ],
+ "unusual": [
+  "#FFE65D"
+ ],
+ "rare": [
+  "#4d52e3"
+ ],
+ "epic": [
+  "#861FDE"
+ ],
+ "legendary": [
+  "#DE1F1F"
+ ],
+ "mythic": [
+  "#1fdbde"
+ ],
+ "ultra": [
+  "#ff2b75"
+ ],
+ "super": [
+  "#2bffa3"
+ ],
+ "eternal": [
+  "#eeeeee"
+ ],
+ "unique": [
+  "#555555"
+ ],
+ "generic": [
+  "#FFE763"
+ ],
+ "health": [
+  "#66ff66"
+ ],
+ "damage": [
+  "#ff6666"
+ ],
+ "armor": [
+  "#666666"
+ ],
+ "duration": [
+  "#6666ff"
+ ],
+ "heal": [
+  "#ff94c9"
+ ],
+ "poison": [
+  "#ce76db"
+ ],
+ "lightning": [
+  "#36ffe7"
+ ],
+ "mana": [
+  "#42e3f5"
+ ],
+ "danger": [
+  "#ff3333"
+ ],
+ "reflection": [
+  "#999999"
+ ],
+ "psionic": [
+  "#c7a138"
+ ],
+ "undead": [
+  "#83b05d"
+ ]
+}

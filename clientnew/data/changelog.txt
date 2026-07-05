@@ -1,0 +1,209 @@
+- Disables saving progress on this account
+- Removes everything from account
+	- A mysterious rift has opened in the garden. It seems to take flowers back to a simpler time.
+	- Unique forging mechanic has been reworked.
+	- The game now asks for permission to view your email when you login with discord/apple. This will be used to avoid accidentally creating a new account when you already have one registered with that email. We will not send you emails.
+	- Balancing and stuff idk
+	- Luck now affects mob spawns again, increasing the rarity of mobs that spawn in that area.
+	- Added Factory. There's still more things that need to be added, but it's at a point where players can start playing it.
+	- Eggs now only spawn mobs when they break.
+	- Sandstorm now phases through non-flower entities (still deals damage normally).
+	- Mobile now has loadouts. Hold X and you can switch loadouts by tapping the secondary petal slots. Each loadout uses the first petal in the loadout as its icon.
+	- Loading a loadout on a keyboard is done by holding L+number, or K+number for the second set of loadouts.
+	- Changed default behavior of when loadouts are saved. With auto-save enabled, they'll be saved whenever switching loadouts. If disabled, you'll need to press O to save the current loadout.
+	- Slows have been reworked. Now their effectiveness will depend on mob vs petal rarity.
+	- Yggdrasil now applies a 30s cooldown on the revived flower, preventing it from being revived again during that time.
+	- Aggressive and semi-aggressive mobs will run away if attacked by an entity that it can't attack back (behind wall, underground, etc).
+	- Some death ui improvements.
+	- As a little throwback, for a few days the Garden map will be something that might seem a little familiar.
+	- Mana gain & cost have been reworked to scale at higher rarities.
+	- A few more petals got added and stuff.
+	- Talents can now be reset for free an unlimited amount of times without delay.
+	- You can now precisely control how fast/slow you want petals to rotate. Slowest is 30% of maximum speed.
+	- Respawning now clears damage credit dealt to mobs for the purposes of looting. This does not apply to getting revived.
+	- Crafting talents have been removed.
+	- Some changes were made on how achievements are stored, that means a couple of achievements will have been reset. However, because of these changes, now it's guaranteed that once you've completed an achievement, it'll be kept completed even if its requirements change.
+	- Level requirements have been doubled, that means your level should likely have been cut in half.
+	- Added achievements. They provide TP which will replace the ones lost from the levels you lost.
+	- More achievements will be added soon.
+	- Absorbing has been removed.
+	- Salvaging talent has been removed.
+	- Destroying mobs now awards experience.
+	- The ability to absorb petals will be removed in a future update.
+	- Adjusted drop rates for ultra+ mobs.
+	- Some small map changes.
+	- We've added daily challenges. You will now need to destroy specific mobs each day to earn stars.
+	- Stars are no longer granted passively as you play.
+	- Ads are now disabled for everyone. You will still earn stars as if you had watched them.
+	- Crafting talents are now cheaper.
+	- Talent reset delay now depends on the player level (2 + level/3).
+	- Everyone's talent reset cooldown has been reset.
+	- Changed keys to save/restore loadouts. L+Number loads a specific loadout, and L+Shift+Number saves the current loadout.
+	- Re-enabled player collisions in most cases.
+	- Ultras can now spawn anywhere other mobs can (much more likely in high rarity zones). There can still only be one Ultra of each type at a time in the realm. There's still a global per-realm timer that prevents them from respawning too often.
+	- Super mobs are no longer more likely to spawn the longer an Ultra mob has gone unkilled.
+	- Poison from different players against the same mob now stack.
+	- Early-mid game progression has been adjusted significantly.
+	- Mythic- mobs should respawn a bit faster now. This should mostly affect areas that were full of players hunting them.
+	- Mobs missile health now scale like petal health instead of mob health. Their base health has been buffed to compensate.
+	- Approximately doubled Ultra (but not Super) mob drops.
+	- Ultra+ spawn frequency is back to before the Dec 25th update.
+	- Doubled most Ultra+ mobs HP.
+	- We've added some basic guild functionality, to be expanded soon. It's currently only accessible through chat commands.
+	- Ultras should now respawn twice as fast. Super chance halved so it should result in about the same frequency as before.
+	- Non-passive petals are now disabled in Centralia and Ellne to prevent lag.
+	- XP required to level up is now a more round number. This might make some players gain or lose levels as they will have been recalculated.
+	- Skills are now called Talents.
+	- Re-enabled Luck talent.
+	- Talents can no longer be reset by sacrificing levels.
+	- Talents can now be reset for free every 30 days.
+	- We're adjusting the prices of some petals in the shop to account for their rarity properly. For the time being we're setting a 50% discount on everything.
+	- Supers are now more likely to spawn for mobs whose ultras aren't destroyed very often.
+	- We're slowly adding special moves to every Ultra+ mob. So far, Sandstorm and Shell got new moves, and more to come.
+	- Buffed healing by 50% (now it's about -25% from before May 1st).
+	- Ultra/Super healing & health petals now scale a bit less.
+	- Ultras now spawn about 10x more frequently, with 3-4x lower drop rate.
+	- The map now has a couple new areas to explore! It's still a work in progress, some more areas coming eventually.
+	- All healing has been nerfed by 50%.
+	- Some other changes I forgor.
+	- Entrance is located on the east side of Centralia.
+	- Arenas are divided into 3 difficulties: Common-Epic, Legendary-Mythic, Ultra-Super. You'll enter the arena corresponding to the highest rarity petal you have equipped.
+	- You cannot change your loadout inside the arena.
+	- Super mob spawns are now announced to all the players in all maps in the region.
+	- Added a new section to Centralia Fields.
+	- Added a new section to Ant Hell.
+	- Drops are no longer the same for every player that contributes to destroying a mob. They're now randomly rolled for each player.
+	- We noticed an issue where the payment system was misidentifying the player's country, leading to failure to process some payments. We've enabled an option to select the payment country. We're working with our payment processor to fix it so it should identify it automatically soon.
+	- Added two mobs to Centralia Sewers.
+	- Ultra mobs now have a 1% chance of spawning as Super mobs, even more powerful mobs with possibly amazing drops.
+	- Ultra+ mobs damage threshold to receive drops decreased from 5% to 1%. Max number of players that can receive drops increased from 4 to 15.
+	- Yggdrasil nerfed slightly, now heals for less on revive.
+	- Fixed Hornet not receiving knockback when firing missiles.
+	- Accounts that have purchased stars in the premium shop no longer have to watch ads (but still gain stars as if they did).
+	- Third Eye no longer stacks.
+	- Added a premium shop. You can now support the game by buying petals using stars, which you can acquire with money or by watching ads.
+	- Rebalanced a couple of petals.
+	- Changed TP cost of many talents.
+	- Changed TP reward per level (now it's always 1 per level).
+	- Added a couple new talents.
+	- Everyone's talent allocation has been reset for free.
+	- We've rebalanced all mobs and petals. The idea is extending the early game a little bit, as it was too easy to get legendary petals in the first hour of gameplay.
+	- Nicknames are now permanent and unique. You'll be prompted for one the first time you play.
+	- Mobs are no longer constrained by mere physical space limits. Their hitbox against the map has been decreased significantly.
+	- Added a new map section to Centralia Fields, East Waters and South Desert.
+	- Changed the way beetles move.
+	- The game finally has a world map. Enjoy exploring and finding interesting places.
+	- Note that it's still fairly small, we plan to add more areas soon.
+	- Squads have been disabled for the time being as they'll require significant work to work again.
+	- Due to popular demand, the change mentioned in the previous changelog was changed to today.
+	- We're introducing a new petal rarity: Super.
+	- We've added a couple commands to join/create squads while in-game, type /help in the chat for more info.
+	- By default a chat message is only seen by people around you. To send it to your squad members regardless of where they are, prefix it with /squad or press TAB.
+	- Reenabled summoner petals. Summoned mobs no longer have collision with other squad mobs. Summoned mobs now deal collision damage to non-squad friendly mobs.
+	- An area can now temporarily run out of mobs if they're farmed too quickly.
+	- Crafting Ultras has been temporarily disabled. We'll be reworking them to a permanent rarity. Existing ultras can still be used. On January 3rd: every 10 ultras will be reverted into a mythic. Then any left over will be absorbed for 50k each.
+	- Higher tier mobs now have varying amounts of slow resistance.
+	- Drops are now shared among the 4 players that dealt the most damage to the mob (as long as they deal at least 5% damage). Squad damage is counted together. Only flowers within about a screen distance can get drops from a mob.
+	- As a special event, we'll be running a game mode that some of you might feel some familiarity with. Have fun!
+	- Some summoner petals are disabled in the main map of this mode (still useable inside antholes). Unfortunately this is too abuseable.
+	- We're experimenting with a HUGE rebalancing of the entire game. We've reset everyone's waves for this. Please be patient while we tweak things to get everything perfect.
+	- The idea is increasing the gap between rarities. Such that if you have unusual petals, a rare mob actually presents a bigger challenge. Before this update, there wasn't really enough distinction between lower mob rarities.
+	- Added damage numbers, toggleable in the settings (default on).
+	- Petal tooltips values now update correctly to match values after taking talents into account.
+	- Added more Medic talent tiers.
+	- Removed luck talent, anyone who owned it has been refunded.
+	- We've added a texture to Desert. Other maps will get their own soon. Check out the discord server for the contest!
+	- It is now possible to refund all your TP, at a cost of 5 levels.
+	- Due to some changes in the talent tree, we've reset everyone's talents and refunded all TP.
+	- Mobile users can now tap and hold a petal on the crafting screen to add many at a time.
+	- To make the game a little bit easier, petals now move towards enemies within a certain range of them, which should make it easier to hit enemies.
+	- Since many people have spent their TP without realizing how permanent they are, we will be doing a future update (in late December) in which players can reset their TP allocation once per year.
+	- As a reminder, we'll be adding more things to spend TP on as time goes on.
+	- The long awaited talents update is here.
+	- Killing mobs no longer awards XP. We have reset everyone's levels back to 1 as this update significantly changes how levels are acquired.
+	- Petals can now be absorbed to earn XP.
+	- Advancing levels provides TP, which can be used to upgrade talents.
+	- Talents have a permanent effect on your flower. Once upgraded they're unlocked forever. There is no way to undo TP spent on talents.
+	- We may change the formula of XP required on each level. If so, we'll adjust everyone's levels to match the new formula (and award or take back any TP).
+	- Level cap has been raised to 200.
+	- Tweaked number of mobs in each wave.
+	- Tweaked map size in later waves.
+	- We're trying to incentivize clearing mobs before the wave ends by making all mobs aggro when it ends. The map size changes also makes it harder to stay in one spot and just tank all mobs.
+	- We've reset the highest wave beaten by everyone to wave 25, if it was previously higher than that. This is due to the change in wave difficulty.
+	- Enemies no longer have their attack range the same as their aggro range (so hornets for example won't start attacking from half way across the map).
+	- Map now scales based on the mobs contained within, this should avoid crowding out in late game waves.
+	- Recipe for Ultra petals has changed.
+	- Pseudo-RNG system has been removed from crafting. Now it's back to truly random with no increasing odds. If you have any failed attempts on a specific petal, it'll keep using the old system until you succeed (so you don't lose increased odds you already accumulated).
+	- Added Apple ID login. Note that it doesn't merge Apple ID accounts with Discord accounts. If you already logged in using Discord, keep using that to login. This addition is intended to make it easier for those that don't have a Discord account to keep their progress.
+	- PvP now has higher rarity mobs (equivalent to wave 18 or so in PvE).
+	- PvP now has a scoreboard again.
+	- Killing players in PvP now awards Basic petals, rarity depends on how many points they have.
+	- PvP map size changes based on how many players are in game.
+	- Magnets no longer increase pick up range in PvP.
+	- Added extra stats in mob gallery.
+	- Since wave difficulty was changed significantly, we're resetting everyone's highest wave beaten back to 0.
+	- Special wave chance is now 15%.
+	- Leeches now share their health among all segments.
+	- Special single-mob waves are no longer on specific waves, but can occur randomly on any wave.
+	- Changed how initial wave is calculated for a squad, allowing higher initial waves.
+	- Drop rate has been slightly reduced to compensate.
+	- When joining a public squad, players will always be placed on the highest-wave game currently available to them.
+	- Increased mythic craft chance to 3%.
+	- Peas have been split into Peas and Grapes. Existing Peas have been turned into Grapes.
+	- Reworked several mythic petals.
+	- Leaf can now heal friendly mobs.
+	- We have started banning people for using any sort of scripts. A ban is permanent and will result in loss of all progress.
+	- Added an autocraft button at the bottom of the crafting menu. It will automatically preserve your rarest petals so it is always safe to use.
+	- A lot of changes were made in the past week but we were too lazy to put them in the changelog.
+	- Added an AFK timer in public squads.
+	- Ant holes now have a timer so players can't afk inside.
+	- Decreased drop chance of higher rarities a bit.
+	- Increased craft chances for higher rarities.
+	- Players can now start on wave 11.
+	- Mobs can now only drop petals of at most their own rarity.
+	- Tweaked petal drop rate to compensate.
+	- Craft chances have been changed.
+	- Rare rarity color is now a bit more blue.
+	- Added a deadzone around the middle of the screen so mouse users can keep their flower still.
+	- Added a craft all button to mobile (still not fully supported, but this will fix a pain point).
+	- Added a minimal wave display setting that won't display mobs in the wave ui.
+	- Rebalanced a lot of petals. They're now separated in offensive and defensive types, which changes how their damage and health scales.
+	- Fixed poison deaths being mislabeled.
+	- Players will now join existing public games automatically as long as they've beaten the wave the squad is at.
+	- Rebalanced late game waves. They're now significantly shorter than before.
+	- Reworked Lightning petal.
+	- We will now rotate between PvE scenarios every 24 hours.
+	- Added Mob Gallery. It keeps track of every mob you have defeated.
+	- Reduced Lightning petal range.
+	- Cactus no longer turns poisonous at higher rarity, more health instead.
+	- Ocean released. It'll replace Desert for a couple of days then we'll alternate between them every day or so.
+	- Scientists have now discovered the map is a circle, rather than a square, as previously thought.
+	- Adjusted mobs in each wave.
+	- Added setting to hide lower rarity drops. You can still pick them up, you just won't be able to see them. This is a workaround until we optimize them so they won't lag the game.
+	- Web no longer stacks, slow increased to -75%.
+	- Web rarity now affects radius rather than duration.
+	- Squads will now start at a higher wave that partially depends on the best wave each squad member has beaten.
+	- Increased base poison damage rate to 15/s (from 9/s).
+	- Increased mythic craft chance to 2%. This might or might not be temporary.
+	- Magnet no longer stacks with itself.
+	- Crafting now uses a pseudo random distribution that increases success rate on each failure until a successful craft.
+	- Nominal craft chances on the long run are still the same. It will not show the calculated craft chance for each attempt.
+	- For example, a 75% craft chance means that 66.6% of the time it'll succeed on the first attempt, and 100% of the time on the second attempt.
+	- Salt now stacks with itself. Reflected damage is reduced by 75% against flowers.
+	- Web movement speed debuff changed from -75% to -50%.
+	- Next wave will now start once current wave has 4 or fewer mobs alive.
+	- Mob aggro range now constantly increases while they're alive.
+	- Rarer mobs now give more experience as intended.
+	- Level experience requirements have been increased to compensate.
+	- Released Desert scenario.
+	- In-game inventory management has been simplified, now it is only possible to swap the primary and secondary petal for each slot.
+	- Ant holes can now be of higher rarities again, but only the queen will be above Rare.
+	- Petals now have a Mythic rarity. It does not drop from mobs, only available via crafting.
+	- Mobs can now only drop petals up to 1 rarity level above themselves.
+	- Ant holes can no longer have a rarity higher than Rare.
+	- Added Craft All button, hold SHIFT before clicking the Craft button.
+	- The game has been re-released. It's nothing like it was before, so might as well clear this changelog too :)
+	- Balancear as coisas, sei l
+	- Sorte agora (novamente) afeta a raridade de bichos que aparecem em uma 
+	- Tornados de Areia agora passam por entidades que n
+	- Since many people have spent their TP without realizing how permanent they are, we will be doing a future update (in late December) in which players can reset their TP m

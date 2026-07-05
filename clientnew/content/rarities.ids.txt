@@ -1,0 +1,10 @@
+common
+epic
+eternal
+legendary
+mythic
+rare
+super
+ultra
+unique
+unusual

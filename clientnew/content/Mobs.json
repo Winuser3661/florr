@@ -1,0 +1,1960 @@
+{
+ "rock/Name": [
+  "Rock",
+  "Pedra",
+  "T"
+ ],
+ "rock/Description": [
+  "A rock. It doesn't do much.",
+  "Uma pedra, n",
+  "M"
+ ],
+ "rock/Spawn": [
+  "Something mountain-like appears in the distance...",
+  "Algo parecido como uma montanha aparece na dist",
+  "C"
+ ],
+ "cactus/Name": [
+  "Cactus",
+  "Cacto",
+  "X"
+ ],
+ "cactus/Description": [
+  "Avoid touching it, it hurts.",
+  "Evite tocar, d",
+  "Tr"
+ ],
+ "cactus/Spawn": [
+  "A tower of thorns rises from the sands...",
+  "Uma torre de espinhos emerge da areia...",
+  "M"
+ ],
+ "ladybug/Name": [
+  "Ladybug",
+  "Joaninha",
+  "B"
+ ],
+ "ladybug/Description": [
+  "Cute and harmless.",
+  "Fofa e inofensiva.",
+  "D"
+ ],
+ "bee/Name": [
+  "Bee",
+  "Abelha",
+  "Ong"
+ ],
+ "bee/Description": [
+  "It stings. Don't touch it.",
+  "Ela pica. N",
+  "N"
+ ],
+ "ant_baby/Name": [
+  "Baby Ant",
+  "Formiga Beb",
+  "Ki"
+ ],
+ "ant_baby/Description": [
+  "Weak and defenseless, but big dreams.",
+  "Fraca e indefesa, mas possui grandes sonhos.",
+  "Y"
+ ],
+ "ant_worker/Name": [
+  "Worker Ant",
+  "Formiga Oper",
+  "Ki"
+ ],
+ "ant_worker/Description": [
+  "It's a bit temperamental, probably from working all the time.",
+  "T"
+ ],
+ "ant_soldier/Name": [
+  "Soldier Ant",
+  "Formiga Soldado",
+  "Ki"
+ ],
+ "ant_soldier/Description": [
+  "It's got wings and it's ready to use them.",
+  "Ela possui asas, e est",
+  "N"
+ ],
+ "ant_queen/Name": [
+  "Queen Ant",
+  "Formiga Rainha",
+  "Ki"
+ ],
+ "ant_queen/Description": [
+  "You must have done something really bad if she's chasing you.",
+  "Voc",
+  "Ch"
+ ],
+ "ant_hole/Name": [
+  "Ant Hole",
+  "Formigueiro",
+  "T"
+ ],
+ "ant_hole/Description": [
+  "Ants go in, and come out. Can't explain that.",
+  "Formigas entram e saem, n",
+  "Ki"
+ ],
+ "beetle/Name": [
+  "Beetle",
+  "Besouro",
+  "B"
+ ],
+ "beetle/Description": [
+  "It's hungry and flowers are its favorite meal.",
+  "Est",
+  "N"
+ ],
+ "hornet/Name": [
+  "Hornet",
+  "Vespa",
+  "Ong B"
+ ],
+ "hornet/Description": [
+  "These aren't quite as nice as the little bees.",
+  "Esses n",
+  "Nh"
+ ],
+ "hornet/Spawn": [
+  "A big yellow spot shows up in the distance...",
+  "Um grande ponto amarelo surge a uma longa dist",
+  "M"
+ ],
+ "centipede/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede/Description": [
+  "It's just there doing its thing.",
+  "Est",
+  "N"
+ ],
+ "centipede_body/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_body/Description": [
+  "It's just there doing its thing.",
+  "Est",
+  "N"
+ ],
+ "centipede_evil/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_evil/Description": [
+  "This one loves flowers.",
+  "Essa aqui ama flores.",
+  "Con n"
+ ],
+ "centipede_evil_body/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_evil_body/Description": [
+  "This one loves flowers.",
+  "Essa aqui ama flores.",
+  "Con n"
+ ],
+ "centipede_desert/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_desert/Description": [
+  "Gotta go fast.",
+  "Tenho que ir r",
+  "Ch"
+ ],
+ "centipede_desert_body/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_desert_body/Description": [
+  "Gotta go fast.",
+  "Tenho que ir r",
+  "Ch"
+ ],
+ "square/Name": [
+  "Square",
+  "Quadrado",
+  "H"
+ ],
+ "square/Description": [
+  "This shape... it looks familiar...",
+  "Essa forma... parece familiar...",
+  "H"
+ ],
+ "ladybug_dark/Name": [
+  "Ladybug",
+  "Joaninha",
+  "B"
+ ],
+ "ladybug_dark/Description": [
+  "Cute and harmless... if left unprovoked.",
+  "Fofa e inofensiva... se n",
+  "D"
+ ],
+ "ladybug_shiny/Name": [
+  "Ladybug",
+  "Joaninha",
+  "B"
+ ],
+ "ladybug_shiny/Description": [
+  "Shiny, cute and mostly harmless.",
+  "Brilhantes, fofas e praticamente inofensivas."
+ ],
+ "spider/Name": [
+  "Spider",
+  "Aranha",
+  "Nh"
+ ],
+ "spider/Description": [
+  "Spooky.",
+  "Assustador."
+ ],
+ "scorpion/Name": [
+  "Scorpion",
+  "Escorpi",
+  "B"
+ ],
+ "scorpion/Description": [
+  "IT STINGS!",
+  "ELE PICA!",
+  "C"
+ ],
+ "fire_ant_soldier/Name": [
+  "Soldier Fire Ant",
+  "Formiga Soldado de Fogo",
+  "Ki"
+ ],
+ "fire_ant_soldier/Description": [
+  "This ant is on fireeeeeeeeeeeeee.",
+  "Essa formiga est",
+  "Con ki"
+ ],
+ "fire_ant_burrow/Name": [
+  "Fire Ant Burrow",
+  "Formigueiro de Fogo",
+  "T"
+ ],
+ "fire_ant_burrow/Description": [
+  "What could be in here?",
+  "Oque ser",
+  "C"
+ ],
+ "sandstorm/Name": [
+  "Sandstorm",
+  "Tornado de Areia",
+  "B"
+ ],
+ "sandstorm/Description": [
+  "Darude (1999)",
+  "Um tornado incontrol",
+  "Darude - Sandstorm (1999)"
+ ],
+ "bubble/Name": [
+  "Bubble",
+  "Bolha",
+  "Bong B"
+ ],
+ "bubble/Description": [
+  "Pop",
+  "Pop."
+ ],
+ "bumble_bee/Name": [
+  "Bumble Bee",
+  "Zang",
+  "Ong Ngh"
+ ],
+ "bumble_bee/Description": [
+  "GOTTA RUN.",
+  "PRECISO CORRER.",
+  "CH"
+ ],
+ "shell/Name": [
+  "Shell",
+  "Concha",
+  "S"
+ ],
+ "shell/Description": [
+  "Not an advertisement.",
+  "N"
+ ],
+ "starfish/Name": [
+  "Starfish",
+  "Estrela-do-Mar",
+  "Sao Bi"
+ ],
+ "starfish/Description": [
+  "His name is Patrick.",
+  "Seu nome",
+  "T"
+ ],
+ "crab/Name": [
+  "Crab",
+  "Caranguejo",
+  "Cua"
+ ],
+ "crab/Description": [
+  "Mr. Crab.",
+  "Seu Siriguejo"
+ ],
+ "jellyfish/Name": [
+  "Jellyfish",
+  "S"
+ ],
+ "jellyfish/Description": [
+  "Makes the most delicious jam.",
+  "Faz a geleia mais deliciosa.",
+  "L"
+ ],
+ "jellyfish/Spawn": [
+  "You hear lightning strikes coming from a far distance...",
+  "Voc",
+  "B"
+ ],
+ "digger/Name": [
+  "Digger",
+  "Escavador",
+  "Th"
+ ],
+ "digger/Description": [
+  "Wrong game, bud.",
+  "Jogo errado.",
+  "Nh"
+ ],
+ "sponge/Name": [
+  "Sponge",
+  "Esponja",
+  "B"
+ ],
+ "sponge/Description": [
+  "Bob."
+ ],
+ "leech/Name": [
+  "Leech",
+  "Sangue Suga"
+ ],
+ "leech/Description": [
+  "Slurp slurp.",
+  "Suga Suga.",
+  "So"
+ ],
+ "leech_body/Name": [
+  "Leech"
+ ],
+ "leech_body/Description": [
+  "Slurp slurp.",
+  "Suga Suga.",
+  "So"
+ ],
+ "dandelion/Name": [
+  "Dandelion",
+  "Dente-de-Le",
+  "B"
+ ],
+ "dandelion/Description": [
+  "Puffy.",
+  "Fofinho.",
+  "M"
+ ],
+ "fire_ant_baby/Name": [
+  "Baby Fire Ant",
+  "Formiga Beb",
+  "Ki"
+ ],
+ "fire_ant_baby/Description": [
+  "This ant is on fireeeeeeeeeeeeee.",
+  "Essa formiga est",
+  "Con ki"
+ ],
+ "fire_ant_worker/Name": [
+  "Worker Fire Ant",
+  "Formiga Oper",
+  "Ki"
+ ],
+ "fire_ant_worker/Description": [
+  "This ant is on fireeeeeeeeeeeeee.",
+  "Essa formiga est",
+  "Con ki"
+ ],
+ "fire_ant_queen/Name": [
+  "Queen Fire Ant",
+  "Formiga Rainha de Fogo",
+  "Ki"
+ ],
+ "fire_ant_queen/Description": [
+  "This ant is on fireeeeeeeeeeeeee.",
+  "Essa formiga est",
+  "Con ki"
+ ],
+ "ant_egg/Name": [
+  "Ant Egg",
+  "Ovo de Formiga",
+  "Tr"
+ ],
+ "ant_egg/Description": [
+  "Not yet an ant but perhaps soon.",
+  "Ainda n",
+  "Ch"
+ ],
+ "fire_ant_egg/Name": [
+  "Fire Ant Egg",
+  "Ovo de Formiga de Fogo",
+  "Tr"
+ ],
+ "fire_ant_egg/Description": [
+  "This ant is not yet on fire.",
+  "Essa formiga n",
+  "Con ki"
+ ],
+ "fly/Name": [
+  "Fly",
+  "Mosca",
+  "Ru"
+ ],
+ "fly/Description": [
+  "Hzzzzzzzzzzzz.",
+  "Bzzzzzzzzzz."
+ ],
+ "leafbug/Name": [
+  "Leafbug",
+  "Bicho-Folha",
+  "B"
+ ],
+ "leafbug/Description": [
+  "It's not a leaf, but it is a bug.",
+  "N",
+  "Con n"
+ ],
+ "mantis/Name": [
+  "Mantis",
+  "Louva-a-Deus",
+  "B"
+ ],
+ "mantis/Description": [
+  "You better pray you don't become dinner.",
+  "T"
+ ],
+ "termite_baby/Name": [
+  "Baby Termite",
+  "Beb",
+  "M"
+ ],
+ "termite_baby/Description": [
+  "Weak and defenseless, but big dreams.<n/>These creatures appear to be connected somehow.",
+  "Fraco e indefeso, mas possui grandes sonhos.<n/>Essas criaturas parecem de algum jeito estar conectadas.",
+  "Y"
+ ],
+ "termite_worker/Name": [
+  "Worker Termite",
+  "Cupim Oper",
+  "M"
+ ],
+ "termite_worker/Description": [
+  "It's a bit temperamental, probably from working all the time.<n/>These creatures appear to be connected somehow.",
+  "T"
+ ],
+ "termite_soldier/Name": [
+  "Soldier Termite",
+  "Cupim Soldado",
+  "M"
+ ],
+ "termite_soldier/Description": [
+  "It's got wings and it's ready to use them.<n/>These creatures appear to be connected somehow.",
+  "Ele possui asas, e est",
+  "N"
+ ],
+ "termite_overmind/Name": [
+  "Termite Overmind",
+  "Cupim Chefe",
+  "Ch"
+ ],
+ "termite_overmind/Description": [
+  "The one who oversees all.",
+  "Aquele que tudo v",
+  "Ng"
+ ],
+ "termite_mound/Name": [
+  "Termite Mound",
+  "Cupinzeiro",
+  "T"
+ ],
+ "termite_mound/Description": [
+  "Termites go in, and come out. Can't explain that.",
+  "Cupins entram e saem, n",
+  "M"
+ ],
+ "termite_egg/Name": [
+  "Termite Egg",
+  "Ovo de Cupim",
+  "Tr"
+ ],
+ "termite_egg/Description": [
+  "Not yet a termite but perhaps soon.",
+  "Ainda n",
+  "Ch"
+ ],
+ "bush/Name": [
+  "Bush",
+  "Arbusto",
+  "B"
+ ],
+ "bush/Description": [
+  "Don't misunderestimate me.",
+  "N"
+ ],
+ "roach/Name": [
+  "Roach",
+  "Barata",
+  "Gi"
+ ],
+ "roach/Description": [
+  "Gotta go FAST... until they get tired.",
+  "R",
+  "Ph"
+ ],
+ "moth/Name": [
+  "Moth",
+  "Mariposa",
+  "B"
+ ],
+ "moth/Description": [
+  "Easily scared, be nice.",
+  "Facilmente se assusta, seja gentil.",
+  "D"
+ ],
+ "firefly/Name": [
+  "Firefly",
+  "Vagalume"
+ ],
+ "firefly/Description": [
+  "Oooooh shiny."
+ ],
+ "firefly/Spawn": [
+  "There's a bright light in the horizon...",
+  "Tem uma luz brilhante vindo do horizonte...",
+  "C"
+ ],
+ "beetle_hel/Name": [
+  "Beetle",
+  "Besouro",
+  "B"
+ ],
+ "beetle_hel/Description": [
+  "Scourge that spawns in the other plane.",
+  "Flagelo que surge no outro mundo.",
+  "M"
+ ],
+ "beetle_hel/Spawn": [
+  "You sense ominous vibrations coming from a different realm...",
+  "Voc",
+  "B"
+ ],
+ "wasp/Name": [
+  "Wasp",
+  "Vesp",
+  "T"
+ ],
+ "wasp/Description": [
+  "They are ANGRY.",
+  "Eles est",
+  "Ch"
+ ],
+ "dummy/Name": [
+  "Target Dummy",
+  "Boneco de Teste",
+  "Ng"
+ ],
+ "dummy/Description": [
+  "How do you have this in your gallery?",
+  "Como voc",
+  "Sao b"
+ ],
+ "spider_hel/Name": [
+  "Spider",
+  "Aranha",
+  "Nh"
+ ],
+ "spider_hel/Description": [
+  "Scourge that spawns in the other plane.",
+  "Flagelo que surge no outro mundo.",
+  "M"
+ ],
+ "spider_hel/Spawn": [
+  "You sense ominous vibrations coming from a different realm...",
+  "Voc",
+  "B"
+ ],
+ "centipede_hel/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_hel/Description": [
+  "Scourge that spawns in the other plane.",
+  "Flagelo que surge no outro mundo.",
+  "M"
+ ],
+ "centipede_hel/Spawn": [
+  "You sense ominous vibrations coming from a different realm...",
+  "Voc",
+  "B"
+ ],
+ "centipede_hel_body/Name": [
+  "Centipede",
+  "Centopeia",
+  "R"
+ ],
+ "centipede_hel_body/Description": [
+  "Scourge that spawns in the other plane.",
+  "Flagelo que surge no outro mundo.",
+  "M"
+ ],
+ "centipede_hel_body/Spawn": [
+  "You sense ominous vibrations coming from a different realm...",
+  "Voc",
+  "B"
+ ],
+ "wasp_hel/Name": [
+  "Wasp",
+  "Vesp",
+  "T"
+ ],
+ "wasp_hel/Description": [
+  "Scourge that spawns in the other plane.",
+  "Flagelo que surge no outro mundo.",
+  "M"
+ ],
+ "wasp_hel/Spawn": [
+  "You sense ominous vibrations coming from a different realm...",
+  "Voc",
+  "B"
+ ],
+ "trader/Name": [
+  "Trader",
+  "Mercante",
+  "Th"
+ ],
+ "trader/Description": [],
+ "gambler/Name": [
+  "Gambler",
+  "Apostador",
+  "Con B"
+ ],
+ "gambler/Description": [
+  "This can happen to YOU.",
+  "Isso pode acontecer com VOC",
+  "<s val=\"1.5\">"
+ ],
+ "gambler/Spawn": [
+  "You hear someone whisper faintly... \"just... one more game...\"",
+  "Voc",
+  "M"
+ ],
+ "oracle/Name": [
+  "Oracle",
+  "Or",
+  "Nh"
+ ],
+ "oracle/Description": [],
+ "firefly_magic/Name": [
+  "Firefly",
+  "Vagalume"
+ ],
+ "firefly_magic/Description": [
+  "There's something magical about this one.",
+  "H",
+  "C"
+ ],
+ "titan/Name": [
+  "Titan",
+  "Tit"
+ ],
+ "titan/Description": [],
+ "beetle_nazar/Name": [
+  "Beetle",
+  "Besouro",
+  "B"
+ ],
+ "beetle_nazar/Description": [
+  "This one has a different pattern... what does that mean?",
+  "Este tem um padr",
+  "Con n"
+ ],
+ "worm/Name": [
+  "Worm",
+  "Minhoca",
+  "Giun"
+ ],
+ "worm/Description": [
+  "It's supposed to eat dirt but this one's eating flowers.",
+  "Deveria comer terra, mas este est"
+ ],
+ "worm_guts/Name": [
+  "Worm guts",
+  "Ru"
+ ],
+ "worm_guts/Description": [
+  "You're not supposed to see this text. I'm calling the police.",
+  "N",
+  "B"
+ ],
+ "mecha_flower/Name": [
+  "Mecha Flower",
+  "Flor Mec",
+  "Hoa M"
+ ],
+ "mecha_flower/Description": [
+  "Someone has been making these mechanical flowers... What could this mean?",
+  "Algu",
+  "C"
+ ],
+ "wasp_mecha/Name": [
+  "Wasp",
+  "Vesp",
+  "T"
+ ],
+ "wasp_mecha/Description": [
+  "They're MECHA ANGRY.",
+  "Elas est",
+  "Ch"
+ ],
+ "spider_mecha/Name": [
+  "Spider",
+  "Aranha",
+  "Nh"
+ ],
+ "spider_mecha/Description": [
+  "Mecha Spooky.",
+  "Mecanicamente Assustador.",
+  "M"
+ ],
+ "leafbug_shiny/Name": [
+  "Leafbug",
+  "Bicho-Folha",
+  "B"
+ ],
+ "leafbug_shiny/Description": [
+  "This one has a special color to it...",
+  "Esse tem uma cor especial...",
+  "Con n"
+ ],
+ "crab_mecha/Name": [
+  "Crab",
+  "Caranguejo",
+  "Cua"
+ ],
+ "crab_mecha/Description": [
+  "Dr. Crab.",
+  "Dr. Siriguejo."
+ ],
+ "assembler/Name": [
+  "Assembler",
+  "Montador",
+  "M"
+ ],
+ "assembler/Description": [],
+ "barrel/Name": [
+  "Barrel",
+  "Barril",
+  "Th"
+ ],
+ "barrel/Description": [
+  "Under no circumstances let this thing spill.<n/>We cannot risk another mutant insect this month.",
+  "Em nenhuma circunst",
+  "D"
+ ],
+ "beetle_mummy/Name": [
+  "Beetle",
+  "Besouro",
+  "B"
+ ],
+ "beetle_mummy/Description": [
+  "This one seems like it shouldn't be alive...",
+  "Esse n",
+  "C"
+ ],
+ "beetle_pharaoh/Name": [
+  "Beetle",
+  "Besouro",
+  "B"
+ ],
+ "beetle_pharaoh/Description": [
+  "That thing on its head looks valuable... We should steal it.",
+  "A coroa na cabe",
+  "C"
+ ],
+ "tomb/Name": [
+  "Tomb",
+  "Tumba",
+  "M"
+ ],
+ "tomb/Description": [
+  "Huh, what could be in here?",
+  "Hm, o que pode estar aqui?",
+  "H"
+ ],
+ "silverfish/Name": [
+  "Silverfish",
+  "Tra",
+  "Nh"
+ ],
+ "silverfish/Description": [
+  "Those annoying little things that eat clothes.<n/>It also loves garbage.",
+  "Aquelas criaturinhas irritantes que comem roupas.<n/>Tamb",
+  "Nh"
+ ],
+ "garbage/Name": [
+  "Garbage",
+  "Lixo",
+  "R"
+ ],
+ "garbage/Description": [
+  "Someone's treasure...",
+  "O tesouro de algu",
+  "L"
+ ],
+ "ant_soldier_diver/Name": [
+  "Soldier Ant",
+  "Formiga Soldado",
+  "Ki"
+ ],
+ "ant_soldier_diver/Description": [
+  "How did they end up here?",
+  "Como elas foram parar aqui?",
+  "Sao m"
+ ],
+ "ghost/Name": [
+  "Ghost",
+  "Fantasma",
+  "H"
+ ],
+ "ghost/Description": [
+  "A tormented soul, freeing it is the best you can do for it.",
+  "Uma alma atormentada. Libert",
+  "M"
+ ],
+ "crystal/Name": [
+  "Crystal",
+  "Cristal",
+  "Pha L"
+ ],
+ "crystal/Description": [],
+ "AnnouncementPrefix": [
+  "{#Rarities/{0:rarity}/Name} {#Mobs/{0:base}/Name}",
+  "{#One/{#Mobs/{0:base}/Gender}} {#Mobs/{0:base}/Name} {#Rarities/{0:rarity}/{#Mobs/{0:base}/Gender}/Name}",
+  "{#Rarities/{0:rarity}/Name/{#Mobs/{0:base}/Gender}} {#Mobs/{0:base}/Name}",
+  "M"
+ ],
+ "none/Gender": [
+  "Male"
+ ],
+ "rock/Gender": [
+  "Female",
+  "Male"
+ ],
+ "cactus/Gender": [
+  "Male"
+ ],
+ "ladybug/Gender": [
+  "Female"
+ ],
+ "bee/Gender": [
+  "Female"
+ ],
+ "ant_baby/Gender": [
+  "Female",
+  "Male"
+ ],
+ "ant_worker/Gender": [
+  "Female",
+  "Male"
+ ],
+ "ant_soldier/Gender": [
+  "Female",
+  "Male"
+ ],
+ "ant_queen/Gender": [
+  "Female"
+ ],
+ "ant_hole/Gender": [
+  "Male"
+ ],
+ "beetle/Gender": [
+  "Male"
+ ],
+ "hornet/Gender": [
+  "Female",
+  "Male"
+ ],
+ "centipede/Gender": [
+  "Female"
+ ],
+ "centipede_body/Gender": [
+  "Female"
+ ],
+ "centipede_evil/Gender": [
+  "Female"
+ ],
+ "centipede_evil_body/Gender": [
+  "Female"
+ ],
+ "centipede_desert/Gender": [
+  "Female"
+ ],
+ "centipede_desert_body/Gender": [
+  "Female"
+ ],
+ "square/Gender": [
+  "Male"
+ ],
+ "ladybug_dark/Gender": [
+  "Female"
+ ],
+ "ladybug_shiny/Gender": [
+  "Female"
+ ],
+ "spider/Gender": [
+  "Female",
+  "Male"
+ ],
+ "scorpion/Gender": [
+  "Male"
+ ],
+ "fire_ant_soldier/Gender": [
+  "Female",
+  "Male"
+ ],
+ "fire_ant_burrow/Gender": [
+  "Male"
+ ],
+ "sandstorm/Gender": [
+  "Male",
+  "Female"
+ ],
+ "bubble/Gender": [
+  "Female",
+  "Male"
+ ],
+ "bumble_bee/Gender": [
+  "Male"
+ ],
+ "shell/Gender": [
+  "Female"
+ ],
+ "starfish/Gender": [
+  "Female"
+ ],
+ "crab/Gender": [
+  "Male"
+ ],
+ "jellyfish/Gender": [
+  "Female"
+ ],
+ "digger/Gender": [
+  "Male"
+ ],
+ "sponge/Gender": [
+  "Female"
+ ],
+ "leech/Gender": [
+  "Female"
+ ],
+ "leech_body/Gender": [
+  "Female"
+ ],
+ "dandelion/Gender": [
+  "Male"
+ ],
+ "fire_ant_baby/Gender": [
+  "Female",
+  "Male"
+ ],
+ "fire_ant_worker/Gender": [
+  "Female",
+  "Male"
+ ],
+ "fire_ant_queen/Gender": [
+  "Female"
+ ],
+ "ant_egg/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "fire_ant_egg/Gender": [
+  "Female",
+  "Neuter"
+ ],
+ "fly/Spawn": [
+  "Voc"
+ ],
+ "fly/Gender": [
+  "Female"
+ ],
+ "leafbug/Gender": [
+  "Male",
+  "Female"
+ ],
+ "mantis/Gender": [
+  "Male"
+ ],
+ "termite_baby/Gender": [
+  "Male"
+ ],
+ "termite_worker/Gender": [
+  "Male"
+ ],
+ "termite_soldier/Gender": [
+  "Male"
+ ],
+ "termite_overmind/Gender": [
+  "Male"
+ ],
+ "termite_mound/Gender": [
+  "Male"
+ ],
+ "termite_egg/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "bush/Gender": [
+  "Male"
+ ],
+ "roach/Gender": [
+  "Female",
+  "Male"
+ ],
+ "moth/Gender": [
+  "Female"
+ ],
+ "firefly/Gender": [
+  "Male"
+ ],
+ "beetle_hel/Gender": [
+  "Male"
+ ],
+ "wasp/Gender": [
+  "Male",
+  "Female"
+ ],
+ "dummy/Gender": [
+  "Male"
+ ],
+ "spider_hel/Gender": [
+  "Female",
+  "Male"
+ ],
+ "centipede_hel/Gender": [
+  "Female"
+ ],
+ "centipede_hel_body/Gender": [
+  "Female"
+ ],
+ "wasp_hel/Gender": [
+  "Female"
+ ],
+ "trader/Gender": [
+  "Male"
+ ],
+ "gambler/Gender": [
+  "Male"
+ ],
+ "oracle/Gender": [
+  "Male"
+ ],
+ "firefly_magic/Gender": [
+  "Male"
+ ],
+ "titan/Gender": [
+  "Male"
+ ],
+ "beetle_nazar/Gender": [
+  "Male"
+ ],
+ "worm/Gender": [
+  "Female",
+  "Male"
+ ],
+ "worm_guts/Gender": [
+  "Male",
+  "Plural"
+ ],
+ "mecha_flower/Gender": [
+  "Female",
+  "Male"
+ ],
+ "wasp_mecha/Gender": [
+  "Male",
+  "Female"
+ ],
+ "spider_mecha/Gender": [
+  "Female",
+  "Male"
+ ],
+ "leafbug_shiny/Gender": [
+  "Male",
+  "Female"
+ ],
+ "crab_mecha/Gender": [
+  "Male"
+ ],
+ "assembler/Gender": [
+  "Male"
+ ],
+ "barrel/Gender": [
+  "Male",
+  "Female"
+ ],
+ "beetle_mummy/Gender": [
+  "Male"
+ ],
+ "beetle_pharaoh/Gender": [
+  "Male"
+ ],
+ "tomb/Gender": [
+  "Female"
+ ],
+ "silverfish/Gender": [
+  "Female"
+ ],
+ "garbage/Gender": [
+  "Male"
+ ],
+ "ant_soldier_diver/Gender": [
+  "Female",
+  "Male"
+ ],
+ "ghost/Gender": [
+  "Male"
+ ],
+ "crystal/Gender": [
+  "Male"
+ ],
+ "rock/Name/Dative": [],
+ "cactus/Name/Dative": [],
+ "ladybug/Name/Dative": [],
+ "bee/Name/Dative": [],
+ "ant_baby/Name/Dative": [],
+ "ant_worker/Name/Dative": [],
+ "ant_soldier/Name/4": [],
+ "ant_soldier/Name/5": [],
+ "ant_soldier/Name/6": [
+  "{#Mobs/ant_soldier/Name/5}"
+ ],
+ "ant_soldier/Name/7": [
+  "{#Mobs/ant_soldier/Name/5}"
+ ],
+ "ant_soldier/Name/Dative": [],
+ "ant_queen/Name/Dative": [],
+ "ant_hole/Name/Dative": [],
+ "ant_hole/Name/Accusative": [],
+ "ant_hole/Name/Plural/Genitive": [],
+ "beetle/Name/2": [],
+ "beetle/Name/Dative": [],
+ "hornet/Name/Dative": [],
+ "centipede/Name/Dative": [],
+ "centipede_body/Name/Dative": [],
+ "centipede_evil/Name/Dative": [],
+ "centipede_evil_body/Name/Dative": [],
+ "centipede_desert/Name/Dative": [],
+ "centipede_desert_body/Name/Dative": [],
+ "square/Name/Dative": [],
+ "ladybug_dark/Name/Dative": [],
+ "ladybug_shiny/Name/Dative": [],
+ "spider/Name/Dative": [],
+ "scorpion/Name/Dative": [],
+ "fire_ant_soldier/Name/Dative": [],
+ "fire_ant_burrow/Name/Dative": [],
+ "fire_ant_burrow/Name/Accusative": [],
+ "fire_ant_burrow/Name/Plural/Genitive": [],
+ "sandstorm/Name/Dative": [],
+ "sandstorm/Name/Accusative": [],
+ "sandstorm/Name/Accusative/2": [],
+ "sandstorm/Name/Accusative/4": [
+  "{#Mobs/sandstorm/Name/Accusative/2}"
+ ],
+ "bubble/Name/Dative": [],
+ "bumble_bee/Name/Dative": [],
+ "shell/Name/Dative": [],
+ "starfish/Name/Dative": [],
+ "crab/Name/Dative": [],
+ "jellyfish/Name/Dative": [],
+ "digger/Name/Dative": [],
+ "sponge/Name/Dative": [],
+ "leech/Name/Dative": [],
+ "leech_body/Name/Dative": [],
+ "dandelion/Name/Dative": [],
+ "fire_ant_baby/Name/Dative": [],
+ "fire_ant_worker/Name/Dative": [],
+ "fire_ant_queen/Name/Dative": [],
+ "ant_egg/Name/Dative": [],
+ "fire_ant_egg/Name/Dative": [],
+ "fly/Name/Dative": [],
+ "leafbug/Name/Dative": [],
+ "mantis/Name/Dative": [],
+ "termite_baby/Name/Dative": [],
+ "termite_worker/Name/Dative": [],
+ "termite_soldier/Name/Dative": [],
+ "termite_overmind/Name/Dative": [],
+ "termite_mound/Name/Dative": [],
+ "termite_mound/Name/Accusative": [],
+ "termite_mound/Name/Plural/Genitive": [],
+ "termite_egg/Name/Dative": [],
+ "bush/Name/Dative": [],
+ "roach/Name/Dative": [],
+ "moth/Name/Dative": [],
+ "firefly/Name/Dative": [],
+ "beetle_hel/Name/Dative": [],
+ "wasp/Name/Dative": [],
+ "dummy/Name/Genitive": [],
+ "dummy/Name/Dative": [],
+ "spider_hel/Name/Dative": [],
+ "centipede_hel/Name/Dative": [],
+ "centipede_hel_body/Name/Dative": [],
+ "wasp_hel/Name/Dative": [],
+ "trader/Name/Dative": [],
+ "gambler/Name/Dative": [],
+ "oracle/Name/Dative": [],
+ "firefly_magic/Name/Dative": [],
+ "titan/Name/Dative": [],
+ "beetle_nazar/Name/Dative": [],
+ "worm/Name/Dative": [],
+ "worm_guts/Name/Dative": [],
+ "mecha_flower/Name/Dative": [],
+ "wasp_mecha/Name/Dative": [],
+ "spider_mecha/Name/Dative": [],
+ "leafbug_shiny/Name/Dative": [],
+ "crab_mecha/Name/Dative": [],
+ "assembler/Name/Dative": [],
+ "barrel/Name/Dative": [],
+ "beetle_mummy/Name/Dative": [],
+ "beetle_mummy/Name/Accusative": [],
+ "beetle_pharaoh/Name/Dative": [],
+ "tomb/Name/Dative": [],
+ "silverfish/Name/Dative": [],
+ "garbage/Name/Dative": [],
+ "ant_soldier_diver/Name/Dative": [],
+ "ghost/Name/Dative": [],
+ "crystal/Name/Dative": [],
+ "AnnouncementPrefixNoRarity": [
+  "M"
+ ],
+ "rock/SortName": [
+  "t*0a*3n*0g*0 d+0a*1"
+ ],
+ "cactus/SortName": [
+  "x*0u+0o-0n*0g*0 r*0o+2n*0g*0"
+ ],
+ "cactus/Clf": [
+  "c"
+ ],
+ "ladybug/SortName": [
+  "b*0o*5 r*0u*2a*0"
+ ],
+ "ladybug/Clf": [
+  "con"
+ ],
+ "bee/SortName": [
+  "o*0n*0g*0"
+ ],
+ "bee/Clf": [
+  "con"
+ ],
+ "ant_baby/SortName": [
+  "k*0i*0e+1n*0 c*0o*0n*0"
+ ],
+ "ant_baby/Clf": [
+  "con"
+ ],
+ "ant_worker/SortName": [
+  "k*0i*0e+1n*0 t*0h*0o-5"
+ ],
+ "ant_worker/Clf": [
+  "con"
+ ],
+ "ant_soldier/SortName": [
+  "k*0i*0e+1n*0 d+0u+5c*0"
+ ],
+ "ant_soldier/Clf": [
+  "con"
+ ],
+ "ant_queen/SortName": [
+  "k*0i*0e+1n*0 c*0h*0u*1a*0"
+ ],
+ "ant_queen/Clf": [
+  "con"
+ ],
+ "ant_hole/SortName": [
+  "t*0o+3 k*0i*0e+1n*0"
+ ],
+ "beetle/SortName": [
+  "b*0o*5 c*0a*1n*0h*0 c*0u+1n*0g*0"
+ ],
+ "beetle/Clf": [
+  "con"
+ ],
+ "hornet/SortName": [
+  "o*0n*0g*0 b*0a+1p*0 c*0a*2y*0"
+ ],
+ "hornet/Clf": [
+  "con"
+ ],
+ "centipede/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede/Clf": [
+  "con"
+ ],
+ "centipede_body/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_body/Clf": [
+  "con"
+ ],
+ "centipede_evil/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_evil/Clf": [
+  "con"
+ ],
+ "centipede_evil_body/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_evil_body/Clf": [
+  "con"
+ ],
+ "centipede_desert/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_desert/Clf": [
+  "con"
+ ],
+ "centipede_desert_body/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_desert_body/Clf": [
+  "con"
+ ],
+ "square/SortName": [
+  "h*0i*2n*0h*0 v*0u*0o+0n*0g*0"
+ ],
+ "ladybug_dark/SortName": [
+  "b*0o*5 r*0u*2a*0"
+ ],
+ "ladybug_dark/Clf": [
+  "con"
+ ],
+ "ladybug_shiny/SortName": [
+  "b*0o*5 r*0u*2a*0"
+ ],
+ "ladybug_shiny/Clf": [
+  "con"
+ ],
+ "spider/SortName": [
+  "n*0h*0e+5n*0"
+ ],
+ "spider/Clf": [
+  "con"
+ ],
+ "scorpion/SortName": [
+  "b*0o*5 c*0a*5p*0"
+ ],
+ "scorpion/Clf": [
+  "con"
+ ],
+ "fire_ant_soldier/SortName": [
+  "k*0i*0e+1n*0 l*0u+3a*0 d+0u+5c*0"
+ ],
+ "fire_ant_soldier/Clf": [
+  "con"
+ ],
+ "fire_ant_burrow/SortName": [
+  "t*0o+3 k*0i*0e+1n*0 l*0u+3a*0"
+ ],
+ "sandstorm/SortName": [
+  "b*0a*4o*0 c*0a*1t*0"
+ ],
+ "bubble/SortName": [
+  "b*0o*0n*0g*0 b*0o*1n*0g*0"
+ ],
+ "bubble/Clf": [
+  "c"
+ ],
+ "bumble_bee/SortName": [
+  "o*0n*0g*0 n*0g*0h*0e+5"
+ ],
+ "bumble_bee/Clf": [
+  "con"
+ ],
+ "shell/SortName": [
+  "s*0o*2"
+ ],
+ "shell/Clf": [
+  "con"
+ ],
+ "starfish/SortName": [
+  "s*0a*0o*0 b*0i*0e+3n*0"
+ ],
+ "starfish/Clf": [
+  "con"
+ ],
+ "crab/SortName": [
+  "c*0u*0a*0"
+ ],
+ "crab/Clf": [
+  "con"
+ ],
+ "jellyfish/SortName": [
+  "s*0u+1a*0"
+ ],
+ "jellyfish/Clf": [
+  "con"
+ ],
+ "digger/SortName": [
+  "t*0h*0o-5 d+0a*2o*0"
+ ],
+ "sponge/SortName": [
+  "b*0o*5t*0 b*0i*0e+3n*0"
+ ],
+ "sponge/Clf": [
+  "c"
+ ],
+ "leech/SortName": [
+  "d+0i*3a*0"
+ ],
+ "leech/Clf": [
+  "con"
+ ],
+ "leech_body/SortName": [
+  "d+0i*3a*0"
+ ],
+ "leech_body/Clf": [
+  "con"
+ ],
+ "dandelion/SortName": [
+  "b*0o+2 c*0o+0n*0g*0 a*0n*0h*0"
+ ],
+ "dandelion/Clf": [
+  "c"
+ ],
+ "fire_ant_baby/SortName": [
+  "k*0i*0e+1n*0 l*0u+3a*0 c*0o*0n*0"
+ ],
+ "fire_ant_baby/Clf": [
+  "con"
+ ],
+ "fire_ant_worker/SortName": [
+  "k*0i*0e+1n*0 l*0u+3a*0 t*0h*0o-5"
+ ],
+ "fire_ant_worker/Clf": [
+  "con"
+ ],
+ "fire_ant_queen/SortName": [
+  "k*0i*0e+1n*0 l*0u+3a*0 c*0h*0u*1a*0"
+ ],
+ "fire_ant_queen/Clf": [
+  "con"
+ ],
+ "ant_egg/SortName": [
+  "t*0r*0u+1n*0g*0 k*0i*0e+1n*0"
+ ],
+ "ant_egg/Clf": [
+  "qu"
+ ],
+ "fire_ant_egg/SortName": [
+  "t*0r*0u+1n*0g*0 k*0i*0e+1n*0 l*0u+3a*0"
+ ],
+ "fire_ant_egg/Clf": [
+  "qu"
+ ],
+ "fly/SortName": [
+  "r*0u*0o+2i*0"
+ ],
+ "fly/Clf": [
+  "con"
+ ],
+ "leafbug/SortName": [
+  "b*0o*5 l*0a*1"
+ ],
+ "leafbug/Clf": [
+  "con"
+ ],
+ "mantis/SortName": [
+  "b*0o*5 n*0g*0u+5a*0"
+ ],
+ "mantis/Clf": [
+  "con"
+ ],
+ "termite_baby/SortName": [
+  "m*0o+1i*0 c*0o*0n*0"
+ ],
+ "termite_baby/Clf": [
+  "con"
+ ],
+ "termite_worker/SortName": [
+  "m*0o+1i*0 t*0h*0o-5"
+ ],
+ "termite_worker/Clf": [
+  "con"
+ ],
+ "termite_soldier/SortName": [
+  "m*0o+1i*0 l*0i*1n*0h*0"
+ ],
+ "termite_soldier/Clf": [
+  "con"
+ ],
+ "termite_overmind/SortName": [
+  "c*0h*0u*1a*0 t*0e+3 m*0o+1i*0"
+ ],
+ "termite_overmind/Clf": [
+  "con"
+ ],
+ "termite_mound/SortName": [
+  "t*0o+3 m*0o+1i*0"
+ ],
+ "termite_egg/SortName": [
+  "t*0r*0u+1n*0g*0 m*0o+1i*0"
+ ],
+ "termite_egg/Clf": [
+  "qu"
+ ],
+ "bush/SortName": [
+  "b*0u*5i*0 c*0a-0y*0"
+ ],
+ "roach/SortName": [
+  "g*0i*0a*1n*0"
+ ],
+ "roach/Clf": [
+  "con"
+ ],
+ "moth/SortName": [
+  "b*0u+0o-1m*0 d+0e+0m*0"
+ ],
+ "moth/Clf": [
+  "con"
+ ],
+ "firefly/SortName": [
+  "d+0o*0m*0 d+0o*1m*0"
+ ],
+ "firefly/Clf": [
+  "con"
+ ],
+ "beetle_hel/SortName": [
+  "b*0o*5 c*0a*1n*0h*0 c*0u+1n*0g*0"
+ ],
+ "beetle_hel/Clf": [
+  "con"
+ ],
+ "wasp/SortName": [
+  "t*0o*2 v*0o*2"
+ ],
+ "wasp/Clf": [
+  "con"
+ ],
+ "dummy/SortName": [
+  "n*0g*0u+0o-2i*0 n*0o+5m*0"
+ ],
+ "spider_hel/SortName": [
+  "n*0h*0e+5n*0"
+ ],
+ "spider_hel/Clf": [
+  "con"
+ ],
+ "centipede_hel/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_hel/Clf": [
+  "con"
+ ],
+ "centipede_hel_body/SortName": [
+  "r*0e+1t*0"
+ ],
+ "centipede_hel_body/Clf": [
+  "con"
+ ],
+ "wasp_hel/SortName": [
+  "t*0o*2 v*0o*2"
+ ],
+ "wasp_hel/Clf": [
+  "con"
+ ],
+ "trader/SortName": [
+  "t*0h*0u+0o-0n*0g*0 n*0h*0a-0n*0"
+ ],
+ "gambler/SortName": [
+  "c*0o*0n*0 b*0a*5c*0"
+ ],
+ "oracle/SortName": [
+  "n*0h*0a*2 t*0i*0e+0n*0 t*0r*0i*0"
+ ],
+ "firefly_magic/SortName": [
+  "d+0o*0m*0 d+0o*1m*0"
+ ],
+ "firefly_magic/Clf": [
+  "con"
+ ],
+ "titan/SortName": [
+  "t*0i*0t*0a*0n*0"
+ ],
+ "beetle_nazar/SortName": [
+  "b*0o*5 c*0a*1n*0h*0 c*0u+1n*0g*0"
+ ],
+ "beetle_nazar/Clf": [
+  "con"
+ ],
+ "worm/SortName": [
+  "g*0i*0u*0n*0"
+ ],
+ "worm/Clf": [
+  "con"
+ ],
+ "worm_guts/SortName": [
+  "r*0u*0o+5t*0 g*0i*0u*0n*0"
+ ],
+ "worm_guts/Clf": [
+  "c"
+ ],
+ "mecha_flower/SortName": [
+  "h*0o*0a*0 m*0a*1y*0"
+ ],
+ "mecha_flower/Clf": [
+  "c"
+ ],
+ "wasp_mecha/SortName": [
+  "o*0n*0g*0 b*0a+1p*0 c*0a*2y*0"
+ ],
+ "wasp_mecha/Clf": [
+  "con"
+ ],
+ "spider_mecha/SortName": [
+  "n*0h*0e+5n*0"
+ ],
+ "spider_mecha/Clf": [
+  "con"
+ ],
+ "leafbug_shiny/SortName": [
+  "b*0o*5 l*0a*1"
+ ],
+ "leafbug_shiny/Clf": [
+  "con"
+ ],
+ "crab_mecha/SortName": [
+  "c*0u*0a*0"
+ ],
+ "crab_mecha/Clf": [
+  "con"
+ ],
+ "barrel/SortName": [
+  "t*0h*0u*2n*0g*0"
+ ],
+ "barrel/Clf": [
+  "c"
+ ],
+ "beetle_mummy/SortName": [
+  "b*0o*5 c*0a*1n*0h*0 c*0u+1n*0g*0"
+ ],
+ "beetle_mummy/Clf": [
+  "con"
+ ],
+ "beetle_pharaoh/SortName": [
+  "b*0o*5 c*0a*1n*0h*0 c*0u+1n*0g*0"
+ ],
+ "beetle_pharaoh/Clf": [
+  "con"
+ ],
+ "tomb/SortName": [
+  "t*0o*0m*0b*0"
+ ],
+ "tomb/Clf": [
+  "c"
+ ],
+ "silverfish/SortName": [
+  "n*0h*0a-5y*0 b*0a*5c*0"
+ ],
+ "silverfish/Clf": [
+  "con"
+ ],
+ "garbage/SortName": [
+  "r*0a*1c*0"
+ ],
+ "garbage/Clf": [
+  "t"
+ ],
+ "ant_soldier_diver/SortName": [
+  "k*0i*0e+1n*0 l*0i*1n*0h*0"
+ ],
+ "ant_soldier_diver/Clf": [
+  "con"
+ ],
+ "ghost/SortName": [
+  "h*0o+2n*0 m*0a*0"
+ ],
+ "crystal/SortName": [
+  "p*0h*0a*0 l*0e+0"
+ ],
+ "crystal/Clf": [
+  "kh"
+ ],
+ "rock/Py": [
+  "yanshi"
+ ],
+ "cactus/Py": [
+  "xianrenzhang"
+ ],
+ "ladybug/Py": [
+  "piaochong"
+ ],
+ "bee/Py": [
+  "mifeng"
+ ],
+ "ant_baby/Py": [
+  "youyi"
+ ],
+ "ant_worker/Py": [
+  "gongyi"
+ ],
+ "ant_soldier/Py": [
+  "bingyi"
+ ],
+ "ant_queen/Py": [
+  "yihou"
+ ],
+ "ant_hole/Py": [
+  "yixue"
+ ],
+ "beetle/Py": [
+  "jiachong"
+ ],
+ "hornet/Py": [
+  "huangfeng"
+ ],
+ "centipede/Py": [
+  "wugong"
+ ],
+ "centipede_body/Py": [
+  "wugong"
+ ],
+ "centipede_evil/Py": [
+  "wugong"
+ ],
+ "centipede_evil_body/Py": [
+  "wugong"
+ ],
+ "centipede_desert/Py": [
+  "wugong"
+ ],
+ "centipede_desert_body/Py": [
+  "wugong"
+ ],
+ "square/Py": [
+  "zhengfangxing"
+ ],
+ "ladybug_dark/Py": [
+  "piaochong"
+ ],
+ "ladybug_shiny/Py": [
+  "piaochong"
+ ],
+ "spider/Py": [
+  "zhizhu"
+ ],
+ "scorpion/Py": [
+  "xiezi"
+ ],
+ "fire_ant_soldier/Py": [
+  "huobingyi"
+ ],
+ "fire_ant_burrow/Py": [
+  "huoyixue"
+ ],
+ "sandstorm/Py": [
+  "shachenbao"
+ ],
+ "bubble/Py": [
+  "paopao"
+ ],
+ "bumble_bee/Py": [
+  "xiongfeng"
+ ],
+ "shell/Py": [
+  "shanbei"
+ ],
+ "starfish/Py": [
+  "haixing"
+ ],
+ "crab/Py": [
+  "pangxie"
+ ],
+ "jellyfish/Py": [
+  "shuimu"
+ ],
+ "digger/Py": [
+  "wajuezhe"
+ ],
+ "sponge/Py": [
+  "haimian"
+ ],
+ "leech/Py": [
+  "shuizhi"
+ ],
+ "leech_body/Py": [
+  "shuizhi"
+ ],
+ "dandelion/Py": [
+  "pugongying"
+ ],
+ "fire_ant_baby/Py": [
+  "huoyouyi"
+ ],
+ "fire_ant_worker/Py": [
+  "huogongyi"
+ ],
+ "fire_ant_queen/Py": [
+  "huoyihou"
+ ],
+ "ant_egg/Py": [
+  "yiluan"
+ ],
+ "fire_ant_egg/Py": [
+  "huoyiluan"
+ ],
+ "fly/Py": [
+  "cangying"
+ ],
+ "leafbug/Py": [
+  "yechong"
+ ],
+ "mantis/Py": [
+  "tanglang"
+ ],
+ "termite_baby/Py": [
+  "baiyouyi"
+ ],
+ "termite_worker/Py": [
+  "baigongyi"
+ ],
+ "termite_soldier/Py": [
+  "baibingyi"
+ ],
+ "termite_overmind/Py": [
+  "baiyizhuzaizhe"
+ ],
+ "termite_mound/Py": [
+  "baiyiqiu"
+ ],
+ "termite_egg/Py": [
+  "baiyiluan"
+ ],
+ "bush/Py": [
+  "guanmucong"
+ ],
+ "roach/Py": [
+  "zhanglang"
+ ],
+ "moth/Py": [
+  "feie"
+ ],
+ "firefly/Py": [
+  "yinghuochong"
+ ],
+ "beetle_hel/Py": [
+  "jiachong"
+ ],
+ "wasp/Py": [
+  "hufeng"
+ ],
+ "dummy/Py": [
+  "xunlianjiahua"
+ ],
+ "spider_hel/Py": [
+  "zhizhu"
+ ],
+ "centipede_hel/Py": [
+  "wugong"
+ ],
+ "centipede_hel_body/Py": [
+  "wugong"
+ ],
+ "wasp_hel/Py": [
+  "hufeng"
+ ],
+ "trader/Py": [
+  "shangren"
+ ],
+ "gambler/Py": [
+  "dutu"
+ ],
+ "oracle/Py": [
+  "shenshi"
+ ],
+ "firefly_magic/Py": [
+  "yinghuochong"
+ ],
+ "titan/Py": [
+  "taitan"
+ ],
+ "beetle_nazar/Py": [
+  "jiachong"
+ ],
+ "worm/Py": [
+  "ruchong"
+ ],
+ "worm_guts/Py": [
+  "ruchongneizang"
+ ],
+ "mecha_flower/Py": [
+  "jixiehua"
+ ],
+ "wasp_mecha/Py": [
+  "hufeng"
+ ],
+ "spider_mecha/Py": [
+  "zhizhu"
+ ],
+ "leafbug_shiny/Py": [
+  "yechong"
+ ],
+ "crab_mecha/Py": [
+  "pangxie"
+ ],
+ "assembler/Py": [
+  "chonggouji"
+ ],
+ "barrel/Py": [
+  "youtong"
+ ],
+ "beetle_mummy/Py": [
+  "jiachong"
+ ],
+ "tomb/Py": [
+  "guancai"
+ ],
+ "beetle_pharaoh/Py": [
+  "jiachong"
+ ],
+ "silverfish/Py": [
+  "duchong"
+ ],
+ "garbage/Py": [
+  "lajidai"
+ ],
+ "ant_soldier_diver/Py": [
+  "bingyi"
+ ],
+ "ghost/Py": [
+  "youling"
+ ],
+ "crystal/Py": [
+  "shuijing"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "Attribute/Health": [
+  "<c val=\"{#Colors/health}\">Flower Health:</c> {0:tooltip}",
+  "<c val=\"{#Colors/health}\">",
+  "<c val=\"{#Colors/health}\">Vida da flor:</c> {0:tooltip}",
+  "<c val=\"{#Colors/health}\">M"
+ ],
+ "Attribute/HealthNoColon": [
+  "<c val=\"{#Colors/health}\">Flower Health</c>",
+  "<c val=\"{#Colors/health}\">",
+  "<c val=\"{#Colors/health}\">Vida da flor</c>",
+  "<c val=\"{#Colors/health}\">M"
+ ],
+ "Attribute/BodyDamage": [
+  "<c val=\"{#Colors/damage}\">Body Damage:</c> {0:tooltip}",
+  "<c val=\"{#Colors/damage}\">",
+  "<c val=\"{#Colors/damage}\">Dano Corporal:</c> {0:tooltip}",
+  "<c val=\"{#Colors/damage}\">S"
+ ],
+ "Attribute/BodyDamageNoColon": [
+  "<c val=\"{#Colors/damage}\">Body Damage</c>",
+  "<c val=\"{#Colors/damage}\">",
+  "<c val=\"{#Colors/damage}\">Dano corporal</c>",
+  "<c val=\"{#Colors/damage}\">S"
+ ],
+ "Attribute/BodyPoison": [
+  "<c val=\"{#Colors/poison}\">Body Poison:</c> {0:tooltip} ({1:tooltip}/s)",
+  "<c val=\"{#Colors/poison}\">",
+  "<c val=\"{#Colors/poison}\">Veneno Corporal:</c> {0:tooltip} ({1:tooltip}/s)"
+ ],
+ "Attribute/LuckNoColon": [
+  "<c val=\"{#Colors/generic}\">Luck</c>",
+  "<c val=\"{#Colors/generic}\">",
+  "<c val=\"{#Colors/generic}\">Sorte</c>",
+  "<c val=\"{#Colors/generic}\">V"
+ ],
+ "Attribute/RotationSpeedNoColon": [
+  "<c val=\"{#Colors/generic}\">Rotation Speed</c>",
+  "<c val=\"{#Colors/generic}\">",
+  "<c val=\"{#Colors/generic}\">Velocidade de rota",
+  "<c val=\"{#Colors/generic}\">T"
+ ],
+ "Attribute/AttackRangeNoColon": [
+  "<c val=\"{#Colors/generic}\">Attack Range</c>",
+  "<c val=\"{#Colors/generic}\">",
+  "<c val=\"{#Colors/generic}\">Alcance de ataque</c>",
+  "<c val=\"{#Colors/generic}\">Ph"
+ ],
+ "Attribute/HealingNoColon": [
+  "<c val=\"{#Colors/heal}\">Healing</c>",
+  "<c val=\"{#Colors/heal}\">",
+  "<c val=\"{#Colors/heal}\">Cura</c>",
+  "<c val=\"{#Colors/heal}\">Tr"
+ ],
+ "Attribute/PetalHealthNoColon": [
+  "<c val=\"{#Colors/health}\">Petal Health</c>",
+  "<c val=\"{#Colors/health}\">",
+  "<c val=\"{#Colors/health}\">Vida da p",
+  "<c val=\"{#Colors/health}\">M"
+ ],
+ "Attribute/HealthNoColon/Accusative": [
+  "<c val=\"{#Colors/health}\">"
+ ],
+ "Attribute/BodyDamageNoColon/Dative": [
+  "<c val=\"{#Colors/damage}\">"
+ ],
+ "Attribute/BodyDamageNoColon/Accusative": [
+  "<c val=\"{#Colors/damage}\">"
+ ],
+ "Attribute/LuckNoColon/Accusative": [
+  "<c val=\"{#Colors/generic}\">"
+ ],
+ "Attribute/RotationSpeedNoColon/Accusative": [
+  "<c val=\"{#Colors/generic}\">"
+ ],
+ "Attribute/AttackRangeNoColon/Accusative": [
+  "<c val=\"{#Colors/generic}\">"
+ ],
+ "Attribute/HealingNoColon/Accusative": [
+  "<c val=\"{#Colors/heal}\">"
+ ],
+ "Attribute/PetalHealthNoColon/Accusative": [
+  "<c val=\"{#Colors/health}\">"
+ ]
+}

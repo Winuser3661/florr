@@ -1,0 +1,1084 @@
+{
+ "common/Name": [
+  "Common"
+ ],
+ "common/ArticleUpper": [
+  "A"
+ ],
+ "common/Article": [
+  "a"
+ ],
+ "common/NameColored": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name}</c>"
+ ],
+ "unusual/Name": [
+  "Unusual"
+ ],
+ "unusual/ArticleUpper": [
+  "An"
+ ],
+ "unusual/Article": [
+  "an"
+ ],
+ "unusual/NameColored": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name}</c>"
+ ],
+ "rare/Name": [
+  "Rare",
+  "Hi"
+ ],
+ "rare/ArticleUpper": [
+  "A"
+ ],
+ "rare/Article": [
+  "a"
+ ],
+ "rare/NameColored": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name}</c>"
+ ],
+ "epic/Name": [
+  "Epic",
+  "S"
+ ],
+ "epic/ArticleUpper": [
+  "An"
+ ],
+ "epic/Article": [
+  "an"
+ ],
+ "epic/NameColored": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name}</c>"
+ ],
+ "legendary/Name": [
+  "Legendary",
+  "Truy"
+ ],
+ "legendary/ArticleUpper": [
+  "A"
+ ],
+ "legendary/Article": [
+  "a"
+ ],
+ "legendary/NameColored": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name}</c>"
+ ],
+ "mythic/Name": [
+  "Mythic",
+  "Huy"
+ ],
+ "mythic/ArticleUpper": [
+  "A"
+ ],
+ "mythic/Article": [
+  "a"
+ ],
+ "mythic/NameColored": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name}</c>"
+ ],
+ "ultra/Name": [
+  "Ultra",
+  "Th"
+ ],
+ "ultra/ArticleUpper": [
+  "An"
+ ],
+ "ultra/Article": [
+  "an"
+ ],
+ "ultra/NameColored": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name}</c>"
+ ],
+ "super/Name": [
+  "Super",
+  "Si"
+ ],
+ "super/ArticleUpper": [
+  "A"
+ ],
+ "super/Article": [
+  "a"
+ ],
+ "super/NameColored": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name}</c>"
+ ],
+ "eternal/Name": [
+  "Eternal"
+ ],
+ "eternal/ArticleUpper": [
+  "An"
+ ],
+ "eternal/Article": [
+  "an"
+ ],
+ "eternal/NameColored": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name}</c>"
+ ],
+ "unique/Name": [
+  "Unique"
+ ],
+ "unique/ArticleUpper": [
+  "A"
+ ],
+ "unique/Article": [
+  "a"
+ ],
+ "unique/NameColored": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name}</c>"
+ ],
+ "common/Male/Name": [
+  "Comum"
+ ],
+ "common/Male/NamePlural": [
+  "Comuns"
+ ],
+ "common/Male/NameColored": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Male/Name}</c>"
+ ],
+ "common/Female/Name": [
+  "Comum"
+ ],
+ "common/Female/NamePlural": [
+  "Comuns"
+ ],
+ "common/Female/NameColored": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Female/Name}</c>"
+ ],
+ "unusual/Male/Name": [
+  "Incomum"
+ ],
+ "unusual/Male/NamePlural": [
+  "Incomuns"
+ ],
+ "unusual/Male/NameColored": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Male/Name}</c>"
+ ],
+ "unusual/Female/Name": [
+  "Incomum"
+ ],
+ "unusual/Female/NamePlural": [
+  "Incomuns"
+ ],
+ "unusual/Female/NameColored": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Female/Name}</c>"
+ ],
+ "rare/Male/Name": [
+  "Raro"
+ ],
+ "rare/Male/NamePlural": [
+  "Raros"
+ ],
+ "rare/Male/NameColored": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Male/Name}</c>"
+ ],
+ "rare/Female/Name": [
+  "Rara"
+ ],
+ "rare/Female/NamePlural": [
+  "Raras"
+ ],
+ "rare/Female/NameColored": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Female/Name}</c>"
+ ],
+ "epic/Male/Name": [],
+ "epic/Male/NamePlural": [],
+ "epic/Male/NameColored": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Male/Name}</c>"
+ ],
+ "epic/Female/Name": [],
+ "epic/Female/NamePlural": [],
+ "epic/Female/NameColored": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Female/Name}</c>"
+ ],
+ "legendary/Male/Name": [
+  "Lend"
+ ],
+ "legendary/Male/NamePlural": [
+  "Lend"
+ ],
+ "legendary/Male/NameColored": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Male/Name}</c>"
+ ],
+ "legendary/Female/Name": [
+  "Lend"
+ ],
+ "legendary/Female/NamePlural": [
+  "Lend"
+ ],
+ "legendary/Female/NameColored": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Female/Name}</c>"
+ ],
+ "mythic/Male/Name": [
+  "M"
+ ],
+ "mythic/Male/NamePlural": [
+  "M"
+ ],
+ "mythic/Male/NameColored": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Male/Name}</c>"
+ ],
+ "mythic/Female/Name": [
+  "M"
+ ],
+ "mythic/Female/NamePlural": [
+  "M"
+ ],
+ "mythic/Female/NameColored": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Female/Name}</c>"
+ ],
+ "ultra/Male/Name": [
+  "Fant"
+ ],
+ "ultra/Male/NamePlural": [
+  "Fant"
+ ],
+ "ultra/Male/NameColored": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Male/Name}</c>"
+ ],
+ "ultra/Female/Name": [
+  "Fant"
+ ],
+ "ultra/Female/NamePlural": [
+  "Fant"
+ ],
+ "ultra/Female/NameColored": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Female/Name}</c>"
+ ],
+ "super/Male/Name": [
+  "Supremo"
+ ],
+ "super/Male/NamePlural": [
+  "Supremos"
+ ],
+ "super/Male/NameColored": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Male/Name}</c>"
+ ],
+ "super/Female/Name": [
+  "Suprema"
+ ],
+ "super/Female/NamePlural": [
+  "Supremas"
+ ],
+ "super/Female/NameColored": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Female/Name}</c>"
+ ],
+ "unique/Male/Name": [],
+ "unique/Male/NamePlural": [],
+ "unique/Male/NameColored": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Male/Name}</c>"
+ ],
+ "unique/Female/Name": [],
+ "unique/Female/NamePlural": [],
+ "unique/Female/NameColored": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Female/Name}</c>"
+ ],
+ "common/Name/Male": [],
+ "common/Name/Male/Genitive": [],
+ "common/Name/Male/Dative": [],
+ "common/Name/Male/Accusative/Animate": [],
+ "common/Name/Male/Accusative/Inanimate": [],
+ "common/Name/Male/Instrumental": [],
+ "common/Name/Male/Prepositional": [],
+ "common/Name/Female": [],
+ "common/Name/Female/Dative": [],
+ "common/Name/Female/Accusative": [],
+ "common/Name/Female/Prepositional": [],
+ "common/Name/Neuter": [],
+ "common/Name/Neuter/Dative": [],
+ "common/Name/Neuter/Prepositional": [],
+ "common/Name/Plural": [],
+ "common/Name/Plural/Genitive": [],
+ "common/Name/Plural/Dative": [],
+ "common/Name/Plural/Accusative/Animate": [],
+ "common/Name/Plural/Accusative/Inanimate": [],
+ "common/Name/Plural/Prepositional": [],
+ "common/NameColored/Male": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male}</c>"
+ ],
+ "common/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male/Genitive}</c>"
+ ],
+ "common/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male/Dative}</c>"
+ ],
+ "common/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male/Accusative/Animate}</c>"
+ ],
+ "common/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "common/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male/Instrumental}</c>"
+ ],
+ "common/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Male/Prepositional}</c>"
+ ],
+ "common/NameColored/Female": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Female}</c>"
+ ],
+ "common/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Female/Dative}</c>"
+ ],
+ "common/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Female/Accusative}</c>"
+ ],
+ "common/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Female/Prepositional}</c>"
+ ],
+ "common/NameColored/Neuter": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Neuter}</c>"
+ ],
+ "common/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Neuter/Dative}</c>"
+ ],
+ "common/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Neuter/Prepositional}</c>"
+ ],
+ "common/NameColored/Plural": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Plural}</c>"
+ ],
+ "common/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Plural/Genitive}</c>"
+ ],
+ "common/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Plural/Dative}</c>"
+ ],
+ "common/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "common/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "common/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/common}\">{#Rarities/common/Name/Plural/Prepositional}</c>"
+ ],
+ "common/About": [],
+ "unusual/Name/Male": [],
+ "unusual/Name/Male/Genitive": [],
+ "unusual/Name/Male/Dative": [],
+ "unusual/Name/Male/Accusative/Animate": [],
+ "unusual/Name/Male/Accusative/Inanimate": [],
+ "unusual/Name/Male/Instrumental": [],
+ "unusual/Name/Male/Prepositional": [],
+ "unusual/Name/Female": [],
+ "unusual/Name/Female/Dative": [],
+ "unusual/Name/Female/Accusative": [],
+ "unusual/Name/Female/Prepositional": [],
+ "unusual/Name/Neuter": [],
+ "unusual/Name/Neuter/Dative": [],
+ "unusual/Name/Neuter/Prepositional": [],
+ "unusual/Name/Plural": [],
+ "unusual/Name/Plural/Genitive": [],
+ "unusual/Name/Plural/Dative": [],
+ "unusual/Name/Plural/Accusative/Animate": [],
+ "unusual/Name/Plural/Accusative/Inanimate": [],
+ "unusual/Name/Plural/Prepositional": [],
+ "unusual/NameColored/Male": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male}</c>"
+ ],
+ "unusual/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male/Genitive}</c>"
+ ],
+ "unusual/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male/Dative}</c>"
+ ],
+ "unusual/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male/Accusative/Animate}</c>"
+ ],
+ "unusual/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "unusual/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male/Instrumental}</c>"
+ ],
+ "unusual/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Male/Prepositional}</c>"
+ ],
+ "unusual/NameColored/Female": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Female}</c>"
+ ],
+ "unusual/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Female/Dative}</c>"
+ ],
+ "unusual/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Female/Accusative}</c>"
+ ],
+ "unusual/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Female/Prepositional}</c>"
+ ],
+ "unusual/NameColored/Neuter": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Neuter}</c>"
+ ],
+ "unusual/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Neuter/Dative}</c>"
+ ],
+ "unusual/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Neuter/Prepositional}</c>"
+ ],
+ "unusual/NameColored/Plural": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Plural}</c>"
+ ],
+ "unusual/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Plural/Genitive}</c>"
+ ],
+ "unusual/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Plural/Dative}</c>"
+ ],
+ "unusual/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "unusual/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "unusual/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/unusual}\">{#Rarities/unusual/Name/Plural/Prepositional}</c>"
+ ],
+ "unusual/About": [],
+ "rare/Name/Male": [],
+ "rare/Name/Male/Genitive": [],
+ "rare/Name/Male/Dative": [],
+ "rare/Name/Male/Accusative/Animate": [],
+ "rare/Name/Male/Accusative/Inanimate": [],
+ "rare/Name/Male/Instrumental": [],
+ "rare/Name/Male/Prepositional": [],
+ "rare/Name/Female": [],
+ "rare/Name/Female/Dative": [],
+ "rare/Name/Female/Accusative": [],
+ "rare/Name/Female/Prepositional": [],
+ "rare/Name/Neuter": [],
+ "rare/Name/Neuter/Dative": [],
+ "rare/Name/Neuter/Prepositional": [],
+ "rare/Name/Plural": [],
+ "rare/Name/Plural/Genitive": [],
+ "rare/Name/Plural/Dative": [],
+ "rare/Name/Plural/Accusative/Animate": [],
+ "rare/Name/Plural/Accusative/Inanimate": [],
+ "rare/Name/Plural/Prepositional": [],
+ "rare/NameColored/Male": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male}</c>"
+ ],
+ "rare/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male/Genitive}</c>"
+ ],
+ "rare/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male/Dative}</c>"
+ ],
+ "rare/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male/Accusative/Animate}</c>"
+ ],
+ "rare/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "rare/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male/Instrumental}</c>"
+ ],
+ "rare/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Male/Prepositional}</c>"
+ ],
+ "rare/NameColored/Female": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Female}</c>"
+ ],
+ "rare/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Female/Dative}</c>"
+ ],
+ "rare/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Female/Accusative}</c>"
+ ],
+ "rare/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Female/Prepositional}</c>"
+ ],
+ "rare/NameColored/Neuter": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Neuter}</c>"
+ ],
+ "rare/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Neuter/Dative}</c>"
+ ],
+ "rare/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Neuter/Prepositional}</c>"
+ ],
+ "rare/NameColored/Plural": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Plural}</c>"
+ ],
+ "rare/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Plural/Genitive}</c>"
+ ],
+ "rare/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Plural/Dative}</c>"
+ ],
+ "rare/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "rare/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "rare/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/rare}\">{#Rarities/rare/Name/Plural/Prepositional}</c>"
+ ],
+ "rare/About": [],
+ "epic/Name/Male": [],
+ "epic/Name/Male/Genitive": [],
+ "epic/Name/Male/Dative": [],
+ "epic/Name/Male/Accusative/Animate": [],
+ "epic/Name/Male/Accusative/Inanimate": [],
+ "epic/Name/Male/Instrumental": [],
+ "epic/Name/Male/Prepositional": [],
+ "epic/Name/Female": [],
+ "epic/Name/Female/Dative": [],
+ "epic/Name/Female/Accusative": [],
+ "epic/Name/Female/Prepositional": [],
+ "epic/Name/Neuter": [],
+ "epic/Name/Neuter/Dative": [],
+ "epic/Name/Neuter/Prepositional": [],
+ "epic/Name/Plural": [],
+ "epic/Name/Plural/Genitive": [],
+ "epic/Name/Plural/Dative": [],
+ "epic/Name/Plural/Accusative/Animate": [],
+ "epic/Name/Plural/Accusative/Inanimate": [],
+ "epic/Name/Plural/Prepositional": [],
+ "epic/NameColored/Male": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male}</c>"
+ ],
+ "epic/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male/Genitive}</c>"
+ ],
+ "epic/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male/Dative}</c>"
+ ],
+ "epic/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male/Accusative/Animate}</c>"
+ ],
+ "epic/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "epic/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male/Instrumental}</c>"
+ ],
+ "epic/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Male/Prepositional}</c>"
+ ],
+ "epic/NameColored/Female": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Female}</c>"
+ ],
+ "epic/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Female/Dative}</c>"
+ ],
+ "epic/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Female/Accusative}</c>"
+ ],
+ "epic/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Female/Prepositional}</c>"
+ ],
+ "epic/NameColored/Neuter": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Neuter}</c>"
+ ],
+ "epic/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Neuter/Dative}</c>"
+ ],
+ "epic/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Neuter/Prepositional}</c>"
+ ],
+ "epic/NameColored/Plural": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Plural}</c>"
+ ],
+ "epic/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Plural/Genitive}</c>"
+ ],
+ "epic/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Plural/Dative}</c>"
+ ],
+ "epic/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "epic/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "epic/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/epic}\">{#Rarities/epic/Name/Plural/Prepositional}</c>"
+ ],
+ "epic/About": [],
+ "legendary/Name/Male": [],
+ "legendary/Name/Male/Genitive": [],
+ "legendary/Name/Male/Dative": [],
+ "legendary/Name/Male/Accusative/Animate": [],
+ "legendary/Name/Male/Accusative/Inanimate": [],
+ "legendary/Name/Male/Instrumental": [],
+ "legendary/Name/Male/Prepositional": [],
+ "legendary/Name/Female": [],
+ "legendary/Name/Female/Dative": [],
+ "legendary/Name/Female/Accusative": [],
+ "legendary/Name/Female/Prepositional": [],
+ "legendary/Name/Neuter": [],
+ "legendary/Name/Neuter/Dative": [],
+ "legendary/Name/Neuter/Prepositional": [],
+ "legendary/Name/Plural": [],
+ "legendary/Name/Plural/Genitive": [],
+ "legendary/Name/Plural/Dative": [],
+ "legendary/Name/Plural/Accusative/Animate": [],
+ "legendary/Name/Plural/Accusative/Inanimate": [],
+ "legendary/Name/Plural/Prepositional": [],
+ "legendary/NameColored/Male": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male}</c>"
+ ],
+ "legendary/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male/Genitive}</c>"
+ ],
+ "legendary/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male/Dative}</c>"
+ ],
+ "legendary/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male/Accusative/Animate}</c>"
+ ],
+ "legendary/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "legendary/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male/Instrumental}</c>"
+ ],
+ "legendary/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Male/Prepositional}</c>"
+ ],
+ "legendary/NameColored/Female": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Female}</c>"
+ ],
+ "legendary/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Female/Dative}</c>"
+ ],
+ "legendary/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Female/Accusative}</c>"
+ ],
+ "legendary/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Female/Prepositional}</c>"
+ ],
+ "legendary/NameColored/Neuter": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Neuter}</c>"
+ ],
+ "legendary/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Neuter/Dative}</c>"
+ ],
+ "legendary/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Neuter/Prepositional}</c>"
+ ],
+ "legendary/NameColored/Plural": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Plural}</c>"
+ ],
+ "legendary/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Plural/Genitive}</c>"
+ ],
+ "legendary/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Plural/Dative}</c>"
+ ],
+ "legendary/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "legendary/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "legendary/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/legendary}\">{#Rarities/legendary/Name/Plural/Prepositional}</c>"
+ ],
+ "legendary/About": [],
+ "mythic/Name/Male": [],
+ "mythic/Name/Male/Genitive": [],
+ "mythic/Name/Male/Dative": [],
+ "mythic/Name/Male/Accusative/Animate": [],
+ "mythic/Name/Male/Accusative/Inanimate": [],
+ "mythic/Name/Male/Instrumental": [],
+ "mythic/Name/Male/Prepositional": [],
+ "mythic/Name/Female": [],
+ "mythic/Name/Female/Dative": [],
+ "mythic/Name/Female/Accusative": [],
+ "mythic/Name/Female/Prepositional": [],
+ "mythic/Name/Neuter": [],
+ "mythic/Name/Neuter/Dative": [],
+ "mythic/Name/Neuter/Prepositional": [],
+ "mythic/Name/Plural": [],
+ "mythic/Name/Plural/Genitive": [],
+ "mythic/Name/Plural/Dative": [],
+ "mythic/Name/Plural/Accusative/Animate": [],
+ "mythic/Name/Plural/Accusative/Inanimate": [],
+ "mythic/Name/Plural/Prepositional": [],
+ "mythic/NameColored/Male": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male}</c>"
+ ],
+ "mythic/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male/Genitive}</c>"
+ ],
+ "mythic/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male/Dative}</c>"
+ ],
+ "mythic/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male/Accusative/Animate}</c>"
+ ],
+ "mythic/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "mythic/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male/Instrumental}</c>"
+ ],
+ "mythic/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Male/Prepositional}</c>"
+ ],
+ "mythic/NameColored/Female": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Female}</c>"
+ ],
+ "mythic/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Female/Dative}</c>"
+ ],
+ "mythic/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Female/Accusative}</c>"
+ ],
+ "mythic/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Female/Prepositional}</c>"
+ ],
+ "mythic/NameColored/Neuter": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Neuter}</c>"
+ ],
+ "mythic/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Neuter/Dative}</c>"
+ ],
+ "mythic/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Neuter/Prepositional}</c>"
+ ],
+ "mythic/NameColored/Plural": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Plural}</c>"
+ ],
+ "mythic/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Plural/Genitive}</c>"
+ ],
+ "mythic/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Plural/Dative}</c>"
+ ],
+ "mythic/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "mythic/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "mythic/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/mythic}\">{#Rarities/mythic/Name/Plural/Prepositional}</c>"
+ ],
+ "mythic/About": [],
+ "ultra/Name/Male": [],
+ "ultra/Name/Male/Genitive": [],
+ "ultra/Name/Male/Dative": [],
+ "ultra/Name/Male/Accusative/Animate": [],
+ "ultra/Name/Male/Accusative/Inanimate": [],
+ "ultra/Name/Male/Instrumental": [],
+ "ultra/Name/Male/Prepositional": [],
+ "ultra/Name/Female": [],
+ "ultra/Name/Female/Dative": [],
+ "ultra/Name/Female/Accusative": [],
+ "ultra/Name/Female/Prepositional": [],
+ "ultra/Name/Neuter": [],
+ "ultra/Name/Neuter/Dative": [],
+ "ultra/Name/Neuter/Prepositional": [],
+ "ultra/Name/Plural": [],
+ "ultra/Name/Plural/Genitive": [],
+ "ultra/Name/Plural/Dative": [],
+ "ultra/Name/Plural/Accusative/Animate": [],
+ "ultra/Name/Plural/Accusative/Inanimate": [],
+ "ultra/Name/Plural/Prepositional": [],
+ "ultra/NameColored/Male": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male}</c>"
+ ],
+ "ultra/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male/Genitive}</c>"
+ ],
+ "ultra/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male/Dative}</c>"
+ ],
+ "ultra/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male/Accusative/Animate}</c>"
+ ],
+ "ultra/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "ultra/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male/Instrumental}</c>"
+ ],
+ "ultra/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Male/Prepositional}</c>"
+ ],
+ "ultra/NameColored/Female": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Female}</c>"
+ ],
+ "ultra/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Female/Dative}</c>"
+ ],
+ "ultra/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Female/Accusative}</c>"
+ ],
+ "ultra/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Female/Prepositional}</c>"
+ ],
+ "ultra/NameColored/Neuter": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Neuter}</c>"
+ ],
+ "ultra/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Neuter/Dative}</c>"
+ ],
+ "ultra/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Neuter/Prepositional}</c>"
+ ],
+ "ultra/NameColored/Plural": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Plural}</c>"
+ ],
+ "ultra/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Plural/Genitive}</c>"
+ ],
+ "ultra/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Plural/Dative}</c>"
+ ],
+ "ultra/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "ultra/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "ultra/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/ultra}\">{#Rarities/ultra/Name/Plural/Prepositional}</c>"
+ ],
+ "ultra/About": [],
+ "super/Name/Male": [],
+ "super/Name/Male/Genitive": [],
+ "super/Name/Male/Dative": [],
+ "super/Name/Male/Accusative/Animate": [],
+ "super/Name/Male/Accusative/Inanimate": [],
+ "super/Name/Male/Instrumental": [],
+ "super/Name/Male/Prepositional": [],
+ "super/Name/Female": [],
+ "super/Name/Female/Dative": [],
+ "super/Name/Female/Accusative": [],
+ "super/Name/Female/Prepositional": [],
+ "super/Name/Neuter": [],
+ "super/Name/Neuter/Dative": [],
+ "super/Name/Neuter/Prepositional": [],
+ "super/Name/Plural": [],
+ "super/Name/Plural/Genitive": [],
+ "super/Name/Plural/Dative": [],
+ "super/Name/Plural/Accusative/Animate": [],
+ "super/Name/Plural/Accusative/Inanimate": [],
+ "super/Name/Plural/Prepositional": [],
+ "super/NameColored/Male": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male}</c>"
+ ],
+ "super/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male/Genitive}</c>"
+ ],
+ "super/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male/Dative}</c>"
+ ],
+ "super/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male/Accusative/Animate}</c>"
+ ],
+ "super/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "super/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male/Instrumental}</c>"
+ ],
+ "super/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Male/Prepositional}</c>"
+ ],
+ "super/NameColored/Female": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Female}</c>"
+ ],
+ "super/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Female/Dative}</c>"
+ ],
+ "super/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Female/Accusative}</c>"
+ ],
+ "super/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Female/Prepositional}</c>"
+ ],
+ "super/NameColored/Neuter": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Neuter}</c>"
+ ],
+ "super/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Neuter/Dative}</c>"
+ ],
+ "super/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Neuter/Prepositional}</c>"
+ ],
+ "super/NameColored/Plural": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Plural}</c>"
+ ],
+ "super/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Plural/Genitive}</c>"
+ ],
+ "super/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Plural/Dative}</c>"
+ ],
+ "super/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "super/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "super/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/super}\">{#Rarities/super/Name/Plural/Prepositional}</c>"
+ ],
+ "super/About": [],
+ "eternal/Name/Male": [],
+ "eternal/Name/Male/Genitive": [],
+ "eternal/Name/Male/Dative": [],
+ "eternal/Name/Male/Accusative/Animate": [],
+ "eternal/Name/Male/Accusative/Inanimate": [],
+ "eternal/Name/Male/Instrumental": [],
+ "eternal/Name/Male/Prepositional": [],
+ "eternal/Name/Female": [],
+ "eternal/Name/Female/Dative": [],
+ "eternal/Name/Female/Accusative": [],
+ "eternal/Name/Female/Prepositional": [],
+ "eternal/Name/Neuter": [],
+ "eternal/Name/Neuter/Dative": [],
+ "eternal/Name/Neuter/Prepositional": [],
+ "eternal/Name/Plural": [],
+ "eternal/Name/Plural/Genitive": [],
+ "eternal/Name/Plural/Dative": [],
+ "eternal/Name/Plural/Accusative/Animate": [],
+ "eternal/Name/Plural/Accusative/Inanimate": [],
+ "eternal/Name/Plural/Prepositional": [],
+ "eternal/NameColored/Male": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male}</c>"
+ ],
+ "eternal/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male/Genitive}</c>"
+ ],
+ "eternal/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male/Dative}</c>"
+ ],
+ "eternal/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male/Accusative/Animate}</c>"
+ ],
+ "eternal/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "eternal/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male/Instrumental}</c>"
+ ],
+ "eternal/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Male/Prepositional}</c>"
+ ],
+ "eternal/NameColored/Female": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Female}</c>"
+ ],
+ "eternal/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Female/Dative}</c>"
+ ],
+ "eternal/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Female/Accusative}</c>"
+ ],
+ "eternal/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Female/Prepositional}</c>"
+ ],
+ "eternal/NameColored/Neuter": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Neuter}</c>"
+ ],
+ "eternal/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Neuter/Dative}</c>"
+ ],
+ "eternal/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Neuter/Prepositional}</c>"
+ ],
+ "eternal/NameColored/Plural": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Plural}</c>"
+ ],
+ "eternal/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Plural/Genitive}</c>"
+ ],
+ "eternal/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Plural/Dative}</c>"
+ ],
+ "eternal/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "eternal/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "eternal/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/eternal}\">{#Rarities/eternal/Name/Plural/Prepositional}</c>"
+ ],
+ "eternal/About": [],
+ "unique/Name/Male": [],
+ "unique/Name/Male/Genitive": [],
+ "unique/Name/Male/Dative": [],
+ "unique/Name/Male/Accusative/Animate": [],
+ "unique/Name/Male/Accusative/Inanimate": [],
+ "unique/Name/Male/Instrumental": [],
+ "unique/Name/Male/Prepositional": [],
+ "unique/Name/Female": [],
+ "unique/Name/Female/Dative": [],
+ "unique/Name/Female/Accusative": [],
+ "unique/Name/Female/Prepositional": [],
+ "unique/Name/Neuter": [],
+ "unique/Name/Neuter/Dative": [],
+ "unique/Name/Neuter/Prepositional": [],
+ "unique/Name/Plural": [],
+ "unique/Name/Plural/Genitive": [],
+ "unique/Name/Plural/Dative": [],
+ "unique/Name/Plural/Accusative/Animate": [],
+ "unique/Name/Plural/Accusative/Inanimate": [],
+ "unique/Name/Plural/Prepositional": [],
+ "unique/NameColored/Male": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male}</c>"
+ ],
+ "unique/NameColored/Male/Genitive": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male/Genitive}</c>"
+ ],
+ "unique/NameColored/Male/Dative": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male/Dative}</c>"
+ ],
+ "unique/NameColored/Male/Accusative/Animate": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male/Accusative/Animate}</c>"
+ ],
+ "unique/NameColored/Male/Accusative/Inanimate": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male/Accusative/Inanimate}</c>"
+ ],
+ "unique/NameColored/Male/Instrumental": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male/Instrumental}</c>"
+ ],
+ "unique/NameColored/Male/Prepositional": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Male/Prepositional}</c>"
+ ],
+ "unique/NameColored/Female": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Female}</c>"
+ ],
+ "unique/NameColored/Female/Dative": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Female/Dative}</c>"
+ ],
+ "unique/NameColored/Female/Accusative": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Female/Accusative}</c>"
+ ],
+ "unique/NameColored/Female/Prepositional": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Female/Prepositional}</c>"
+ ],
+ "unique/NameColored/Neuter": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Neuter}</c>"
+ ],
+ "unique/NameColored/Neuter/Dative": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Neuter/Dative}</c>"
+ ],
+ "unique/NameColored/Neuter/Prepositional": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Neuter/Prepositional}</c>"
+ ],
+ "unique/NameColored/Plural": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Plural}</c>"
+ ],
+ "unique/NameColored/Plural/Genitive": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Plural/Genitive}</c>"
+ ],
+ "unique/NameColored/Plural/Dative": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Plural/Dative}</c>"
+ ],
+ "unique/NameColored/Plural/Accusative/Animate": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Plural/Accusative/Animate}</c>"
+ ],
+ "unique/NameColored/Plural/Accusative/Inanimate": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Plural/Accusative/Inanimate}</c>"
+ ],
+ "unique/NameColored/Plural/Prepositional": [
+  "<c val=\"{#Colors/unique}\">{#Rarities/unique/Name/Plural/Prepositional}</c>"
+ ],
+ "unique/About": []
+}

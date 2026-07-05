@@ -1,0 +1,118 @@
+{
+ "ant_hell/Name": [
+  "Ant Hell",
+  "Inferno de Formigas"
+ ],
+ "ant_hole1/Name": [
+  "Termite Mound",
+  "Cupimzeiro",
+  "T"
+ ],
+ "ant_hole2/Name": [
+  "Termite Mound",
+  "Cupimzeiro",
+  "T"
+ ],
+ "ant_hole3/Name": [
+  "Termite Mound",
+  "Cupimzeiro",
+  "T"
+ ],
+ "ant_hole4/Name": [
+  "Termite Mound",
+  "Cupimzeiro",
+  "T"
+ ],
+ "ant_hole5/Name": [
+  "Termite Mound",
+  "Cupimzeiro",
+  "T"
+ ],
+ "br/main/Name": [
+  "Rift",
+  "Fenda",
+  "Khe N"
+ ],
+ "br/ant_hell/Name": [
+  "Rift",
+  "Fenda",
+  "Khe N"
+ ],
+ "br/factory/Name": [
+  "Rift",
+  "Fenda",
+  "Khe N"
+ ],
+ "br/hel/Name": [
+  "Rift",
+  "Fenda",
+  "Khe N"
+ ],
+ "br/ocean/Name": [
+  "Rift",
+  "Fenda",
+  "Khe N"
+ ],
+ "br/victory/Name": [
+  "Rift",
+  "Fenda",
+  "Khe N"
+ ],
+ "crystal_room/Name": [
+  "Crystal Room",
+  "Sala do Cristal",
+  "Ph"
+ ],
+ "desert/Name": [
+  "Desert",
+  "Deserto",
+  "Sa M"
+ ],
+ "factory/Name": [
+  "Factory",
+  "F",
+  "Nh"
+ ],
+ "garden/Name": [
+  "Garden",
+  "Jardim",
+  "Khu V"
+ ],
+ "hel/Name": [
+  "Hel"
+ ],
+ "jungle/Name": [
+  "Jungle",
+  "Selva",
+  "R"
+ ],
+ "ocean/Name": [
+  "Ocean",
+  "Oceano"
+ ],
+ "pyramid/Name": [
+  "Pyramid",
+  "Pir",
+  "Kim T"
+ ],
+ "pyramid/Changing": [
+  "The sands under you are starting to shift...",
+  "As areias embaixo de voc",
+  "Nh"
+ ],
+ "sewers/Name": [
+  "Sewers",
+  "Esgoto",
+  "C"
+ ],
+ "training_grounds/Name": [
+  "Training Grounds",
+  "Campos de Treinamento",
+  "S"
+ ],
+ "worm/Name": [
+  "Worm",
+  "Minhoca",
+  "Giun"
+ ]
+}

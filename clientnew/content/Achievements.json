@@ -1,0 +1,1905 @@
+{
+ "0/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "0/Description": [
+  "Move a little bit.",
+  "Mova-se um pouco",
+  "Di chuy"
+ ],
+ "0/ExtraDescription": [
+  "Use your mouse to move. Your flower will automatically follow your cursor.<n/>You can change to keyboard movement in the settings menu.<n/><n/>Move a little bit to proceed.",
+  "Use seu mouse para se mover. Sua flor vai automaticamente seguir sua seta.<n />Voc",
+  "S"
+ ],
+ "1/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "1/Description": [
+  "Kill a mob.",
+  "Mate um bicho.",
+  "Ti"
+ ],
+ "1/ExtraDescription": [
+  "Those insects are your enemies. Destroying them has a chance of dropping new petals.<n/><n/>Find one and destroy it.<n/>You might find helpful to hold down your left mouse button to extend your petals.",
+  "Esses bichos s",
+  "Nh"
+ ],
+ "2/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "2/Description": [
+  "Collect a petal.",
+  "Colete uma p",
+  "Nh"
+ ],
+ "2/ExtraDescription": [
+  "Keep destroying enemies until they drop a petal, then get close to the petal to collect it.",
+  "Continue destruindo os inimigos at",
+  "Ti"
+ ],
+ "3/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "3/Description": [
+  "Equip a petal.",
+  "Equipe uma p",
+  "Trang b"
+ ],
+ "3/ExtraDescription": [
+  "If you have space in your loadout when you collect a petal, it'll go there, otherwise it'll go to your inventory.<n/>Click the petal you just collected to equip it (or use the numeric hotkey for it).",
+  "Se voc",
+  "N"
+ ],
+ "4/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "4/Description": [
+  "Collect more petals.",
+  "Colete mais p",
+  "Thu th"
+ ],
+ "4/ExtraDescription": [
+  "For the next step, we'll need a lot of petals.<n/>Keep destroying enemies and collecting petals.",
+  "Para o pr"
+ ],
+ "5/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "5/Description": [
+  "Get to level {0}.",
+  "Chegue no n"
+ ],
+ "5/ExtraDescription": [
+  "To level up, just keep destroying some insects.",
+  "Para subir de n"
+ ],
+ "6/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "6/Description": [
+  "Use your talent point.",
+  "Use seus pontos de talento (TP).",
+  "S"
+ ],
+ "6/ExtraDescription": [
+  "Use this new talent point you got to unlock any talent.<n/><n/>Remember you need to click and HOLD to upgrade a talent.",
+  "Use seus novos pontos de talento para desbloquear novos talentos.<n/><n/>Lembre de clicar e segurar para upar o talento.",
+  "S"
+ ],
+ "7/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "7/Description": [
+  "Collect some petals.",
+  "Colete algumas p",
+  "Thu th"
+ ],
+ "7/ExtraDescription": [
+  "Now we need to collect {0} of the same {#Rarities/{1}/NameColored} petal to craft {#Rarities/{2}/Article} {#Rarities/{2}/NameColored} petal.<n/>Keep destroying some insects to collect a couple more petals.",
+  "Agora precisamos coletar {0} p",
+  "B"
+ ],
+ "8/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "8/Description": [
+  "Craft a petal.",
+  "Combine uma p",
+  "Ch"
+ ],
+ "8/ExtraDescription": [
+  "Now try to craft your first petal.<n/>Note that you might need to unequip some petals to have enough to do this craft.<n/>You need 5 of the same petal.<n/><n/>Don't worry, we loaded the dice for this one, it will succeed.",
+  "Agora tente combinar sua primeira p",
+  "B"
+ ],
+ "9/Name": [
+  "Tutorial",
+  "H"
+ ],
+ "9/Description": [
+  "Complete the tutorial.",
+  "Complete o tutorial.",
+  "Ho"
+ ],
+ "10/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "10/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "11/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "11/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "12/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "12/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "13/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "13/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "14/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "14/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "15/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "15/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "16/Name": [
+  "Crafter",
+  "Combinador",
+  "Th"
+ ],
+ "16/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name} petal.",
+  "{#Rarities/{0}/Name}",
+  "Combine uma p",
+  "Ch"
+ ],
+ "17/Name": [
+  "Consolation prize",
+  "Pr",
+  "Gi"
+ ],
+ "17/Description": [
+  "Fail to craft a petal and lose {0} petals.",
+  "Falhe uma combina",
+  "Th"
+ ],
+ "18/Name": [
+  "Consolation prize",
+  "Pr",
+  "Gi"
+ ],
+ "18/Description": [
+  "Fail to craft {#Rarities/{1}/Article} {#Rarities/{1}/Name} petal and lose {0} petals.",
+  "{#Rarities/{1}/Name}",
+  "Falhe uma combina",
+  "Th"
+ ],
+ "19/Name": [
+  "Consolation prize",
+  "Pr",
+  "Gi"
+ ],
+ "19/Description": [
+  "Fail to craft {#Rarities/{1}/Article} {#Rarities/{1}/Name} petal and lose {0} petals.",
+  "{#Rarities/{1}/Name}",
+  "Falhe uma combina",
+  "Th"
+ ],
+ "20/Name": [
+  "Digger",
+  "Escavador",
+  "Th"
+ ],
+ "20/Description": [
+  "Equip a {#Petals/cutter/Name}.",
+  "{#Petals/cutter/Name}",
+  "Equipe a p",
+  "Trang b"
+ ],
+ "21/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "21/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "22/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "22/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "23/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "23/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "24/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "24/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "25/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "25/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "26/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "26/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "27/Name": [
+  "Growing up",
+  "Crescendo",
+  "Tr"
+ ],
+ "27/Description": [
+  "Reach Level {0}.",
+  "Chegue no n"
+ ],
+ "28/Name": [
+  "Wasteful Crafting",
+  "Desperd",
+  "L"
+ ],
+ "28/Description": [
+  "Destroy {0:short} petals in crafting attempts.",
+  "Destrua {0:tooltip} p",
+  "Ph"
+ ],
+ "29/Name": [
+  "High volume crafter",
+  "Combinador de volume grande",
+  "Th"
+ ],
+ "29/Description": [
+  "Craft {0:short} petals.",
+  "Combine {0:tooltip} p",
+  "Ch"
+ ],
+ "30/Name": [
+  "Desert",
+  "Deserto",
+  "Sa m"
+ ],
+ "30/Description": [
+  "Visit the desert.",
+  "Visite o Deserto",
+  "Ch"
+ ],
+ "31/Name": [
+  "Ocean"
+ ],
+ "31/Description": [
+  "Visit the ocean.",
+  "Visite o Oceano",
+  "Ch"
+ ],
+ "32/Name": [
+  "Welcome to the Jungle",
+  "Bem-vindo",
+  "Ch"
+ ],
+ "32/Description": [
+  "Visit the jungle.",
+  "Visite a Selva",
+  "Ch"
+ ],
+ "33/Name": [
+  "Ant Hell",
+  "Inferno de Formigas"
+ ],
+ "33/Description": [
+  "Find out where all these pesky ants keep coming from.",
+  "Descubra de onde v",
+  "T"
+ ],
+ "34/Name": [
+  "Sewers",
+  "Esgoto",
+  "C"
+ ],
+ "34/Description": [
+  "Find out where that pipe goes.",
+  "Descubra at",
+  "T"
+ ],
+ "35/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "35/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "36/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "36/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "37/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "37/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "38/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "38/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "39/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "39/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "40/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "40/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "41/Name": [
+  "Conqueror",
+  "Conquistador",
+  "Chinh ph"
+ ],
+ "41/Description": [
+  "Defeat your first {#Rarities/{0}/Name} mob.",
+  "{#Rarities/{0}/Name}",
+  "Derrote seu primeiro bicho {#Rarities/{0}/Male/Name}."
+ ],
+ "42/Name": [
+  "Go to WHERE?!",
+  "Ir para ONDE?"
+ ],
+ "42/Description": [
+  "Visit the other plane.",
+  "Visite outro mundo."
+ ],
+ "43/Name": [
+  "Challenger",
+  "Desafiador",
+  "Nh"
+ ],
+ "43/Description": [
+  "Complete a challenge.",
+  "Complete um desafio.",
+  "Ho"
+ ],
+ "44/Name": [
+  "Challenger",
+  "Desafiador",
+  "Nh"
+ ],
+ "44/Description": [
+  "Complete {0} challenges.",
+  "Complete {0} desafios.",
+  "Ho"
+ ],
+ "45/Name": [
+  "Challenger",
+  "Desafiador",
+  "Nh"
+ ],
+ "45/Description": [
+  "Complete {0} challenges.",
+  "Complete {0} desafios.",
+  "Ho"
+ ],
+ "46/Name": [
+  "Challenger",
+  "Desafiador",
+  "Nh"
+ ],
+ "46/Description": [
+  "Complete {0} challenges.",
+  "Complete {0} desafios.",
+  "Ho"
+ ],
+ "47/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "47/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "48/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "48/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "49/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "49/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "50/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "50/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "51/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "51/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "52/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "52/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "53/Name": [
+  "Gear Up",
+  "Prepare-se",
+  "Trang b"
+ ],
+ "53/Description": [
+  "Equip {1} {#Rarities/{0}/Name} petals.",
+  "{#Rarities/{0}/Name}",
+  "Equipe {1} p",
+  "Trang b"
+ ],
+ "54/Name": [
+  "Summoner",
+  "Invocador",
+  "Tri"
+ ],
+ "54/Description": [
+  "Spawn a friendly mob.",
+  "Invoque um bicho amig",
+  "Tri"
+ ],
+ "55/Name": [
+  "Summoner",
+  "Invocador",
+  "Tri"
+ ],
+ "55/Description": [
+  "Spawn {0} friendly mobs.",
+  "Invoque {0} bichos amig",
+  "Tri"
+ ],
+ "56/Name": [
+  "Summoner",
+  "Invocador",
+  "Tri"
+ ],
+ "56/Description": [
+  "Spawn {0} friendly mobs.",
+  "Invoque {0} bichos amig",
+  "Tri"
+ ],
+ "57/Name": [
+  "Summoner",
+  "Invocador",
+  "Tri"
+ ],
+ "57/Description": [
+  "Spawn {0} friendly mobs.",
+  "Invoque {0} bichos amig",
+  "Tri"
+ ],
+ "58/Name": [
+  "Shiny!",
+  "Brilhante!",
+  "L"
+ ],
+ "58/Description": [
+  "Destroy a shiny Ladybug",
+  "Destrua uma Joaninha brilhante.",
+  "Ti"
+ ],
+ "59/Name": [
+  "Wrong game",
+  "Jogo Errado",
+  "Nh"
+ ],
+ "59/Description": [
+  "Destroy a Square",
+  "Destrua um Quadrado",
+  "Ti"
+ ],
+ "60/Name": [
+  "Pain dealer",
+  "Distribuidor de dor",
+  "K"
+ ],
+ "60/Description": [
+  "Deal {0:short} damage.",
+  "Cause {0:tooltip} de Dano.",
+  "G"
+ ],
+ "61/Name": [
+  "Pain dealer",
+  "Distribuidor de dor",
+  "K"
+ ],
+ "61/Description": [
+  "Deal {0:short} damage.",
+  "Cause {0:tooltip} de Dano.",
+  "G"
+ ],
+ "62/Name": [
+  "Pain dealer",
+  "Distribuidor de dor",
+  "K"
+ ],
+ "62/Description": [
+  "Deal {0:short} damage.",
+  "Cause {0:tooltip} de Dano.",
+  "G"
+ ],
+ "63/Name": [
+  "One-hit KO",
+  "Nocaute com um golpe",
+  "M"
+ ],
+ "63/Description": [
+  "Destroy {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob in one hit.",
+  "{#Rarities/{0}/Name}",
+  "Destrua um bicho {#Rarities/{0}/Male/Name} em um ataque.",
+  "Ti"
+ ],
+ "64/Name": [
+  "One-hit KO",
+  "Nocaute com um golpe",
+  "M"
+ ],
+ "64/Description": [
+  "Destroy {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob in one hit.",
+  "{#Rarities/{0}/Name}",
+  "Destrua um bicho {#Rarities/{0}/Male/Name} em um ataque.",
+  "Ti"
+ ],
+ "65/Name": [
+  "One-hit KO",
+  "Nocaute com um golpe",
+  "M"
+ ],
+ "65/Description": [
+  "Destroy {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob in one hit.",
+  "{#Rarities/{0}/Name}",
+  "Destrua um bicho {#Rarities/{0}/Male/Name} em um ataque.",
+  "Ti"
+ ],
+ "66/Name": [
+  "One-hit KO",
+  "Nocaute com um golpe",
+  "M"
+ ],
+ "66/Description": [
+  "Destroy {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob in one hit.",
+  "{#Rarities/{0}/Name}",
+  "Destrua um bicho {#Rarities/{0}/Male/Name} em um ataque.",
+  "Ti"
+ ],
+ "67/Name": [
+  "One-hit KO",
+  "Nocaute com um golpe",
+  "M"
+ ],
+ "67/Description": [
+  "Destroy {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob in one hit.",
+  "{#Rarities/{0}/Name}",
+  "Destrua um bicho {#Rarities/{0}/Male/Name} em um ataque.",
+  "Ti"
+ ],
+ "68/Name": [
+  "Getting tanned",
+  "Ficando bronzeado",
+  "Ch"
+ ],
+ "68/Description": [
+  "Survive {0:time} in Hel.",
+  "Sobreviva {0:time} no Hel.",
+  "Sinh t"
+ ],
+ "69/Name": [
+  "Skill issue",
+  "Falta de habilidade",
+  "V"
+ ],
+ "69/Description": [
+  "Find the dead dev flower.",
+  "Encontre a flor do desenvolvedor morta.",
+  "T"
+ ],
+ "70/Name": [
+  "Termites...?",
+  "Cupims...?",
+  "M"
+ ],
+ "70/Description": [
+  "Spawn a friendly Termite.",
+  "Invoque um cupim amig",
+  "Tri"
+ ],
+ "71/Name": [
+  "Pacifist",
+  "Pacifista",
+  "H"
+ ],
+ "71/Description": [
+  "Spend {0:time} admiring nature without destroying anything.",
+  "Fique {0:time} admirando a natureza sem matar um bicho.",
+  "D"
+ ],
+ "72/Name": [
+  "Be gone",
+  "V",
+  "Bi"
+ ],
+ "72/Description": [
+  "Send a flower to Hel.",
+  "Mande uma flor para o Hel.",
+  "G"
+ ],
+ "73/Name": [
+  "Be gone",
+  "V",
+  "Bi"
+ ],
+ "73/Description": [
+  "Send {0} flowers to Hel.",
+  "{0}",
+  "Mande {0} flores para o Hel.",
+  "G"
+ ],
+ "74/Name": [
+  "Saved",
+  "Salvo"
+ ],
+ "74/Description": [
+  "Get revived.",
+  "Seja revivido."
+ ],
+ "75/Name": [
+  "Savior",
+  "Salvador"
+ ],
+ "75/Description": [
+  "Revive a flower.",
+  "Reviva uma flor.",
+  "H"
+ ],
+ "76/Name": [
+  "Savior",
+  "Salvador"
+ ],
+ "76/Description": [
+  "Revive {0} flowers.",
+  "{0}",
+  "Reviva {0} flores.",
+  "H"
+ ],
+ "77/Name": [
+  "All-seeing",
+  "Quem tudo v",
+  "Nh"
+ ],
+ "77/Description": [
+  "Equip {#Petals/{0}/Name}.",
+  "{#Petals/{0}/Name}",
+  "Equipe {#Petals/{0}/Name}.",
+  "Trang b"
+ ],
+ "78/Name": [
+  "Return to sender",
+  "Retornar ao remetente"
+ ],
+ "78/Description": [
+  "Hit a mob with {#Petals/{0}/Name}.",
+  "{#Petals/{0}/Name}",
+  "Ataque um bicho com {#Petals/{0}/Name}."
+ ],
+ "79/Name": [
+  "Homewrecker",
+  "Destruidora de lares",
+  "Ph"
+ ],
+ "79/Description": [
+  "Destroy an {#Mobs/{1}/Name}, {#Mobs/{2}/Name} or {#Mobs/{3}/Name}.",
+  "{#Mobs/{1}/Name}",
+  "Destrua um {#Mobs/{1}/Name}, {#Mobs/{2}/Name} ou {#Mobs/{3}/Name}.",
+  "Ti"
+ ],
+ "80/Name": [
+  "Homewrecker",
+  "Destruidora de lares",
+  "Ph"
+ ],
+ "80/Description": [
+  "Destroy {0} {#Mobs/{1}/Name}s, {#Mobs/{2}/Name}s or {#Mobs/{3}/Name}s.",
+  "{#Mobs/{1}/Name}",
+  "Destrua {0} {#Mobs/{1}/Name}s, {#Mobs/{2}/Name}s ou {#Mobs/{3}/Name}s.",
+  "Ti"
+ ],
+ "81/Name": [
+  "Bad",
+  "Ruim",
+  "T"
+ ],
+ "81/Description": [
+  "Die.",
+  "Morra.",
+  "Ch"
+ ],
+ "82/Name": [
+  "Bad",
+  "Ruim",
+  "T"
+ ],
+ "82/Description": [
+  "Die {0} times.",
+  "{0}",
+  "Morra {0} vezes.",
+  "Ch"
+ ],
+ "83/Name": [
+  "Bad",
+  "Ruim",
+  "T"
+ ],
+ "83/Description": [
+  "Die {0} times.",
+  "{0}",
+  "Morra {0} vezes.",
+  "Ch"
+ ],
+ "84/Name": [
+  "Serial killer",
+  "Assassino em s",
+  "K"
+ ],
+ "84/Description": [
+  "Destroy {0} mobs within {1:time} of each other.",
+  "{1:time}",
+  "Destrua {0} bichos entre {1:time} de cada.",
+  "Ti"
+ ],
+ "85/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "85/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "86/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "86/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "87/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "87/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "88/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "88/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "89/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "89/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "90/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "90/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "91/Name": [
+  "Unkillable",
+  "Invenc",
+  "B"
+ ],
+ "91/Description": [
+  "Destroy {0} {#Rarities/{1}/Name}+ mobs without dying.",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural} sem morrer.",
+  "Ti"
+ ],
+ "92/Name": [
+  "You're the dummy",
+  "Voc",
+  "Ng"
+ ],
+ "92/Description": [
+  "Die to a {#Mobs/{0}/Name}.",
+  "{#Mobs/{0}/Name}",
+  "Morra para {#Mobs/{0}/Name}.",
+  "Ch"
+ ],
+ "93/Name": [
+  "Genocide",
+  "Genocida",
+  "Di"
+ ],
+ "93/Description": [
+  "Destroy {0} mobs within {1:time}.",
+  "{1:time}",
+  "Destrua {0} bichos em {1:time}.",
+  "Ti"
+ ],
+ "94/Name": [
+  "Rolling in dough",
+  "Rolando na massa",
+  "Nh"
+ ],
+ "94/Description": [
+  "Acquire {0} drops within {1:time}.",
+  "{1:time}",
+  "Obtenha {0} drops em {1:time}.",
+  "Thu th"
+ ],
+ "95/Name": [
+  "Shiny Hunter",
+  "Ca",
+  "Th"
+ ],
+ "95/Description": [
+  "Destroy {0} shiny Ladybugs within {1:time}.",
+  "{1:time}",
+  "Destrua {0} Joaninhas Brilhantes em {1:time}.",
+  "Ti"
+ ],
+ "96/Name": [
+  "Super Hunter",
+  "Ca",
+  "Th"
+ ],
+ "96/Description": [
+  "Destroy {0} {#Rarities/{1}/Name} mobs.",
+  "{#Rarities/{1}/Name}",
+  "Destrua {0} bichos {#Rarities/{1}/Male/NamePlural}.",
+  "Ti"
+ ],
+ "97/Name": [
+  "Sacrifice",
+  "Sacrif",
+  "Hy sinh"
+ ],
+ "97/Description": [
+  "Die within {0:time} of reviving someone.",
+  "Morra em {0:time} de reviver algu",
+  "Ch"
+ ],
+ "98/Name": [
+  "Useless",
+  "In",
+  "V"
+ ],
+ "98/Description": [
+  "Get kill credit for a mob without dealing any damage to it.",
+  "Receba cr",
+  "Gi"
+ ],
+ "99/Name": [
+  "Useless",
+  "In",
+  "V"
+ ],
+ "99/Description": [
+  "Get kill credit for {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob without dealing any damage to it.",
+  "{#Rarities/{0}/Name}",
+  "Receba cr",
+  "Gi"
+ ],
+ "100/Name": [
+  "The lucky one",
+  "O Sortudo",
+  "May m"
+ ],
+ "100/Description": [
+  "Successfully craft {0} petals in a row.",
+  "Combine com sucesso {0} p",
+  "Th"
+ ],
+ "101/Name": [
+  "The unlucky one",
+  "O Azarado",
+  "Xui x"
+ ],
+ "101/Description": [
+  "Fail to craft {0} petals in a row.",
+  "Falhe de combinar {0} p",
+  "Th"
+ ],
+ "102/Name": [
+  "Paper",
+  "Papel",
+  "Gi"
+ ],
+ "102/Description": [
+  "Die to a damage instance higher than your max hp.",
+  "Morra para um dano maior que sua vida m",
+  "Ch"
+ ],
+ "103/Name": [
+  "Statue",
+  "Est",
+  "T"
+ ],
+ "103/Description": [
+  "Spawn then kill {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob without moving.",
+  "Spawne e mate um Inimigo {#Rarities/{0}/Male/Name} sem se mover.",
+  "Ti"
+ ],
+ "104/Name": [
+  "Statue",
+  "Est",
+  "T"
+ ],
+ "104/Description": [
+  "Spawn then kill {#Rarities/{0}/Article} {#Rarities/{0}/Name} mob without moving.",
+  "Spawne e mate um Inimigo {#Rarities/{0}/Male/Name} sem se mover.",
+  "Ti"
+ ],
+ "105/Name": [
+  "Breathe in, breathe out",
+  "Inspire, expire",
+  "H"
+ ],
+ "105/Description": [
+  "Equip and unequip {#Petals/{0}/Name} many times",
+  "{#Petals/{0}/Name}",
+  "Equipe e Desequipe {#Petals/{0}/Name} Muitas vezes.",
+  "Trang b"
+ ],
+ "106/Name": [
+  "Sound barrier",
+  "Barreira do som",
+  "R"
+ ],
+ "106/Description": [
+  "Move really fast.",
+  "Mova-se bem r",
+  "Di chuy"
+ ],
+ "107/Name": [
+  "Sound barrier",
+  "Barreira do som",
+  "R"
+ ],
+ "107/Description": [
+  "Move even faster.",
+  "Mova-se mais r",
+  "Di chuy"
+ ],
+ "108/Name": [
+  "Biologist",
+  "Biologista",
+  "Nh"
+ ],
+ "108/Description": [
+  "Destroy {0} different types of mobs without dying.",
+  "{0}",
+  "Destrua {0} tipos de bichos diferentes sem morrer.",
+  "Ti"
+ ],
+ "109/Name": [
+  "Collector",
+  "Coletor",
+  "Nh"
+ ],
+ "109/Description": [
+  "Collect {0} different types of petals without dying.",
+  "{0}",
+  "Colete {0} tipos de p",
+  "Thu th"
+ ],
+ "110/Name": [
+  "Touch grass",
+  "Toque na grama",
+  "Ch"
+ ],
+ "110/Description": [
+  "Don't play the game for {0:time}.",
+  "{0:time}",
+  "N",
+  "Kh"
+ ],
+ "111/Name": [
+  "Racecar",
+  "Carro de corrida",
+  "Xe"
+ ],
+ "111/Description": [
+  "Visit Garden, Desert, Jungle, Ocean, then get back to Garden in less than {0:time}.",
+  "Visite Jardim, Deserto, Selva, Oceano e depois volte para o Jardim em menos de {0:time}."
+ ],
+ "112/Name": [
+  "Racecar",
+  "Carro de corrida",
+  "Xe"
+ ],
+ "112/Description": [
+  "Visit Garden, Desert, Jungle, Ocean, then get back to Garden in less than {0:time}.",
+  "Visite Jardim, Deserto, Selva, Oceano e depois volte para o Jardim em menos de {0:time}."
+ ],
+ "113/Name": [
+  "Racecar",
+  "Carro de corrida",
+  "Xe"
+ ],
+ "113/Description": [
+  "Visit Garden, Desert, Jungle, Ocean, then get back to Garden in less than {0:time}.",
+  "Visite Jardim, Deserto, Selva, Oceano e depois volte para o Jardim em menos de {0:time}."
+ ],
+ "114/Name": [
+  "Racecar",
+  "Carro de corrida",
+  "Xe"
+ ],
+ "114/Description": [
+  "Visit Garden, Desert, Jungle, Ocean, then get back to Garden in less than {0:time}.",
+  "Visite Jardim, Deserto, Selva, Oceano e depois volte para o Jardim em menos de {0:time}."
+ ],
+ "115/Name": [
+  "Biologist",
+  "Biologista",
+  "Nh"
+ ],
+ "115/Description": [
+  "Destroy {0} different types of {#Rarities/{1}/Name}+ mobs without dying.",
+  "{0}",
+  "Destrua {0} tipos de bichos {#Rarities/{1}/Male/NamePlural} diferentes sem morrer.",
+  "Ti"
+ ],
+ "116/Name": [
+  "Bad in every way",
+  "Ruim em todos os sentidos",
+  "T"
+ ],
+ "116/Description": [
+  "Die to {0} different types of mobs.",
+  "{0}",
+  "Morra para {0} tipos de bichos diferentes.",
+  "Ch"
+ ],
+ "117/Name": [
+  "Bad in every way",
+  "Ruim em todos os sentidos",
+  "T"
+ ],
+ "117/Description": [
+  "Die to {0} different types of mobs.",
+  "{0}",
+  "Morra para {0} tipos de bichos diferentes.",
+  "Ch"
+ ],
+ "118/Name": [
+  "Bad in every way",
+  "Ruim em todos os sentidos",
+  "T"
+ ],
+ "118/Description": [
+  "Die to {0} different types of mobs.",
+  "{0}",
+  "Morra para {0} tipos de bichos diferentes.",
+  "Ch"
+ ],
+ "119/Name": [
+  "Touched",
+  "Tocado",
+  "Ch"
+ ],
+ "119/Description": [
+  "Touch the developer.",
+  "Toque no desenvolvedor.",
+  "Ch"
+ ],
+ "120/Name": [
+  "Evasive",
+  "Evasivo",
+  "N"
+ ],
+ "120/Description": [
+  "Evade {0:short} damage.",
+  "{0:short}",
+  "Desvie de {0:tooltip} de dano.",
+  "Tr"
+ ],
+ "121/Name": [
+  "Evasive",
+  "Evasivo",
+  "N"
+ ],
+ "121/Description": [
+  "Evade {0:short} damage.",
+  "{0:short}",
+  "Desvie de {0:tooltip} de dano.",
+  "Tr"
+ ],
+ "122/Name": [
+  "Evasive",
+  "Evasivo",
+  "N"
+ ],
+ "122/Description": [
+  "Evade {0:short} damage.",
+  "{0:short}",
+  "Desvie de {0:tooltip} de dano.",
+  "Tr"
+ ],
+ "123/Name": [
+  "Devil's advocate",
+  "Advogado do Diabo",
+  "L"
+ ],
+ "123/Description": [
+  "While in Hel, destroy {0} flowers without dying.",
+  "Enquanto estiver no Hel, mate {0} flores sem morrer.",
+  "Trong"
+ ],
+ "124/Name": [
+  "Hater",
+  "Odiador",
+  "Gh"
+ ],
+ "124/Description": [
+  "Destroy {0} of the same type of mob in a row without dying.",
+  "Destrua {0} bichos do mesmo tipo seguidos sem morrer.",
+  "Ti"
+ ],
+ "125/Name": [
+  "Hater",
+  "Odiador",
+  "Gh"
+ ],
+ "125/Description": [
+  "Destroy {0} of the same type of {#Rarities/{1}/Name}+ mob in a row without dying.",
+  "Destrua {0} bichos do mesmo tipo seguidos sem morrer.",
+  "Ti"
+ ],
+ "126/Name": [
+  "Hater",
+  "Odiador",
+  "Gh"
+ ],
+ "126/Description": [
+  "Destroy {0} of the same type of {#Rarities/{1}/Name}+ mob in a row without dying.",
+  "Destrua {0} bichos do mesmo tipo seguidos sem morrer.",
+  "Ti"
+ ],
+ "127/Name": [
+  "Hater",
+  "Odiador",
+  "Gh"
+ ],
+ "127/Description": [
+  "Destroy {0} of the same type of {#Rarities/{1}/Name}+ mob in a row without dying.",
+  "Destrua {0} bichos do mesmo tipo seguidos sem morrer.",
+  "Ti"
+ ],
+ "128/Name": [
+  "Revenge",
+  "Vingan",
+  "Ph"
+ ],
+ "128/Description": [
+  "Destroy the mob that killed you.",
+  "Mate o bicho que te matou.",
+  "Ti"
+ ],
+ "129/Name": [
+  "Revenge",
+  "Vingan",
+  "Ph"
+ ],
+ "129/Description": [
+  "Destroy the mob that killed you within {0:time} of your death.",
+  "Mate o bicho que te matou em {0:time} desde sua morte.",
+  "Ti"
+ ],
+ "130/Name": [
+  "Trade",
+  "Troca",
+  "Trao"
+ ],
+ "130/Description": [
+  "Acquire a {#Petals/{0:base}/Name} through trade.",
+  "{#Petals/{0:base}/Name}",
+  "Adquira uma {#Petals/{0:base}/Name} fazendo uma troca.",
+  "L"
+ ],
+ "131/Name": [
+  "Trade",
+  "Troca",
+  "Trao"
+ ],
+ "131/Description": [
+  "Acquire {#Rarities/{0:rarity}/Article} {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/Name} through trade.",
+  "{#Rarities/{0:rarity}/Name}",
+  "Adquira uma {#Petals/{0:base}/Name} {#Rarities/{0:rarity}/{#Petals/{0:base}/Gender}/Name} fazendo uma troca.",
+  "L"
+ ],
+ "132/Name": [
+  "Trade",
+  "Troca",
+  "Trao"
+ ],
+ "132/Description": [
+  "Acquire {#Rarities/{0:rarity}/Article} {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/Name} through trade.",
+  "{#Rarities/{0:rarity}/Name}",
+  "Adquira uma {#Petals/{0:base}/Name} {#Rarities/{0:rarity}/{#Petals/{0:base}/Gender}/Name} fazendo uma troca.",
+  "L"
+ ],
+ "133/Name": [
+  "Gambler",
+  "Apostador",
+  "Con b"
+ ],
+ "133/Description": [
+  "Insert {0} Chips into Plinko.",
+  "Insira {0} Fichas no Plinko.",
+  "Th"
+ ],
+ "134/Name": [
+  "JACKPOT!",
+  "PR"
+ ],
+ "134/Description": [
+  "Hit the Jackpot in Plinko.",
+  "Acerte o Pr",
+  "Gi"
+ ],
+ "135/Name": [
+  "High roller",
+  "Grande apostador"
+ ],
+ "135/Description": [
+  "Insert {#Rarities/{0:rarity}/Article} {#Rarities/{0:rarity}/Name}+ {#Petals/{0:base}/Name} in Plinko.",
+  "{#Rarities/{0:rarity}/Name}",
+  "Insira uma {#Petals/{0:base}/Name} {#Rarities/{0:rarity}/{#Petals/{0:base}/Gender}/Name} no Plinko.",
+  "Th"
+ ],
+ "136/Name": [
+  "The all-seeing one",
+  "Aquele que tudo v"
+ ],
+ "136/Description": [
+  "Craft a petal using the Oracle.",
+  "Combine uma p",
+  "T"
+ ],
+ "137/Name": [
+  "It was destiny",
+  "Foi o destino"
+ ],
+ "137/Description": [
+  "Craft {#Rarities/{0}/Article} {#Rarities/{0}/Name}+ petal using the Oracle.",
+  "Combine uma p",
+  "Ch"
+ ],
+ "138/Name": [
+  "Magician",
+  "M",
+  "Ph"
+ ],
+ "138/Description": [
+  "Equip an {#Petals/{0}/Name}.",
+  "{#Petals/{0}/Name}",
+  "Equipe uma {#Petals/{0}/Name}.",
+  "Trang b"
+ ],
+ "139/Name": [
+  "I'm feeling lucky",
+  "Estou me sentindo sortudo",
+  "T"
+ ],
+ "139/Description": [
+  "Get an extra drop due to a {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/Name}.",
+  "{#Rarities/{0:rarity}/Name} {#Petals/{0:base}/Name}",
+  "Receba um drop extra devido a um {#Petals/{0:base}/Name} {#Rarities/{0:rarity}/{#Petals/{0:base}/Gender}/Name}.",
+  "Nh"
+ ],
+ "140/Name": [
+  "Blood Sacrifice",
+  "Sacrif",
+  "M"
+ ],
+ "140/Description": [
+  "Perform a Blood Sacrifice.",
+  "Realize um Sacr",
+  "Th"
+ ],
+ "141/Name": [
+  "Consolation prize"
+ ],
+ "141/Description": [
+  "Fail to craft {#Rarities/{1}/Article} {#Rarities/{1}/Name} petal and lose {0} petals.",
+  "{#Rarities/{1}/Name}"
+ ],
+ "0/Py": [
+  "jiaocheng"
+ ],
+ "1/Py": [
+  "jiaocheng"
+ ],
+ "2/Py": [
+  "jiaocheng"
+ ],
+ "3/Py": [
+  "jiaocheng"
+ ],
+ "4/Py": [
+  "jiaocheng"
+ ],
+ "5/Py": [
+  "jiaocheng"
+ ],
+ "6/Py": [
+  "jiaocheng"
+ ],
+ "7/Py": [
+  "jiaocheng"
+ ],
+ "8/Py": [
+  "jiaocheng"
+ ],
+ "9/Py": [
+  "jiaocheng"
+ ],
+ "10/Py": [
+  "hechengshi"
+ ],
+ "11/Py": [
+  "hechengshi"
+ ],
+ "12/Py": [
+  "hechengshi"
+ ],
+ "13/Py": [
+  "hechengshi"
+ ],
+ "14/Py": [
+  "hechengshi"
+ ],
+ "15/Py": [
+  "hechengshi"
+ ],
+ "16/Py": [
+  "hechengshi"
+ ],
+ "17/Py": [
+  "anweijiang"
+ ],
+ "18/Py": [
+  "anweijiang"
+ ],
+ "19/Py": [
+  "anweijiang"
+ ],
+ "20/Py": [
+  "wajuezhe"
+ ],
+ "21/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "22/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "23/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "24/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "25/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "26/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "27/Py": [
+  "zhuozhuangchengzhang"
+ ],
+ "28/Py": [
+  "huihuowudu"
+ ],
+ "29/Py": [
+  "zishenhechengshi"
+ ],
+ "30/Py": [
+  "shamo"
+ ],
+ "31/Py": [
+  "haiyang"
+ ],
+ "32/Py": [
+  "huanyinglaidaoconglin"
+ ],
+ "33/Py": [
+  "mayidiyu"
+ ],
+ "34/Py": [
+  "xiashuidao"
+ ],
+ "35/Py": [
+  "zhengfuzhe"
+ ],
+ "36/Py": [
+  "zhengfuzhe"
+ ],
+ "37/Py": [
+  "zhengfuzhe"
+ ],
+ "38/Py": [
+  "zhengfuzhe"
+ ],
+ "39/Py": [
+  "zhengfuzhe"
+ ],
+ "40/Py": [
+  "zhengfuzhe"
+ ],
+ "41/Py": [
+  "zhengfuzhe"
+ ],
+ "42/Py": [
+  "quwanghefang"
+ ],
+ "43/Py": [
+  "tiaozhanzhe"
+ ],
+ "44/Py": [
+  "tiaozhanzhe"
+ ],
+ "45/Py": [
+  "tiaozhanzhe"
+ ],
+ "46/Py": [
+  "tiaozhanzhe"
+ ],
+ "47/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "48/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "49/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "50/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "51/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "52/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "53/Py": [
+  "zhengzhuangshangzhen"
+ ],
+ "54/Py": [
+  "zhaohuanshi"
+ ],
+ "55/Py": [
+  "zhaohuanshi"
+ ],
+ "56/Py": [
+  "zhaohuanshi"
+ ],
+ "57/Py": [
+  "zhaohuanshi"
+ ],
+ "58/Py": [
+  "shanshanfaguang"
+ ],
+ "59/Py": [
+  "zoucuoyouxi"
+ ],
+ "60/Py": [
+  "tongkuihuoshou"
+ ],
+ "61/Py": [
+  "tongkuihuoshou"
+ ],
+ "62/Py": [
+  "tongkuihuoshou"
+ ],
+ "63/Py": [
+  "yijizhiming"
+ ],
+ "64/Py": [
+  "yijizhiming"
+ ],
+ "65/Py": [
+  "yijizhiming"
+ ],
+ "66/Py": [
+  "yijizhiming"
+ ],
+ "67/Py": [
+  "yijizhiming"
+ ],
+ "68/Py": [
+  "beishaojiaole"
+ ],
+ "69/Py": [
+  "jishuwenti"
+ ],
+ "70/Py": [
+  "baiyi"
+ ],
+ "71/Py": [
+  "hepingzhuyizhe"
+ ],
+ "72/Py": [
+  "gaishanglule"
+ ],
+ "73/Py": [
+  "gaishanglule"
+ ],
+ "74/Py": [
+  "qisihuisheng"
+ ],
+ "75/Py": [
+  "jiusifushang"
+ ],
+ "76/Py": [
+  "jiusifushang"
+ ],
+ "77/Py": [
+  "shangdishijiao"
+ ],
+ "78/Py": [
+  "tanzhibishen"
+ ],
+ "79/Py": [
+  "manmenchaozhan"
+ ],
+ "80/Py": [
+  "manmenchaozhan"
+ ],
+ "81/Py": [
+  "zaogao"
+ ],
+ "82/Py": [
+  "zaogao"
+ ],
+ "83/Py": [
+  "zaogao"
+ ],
+ "84/Py": [
+  "lianhuanshashou"
+ ],
+ "85/Py": [
+  "ruibukedang"
+ ],
+ "86/Py": [
+  "ruibukedang"
+ ],
+ "87/Py": [
+  "ruibukedang"
+ ],
+ "88/Py": [
+  "ruibukedang"
+ ],
+ "89/Py": [
+  "ruibukedang"
+ ],
+ "90/Py": [
+  "ruibukedang"
+ ],
+ "91/Py": [
+  "ruibukedang"
+ ],
+ "92/Py": [
+  "sheicaishijiahua"
+ ],
+ "93/Py": [
+  "ganjinshajue"
+ ],
+ "94/Py": [
+  "yaochanwanguan"
+ ],
+ "95/Py": [
+  "huangjinlieren"
+ ],
+ "96/Py": [
+  "chaojilieren"
+ ],
+ "97/Py": [
+  "shejiweiren"
+ ],
+ "98/Py": [
+  "bulaoerhuo"
+ ],
+ "99/Py": [
+  "bulaoerhuo"
+ ],
+ "100/Py": [
+  "xingyunzhizi"
+ ],
+ "101/Py": [
+  "eyunzhizi"
+ ],
+ "102/Py": [
+  "baoruzhipian"
+ ],
+ "103/Py": [
+  "wensibudong"
+ ],
+ "104/Py": [
+  "wensibudong"
+ ],
+ "105/Py": [
+  "xiqihuqi"
+ ],
+ "106/Py": [
+  "chaoyinsu"
+ ],
+ "107/Py": [
+  "chaoyinsu"
+ ],
+ "108/Py": [
+  "shengwuxuejia"
+ ],
+ "109/Py": [
+  "shoucangjia"
+ ],
+ "110/Py": [
+  "huiguishenghuo"
+ ],
+ "111/Py": [
+  "fengchidianche"
+ ],
+ "112/Py": [
+  "fengchidianche"
+ ],
+ "113/Py": [
+  "fengchidianche"
+ ],
+ "114/Py": [
+  "fengchidianche"
+ ],
+ "115/Py": [
+  "shengwuxuejia"
+ ],
+ "116/Py": [
+  "yiwushichu"
+ ],
+ "117/Py": [
+  "yiwushichu"
+ ],
+ "118/Py": [
+  "yiwushichu"
+ ],
+ "119/Py": [
+  "chupeng"
+ ],
+ "120/Py": [
+  "lingboweibu"
+ ],
+ "121/Py": [
+  "lingboweibu"
+ ],
+ "122/Py": [
+  "lingboweibu"
+ ],
+ "123/Py": [
+  "moguidaiyanren"
+ ],
+ "124/Py": [
+  "shenchoudahen"
+ ],
+ "125/Py": [
+  "shenchoudahen"
+ ],
+ "126/Py": [
+  "shenchoudahen"
+ ],
+ "127/Py": [
+  "shenchoudahen"
+ ],
+ "128/Py": [
+  "baochouxuehen"
+ ],
+ "129/Py": [
+  "tongguiyujin"
+ ],
+ "130/Py": [
+  "chengjiao"
+ ],
+ "131/Py": [
+  "chengjiao"
+ ],
+ "132/Py": [
+  "chengjiao"
+ ],
+ "133/Py": [
+  "dutu"
+ ],
+ "134/Py": [
+  "toujiang"
+ ],
+ "135/Py": [
+  "haoke"
+ ],
+ "136/Py": [
+  "quanzhizhe"
+ ],
+ "137/Py": [
+  "cinaitianming"
+ ],
+ "138/Py": [
+  "mofashi"
+ ],
+ "139/Py": [
+  "hongyundangtou"
+ ],
+ "140/Py": [
+  "xueji"
+ ],
+ "141/Py": [
+  "anweijiang"
+ ]
+}

@@ -1,0 +1,1717 @@
+{
+ "Time/Days": [
+  "{#UI/Time/Days/{0:1orN}}",
+  "{0} ng",
+  "{#UI/Time/Days/{1}}"
+ ],
+ "Time/Hours": [
+  "{#UI/Time/Hours/{0:1orN}}",
+  "{0}",
+  "{#UI/Time/Hours/{#UI/Time/Resolve}}",
+  "{0} gi",
+  "{#UI/Time/Hours/{1}}"
+ ],
+ "Time/Minutes": [
+  "{#UI/Time/Minutes/{0:1orN}}",
+  "{0}",
+  "{#UI/Time/Minutes/{#UI/Time/Resolve}}",
+  "{0} ph",
+  "{#UI/Time/Minutes/{1}}"
+ ],
+ "Time/Seconds": [
+  "{#UI/Time/Seconds/{0:1orN}}",
+  "{0}",
+  "{#UI/Time/Seconds/{#UI/Time/Resolve}}",
+  "{0} gi",
+  "{#UI/Time/Seconds/{1}}"
+ ],
+ "Time/Now": [
+  "immediately",
+  "imediatamente",
+  "ngay b",
+  "{#UI/Time/Now/{1}}"
+ ],
+ "TooltipTime/Days": [
+  "{#UI/TooltipTime/Days/{0:1orN}}",
+  "{0:tooltip}",
+  "{#UI/TooltipTime/Days/{#UI/Time/Resolve}}",
+  "{0:tooltip} ng"
+ ],
+ "TooltipTime/Hours": [
+  "{#UI/TooltipTime/Hours/{0:1orN}}",
+  "{0:tooltip}",
+  "{#UI/TooltipTime/Hours/{#UI/Time/Resolve}}",
+  "{0:tooltip} gi"
+ ],
+ "TooltipTime/Minutes": [
+  "{#UI/TooltipTime/Minutes/{0:1orN}}",
+  "{0:tooltip}",
+  "{#UI/TooltipTime/Minutes/{#UI/Time/Resolve}}",
+  "{0:tooltip} ph"
+ ],
+ "TooltipTime/Seconds": [
+  "{#UI/TooltipTime/Seconds/{0:1orN}}",
+  "{0:tooltip}",
+  "{#UI/TooltipTime/Seconds/{#UI/Time/Resolve}}",
+  "{0:tooltip} gi"
+ ],
+ "TooltipTime/Now": [
+  "immediately",
+  "ngay b"
+ ],
+ "Tooltip/Grouping": [
+  "1000",
+  "10000"
+ ],
+ "Tooltip/Group0": [
+  "{0}"
+ ],
+ "Tooltip/Group1": [
+  "{0}k",
+  "{0}",
+  "{0}N"
+ ],
+ "Tooltip/Group2": [
+  "{0}m",
+  "{0}",
+  "{0}Tr"
+ ],
+ "Tooltip/Group3": [
+  "{0}b",
+  "{0}",
+  "{0}T"
+ ],
+ "Tooltip/Group4": [
+  "{0}t",
+  "{0}",
+  "{0}NT"
+ ],
+ "Time/Days/1": [
+  "1 day",
+  "1 dia",
+  "1"
+ ],
+ "Time/Days/N": [
+  "{0} days",
+  "{0} dias",
+  "{0}"
+ ],
+ "Time/Hours/1": [
+  "1 hour",
+  "1 hora",
+  "1"
+ ],
+ "Time/Hours/N": [
+  "{0} hours",
+  "{0} horas",
+  "{0}"
+ ],
+ "Time/Minutes/1": [
+  "1 minute",
+  "1 minuto",
+  "1"
+ ],
+ "Time/Minutes/N": [
+  "{0} minutes",
+  "{0} minutos",
+  "{0}"
+ ],
+ "Time/Seconds/1": [
+  "1 second",
+  "1 segundo",
+  "1"
+ ],
+ "Time/Seconds/N": [
+  "{0} seconds",
+  "{0} segundos",
+  "{0}"
+ ],
+ "TooltipTime/Days/1": [
+  "1 day",
+  "1 dia",
+  "1"
+ ],
+ "TooltipTime/Days/N": [
+  "{0:tooltip} days",
+  "{0:tooltip} dias",
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Hours/1": [
+  "1 hour",
+  "1 hora",
+  "1"
+ ],
+ "TooltipTime/Hours/N": [
+  "{0:tooltip} hours",
+  "{0:tooltip} horas",
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Minutes/1": [
+  "1 minute",
+  "1 minuto",
+  "1"
+ ],
+ "TooltipTime/Minutes/N": [
+  "{0:tooltip} minutes",
+  "{0:tooltip} minutos",
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Seconds/1": [
+  "1 second",
+  "1 segundo",
+  "1"
+ ],
+ "TooltipTime/Seconds/N": [
+  "{0:tooltip} seconds",
+  "{0:tooltip} segundos",
+  "{0:tooltip}"
+ ],
+ "Language/Credits": [
+  "fleepoint<n/>Houjitya",
+  "hanter<n/>Lot<n/>Robloxian",
+  "Max Nest<n/>IOMAN",
+  "Furaken<n/>NullArea<n/>scryllex",
+  "CTTN<n/>errosia<n/>Luai2<n/>Nyar_7<n/>XIANGLANGA<n/>XNOR"
+ ],
+ "Title/Loading": [
+  "Loading...",
+  "Carregando..."
+ ],
+ "Title/Connecting": [
+  "Connecting...",
+  "Conectando..."
+ ],
+ "Title/LoggingIn": [
+  "Logging in...",
+  "Logando..."
+ ],
+ "Title/Ready": [
+  "Ready",
+  "Jogar",
+  "S"
+ ],
+ "Title/GuestName": [
+  "Guest",
+  "Visitante",
+  "Kh"
+ ],
+ "Title/GuestLimitation": [
+  "You can choose a nickname once you link an account or reach level {0}.",
+  "Voc",
+  "B"
+ ],
+ "Title/LockedInHel": [
+  "You are stuck in Hel for {0:time}.",
+  "Voc",
+  "B"
+ ],
+ "Title/Name/Title": [
+  "This pretty little flower is called...",
+  "Essa pequena flor bonita se chama...",
+  "B"
+ ],
+ "Title/Name/Rules1": [
+  "Your name must be alphanumeric or {2}, and contain {0}~{1} chars.",
+  "Seu nome deve ser alfanum",
+  "T"
+ ],
+ "Title/Name/Rules2": [
+  "Must have at least {0} alphanumeric chars.",
+  "Voc",
+  "Ph"
+ ],
+ "Title/Name/Rules3": [
+  "Cannot contain consecutive {0} chars.",
+  "N",
+  "Kh"
+ ],
+ "Title/Name/Rules4": [
+  "This name is permanent and cannot be changed later.",
+  "Esse nome",
+  "T"
+ ],
+ "Title/Name/Button": [
+  "OK"
+ ],
+ "Title/Name/Bad": [
+  "Your nickname was reset, please choose a new one.",
+  "Seu apelido foi redefinido. Por favor escolha um novo.",
+  "T"
+ ],
+ "Title/Name/AlreadyTaken": [
+  "Nickname already taken.",
+  "Apelido j",
+  "T"
+ ],
+ "Title/Name/InternalError": [
+  "Internal error, try again later.",
+  "Erro interno, tente novamente mais tarde.",
+  "L"
+ ],
+ "Title/Biome": [
+  "{#UI/Title/Biome/{0}}"
+ ],
+ "Title/Biome/0": [
+  "Garden",
+  "Jardim",
+  "Khu Vu"
+ ],
+ "Title/Biome/1": [
+  "Desert",
+  "Deserto",
+  "Sa M"
+ ],
+ "Title/Biome/2": [
+  "Ocean",
+  "Oceano"
+ ],
+ "Title/Biome/3": [
+  "Jungle",
+  "Selva",
+  "R"
+ ],
+ "Title/Biome/4": [
+  "Hel"
+ ],
+ "Login/Title": [
+  "Account",
+  "Conta",
+  "T"
+ ],
+ "Login/PlayAsGuest": [
+  "Play as guest",
+  "Jogar como convidado",
+  "Ch"
+ ],
+ "Login/SignInApple": [
+  "Sign in with Apple",
+  "Entrar com a Apple",
+  "Apple"
+ ],
+ "Login/SignInDiscord": [
+  "Sign in with Discord",
+  "Entrar com o Discord",
+  "Discord"
+ ],
+ "Login/Logout": [
+  "Logout",
+  "Sair"
+ ],
+ "Login/AccountID": [
+  "Account ID:",
+  "ID da conta:",
+  "ID",
+  "S"
+ ],
+ "Login/Connecting": [
+  "(connecting)",
+  "(Conectando)",
+  "("
+ ],
+ "Login/GuestName": [
+  "Guest",
+  "Convidado",
+  "Kh"
+ ],
+ "Login/GuestInfo": [
+  "If you already have a guest account in this device,<n/>signing in will link that account and keep your progress.",
+  "Se voc",
+  "N"
+ ],
+ "Login/LinkInfo": [
+  "You can link your account to<n/>keep your progress across devices.",
+  "Voc",
+  "B"
+ ],
+ "Login/Linked": [
+  "Linked",
+  "Sincronizado"
+ ],
+ "Login/SupportPIN": [
+  "Support PIN: {0}",
+  "PIN de Suporte: {0}",
+  "PIN h"
+ ],
+ "Login/SupportPINHidden": [
+  "Support PIN: (click to show)",
+  "PIN de Suporte: (Aperte para mostrar)",
+  "PIN h"
+ ],
+ "Login/SupportPINInstructions1": [
+  "Save this in case you lose access to your account",
+  "Salve isso em caso de perder acesso a sua conta",
+  "L"
+ ],
+ "Login/SupportPINInstructions2": [
+  "Do not share your support PIN with anyone",
+  "N"
+ ],
+ "Login/Reminder": [
+  "Link your account to save your progress",
+  "Sincronize sua conta para manter o progresso",
+  "Li"
+ ],
+ "Login/SupportWebsite": [
+  "If you lose access to your account, please access:",
+  "Se voc",
+  "N"
+ ],
+ "Social/Discord": [
+  "Join our Discord community!",
+  "Entre na nossa comunidade do discord!",
+  "Tham gia c"
+ ],
+ "Social/QQ": [],
+ "AbandonGame": [
+  "Abandon game",
+  "Abandonar o jogo",
+  "Tho"
+ ],
+ "Reconnecting": [
+  "Connection lost, reconnecting...",
+  "Conex",
+  "M"
+ ],
+ "LevelBar/Level": [
+  "Lvl {0}",
+  "N",
+  "C",
+  "{0}"
+ ],
+ "LevelBar/LevelLong": [
+  "Lvl {0} Flower",
+  "Flor N",
+  "B"
+ ],
+ "LevelBar/XP": [
+  "{0}/{1} XP",
+  "{0}/{1}"
+ ],
+ "LevelBar/LevelAndXP": [
+  "Level {0} - {1}/{2} XP",
+  "C",
+  "{0}"
+ ],
+ "LevelBar/NextLevelTP": [
+  "Next level: +{0} TP",
+  "C"
+ ],
+ "Scoreboard/Title": [
+  "{#UI/Scoreboard/Title/{0:1orN}}",
+  "{0} B"
+ ],
+ "Scoreboard/Title/1": [
+  "1 Flower",
+  "1",
+  "1 Flor"
+ ],
+ "Scoreboard/Title/N": [
+  "{0} Flowers",
+  "{0}",
+  "{0} Flores"
+ ],
+ "Scoreboard/HiddenName": [
+  "Player #{0}",
+  "Jogador #{0}",
+  "Ng"
+ ],
+ "Chat/PromptTap": [
+  "Tap here to chat",
+  "Aperte aqui para abrir o chat",
+  "Ch"
+ ],
+ "Chat/PromptClick": [
+  "Click here to chat",
+  "clique aqui para abrir o chat",
+  "Nh"
+ ],
+ "Chat/PromptKeyboardOrClick": [
+  "Press [ENTER] or click here to chat",
+  "[ENTER]",
+  "Aperte [ENTER] ou clique aqui para abrir o chat",
+  "Nh"
+ ],
+ "Chat/Player/Block": [
+  "Block",
+  "Bloquear",
+  "Ch"
+ ],
+ "Chat/Player/ReportMessage": [
+  "Report message",
+  "Reportar Mensagem",
+  "B"
+ ],
+ "Chat/Player/Whisper": [
+  "Whisper",
+  "Sussurir",
+  "Th"
+ ],
+ "Chat/Player/InviteToSquad": [
+  "Invite to Squad",
+  "Convidar pro Time",
+  "M"
+ ],
+ "Chat/Player/InviteToGuild": [
+  "Invite to Guild",
+  "Convidar pro Cl",
+  "M"
+ ],
+ "Flower/Level": [
+  "Lvl {0}",
+  "Nvl {0}",
+  "C",
+  "{0}"
+ ],
+ "Damage/Evade": [
+  "Evade",
+  "Desviado",
+  "V"
+ ],
+ "Damage/Miss": [
+  "Miss",
+  "Errou",
+  "Tr"
+ ],
+ "Dummy/Last": [
+  "Last: {0:tooltip}",
+  "M"
+ ],
+ "Dummy/Total": [
+  "Total: {0:tooltip}",
+  "T"
+ ],
+ "Dummy/DPS": [
+  "DPS: {0:tooltip}"
+ ],
+ "Death/Title": [
+  "You were destroyed by:",
+  "Voc",
+  "B"
+ ],
+ "Death/NoSource": [
+  "A mysterious entity",
+  "Uma entidade misteriosa",
+  "M"
+ ],
+ "Death/Continue": [
+  "Continue",
+  "Continuar",
+  "Ti"
+ ],
+ "Death/Revive": [
+  "Revive",
+  "Reviver",
+  "H"
+ ],
+ "Death/Close": [
+  "Close",
+  "Fechar"
+ ],
+ "Death/CollectedThisRun": [
+  "Collected this run",
+  "Coletado nessa partida",
+  "Thu th"
+ ],
+ "Death/RevivingSoon": [
+  "You'll be revived soon.",
+  "Voc",
+  "B"
+ ],
+ "AFKCheck/Title": [
+  "AFK Check",
+  "AFK",
+  "Verifica",
+  "Ki"
+ ],
+ "AFKCheck/Instructions": [
+  "Drag the circle until the end",
+  "Arraste o c",
+  "K"
+ ],
+ "AFKCheck/Flap/Instructions": [
+  "Flap until the end",
+  "Bata as asas at",
+  "V"
+ ],
+ "Achievements/Title": [
+  "Achievements",
+  "Conquistas",
+  "Th"
+ ],
+ "Achievements/Reward": [
+  "Reward",
+  "Recompensa",
+  "Ph"
+ ],
+ "Achievements/RewardTP": [
+  "{0} TP",
+  "{0}"
+ ],
+ "Achievements/Done": [
+  "Done",
+  "Pronto"
+ ],
+ "Achievements/Track": [
+  "Track",
+  "Seguir",
+  "Theo d"
+ ],
+ "Achievements/TrackAutomatically": [
+  "Track automatically",
+  "Seguir automaticamente",
+  "T"
+ ],
+ "Achievements/Hidden": [
+  "???"
+ ],
+ "Achievements/TotalProgress": [
+  "{0}/{1} completed",
+  "{0}/{1}",
+  "{0}/{1} Completado"
+ ],
+ "Achievements/UnlockedNotification": [
+  "{#UI/Achievements/UnlockedNotification/{0:1orN}}"
+ ],
+ "Achievements/UnlockedNotification/1": [
+  "Achievement unlocked",
+  "Conquista alcan"
+ ],
+ "Achievements/UnlockedNotification/N": [
+  "Achievements unlocked",
+  "Conquistas alcan"
+ ],
+ "MobGallery/Title": [
+  "Mob Gallery",
+  "Galeria",
+  "Tr"
+ ],
+ "Changelog/Title": [
+  "Changelog",
+  "Registro de altera",
+  "L"
+ ],
+ "Changelog/Bottom": [
+  "Older changelog entries not available",
+  "Kh"
+ ],
+ "Inventory/Title": [
+  "Inventory",
+  "Invent",
+  "T"
+ ],
+ "Inventory/Stack": [
+  "Stack",
+  "Empilhar",
+  "X"
+ ],
+ "Inventory/Instructions": [
+  "Drag a petal to equip it",
+  "Arraste uma p",
+  "K"
+ ],
+ "Inventory/Speed": [
+  "Speed",
+  "Vel",
+  "Quay"
+ ],
+ "Inventory/Rarity": [
+  "{#UI/Petal/Rarity}",
+  "{#Rarities/{0:rarity}/Female/NamePlural}",
+  "{#Rarities/{0:rarity}/Name/Plural}"
+ ],
+ "Guild/Title": [
+  "Guild",
+  "Cl",
+  "H"
+ ],
+ "Guild/NoGuild": [
+  "You don't have a guild yet",
+  "Voc",
+  "B"
+ ],
+ "Guild/Invite": [
+  "You've been invited to:",
+  "Voc",
+  "B"
+ ],
+ "Guild/Invite/Button": [
+  "Accept",
+  "Aceitar",
+  "Ch"
+ ],
+ "Guild/Invite/Expiration": [
+  "This invitation will expire soon if not accepted",
+  "Esse convite vai expirar em breve caso n",
+  "L"
+ ],
+ "Guild/ChatSetting": [
+  "Chat",
+  "Tr"
+ ],
+ "Guild/SquadButton": [
+  "Squad"
+ ],
+ "Guild/KickButton": [
+  "Kick",
+  "Expulsar"
+ ],
+ "Guild/Leader": [
+  "(Leader)",
+  "(L",
+  "(",
+  "(Th"
+ ],
+ "Guild/Members": [
+  "{#UI/Guild/Members/{0:1orN}}",
+  "Th"
+ ],
+ "Guild/Members/1": [
+  "Member (1)",
+  "Membros (1)"
+ ],
+ "Guild/Members/N": [
+  "Members ({0})",
+  "Membros ({0})"
+ ],
+ "Guild/LeaveButton": [
+  "Leave",
+  "Sair",
+  "R"
+ ],
+ "Guild/Leave/Title": [
+  "Leave guild",
+  "Sair do cl",
+  "R"
+ ],
+ "Guild/Leave/Instructions": [
+  "Are you sure?",
+  "Tem Certeza?",
+  "B"
+ ],
+ "Guild/Leave/Confirm": [
+  "Leave",
+  "Sair",
+  "R"
+ ],
+ "Guild/Leave/Cancel": [
+  "Cancel",
+  "Cancelar",
+  "H"
+ ],
+ "Squad/Title": [
+  "Squad",
+  "Time"
+ ],
+ "Squad/Invited1": [
+  "Squad Invite",
+  "Convite pro Time",
+  "L"
+ ],
+ "Squad/Invited2": [
+  "Invited by: {0}",
+  "Convidado por: {0}",
+  "B"
+ ],
+ "Squad/Invited/Join": [
+  "Join",
+  "Entrar",
+  "Tham gia"
+ ],
+ "Squad/Invited/Ignore": [
+  "Ignore",
+  "Ignorar",
+  "B"
+ ],
+ "Shop/Title": [
+  "Shop",
+  "Loja",
+  "C"
+ ],
+ "Shop/Button": [
+  "Shop",
+  "Loja",
+  "C"
+ ],
+ "Shop/Instructions": [
+  "Today's offers:",
+  "Oferta de hoje:",
+  "Gian h"
+ ],
+ "Shop/TimeLeft": [
+  "Store will change in {0:time}",
+  "A loja vai mudar em {0:time}",
+  "C"
+ ],
+ "Shop/Lock": [
+  "Lock",
+  "Travar",
+  "Kh"
+ ],
+ "Shop/LockedChanged": [
+  "Store will change once unlocked.",
+  "A loja vai mudar quando ser destravada",
+  "C"
+ ],
+ "Shop/LockedNoChange": [
+  "Store will not change while locked.",
+  "A loja n",
+  "C"
+ ],
+ "Shop/StarsHelp1": [
+  "You gain stars by completing challenges, or you can",
+  "Voc",
+  "B"
+ ],
+ "Shop/StarsHelp2": [
+  "buy some by clicking the number on the right.",
+  "Compre algumas apertando no n",
+  "ho"
+ ],
+ "Shop/MustLink1": [
+  "To make any purchases, you must first",
+  "Pra fazer qualquer compra voc"
+ ],
+ "Shop/MustLink2": [
+  "link your account to Discord or Apple.",
+  "Sincronizar sua conta na Apple ou Discord",
+  "li"
+ ],
+ "Shop/MustLinkCancel": [
+  "Cancel",
+  "Cancelar",
+  "H"
+ ],
+ "Shop/BuyStars/Instructions": [
+  "In case of any issues with your purchase,<n/>please contact our payment processor:<n/>support@xsolla.com or live chat at xsolla.com.",
+  "No caso de problemas com a compra,<n/>por favor contate nosso processador de pagamentos:<n/>support@xsolla.com ou use o live chat em xsolla.com",
+  "Trong tr"
+ ],
+ "Shop/BuyStars/Extra": [
+  "I have too much money",
+  "Eu tenho muito dinheiro",
+  "T"
+ ],
+ "Shop/BuyStars/Cancel": [
+  "Cancel",
+  "Cancelar",
+  "H"
+ ],
+ "Shop/BuyPetal/Title": [
+  "Confirm",
+  "Confirmar",
+  "X"
+ ],
+ "Shop/BuyPetal/Instructions": [
+  "Are you sure you want to buy this?<n/><c val=\"{#Colors/danger}\">Petal purchases are not refundable</c>",
+  "Certeza de quer comprar isso?<n/><c val=\"{#Colors/danger}\">Compras de p",
+  "B"
+ ],
+ "Shop/BuyPetal/Cancel": [
+  "Cancel",
+  "Cancelar",
+  "H"
+ ],
+ "Shop/MagicPetalError/Title": [
+  "Error",
+  "Erro",
+  "L"
+ ],
+ "Shop/MagicPetalError/Instructions": [
+  "You cannot buy magic petals<n/>until you have a {#Petals/{0}/FullName}.",
+  "{#Petals/{0}/FullName}",
+  "Voc",
+  "B"
+ ],
+ "Shop/MagicPetalError/Cancel": [
+  "Cancel",
+  "Cancelar",
+  "H"
+ ],
+ "Shop/Loyalty/Title": [
+  "Thank you!",
+  "Obrigada!",
+  "C"
+ ],
+ "Shop/Loyalty/Instructions": [
+  "As a thank you for your support,<n/>we'd like to give you some stars, for free.<n/><n/>This is the equivalent of what you'd have gotten had you spent<n/>the same amount of money you already did, but with larger packages.",
+  "Como um agradecimento a seu suporte,<n/>nos gostar",
+  "Nh"
+ ],
+ "Shop/Price/USD": [
+  "${0}",
+  "{0}",
+  "US${0}",
+  "{0} $",
+  "{0}USD"
+ ],
+ "Banned/Title": [
+  "BANNED",
+  "BANIDO",
+  "B"
+ ],
+ "Banned/Instructions": [
+  "Your account has been banned.",
+  "Sua conta foi banida.",
+  "T"
+ ],
+ "Banned/TimeLeft": [
+  "This ban will expire in {0:time}.",
+  "Esse ban vai expirar em {0:time}.",
+  "L"
+ ],
+ "Banned/Permanent": [
+  "This ban is permanent.",
+  "Esse ban",
+  "L"
+ ],
+ "Banned/Account": [
+  "Account: {0}",
+  "Conta: {0}",
+  "ID",
+  "T"
+ ],
+ "DailyChallenge/Title": [
+  "Challenge",
+  "Desafio",
+  "Th"
+ ],
+ "DailyChallenge/Button": [
+  "Challenge",
+  "Desafio",
+  "Th"
+ ],
+ "DailyChallenge/Instructions": [
+  "Defeat these enemies:",
+  "Derrote esses inimigos:"
+ ],
+ "DailyChallenge/TimeLeft": [
+  "Challenges will change in {0:time}",
+  "Os desafios v",
+  "Th"
+ ],
+ "DailyChallenge/Claimed": [
+  "Claimed",
+  "Adquirido"
+ ],
+ "DailyChallenge/SupportersOnly": [
+  "Challenge available<n/>for supporters only.",
+  "Desafio para pessoas<n/>que compraram estrelas.",
+  "Th"
+ ],
+ "Bonus/Title": [
+  "Bonus",
+  "Th"
+ ],
+ "Bonus/Button": [
+  "Bonus",
+  "Th"
+ ],
+ "Bonus/Instructions": [
+  "Earn bonus drops",
+  "Ganhe drops extras",
+  "Nh"
+ ],
+ "Bonus/Instructions2": [
+  "For the first hour you play each day, you get extra drops.",
+  "Durante a primeira hora que voc",
+  "Trong m"
+ ],
+ "Bonus/Pill/Label": [
+  "{0}x",
+  "{0}"
+ ],
+ "Bonus/Delay": [
+  "You can activate your bonus again in {0:time}.",
+  "{0:time}",
+  "Voc",
+  "B"
+ ],
+ "Bonus/CurrentlyActive": [
+  "Your bonus is active for {0:time}.",
+  "{0:time}",
+  "Seu b",
+  "Th"
+ ],
+ "Bonus/Available": [
+  "You can activate your bonus now. It will last {0:time}.",
+  "Voc",
+  "B"
+ ],
+ "Bonus/AvailableExpiration": [
+  "If you do not activate your bonus, it will reset in {0:time}.",
+  "Se voc",
+  "N"
+ ],
+ "Bonus/AutoDelay": [
+  "Your bonus will activate again in {0:time}.",
+  "{0:time}",
+  "Seu b",
+  "Th"
+ ],
+ "Bonus/Activate": [
+  "Activate",
+  "Ativar",
+  "K"
+ ],
+ "Bonus/Activate/Setting": [
+  "Activate automatically",
+  "Ativar automaticamente",
+  "T"
+ ],
+ "Petal/Name": [
+  "{#Petals/{0:base}/Name}"
+ ],
+ "Petal/SortName": [
+  "{#Petals/{0:base}/Name}",
+  "{#Petals/{0:base}/SortName}",
+  "{#Petals/{0:base}/Py}"
+ ],
+ "Petal/FullName": [
+  "{#Petals/{0:base}/FullName}"
+ ],
+ "Petal/Description": [
+  "{#Petals/{0:base}/Description}"
+ ],
+ "Petal/Rarity": [
+  "{#Rarities/{0:rarity}/Name}",
+  "{#Rarities/{0:rarity}/{#Petals/{0:base}/Gender}/Name}",
+  "{#Rarities/{0:rarity}/Name/{#Petals/{0:base}/Gender}}"
+ ],
+ "Petal/Reload1": [
+  "{0}s",
+  "{0}",
+  "{0} gi"
+ ],
+ "Petal/Reload2": [
+  "{0}s + {1}s",
+  "{0}",
+  "{0} gi"
+ ],
+ "Mob/Name": [
+  "{#Mobs/{0:base}/Name}"
+ ],
+ "Mob/SortName": [
+  "{#Mobs/{0:base}/Name}",
+  "{#Mobs/{0:base}/SortName}",
+  "{#Mobs/{0:base}/Py}"
+ ],
+ "Mob/Description": [
+  "{#Mobs/{0:base}/Description}"
+ ],
+ "Mob/Rarity": [
+  "{#Rarities/{0:rarity}/Name}",
+  "{#Rarities/{0:rarity}/{#Mobs/{0:base}/Gender}/Name}",
+  "{#Rarities/{0:rarity}/Name/{#Mobs/{0:base}/Gender}}"
+ ],
+ "Mob/Summon": [
+  "Summon",
+  "Invocado"
+ ],
+ "Map/Name": [
+  "{#Maps/{0}/Name}"
+ ],
+ "Map/Changing": [
+  "{#Maps/{0}/Changing#UI/Map/Changing/generic}"
+ ],
+ "Map/Changing/generic": [
+  "Something is happening...",
+  "Alguma coisa est",
+  "C"
+ ],
+ "Map/Instance": [
+  "(instance)",
+  "(",
+  "(inst"
+ ],
+ "Achievements/Name": [
+  "{#Achievements/{0}/Name:1-}"
+ ],
+ "Achievements/SortName": [
+  "{#Achievements/{0}/Name:1-}",
+  "{#Achievements/{0}/Py:1-}"
+ ],
+ "Achievements/Description": [
+  "{#Achievements/{0}/Description:1-}"
+ ],
+ "Achievements/ExtraDescription": [
+  "{#Achievements/{0}/ExtraDescription:1-}"
+ ],
+ "Achievements/Rarity": [
+  "{#UI/Petal/Rarity}",
+  "{#Rarities/{0:rarity}/Female/NamePlural}",
+  "{#Rarities/{0:rarity}/Name/Plural}"
+ ],
+ "Talent/Title": [
+  "Talents",
+  "Talentos",
+  "Thi"
+ ],
+ "Talent/Name": [
+  "{#Talents/{0}/Name:1-}"
+ ],
+ "Talent/Description": [
+  "{#Talents/{0}/Description:1-}"
+ ],
+ "Talent/Rarity": [
+  "{#Rarities/{1}/Name}",
+  "{#Rarities/{1}/Male/Name}",
+  "{#Rarities/{1}/Name/{#Talents/{0}/Gender}}"
+ ],
+ "Talent/TP": [
+  "TP"
+ ],
+ "Talent/Tooltip": [
+  "You can acquire more TP by leveling up",
+  "Voc",
+  "B"
+ ],
+ "Talent/Reset": [
+  "Reset",
+  "Resetar",
+  "T"
+ ],
+ "Talent/HoldToUpgrade": [
+  "HOLD to upgrade",
+  "PRESSIONE para abilitar.",
+  "NH"
+ ],
+ "Talent/HoldToRemove": [
+  "HOLD to remove",
+  "PRESSIONE para remover.",
+  "NH"
+ ],
+ "Craft/Title": [
+  "Craft",
+  "Combinar",
+  "Ch"
+ ],
+ "Craft/Button": [
+  "Craft",
+  "Combinar",
+  "Ch"
+ ],
+ "Craft/Chance": [
+  "{0:perc}% success chance",
+  "{0:perc}% chance de sucesso",
+  "{0:perc}% t"
+ ],
+ "Craft/UnknownChance": [
+  "?% success chance",
+  "?% chance de sucesso",
+  "?% t"
+ ],
+ "Craft/CombineInstructions": [
+  "Combine {0} of the same petal to craft an upgrade",
+  "Combine {0} do mesmo tipo de p",
+  "K"
+ ],
+ "Craft/FailureInstructions": [
+  "Failure will destroy {0}-{1} petals",
+  "Se falhar, {0}-{1} p",
+  "Th"
+ ],
+ "Absorb/Title": [
+  "Absorb",
+  "Absorver",
+  "H"
+ ],
+ "Absorb/Button": [
+  "Absorb",
+  "Absorver",
+  "H"
+ ],
+ "Absorb/Instructions": [
+  "Absorb petals to gain XP<n/>The Crystal will need time to recharge once used.<n/><c val=\"{#Colors/danger}\">WARNING: The petals will be destroyed in the process</c>",
+  "Absorva as p",
+  "H"
+ ],
+ "Absorb/Crystal/Title": [
+  "Crystal Energy",
+  "Energia do Cristal",
+  "N"
+ ],
+ "Absorb/Crystal/1": [
+  "{0:perc}%"
+ ],
+ "Absorb/Crystal/2": [
+  "+{0:perc}%/hr",
+  "+{0:perc}%/h",
+  "+{0:perc}%/",
+  "+{0:perc}%/gi"
+ ],
+ "CoinCraft/Title": [
+  "Trade",
+  "Trocar",
+  "Trao"
+ ],
+ "CoinCraft/Button": [
+  "Trade",
+  "Trocar",
+  "Trao"
+ ],
+ "CoinCraft/Instructions": [
+  "You can trade a petal for a coin of the same rarity",
+  "Voc",
+  "B"
+ ],
+ "CoinCraft/Delay": [
+  "You'll be able to trade again in {0:time}",
+  "{0:time:left}",
+  "Voc",
+  "B"
+ ],
+ "OracleCraft/Title": [
+  "Oracle",
+  "Or",
+  "Ti"
+ ],
+ "OracleCraft/Button": [
+  "Craft",
+  "Combinar",
+  "Ch"
+ ],
+ "OracleCraft/Instructions": [
+  "The Oracle will guarantee a craft... for the right price.",
+  "O Or",
+  "Nh"
+ ],
+ "OracleCraft/Delay": [
+  "You'll be able to craft again in {0:time}",
+  "{0:time:left}",
+  "Voc",
+  "B"
+ ],
+ "Plinko/Title": [
+  "Plinko"
+ ],
+ "Plinko/Auto": [
+  "Auto",
+  "T"
+ ],
+ "UniqueCraft/Title": [
+  "Forge",
+  "Forjar",
+  "Luy"
+ ],
+ "UniqueCraft/Button": [
+  "Forge",
+  "Forjar",
+  "R"
+ ],
+ "UniqueCraft/Instructions": [
+  "Unique petals will last until another player forges the same petal.<n/>When that happens, you will receive your Super petals back,<n/>but one will be permanently destroyed.",
+  "P",
+  "Nh"
+ ],
+ "UniqueCraft/NoSupers": [
+  "You do not have any Super petals to attempt this.",
+  "Voc",
+  "B"
+ ],
+ "UniqueCraft/Cooldown": [
+  "Cannot be forged again for {0:time}.",
+  "{0:time}",
+  "N",
+  "Kh",
+  "{0:time:left}"
+ ],
+ "UniqueCraft/OwnerNamed": [
+  "\"Ah I remember forging that petal for a flower named {0}...\"",
+  "\"Ah, eu me lembro de ter forjado essa p",
+  "\""
+ ],
+ "UniqueCraft/OwnerUnnamed": [
+  "\"Ah I remember forging that petal... I can't recall their name...\"",
+  "\"Ah, eu me lembro de ter forjado essa p",
+  "\""
+ ],
+ "AssemblerCraft/Title": [
+  "Assemble",
+  "Montar",
+  "L"
+ ],
+ "AssemblerCraft/Button": [
+  "Assemble",
+  "Montar",
+  "L"
+ ],
+ "AssemblerCraft/Instructions": [
+  "Combine specific petals to assemble a new petal.",
+  "Combine p",
+  "Gom c"
+ ],
+ "Death/Poison": [
+  "Poison",
+  "Veneno",
+  "Ng"
+ ],
+ "Luck/Help": [
+  "Luck is used by specific petals to change their stats.<n/>Luck also increases the rarity of mobs that spawn around you.",
+  "Sorte",
+  "V"
+ ],
+ "Settings/Title": [
+  "Settings",
+  "Configura",
+  "C"
+ ],
+ "Settings/Game": [
+  "Game",
+  "Jogo",
+  "Tr"
+ ],
+ "Settings/Graphics": [
+  "Graphics",
+  "Gr"
+ ],
+ "Settings/Controls": [
+  "Controls",
+  "Controles"
+ ],
+ "Settings/Credits": [
+  "Credits",
+  "Cr"
+ ],
+ "Settings/Language": [
+  "Language",
+  "Linguagem",
+  "Ng"
+ ],
+ "Settings/Language/Warning": [
+  "NOTE: will only take effect after game is restarted",
+  "NOTA: Apenas ter",
+  "L"
+ ],
+ "Settings/Language/Automatic": [
+  "Automatic",
+  "Autom",
+  "T"
+ ],
+ "Settings/Realm": [
+  "Realm",
+  "Reino",
+  "V"
+ ],
+ "Settings/Realms": [
+  "{#UI/Settings/Realms/{0}}"
+ ],
+ "Settings/Realms/0": [
+  "Automatic",
+  "Autom",
+  "T"
+ ],
+ "Settings/Realms/1": [
+  "Juliett (US)",
+  "Juliett (",
+  "Juliett (B",
+  "Juliett"
+ ],
+ "Settings/Realms/2": [
+  "Romeo (EU)",
+  "Romeo (",
+  "Romeo (CH",
+  "Romeo"
+ ],
+ "Settings/Realms/3": [
+  "Sierra (ASIA)",
+  "Sierra (",
+  "Sierra (CH",
+  "Sierra"
+ ],
+ "Settings/Chat": [
+  "Chat",
+  "Tr"
+ ],
+ "Settings/ChatWhispers": [
+  "Chat Whispers",
+  "Sussurros",
+  "Tr"
+ ],
+ "Settings/AutoJoinSquads": [
+  "Auto-join squads",
+  "Entrar em times automaticamente",
+  "T"
+ ],
+ "Settings/ReceiveSquadInvites": [
+  "Receive squad invites",
+  "Receber convites pra times",
+  "Nh"
+ ],
+ "Settings/HideOtherPetals": [
+  "Hide other petals",
+  "Esconder p"
+ ],
+ "Settings/EquipDrops": [
+  "Equip drops",
+  "Equipar drops",
+  "T"
+ ],
+ "Settings/Quality": [
+  "Quality",
+  "Qualidade"
+ ],
+ "Settings/Quality/Low": [
+  "Low",
+  "Baixo",
+  "Th"
+ ],
+ "Settings/Quality/Medium": [
+  "Medium",
+  "M",
+  "Trung"
+ ],
+ "Settings/Quality/High": [
+  "High",
+  "Alto",
+  "Cao"
+ ],
+ "Settings/ShowDamageNumbers": [
+  "Show damage numbers",
+  "Mostrar os n",
+  "Hi"
+ ],
+ "Settings/ScreenShake": [
+  "Screen shake",
+  "Efeito de tela tremendo",
+  "Rung m"
+ ],
+ "Settings/LiveIcons": [
+  "Live icons",
+  "Bi"
+ ],
+ "Settings/TouchControls": [
+  "Touch controls",
+  "Controlar usando touch"
+ ],
+ "Settings/KeyboardMovement": [
+  "Keyboard movement",
+  "Movimento usando teclado"
+ ],
+ "Settings/MovementHelper": [
+  "Movement helper",
+  "Indicador de movimento",
+  "Tr"
+ ],
+ "Settings/AutoSearchPetals": [
+  "Search petals when opening inventory",
+  "Procurar p",
+  "T"
+ ],
+ "Settings/FixedJoystick": [
+  "Fixed joystick",
+  "Joystick fixo",
+  "C"
+ ],
+ "Settings/InvertAttack": [
+  "Invert attack button",
+  "Inverter bot"
+ ],
+ "Settings/InvertDefend": [
+  "Invert defend button",
+  "Inverter bot"
+ ],
+ "Settings/AutoSaveLoadout": [
+  "Auto-save loadout",
+  "Salvar loadouts automaticamente",
+  "T"
+ ],
+ "Settings/AutoSaveLoadout/Help": [
+  "If disabled, press [O] to save current loadout",
+  "Se desabilitado, aperte [O] pra salvar loadout atual",
+  "N"
+ ],
+ "Settings/Fullscreen": [
+  "Fullscreen",
+  "Tela cheia",
+  "To"
+ ],
+ "Settings/PrivacyPolicy": [
+  "Privacy Policy",
+  "Pol",
+  "Ch"
+ ],
+ "Settings/TermsOfService": [
+  "Terms of Service",
+  "Termos de servi"
+ ],
+ "Credits/MadeBy": [
+  "Made by {0}",
+  "Feito por {0}"
+ ],
+ "Credits/SomeIcons": [
+  "Some icons from {0}",
+  "{0}",
+  "Alguns",
+  "M"
+ ],
+ "Credits/SomeTiles": [
+  "Some tiles from {0}",
+  "{0}",
+  "Alguns tiles de {0}",
+  "M"
+ ],
+ "Credits/SpecialThanks": [
+  "Special Thanks",
+  "Agradecimentos especiais",
+  "Ch"
+ ],
+ "Credits/Translators": [
+  "Translators",
+  "Tradutores",
+  "Ng"
+ ],
+ "HelperText/Guild": [
+  "Guild",
+  "Cl",
+  "H"
+ ],
+ "HelperText/Squad": [
+  "Squad",
+  "Time"
+ ],
+ "HelperText/You": [
+  "You",
+  "Voc",
+  "B"
+ ],
+ "ChromeBug": [
+  "The Chrome version you're using has a massive performance issue.<n/>Until it is fixed, for the optimal experience, please use<n/>Google Chrome Canary, which contains the fix to this issue.",
+  "A vers",
+  "Phi"
+ ],
+ "Chat/CommandHelp": [
+  "/{0} {#Chat/Command/{0}/Args} - {#Chat/Command/{0}/Description}",
+  "/{0} {#Chat/Command/{0}/Args}"
+ ],
+ "Language/Name": [
+  "Portugu",
+  "Ti"
+ ],
+ "CoinCraft/Instruction": [],
+ "OracleCraft/Instruction": [],
+ "Time/Days/Singular/Nominative": [
+  "{0}"
+ ],
+ "Time/Days/Singular/Genitive": [
+  "{0}"
+ ],
+ "Time/Days/Singular/Accusative": [
+  "{0}"
+ ],
+ "Time/Days/Plural/Genitive": [
+  "{0}"
+ ],
+ "Time/Hours/Singular/Nominative": [
+  "{0}"
+ ],
+ "Time/Hours/Singular/Genitive": [
+  "{0}"
+ ],
+ "Time/Hours/Singular/Accusative": [
+  "{0}"
+ ],
+ "Time/Hours/Plural/Genitive": [
+  "{0}"
+ ],
+ "Time/Minutes/Singular/Nominative": [
+  "{0}"
+ ],
+ "Time/Minutes/Singular/Genitive": [
+  "{0}"
+ ],
+ "Time/Minutes/Singular/Accusative": [
+  "{0}"
+ ],
+ "Time/Minutes/Plural/Genitive": [
+  "{0}"
+ ],
+ "Time/Seconds/Singular/Nominative": [
+  "{0}"
+ ],
+ "Time/Seconds/Singular/Genitive": [
+  "{0}"
+ ],
+ "Time/Seconds/Singular/Accusative": [
+  "{0}"
+ ],
+ "Time/Seconds/Plural/Genitive": [
+  "{0}"
+ ],
+ "TooltipTime/Days/Singular/Nominative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Days/Singular/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Days/Singular/Accusative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Days/Plural/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Hours/Singular/Nominative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Hours/Singular/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Hours/Singular/Accusative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Hours/Plural/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Minutes/Singular/Nominative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Minutes/Singular/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Minutes/Singular/Accusative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Minutes/Plural/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Seconds/Singular/Nominative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Seconds/Singular/Genitive": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Seconds/Singular/Accusative": [
+  "{0:tooltip}"
+ ],
+ "TooltipTime/Seconds/Plural/Genitive": [
+  "{0:tooltip}"
+ ],
+ "Time/Resolve": [
+  "{#UI/Time/Resolve/{#UI/Time/Digits}/{#UI/Time/Context}}"
+ ],
+ "Time/Digits": [
+  "{#UI/Time/Digits/SecondToLastDigit}"
+ ],
+ "Time/Context": [
+  "{#UI/Time/Context/{1}}"
+ ],
+ "Time/Digits/SecondToLastDigit": [
+  "{#UI/Time/Digits/SecondToLastDigit/{0:secondToLastDigit}}"
+ ],
+ "Time/Digits/LastDigit": [
+  "{#UI/Time/Digits/LastDigit/{0:lastDigit}}"
+ ],
+ "Time/Digits/SecondToLastDigit/0": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/1": [
+  "Plural/Genitive"
+ ],
+ "Time/Digits/SecondToLastDigit/2": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/3": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/4": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/5": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/6": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/7": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/8": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/SecondToLastDigit/9": [
+  "{#UI/Time/Digits/LastDigit}"
+ ],
+ "Time/Digits/LastDigit/0": [
+  "Plural/Genitive"
+ ],
+ "Time/Digits/LastDigit/1": [
+  "Singular/Nominative"
+ ],
+ "Time/Digits/LastDigit/2": [
+  "Singular/Genitive"
+ ],
+ "Time/Digits/LastDigit/3": [
+  "Singular/Genitive"
+ ],
+ "Time/Digits/LastDigit/4": [
+  "Singular/Genitive"
+ ],
+ "Time/Digits/LastDigit/5": [
+  "Plural/Genitive"
+ ],
+ "Time/Digits/LastDigit/6": [
+  "Plural/Genitive"
+ ],
+ "Time/Digits/LastDigit/7": [
+  "Plural/Genitive"
+ ],
+ "Time/Digits/LastDigit/8": [
+  "Plural/Genitive"
+ ],
+ "Time/Digits/LastDigit/9": [
+  "Plural/Genitive"
+ ],
+ "Time/Context/nominative": [
+  "Singular/Nominative"
+ ],
+ "Time/Context/genitive": [
+  "Singular/Genitive"
+ ],
+ "Time/Context/accusative": [
+  "Singular/Accusative"
+ ],
+ "Time/Resolve/Plural/Genitive/Singular/Nominative": [
+  "Plural/Genitive"
+ ],
+ "Time/Resolve/Plural/Genitive/Singular/Genitive": [
+  "Plural/Genitive"
+ ],
+ "Time/Resolve/Plural/Genitive/Singular/Accusative": [
+  "Plural/Genitive"
+ ],
+ "Time/Resolve/Singular/Genitive/Singular/Nominative": [
+  "Singular/Genitive"
+ ],
+ "Time/Resolve/Singular/Genitive/Singular/Genitive": [
+  "Plural/Genitive"
+ ],
+ "Time/Resolve/Singular/Genitive/Singular/Accusative": [
+  "Singular/Genitive"
+ ],
+ "Time/Resolve/Singular/Nominative/Singular/Nominative": [
+  "Singular/Nominative"
+ ],
+ "Time/Resolve/Singular/Nominative/Singular/Genitive": [
+  "Singular/Genitive"
+ ],
+ "Time/Resolve/Singular/Nominative/Singular/Accusative": [
+  "Singular/Accusative"
+ ],
+ "Time/Days/": [
+  "{#UI/Time/Days/{0:1orN}}"
+ ],
+ "Time/Hours/": [
+  "{#UI/Time/Hours/{0:1orN}}"
+ ],
+ "Time/Minutes/": [
+  "{#UI/Time/Minutes/{0:1orN}}"
+ ],
+ "Time/Seconds/": [
+  "{#UI/Time/Seconds/{0:1orN}}"
+ ],
+ "Time/Now/": [],
+ "Time/Days/left": [],
+ "Time/Hours/left": [],
+ "Time/Minutes/left": [],
+ "Time/Seconds/left": [],
+ "Time/Now/left": []
+}

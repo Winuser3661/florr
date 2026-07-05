@@ -1,0 +1,3340 @@
+{
+ "AnnouncementPrefix": [
+  "{#Rarities/{0:rarity}/ArticleUpper} {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}",
+  "{#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}",
+  "{#One/{#Petals/{0:base}/Gender}} {#Petals/{0:base}/Name} {#Rarities/{0:rarity}/{#Petals/{0:base}/Gender}/Name}",
+  "{#Rarities/{0:rarity}/Name/{#Petals/{0:base}/Gender}} {#Petals/{0:base}/FullName}",
+  "M",
+  "{#Rarities/{0:rarity}/ArticleUpper}{#Rarities/{0:rarity}/Name}"
+ ],
+ "basic/Name": [
+  "Basic",
+  "B",
+  "C"
+ ],
+ "basic/FullName": [
+  "Basic",
+  "B",
+  "C"
+ ],
+ "basic/Description": [
+  "A nice petal, not too strong but not too weak.",
+  "Uma bela p",
+  "M"
+ ],
+ "light/Name": [
+  "Light",
+  "Leve",
+  "Nh"
+ ],
+ "light/FullName": [
+  "Light",
+  "Leve",
+  "Nh"
+ ],
+ "light/Description": [
+  "Weaker than most petals, but recharges very quickly.",
+  "Mais fraca que a maioria das p",
+  "Y"
+ ],
+ "rock/Name": [
+  "Rock",
+  "Pedra"
+ ],
+ "rock/FullName": [
+  "Rock",
+  "Pedra"
+ ],
+ "rock/Description": [
+  "Extremely durable, but takes a bit longer to recharge.",
+  "Extremamente dur",
+  "C"
+ ],
+ "square/Name": [
+  "Square",
+  "Quadrado",
+  "Vu"
+ ],
+ "square/FullName": [
+  "Square",
+  "Quadrado",
+  "H"
+ ],
+ "square/Description": [
+  "This shape... it looks familiar...",
+  "Essa forma... parece familiar...",
+  "H"
+ ],
+ "rose/Name": [
+  "Rose",
+  "Rosa",
+  "H"
+ ],
+ "rose/FullName": [
+  "Rose",
+  "Rosa",
+  "Hoa H"
+ ],
+ "rose/Description": [
+  "Its healing properties are amazing. Not so good at combat though.",
+  "Suas propriedades curativas s",
+  "N"
+ ],
+ "stinger/Name": [
+  "Stinger",
+  "Ferr",
+  "Ng"
+ ],
+ "stinger/FullName": [
+  "Stinger",
+  "Ferr",
+  "Ng"
+ ],
+ "stinger/Description": [
+  "It really hurts, but it's very fragile.",
+  "D",
+  "N"
+ ],
+ "iris/Name": [
+  "Iris",
+  "Di"
+ ],
+ "iris/FullName": [
+  "Iris",
+  "Di"
+ ],
+ "iris/Description": [
+  "Very poisonous, but takes a little while to do its work.<n/>-50% damage vs other flowers.",
+  "Muito venenoso, mas leva um tempo para fazer o seu trabalho.<n/>-50% dano contra outras flores.",
+  "R"
+ ],
+ "wing/Name": [
+  "Wing",
+  "Asa",
+  "C"
+ ],
+ "wing/FullName": [
+  "Wing",
+  "Asa",
+  "C"
+ ],
+ "wing/Description": [
+  "It comes and goes.",
+  "Vai e volta."
+ ],
+ "missile/Name": [
+  "Missile",
+  "M"
+ ],
+ "missile/FullName": [
+  "Missile",
+  "M"
+ ],
+ "missile/Description": [
+  "You can actually shoot this one.",
+  "Voc",
+  "Th"
+ ],
+ "grapes/Name": [
+  "Grapes",
+  "Uvas",
+  "Nho"
+ ],
+ "grapes/FullName": [
+  "Grapes",
+  "Uvas",
+  "Nho"
+ ],
+ "grapes/Description": [
+  "It goes poof. Now with a secret ingredient: poison.",
+  "Elas estouram, s",
+  "B"
+ ],
+ "cactus/Name": [
+  "Cactus",
+  "Cacto",
+  "X"
+ ],
+ "cactus/FullName": [
+  "Cactus",
+  "Cacto",
+  "X"
+ ],
+ "cactus/Description": [
+  "Not very strong, but somehow increases your maximum health.",
+  "N",
+  "Kh"
+ ],
+ "faster/Name": [
+  "Faster",
+  "Acelerador",
+  "Nhanh"
+ ],
+ "faster/FullName": [
+  "Faster",
+  "Acelerador",
+  "Nhanh Nh"
+ ],
+ "faster/Description": [
+  "It's so light it makes your other petals spin faster.",
+  "N"
+ ],
+ "bubble/Name": [
+  "Bubble",
+  "Bolha",
+  "Bong B"
+ ],
+ "bubble/FullName": [
+  "Bubble",
+  "Bolha",
+  "Bong B"
+ ],
+ "bubble/Description": [
+  "Physics are for the weak.",
+  "Uma p",
+  "V"
+ ],
+ "pollen/Name": [
+  "Pollen",
+  "P",
+  "Ph"
+ ],
+ "pollen/FullName": [
+  "Pollen",
+  "P",
+  "Ph"
+ ],
+ "pollen/Description": [
+  "Asthmatics beware.",
+  "Asm",
+  "C"
+ ],
+ "dandelion/Name": [
+  "Dandelion",
+  "Dente-de-Le",
+  "B"
+ ],
+ "dandelion/FullName": [
+  "Dandelion",
+  "Dente-de-Le",
+  "B"
+ ],
+ "dandelion/Description": [
+  "Its interesting properties inhibits healing effects on affected units.<n/>Affected units have their healing reduced by 20%. Stacks with itself.",
+  "Suas propriedades interessantes inibem o efeito de cura em unidades afetadas.<n/>Unidades afetadas tem suas curas reduzidas em 20%. O efeito acumula-se.",
+  "Nh"
+ ],
+ "beetle_egg/Name": [
+  "Egg",
+  "Ovo",
+  "Tr"
+ ],
+ "beetle_egg/FullName": [
+  "Beetle Egg",
+  "Ovo de Besouro",
+  "Tr"
+ ],
+ "beetle_egg/Description": [
+  "Something interesting might pop out of this.",
+  "Algo interessante deve sair de dentro disso.",
+  "C"
+ ],
+ "antennae/Name": [
+  "Antennae",
+  "Antena",
+  "R"
+ ],
+ "antennae/FullName": [
+  "Antennae",
+  "Antena",
+  "R"
+ ],
+ "antennae/Description": [
+  "Allows your flower to sense foes farther away.",
+  "Permite que sua flor veja inimigos mais distantes.",
+  "Gi"
+ ],
+ "heavy/Name": [
+  "Heavy",
+  "Pesado",
+  "N"
+ ],
+ "heavy/FullName": [
+  "Heavy",
+  "Pesado",
+  "N"
+ ],
+ "heavy/Description": [
+  "This thing is so heavy that nothing gets in the way.<n/>Slows down petal rotation speed when equipped.",
+  "Isso",
+  "Th"
+ ],
+ "yin_yang/Name": [
+  "Yin Yang"
+ ],
+ "yin_yang/FullName": [
+  "Yin Yang"
+ ],
+ "yin_yang/Description": [
+  "This mysterious petal affects the rotation of your petals in unpredictable ways.",
+  "Essa p",
+  "C"
+ ],
+ "web/Name": [
+  "Web",
+  "Teia",
+  "M"
+ ],
+ "web/FullName": [
+  "Web",
+  "Teia",
+  "M"
+ ],
+ "web/Description": [
+  "It's really sticky.",
+  "N"
+ ],
+ "honey/Name": [
+  "Honey",
+  "Mel",
+  "M"
+ ],
+ "honey/FullName": [
+  "Honey",
+  "Mel",
+  "M"
+ ],
+ "honey/Description": [
+  "Mobs love this. Attracts them in a large radius.<n/>Mobs will prioritize this over flowers.<n/>Affected units develop immunity to its effects after some time.",
+  "Os bichos amam isso. Atraem os em uma grande",
+  "C"
+ ],
+ "leaf/Name": [
+  "Leaf",
+  "Folha",
+  "L"
+ ],
+ "leaf/FullName": [
+  "Leaf",
+  "Folha",
+  "L"
+ ],
+ "leaf/Description": [
+  "Gathers energy from the sun to heal your flower passively.",
+  "Coleta energia do sol para curar sua flor passivamente.",
+  "H"
+ ],
+ "salt/Name": [
+  "Salt",
+  "Sal",
+  "Mu"
+ ],
+ "salt/FullName": [
+  "Salt",
+  "Sal",
+  "Mu"
+ ],
+ "salt/Description": [
+  "Reflects some of the damage you take back to the enemy that dealt it.<n/>Higher rarity mobs have higher resistance to damage reflection.",
+  "Reflete uma parte do dano causado em voc",
+  "Ph"
+ ],
+ "rice/Name": [
+  "Rice",
+  "Arroz",
+  "C"
+ ],
+ "rice/FullName": [
+  "Rice",
+  "Arroz",
+  "C"
+ ],
+ "rice/Description": [
+  "Spawns very quickly, but not very strong.",
+  "Recarrega rapidamente, mas n",
+  "T"
+ ],
+ "corn/Name": [
+  "Corn",
+  "Milho",
+  "Ng"
+ ],
+ "corn/FullName": [
+  "Corn",
+  "Milho",
+  "B"
+ ],
+ "corn/Description": [
+  "Takes a long time to spawn, but has a lot of health.",
+  "Leva bastante tempo para carregar, mas possui muita vida.",
+  "T"
+ ],
+ "sand/Name": [
+  "Sand",
+  "Areia",
+  "C"
+ ],
+ "sand/FullName": [
+  "Sand",
+  "Areia",
+  "C"
+ ],
+ "sand/Description": [
+  "A bunch of sand particles.",
+  "V",
+  "M"
+ ],
+ "pincer/Name": [
+  "Pincer",
+  "Pin",
+  "K"
+ ],
+ "pincer/FullName": [
+  "Pincer",
+  "Pin",
+  "K"
+ ],
+ "pincer/Description": [
+  "Debilitates enemies temporarily, reducing their movement speed.",
+  "Debilita o inimigo temporariamente, reduzindo sua movimenta",
+  "L"
+ ],
+ "yucca/Name": [
+  "Yucca",
+  "L",
+  "Ng"
+ ],
+ "yucca/FullName": [
+  "Yucca",
+  "L"
+ ],
+ "yucca/Description": [
+  "Heals your flower but only while in the defensive position.",
+  "Cura sua flor, mas apenas na posi",
+  "Tr"
+ ],
+ "magnet/Name": [
+  "Magnet",
+  "Nam Ch"
+ ],
+ "magnet/FullName": [
+  "Magnet",
+  "Nam Ch"
+ ],
+ "magnet/Description": [
+  "Increases drop pick up range.",
+  "Aumenta o alcance de coleta.",
+  "T"
+ ],
+ "yggdrasil/Name": [
+  "Yggdrasil"
+ ],
+ "yggdrasil/FullName": [
+  "Yggdrasil",
+  "L"
+ ],
+ "yggdrasil/Description": [
+  "A dried leaf from the Yggdrasil tree.<n/>Rumored to be able to bring the fallen back to life.",
+  "Uma folha seca da",
+  "M"
+ ],
+ "starfish/Name": [
+  "Starfish",
+  "Estrela",
+  "Sao Bi"
+ ],
+ "starfish/FullName": [
+  "Starfish",
+  "Estrela-do-mar",
+  "Sao Bi"
+ ],
+ "starfish/Description": [
+  "Increases health regen while below 75% health.",
+  "Cura a sua flor enquanto estiver com a vida abaixo de 75%",
+  "T"
+ ],
+ "pearl/Name": [
+  "Pearl",
+  "P",
+  "Ng"
+ ],
+ "pearl/FullName": [
+  "Pearl",
+  "P",
+  "Ng"
+ ],
+ "pearl/Description": [
+  "Just drop it off somewhere and use your kinetic powers so you don't lose it.",
+  "Apenas jogue em algum lugar e use seus poderes cin",
+  "Th"
+ ],
+ "lightning/Name": [
+  "Lightning",
+  "Rel",
+  "S"
+ ],
+ "lightning/FullName": [
+  "Lightning",
+  "Rel",
+  "Tia S"
+ ],
+ "lightning/Description": [
+  "Strikes several nearby enemies.",
+  "Atinge v"
+ ],
+ "jelly/Name": [
+  "Jelly",
+  "Geleia",
+  "Th"
+ ],
+ "jelly/FullName": [
+  "Jelly",
+  "Geleia",
+  "Th"
+ ],
+ "jelly/Description": [
+  "No one likes touching this.",
+  "Ningu",
+  "Kh"
+ ],
+ "claw/Name": [
+  "Claw",
+  "Garra",
+  "C"
+ ],
+ "claw/FullName": [
+  "Claw",
+  "Garra",
+  "C"
+ ],
+ "claw/Description": [
+  "Deals extra damage if the victim is above 80% health.<n/>-50% damage vs other flowers.",
+  "Causa dano extra se a v",
+  "T"
+ ],
+ "shell/Name": [
+  "Shell",
+  "Concha",
+  "S"
+ ],
+ "shell/FullName": [
+  "Shell",
+  "Concha",
+  "V"
+ ],
+ "shell/Description": [
+  "Adds a temporary shield to yourself or allies.",
+  "Adiciona um escudo tempor",
+  "Th"
+ ],
+ "cutter/Name": [
+  "Cutter",
+  "Cortador",
+  "L"
+ ],
+ "cutter/FullName": [
+  "Cutter",
+  "Cortador",
+  "L"
+ ],
+ "cutter/Description": [
+  "A friend used to own this... now it's time for revenge.<n/>Increases body damage.",
+  "Um amigo usava isso... agora",
+  "M"
+ ],
+ "dahlia/Name": [
+  "Dahlia",
+  "D",
+  "C"
+ ],
+ "dahlia/FullName": [
+  "Dahlia",
+  "D",
+  "C"
+ ],
+ "dahlia/Description": [
+  "A small amount of heal but fairly consistent.",
+  "Uma pequena quantidade de cura, mas bastante consistente.",
+  "M"
+ ],
+ "uranium/Name": [
+  "Uranium",
+  "Ur"
+ ],
+ "uranium/FullName": [
+  "Uranium",
+  "Ur"
+ ],
+ "uranium/Description": [
+  "Periodically releases radiation.<n/>-75% damage versus other flowers.<n/>Effect strength depends on distance to petal.",
+  "Libera radia",
+  "Ph"
+ ],
+ "sponge/Name": [
+  "Sponge",
+  "Esponja",
+  "B"
+ ],
+ "sponge/FullName": [
+  "Sponge",
+  "Esponja",
+  "B"
+ ],
+ "sponge/Description": [
+  "Spreads damage taken by the flower over a period of time.<n/>If destroyed, deals remaining damage all at once.<n/>Does not delay {#Attribute/PoisonNoColon} damage.",
+  "Distribui o dano recebido pela flor ao longo do tempo.<n/>Se retirada, causa o dano total de uma vez.<n/>N",
+  "Lan ch"
+ ],
+ "soil/Name": [
+  "Soil",
+  "Solo"
+ ],
+ "soil/FullName": [
+  "Soil",
+  "Solo"
+ ],
+ "soil/Description": [
+  "Increases health, but also increases flower size and decreases movement speed.",
+  "Aumenta a vida, mas tamb",
+  "T"
+ ],
+ "fang/Name": [
+  "Fang",
+  "Presa",
+  "Nanh"
+ ],
+ "fang/FullName": [
+  "Fang",
+  "Presa",
+  "Nanh"
+ ],
+ "fang/Description": [
+  "Heals based on damage dealt by this petal.",
+  "Cura vida, a cura",
+  "Tr"
+ ],
+ "third_eye/Name": [
+  "Third Eye",
+  "Olho",
+  "M"
+ ],
+ "third_eye/FullName": [
+  "Third Eye",
+  "Terceiro Olho",
+  "M"
+ ],
+ "third_eye/Description": [
+  "Allows your flower to expand your petals further out.",
+  "Permite que sua flor expanda o alcance de suas p",
+  "Cho ph"
+ ],
+ "peas/Name": [
+  "Peas",
+  "Ervilha"
+ ],
+ "peas/FullName": [
+  "Peas",
+  "Ervilha"
+ ],
+ "peas/Description": [
+  "It goes poof.",
+  "Elas estouram.",
+  "B"
+ ],
+ "stick/Name": [
+  "Stick",
+  "Galho",
+  "G"
+ ],
+ "stick/FullName": [
+  "Mysterious Stick",
+  "Galho Misterioso",
+  "G"
+ ],
+ "stick/Description": [
+  "A mysterious stick that summons the forces of the wind.",
+  "Um galho misterioso que invoca as for",
+  "M"
+ ],
+ "clover/Name": [
+  "Clover",
+  "Trevo",
+  "C"
+ ],
+ "clover/FullName": [
+  "Clover",
+  "Trevo",
+  "C"
+ ],
+ "clover/Description": [
+  "Increases your luck.<n/>{#UI/Luck/Help}",
+  "Aumenta sua sorte.<n/>{#UI/Luck/Help}",
+  "T"
+ ],
+ "powder/Name": [
+  "Powder",
+  "P",
+  "B"
+ ],
+ "powder/FullName": [
+  "Mysterious Powder",
+  "P",
+  "B"
+ ],
+ "powder/Description": [
+  "Increases movement speed.<n/>Disabled if flower takes damage or if near a mob higher than a certain rarity.",
+  "Aumenta a velocidade de movimento. Desativa ap",
+  "T"
+ ],
+ "air/Name": [
+  "Air",
+  "Ar",
+  "Kh"
+ ],
+ "air/FullName": [
+  "Air",
+  "Ar",
+  "Kh"
+ ],
+ "air/Description": [
+  "It's literally nothing.",
+  "Literalmente nada.",
+  "Th"
+ ],
+ "basil/Name": [
+  "Basil",
+  "Manjeric",
+  "H"
+ ],
+ "basil/FullName": [
+  "Basil",
+  "Manjeric",
+  "H"
+ ],
+ "basil/Description": [
+  "Increases all healing received.",
+  "Aumenta toda a cura recebida.",
+  "T"
+ ],
+ "orange/Name": [
+  "Orange",
+  "Laranja",
+  "Cam"
+ ],
+ "orange/FullName": [
+  "Orange",
+  "Laranja",
+  "Cam"
+ ],
+ "orange/Description": [
+  "A sweet citrus fruit.",
+  "Uma fruta doce e c",
+  "Tr"
+ ],
+ "ant_egg/Name": [
+  "Egg",
+  "Ovo",
+  "Tr"
+ ],
+ "ant_egg/FullName": [
+  "Ant Egg",
+  "Ovo de Formiga",
+  "Tr"
+ ],
+ "ant_egg/Description": [
+  "Something interesting might pop out of this.",
+  "Algo interessante deve sair de dentro disso.",
+  "C"
+ ],
+ "poo/Name": [
+  "Poo",
+  "Coc",
+  "Ph"
+ ],
+ "poo/FullName": [
+  "Poo",
+  "Coc",
+  "Ph"
+ ],
+ "poo/Description": [
+  "Makes mobs less likely to want to attack you.",
+  "Faz os bichos terem menos vontade de atacar voc",
+  "L"
+ ],
+ "relic/Name": [
+  "Relic",
+  "Rel",
+  "Di V"
+ ],
+ "relic/FullName": [
+  "Mysterious Relic",
+  "Rel",
+  "Di V"
+ ],
+ "relic/Description": [
+  "A strange relic. Significantly increases maximum health.<n/>Damage taken is spread among other wearers.",
+  "Uma rel",
+  "M"
+ ],
+ "lotus/Name": [
+  "Lotus",
+  "L",
+  "Sen"
+ ],
+ "lotus/FullName": [
+  "Lotus",
+  "L",
+  "Hoa Sen"
+ ],
+ "lotus/Description": [
+  "Absorbs poison damage taken by the flower.",
+  "Absorve dano venenoso recebido pela flor.",
+  "H"
+ ],
+ "bulb/Name": [
+  "Bulb",
+  "L",
+  "B"
+ ],
+ "bulb/FullName": [
+  "Light Bulb",
+  "L",
+  "B"
+ ],
+ "bulb/Description": [
+  "A shiny lightbulb. Draws aggro from mobs.",
+  "Uma l",
+  "M"
+ ],
+ "cotton/Name": [
+  "Cotton",
+  "Algod",
+  "B"
+ ],
+ "cotton/FullName": [
+  "Cotton",
+  "Algod",
+  "B"
+ ],
+ "cotton/Description": [
+  "Absorbs damage taken by the flower.",
+  "Absorve o dano recebido pela flor.",
+  "H"
+ ],
+ "carrot/Name": [
+  "Carrot",
+  "Cenoura",
+  "C"
+ ],
+ "carrot/FullName": [
+  "Carrot",
+  "Cenoura",
+  "C"
+ ],
+ "carrot/Description": [
+  "Sturdy and reliable. Can be shot and bounces off walls.",
+  "Resistente e confi",
+  "C"
+ ],
+ "bone/Name": [
+  "Bone",
+  "Osso",
+  "X"
+ ],
+ "bone/FullName": [
+  "Bone",
+  "Osso",
+  "X"
+ ],
+ "bone/Description": [
+  "Sturdy. Loses half of its armor each hit.",
+  "Resistente. Perde metade da armadura a cada impacto.",
+  "Ch"
+ ],
+ "plank/Name": [
+  "Plank",
+  "T",
+  "V"
+ ],
+ "plank/FullName": [
+  "Plank",
+  "T"
+ ],
+ "plank/Description": [
+  "Does 20x damage vs projectiles and petals.",
+  "Causa 20 vezes mais dano contra proj",
+  "G"
+ ],
+ "tomato/Name": [
+  "Tomato",
+  "Tomate",
+  "C"
+ ],
+ "tomato/FullName": [
+  "Tomato",
+  "Tomate",
+  "C"
+ ],
+ "tomato/Description": [
+  "Gets stronger over time.",
+  "Fica mais forte conforme o tempo.",
+  "T"
+ ],
+ "mark/Name": [
+  "Mark",
+  "Marca",
+  "D"
+ ],
+ "mark/FullName": [
+  "Dark Mark",
+  "Marca Escura",
+  "Con D"
+ ],
+ "mark/Description": [
+  "A dark mark that binds itself to a fallen soul.",
+  "Uma marca escura que se liga a uma flor morta.",
+  "M"
+ ],
+ "rubber/Name": [
+  "Rubber",
+  "Borracha",
+  "Cao Su"
+ ],
+ "rubber/FullName": [
+  "Rubber",
+  "Borracha",
+  "Cao Su"
+ ],
+ "rubber/Description": [
+  "Increases knockback received. Also absorbs lightning damage dealt to the flower.",
+  "Aumenta a repuls",
+  "T"
+ ],
+ "blood_stinger/Name": [
+  "Stinger",
+  "Ferr",
+  "Ng"
+ ],
+ "blood_stinger/FullName": [
+  "Blood Stinger",
+  "Ferr",
+  "Ng"
+ ],
+ "blood_stinger/Description": [
+  "It really hurts, but it's very fragile.<n/>Deals damage to self when spawned.",
+  "D",
+  "N"
+ ],
+ "bur/Name": [
+  "Bur",
+  "Capim",
+  "Gai"
+ ],
+ "bur/FullName": [
+  "Bur",
+  "Capim-carrapicho",
+  "Qu"
+ ],
+ "bur/Description": [
+  "Decreases armor of affected unit. Does not stack with itself.",
+  "Diminui a armadura em unidades afetadas. O efeito n",
+  "Gi"
+ ],
+ "root/Name": [
+  "Root",
+  "Raiz",
+  "R"
+ ],
+ "root/FullName": [
+  "Root",
+  "Raiz",
+  "R"
+ ],
+ "root/Description": [
+  "Provides a layer of additional armor every interval, a layer is removed each time damage is taken.",
+  "Fornece uma camada de armadura adicional a cada intervalo, uma camada",
+  "Cung c"
+ ],
+ "ankh/Name": [
+  "Ankh"
+ ],
+ "ankh/FullName": [
+  "Ankh"
+ ],
+ "ankh/Description": [
+  "An ancient relic.<n/>When destroyed, will teleport the flower back to where it was destroyed.",
+  "Uma rel",
+  "M"
+ ],
+ "dice/Name": [
+  "Dice",
+  "Dado",
+  "X"
+ ],
+ "dice/FullName": [
+  "Dice",
+  "Dado",
+  "X"
+ ],
+ "dice/Description": [
+  "Has a 5% chance of dealing 35x damage.<n/>Chance increases by 4% per point in luck.",
+  "5%",
+  "Possui 5% de chance de causar 35x dano.<n/>As chances aumentam em 4% por cada ponto em sorte.",
+  "C"
+ ],
+ "talisman/Name": [
+  "Talisman",
+  "Talism",
+  "B"
+ ],
+ "talisman/FullName": [
+  "Talisman of Evasion",
+  "Talism",
+  "B"
+ ],
+ "talisman/Description": [
+  "A necklace that allows the wearer to anticipate enemy attacks.",
+  "Um colar que permite ao usu",
+  "M"
+ ],
+ "battery/Name": [
+  "Battery",
+  "Bateria",
+  "Pin"
+ ],
+ "battery/FullName": [
+  "Battery",
+  "Bateria",
+  "Pin"
+ ],
+ "battery/Description": [
+  "Discharges electricity whenever the flower gets hit.",
+  "Descarrega eletricidade sempre que a flor",
+  "Ph"
+ ],
+ "amulet/Name": [
+  "Amulet",
+  "Amuleto",
+  "B"
+ ],
+ "amulet/FullName": [
+  "Amulet",
+  "Amuleto",
+  "B"
+ ],
+ "amulet/Description": [
+  "Converts a percentage of overheal into shields.",
+  "Converte uma parte da cura em escudo quando a vida do usu",
+  "Bi"
+ ],
+ "compass/Name": [
+  "Compass",
+  "B",
+  "La B"
+ ],
+ "compass/FullName": [
+  "Compass",
+  "B",
+  "La B"
+ ],
+ "compass/Description": [
+  "This crappy thing might be able to find something interesting...",
+  "Essa coisa velha talvez consiga achar algo interessante...",
+  "Th"
+ ],
+ "disc/Name": [
+  "Disc",
+  "Disco"
+ ],
+ "disc/FullName": [
+  "Disc",
+  "Disco"
+ ],
+ "disc/Description": [
+  "Reduces damage taken from collisions with mobs and flowers.",
+  "Reduz o dano recebido por colis",
+  "Gi"
+ ],
+ "shovel/Name": [
+  "Shovel",
+  "P",
+  "X"
+ ],
+ "shovel/FullName": [
+  "Shovel",
+  "P",
+  "X"
+ ],
+ "shovel/Description": [
+  "Becomes untargetable but unable to use petals for a limited time.",
+  "Te torna invis",
+  "L"
+ ],
+ "coin/Name": [
+  "Coin",
+  "Moeda",
+  "Xu"
+ ],
+ "coin/FullName": [
+  "Coin",
+  "Moeda"
+ ],
+ "coin/Description": [
+  "The power of capitalism compels you!",
+  "O poder do capitalismo te obriga!",
+  "S"
+ ],
+ "chip/Name": [
+  "Chip",
+  "Ficha",
+  "Ph"
+ ],
+ "chip/FullName": [
+  "Poker Chip",
+  "Ficha de Poker",
+  "Ph"
+ ],
+ "chip/Description": [
+  "ALL IN.",
+  "APOSTE TUDO!.",
+  "T"
+ ],
+ "card/Name": [
+  "Card",
+  "Carta",
+  "Th"
+ ],
+ "card/FullName": [
+  "Card",
+  "Carta",
+  "Th"
+ ],
+ "card/Description": [
+  "A playing card. Likely marked.",
+  "Uma carta de baralho. Provavelmente marcada.",
+  "M"
+ ],
+ "moon/Name": [
+  "Moon",
+  "Lua",
+  "Tr"
+ ],
+ "moon/FullName": [
+  "Moon Rock",
+  "Rocha da Lua"
+ ],
+ "moon/Description": [
+  "This thing is so big your petals orbit it instead.<n/>Where did you find this anyway?",
+  "Essa coisa",
+  "C"
+ ],
+ "privet/Name": [
+  "Privet",
+  "Alfeneiro",
+  "M"
+ ],
+ "privet/FullName": [
+  "Privet Berry",
+  "Baga de Alfeneiro",
+  "M"
+ ],
+ "privet/Description": [
+  "Deals extra {#Attribute/PoisonNoColon} damage based on the existing {#Attribute/PoisonNoColon} damage per second.",
+  "Da dano {#Attribute/PoisonNoColon} extra baseado no {#Attribute/PoisonNoColon} no dano por segundo atual.",
+  "G"
+ ],
+ "glass/Name": [
+  "Glass",
+  "Vidro",
+  "K"
+ ],
+ "glass/FullName": [
+  "Glass",
+  "Vidro",
+  "Th"
+ ],
+ "glass/Description": [
+  "Phases through enemies.<n/>Cannot damage enemies more often than a certain interval.",
+  "Atravessa por inimigos.<n/>N",
+  "Xuy"
+ ],
+ "corruption/Name": [
+  "Corruption",
+  "Corrup"
+ ],
+ "corruption/FullName": [
+  "Corruption",
+  "Corrup"
+ ],
+ "corruption/Description": [
+  "Corrupts one's soul, turning them against their own kind.",
+  "Corrompe a alma de algu",
+  "L"
+ ],
+ "orb/Name": [
+  "Orb",
+  "Esfera",
+  "Mana"
+ ],
+ "orb/FullName": [
+  "Mana Orb",
+  "Esfera de Mana",
+  "Mana"
+ ],
+ "orb/Description": [
+  "Creates mana.",
+  "Cria mana.",
+  "T"
+ ],
+ "blueberries/Name": [
+  "Blueberries",
+  "Mirtilos",
+  "Vi"
+ ],
+ "blueberries/FullName": [
+  "Blueberries",
+  "Mirtilos",
+  "Vi"
+ ],
+ "blueberries/Description": [
+  "It goes poof. Now with the extra secret ingredient: lightning.",
+  "Eles estouram, s",
+  "B"
+ ],
+ "magic_cotton/Name": [
+  "Cotton",
+  "Algod",
+  "B"
+ ],
+ "magic_cotton/FullName": [
+  "Magic Cotton",
+  "Algod",
+  "B"
+ ],
+ "magic_cotton/Description": [
+  "Absorbs damage taken by the flower.",
+  "Absorve o dano recebido pela flor",
+  "H"
+ ],
+ "magic_stinger/Name": [
+  "Stinger",
+  "Ferr",
+  "Ng"
+ ],
+ "magic_stinger/FullName": [
+  "Magic Stinger",
+  "Ferr",
+  "Ng"
+ ],
+ "magic_stinger/Description": [
+  "It really hurts, but it's very fragile.",
+  "D",
+  "N"
+ ],
+ "magic_leaf/Name": [
+  "Leaf",
+  "Folha",
+  "L"
+ ],
+ "magic_leaf/FullName": [
+  "Magic Leaf",
+  "Folha M",
+  "L"
+ ],
+ "magic_leaf/Description": [
+  "Gathers mana from the environment passively.",
+  "Coleta energia do ambiente para gerar mana.",
+  "Thu th"
+ ],
+ "magic_cactus/Name": [
+  "Cactus",
+  "Cacto",
+  "X"
+ ],
+ "magic_cactus/FullName": [
+  "Magic Cactus",
+  "Cacto M",
+  "X"
+ ],
+ "magic_cactus/Description": [
+  "Increases maximum mana capacity.",
+  "Aumenta a capacidade de mana m",
+  "T"
+ ],
+ "magic_eye/Name": [
+  "Magic Eye",
+  "Olho",
+  "M"
+ ],
+ "magic_eye/FullName": [
+  "Magic Eye",
+  "Olho M",
+  "M"
+ ],
+ "magic_eye/Description": [
+  "Consumes half the current mana and deals damage based on that value.",
+  "Consome a metade da sua mana atual, dando dano baseado nesse valor.",
+  "Ti"
+ ],
+ "magic_missile/Name": [
+  "Missile",
+  "M"
+ ],
+ "magic_missile/FullName": [
+  "Magic Missile",
+  "M"
+ ],
+ "magic_missile/Description": [
+  "You can actually shoot this one... with magic.",
+  "Voc"
+ ],
+ "magic_stick/Name": [
+  "Stick",
+  "Galho",
+  "G"
+ ],
+ "magic_stick/FullName": [
+  "Magic Stick",
+  "Galho M",
+  "G"
+ ],
+ "magic_stick/Description": [
+  "A mysterious stick that summons the forces of the wind... with magic.",
+  "Um galho misterioso que invoca as for",
+  "M"
+ ],
+ "coral/Name": [
+  "Coral",
+  "San H"
+ ],
+ "coral/FullName": [
+  "Coral",
+  "San H"
+ ],
+ "coral/Description": [
+  "Breaks apart on impact.<n/>Each piece has 50% of the stats of the predecessor.",
+  "Quebra-se com o impacto.<n/>Cada peda",
+  "Tan r"
+ ],
+ "magic_bubble/Name": [
+  "Bubble",
+  "Bolha",
+  "Bong B"
+ ],
+ "magic_bubble/FullName": [
+  "Magic Bubble",
+  "Bolha M",
+  "Bong B"
+ ],
+ "magic_bubble/Description": [
+  "Physics are for the magicless.",
+  "Uma p",
+  "V"
+ ],
+ "nazar/Name": [
+  "Nazar"
+ ],
+ "nazar/FullName": [
+  "Nazar Amulet",
+  "Amuleto Nazar",
+  "B"
+ ],
+ "nazar/Description": [
+  "When the flower receives damage, reduces it by 98% and consumes a charge.",
+  "Quando a flor recebe dano, reduz ele por 90% e consume uma carga.",
+  "Khi b"
+ ],
+ "mimic/Name": [
+  "Mimic",
+  "M"
+ ],
+ "mimic/FullName": [
+  "Mimic",
+  "M",
+  "C"
+ ],
+ "mimic/Description": [
+  "Copies the petal to the left of this, with the same rarity as this.",
+  "Copia a p",
+  "Sao ch"
+ ],
+ "mjolnir/Name": [
+  "{#Petals/mjolnir/{0:rarity}/Name#Petals/mjolnir/default/Name}",
+  "{#Petals/mjolnir/{0:rarity:is-unique}/Name}"
+ ],
+ "mjolnir/FullName": [
+  "{#Petals/mjolnir/{0:rarity}/FullName#Petals/mjolnir/default/FullName}",
+  "{#Petals/mjolnir/{0:rarity:is-unique}/FullName}"
+ ],
+ "mjolnir/Description": [
+  "{#Petals/mjolnir/{0:rarity}/Description#Petals/mjolnir/default/Description}",
+  "{#Petals/mjolnir/{0:rarity:is-unique}/Description}",
+  "{#Petals/mjolnir/{0:rarity}/Descripton#Petals/mjolnir/default/Description}"
+ ],
+ "mjolnir/default/Name": [
+  "Fragment"
+ ],
+ "mjolnir/default/FullName": [
+  "Fragment"
+ ],
+ "mjolnir/default/Description": [
+  "Perhaps this could be used to forge something great?"
+ ],
+ "mjolnir/unique/Name": [
+  "Mj",
+  "Mjolnir"
+ ],
+ "mjolnir/unique/FullName": [
+  "Mj"
+ ],
+ "mjolnir/unique/Description": [
+  "Only the most powerful hammer in the universe.",
+  "Apenas o martelo mais poderoso do universo.",
+  "C"
+ ],
+ "mecha_missile/Name": [
+  "Missile",
+  "M",
+  "T"
+ ],
+ "mecha_missile/FullName": [
+  "Mecha Missile",
+  "M",
+  "T"
+ ],
+ "mecha_missile/Description": [
+  "Locked on.",
+  "M",
+  "Kh"
+ ],
+ "wax/Name": [
+  "Wax",
+  "Cera",
+  "S"
+ ],
+ "wax/FullName": [
+  "Wax",
+  "Cera",
+  "S"
+ ],
+ "wax/Description": [
+  "Don't ask where it came from.",
+  "N"
+ ],
+ "golden_leaf/Name": [
+  "Leaf",
+  "Folha",
+  "L"
+ ],
+ "golden_leaf/FullName": [
+  "Golden Leaf",
+  "Folha Dourada",
+  "L"
+ ],
+ "golden_leaf/Description": [
+  "A very special leaf, seems to allow you to use your other petals even more.",
+  "Uma folha muito especial, parece permitir que voc",
+  "M"
+ ],
+ "cog/Name": [
+  "Cog",
+  "Roda",
+  "R"
+ ],
+ "cog/FullName": [
+  "Cogwheel",
+  "Roda Dentada",
+  "B"
+ ],
+ "cog/Description": [
+  "Doesn't seem to do much...",
+  "N",
+  "D"
+ ],
+ "monstera/Name": [
+  "Monstera",
+  "Tr"
+ ],
+ "monstera/FullName": [
+  "Monstera",
+  "Tr"
+ ],
+ "monstera/Description": [
+  "Heals flowers around it.<n/>Effect fades out with distance to petal.",
+  "Cura flores ao seu redor.<n/>O efeito se torna mais fraco conforme",
+  "H"
+ ],
+ "mecha_antennae/Name": [
+  "Antennae",
+  "Antena"
+ ],
+ "mecha_antennae/FullName": [
+  "Mecha Antennae",
+  "Antena"
+ ],
+ "mecha_antennae/Description": [
+  "Allows your flower to sense foes farther away.<n/>And it has a blinking red light on top.",
+  "Permite que sua flor veja inimigos mais distantes.<n/>E tem uma luz brilhante no topo.",
+  "Gi"
+ ],
+ "laser/Name": [
+  "Laser"
+ ],
+ "laser/FullName": [
+  "Laser",
+  "Tia Laser"
+ ],
+ "laser/Description": [
+  "Pew pew.",
+  "Ch"
+ ],
+ "domino/Name": [
+  "Domino",
+  "Domin"
+ ],
+ "domino/FullName": [
+  "Domino",
+  "Domin"
+ ],
+ "domino/Description": [
+  "Damage depends on how many dots it has.",
+  "Dano depende de quantos pontos ele tem.",
+  "S"
+ ],
+ "bandage/Name": [
+  "Bandage",
+  "Bandagem",
+  "B"
+ ],
+ "bandage/FullName": [
+  "Bandage",
+  "Bandagem",
+  "B"
+ ],
+ "bandage/Description": [
+  "Turns the flower <c val=\"{#Colors/undead}\">Undead</c> for a limited time on death.<n/>Delays death until expiration.<n/>Flower <c val=\"{#Colors/damage}\">Body Damage</c> is reduced during this period.<n/>Prevents revival for some time afterwards.",
+  "Torna a flor <c val=\"{#Colors/undead}\">Zumbi</c> por um tempo limitado quando morre.<n/>A morte ser",
+  "Bi"
+ ],
+ "pharaoh_crown/Name": [
+  "Crown",
+  "Coroa",
+  "V"
+ ],
+ "pharaoh_crown/FullName": [
+  "Pharaoh's Crown",
+  "Coroa do Fara",
+  "V"
+ ],
+ "pharaoh_crown/Description": [
+  "Spawns <c val=\"{#Colors/undead}\">Undead</c> Beetles to fight at your side.",
+  "Invoca Besouros <c val=\"{#Colors/undead}\">Zumbi</c> para lutar ao seu lado.",
+  "Tri"
+ ],
+ "totem/Name": [
+  "Totem",
+  "V"
+ ],
+ "totem/FullName": [
+  "Totem",
+  "V"
+ ],
+ "totem/Description": [
+  "Grants health regen for a certain duration after killing a mob.",
+  "Garante regenera",
+  "H"
+ ],
+ "triangle/Name": [
+  "Triangle",
+  "Tri",
+  "Tam Gi"
+ ],
+ "triangle/FullName": [
+  "Triangle",
+  "Tri",
+  "H"
+ ],
+ "triangle/Description": [
+  "Each copy of this petal equipped grants additional damage to it.",
+  "Cada c",
+  "M"
+ ],
+ "electric_web/Name": [
+  "Web",
+  "Teia",
+  "M"
+ ],
+ "electric_web/FullName": [
+  "Electric Web",
+  "Teia El",
+  "M"
+ ],
+ "electric_web/Description": [
+  "It's a little less sticky, but a bit more shocking.",
+  "N"
+ ],
+ "sacrifice/Name": [
+  "Sacrifice",
+  "Sacrif",
+  "M"
+ ],
+ "sacrifice/FullName": [
+  "Blood Sacrifice",
+  "Sacrif",
+  "M"
+ ],
+ "sacrifice/Description": [
+  "On death, summons a mob to fight again.<n/>Mob type depends on where the sacrifice happens.<n/>Cannot be used in low mob rarity areas.",
+  "Quando morrer, invocar",
+  "Khi ch"
+ ],
+ "sawblade/Name": [
+  "Sawblade",
+  "Serra",
+  "C"
+ ],
+ "sawblade/FullName": [
+  "Sawblade",
+  "L"
+ ],
+ "sawblade/Description": [
+  "This looks like it'd hurt.",
+  "Isso parece que vai doer.",
+  "Tr"
+ ],
+ "clay/Name": [
+  "Clay",
+  "Argila"
+ ],
+ "clay/FullName": [
+  "Clay",
+  "Argila"
+ ],
+ "clay/Description": [
+  "It sticks to dust in the air to get bigger and stronger.",
+  "Ela adere",
+  "N"
+ ],
+ "dust/Name": [
+  "Dust",
+  "Poeira",
+  "B"
+ ],
+ "dust/FullName": [
+  "Dust",
+  "Poeira",
+  "B"
+ ],
+ "dust/Description": [
+  "Sometimes it sticks together, sometimes it doesn't."
+ ],
+ "broccoli/Name": [
+  "Broccoli",
+  "Br",
+  "B"
+ ],
+ "broccoli/FullName": [
+  "Broccoli",
+  "Br",
+  "B"
+ ],
+ "broccoli/Description": [
+  "Explodes when it hits something. For reasons unknown.",
+  "Explode ao atingir algo. Por raz",
+  "Ph"
+ ],
+ "lentil/Name": [
+  "Lentil",
+  "Lentilha"
+ ],
+ "lentil/FullName": [
+  "Lentil",
+  "Lentilha"
+ ],
+ "lentil/Description": [
+  "Increases petal attraction to enemies.",
+  "Aumenta a atra",
+  "T"
+ ],
+ "dead_leaf/Name": [
+  "Leaf",
+  "Folha",
+  "L"
+ ],
+ "dead_leaf/FullName": [
+  "Dead Leaf",
+  "Folha Morta",
+  "L"
+ ],
+ "dead_leaf/Description": [
+  "Increases petal health but makes them reload slower.",
+  "Aumenta a vida das p",
+  "T"
+ ],
+ "splitter/Name": [
+  "Splitter",
+  "Divisor",
+  "T"
+ ],
+ "splitter/FullName": [
+  "Soul Splitter",
+  "Divisor de Almas",
+  "T"
+ ],
+ "splitter/Description": [
+  "{#Petals/splitter/Description/{0:rarity}#Petals/splitter/Description/default}",
+  "{#Petals/splitter/Description/{0:rarity}#Petals/splitter/Description/default}<n/><n/><c val=\"{#Colors/generic}\">"
+ ],
+ "splitter/Description/default": [
+  "Fractures your soul into two.<n/><n/><c val=\"{#Colors/generic}\">Select this petal again to control the other half.</c>",
+  "Fratura sua alma em duas partes.<n/><n/><c val=\"{#Colors/generic}\">Selecione esta p",
+  "Ph"
+ ],
+ "splitter/Description/eternal": [
+  "Fractures your soul into three.<n/><n/><c val=\"{#Colors/generic}\">Select this petal again to control a different third.</c>"
+ ],
+ "splitter/Description/unique": [
+  "{#Petals/splitter/Description/eternal}",
+  "Fratura sua alma em tr",
+  "Ph"
+ ],
+ "goggles/Name": [
+  "Goggles",
+  "K"
+ ],
+ "goggles/FullName": [
+  "Paranormal Goggles",
+  "K"
+ ],
+ "goggles/Description": [
+  "Allows finding some paranormal activity.",
+  "Permite detectar algumas atividades paranormais.",
+  "Cho ph"
+ ],
+ "bean/Name": [
+  "Bean",
+  "Feij"
+ ],
+ "bean/FullName": [
+  "Bean",
+  "Feij"
+ ],
+ "bean/Description": [
+  "Deals more damage if there are no allied flowers around you.",
+  "Causa mais dano se n",
+  "G"
+ ],
+ "champion_crown/Name": [
+  "Crown",
+  "V"
+ ],
+ "champion_crown/FullName": [
+  "Champion's Crown",
+  "V"
+ ],
+ "champion_crown/Description": [
+  "Gives flowers around you a {#Rarities/super/NameColored} {#Petals/basic/FullName}.<n/>You receive credit for damage dealt using it.",
+  "Ban cho c"
+ ],
+ "none/Gender": [
+  "Male"
+ ],
+ "basic/Gender": [
+  "Male"
+ ],
+ "light/Gender": [
+  "Female",
+  "Male"
+ ],
+ "rock/Gender": [
+  "Female",
+  "Male"
+ ],
+ "square/Gender": [
+  "Male"
+ ],
+ "rose/Gender": [
+  "Female"
+ ],
+ "stinger/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "iris/Gender": [
+  "Female",
+  "Male"
+ ],
+ "wing/Gender": [
+  "Female",
+  "Neuter"
+ ],
+ "missile/Gender": [
+  "Male"
+ ],
+ "grapes/Gender": [
+  "Female",
+  "Male"
+ ],
+ "cactus/Gender": [
+  "Male"
+ ],
+ "faster/Gender": [
+  "Male"
+ ],
+ "bubble/Gender": [
+  "Female",
+  "Male"
+ ],
+ "pollen/Gender": [
+  "Male",
+  "Female"
+ ],
+ "dandelion/Gender": [
+  "Male"
+ ],
+ "beetle_egg/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "antennae/Gender": [
+  "Female",
+  "Plural"
+ ],
+ "heavy/Gender": [
+  "Male"
+ ],
+ "yin_yang/Gender": [
+  "Male"
+ ],
+ "web/Gender": [
+  "Female"
+ ],
+ "honey/Gender": [
+  "Male"
+ ],
+ "leaf/Gender": [
+  "Female",
+  "Male"
+ ],
+ "salt/Gender": [
+  "Male",
+  "Female"
+ ],
+ "rice/Gender": [
+  "Male"
+ ],
+ "corn/Gender": [
+  "Male",
+  "Female"
+ ],
+ "sand/Gender": [
+  "Female",
+  "Male"
+ ],
+ "pincer/Gender": [
+  "Female",
+  "Plural"
+ ],
+ "yucca/Gender": [
+  "Female"
+ ],
+ "magnet/Gender": [
+  "Male"
+ ],
+ "yggdrasil/Gender": [
+  "Female",
+  "Male"
+ ],
+ "starfish/Gender": [
+  "Female"
+ ],
+ "pearl/Gender": [
+  "Female",
+  "Male"
+ ],
+ "lightning/Gender": [
+  "Male",
+  "Female"
+ ],
+ "jelly/Gender": [
+  "Female",
+  "Neuter"
+ ],
+ "claw/Gender": [
+  "Female"
+ ],
+ "shell/Gender": [
+  "Female"
+ ],
+ "cutter/Gender": [
+  "Male"
+ ],
+ "dahlia/Gender": [
+  "Female",
+  "Male"
+ ],
+ "uranium/Gender": [
+  "Male"
+ ],
+ "sponge/Gender": [
+  "Female"
+ ],
+ "soil/Gender": [
+  "Male",
+  "Female"
+ ],
+ "fang/Gender": [
+  "Female",
+  "Male"
+ ],
+ "third_eye/Gender": [
+  "Male"
+ ],
+ "peas/Gender": [
+  "Female",
+  "Male"
+ ],
+ "stick/Gender": [
+  "Male",
+  "Female"
+ ],
+ "clover/Gender": [
+  "Male"
+ ],
+ "powder/Gender": [
+  "Male"
+ ],
+ "air/Gender": [
+  "Male"
+ ],
+ "basil/Gender": [
+  "Male"
+ ],
+ "orange/Gender": [
+  "Female",
+  "Male"
+ ],
+ "ant_egg/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "poo/Gender": [
+  "Male",
+  "Female"
+ ],
+ "relic/Gender": [
+  "Female"
+ ],
+ "lotus/Gender": [
+  "Female",
+  "Male"
+ ],
+ "bulb/Gender": [
+  "Female"
+ ],
+ "cotton/Gender": [
+  "Male"
+ ],
+ "carrot/Gender": [
+  "Female"
+ ],
+ "bone/Gender": [
+  "Male",
+  "Female"
+ ],
+ "plank/Gender": [
+  "Female"
+ ],
+ "tomato/Gender": [
+  "Male"
+ ],
+ "mark/Gender": [
+  "Female"
+ ],
+ "rubber/Gender": [
+  "Female"
+ ],
+ "blood_stinger/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "bur/Gender": [
+  "Male"
+ ],
+ "root/Gender": [
+  "Male"
+ ],
+ "ankh/Gender": [
+  "Female",
+  "Male"
+ ],
+ "dice/Gender": [
+  "Male"
+ ],
+ "talisman/Gender": [
+  "Male"
+ ],
+ "battery/Gender": [
+  "Female"
+ ],
+ "amulet/Gender": [
+  "Male"
+ ],
+ "compass/Gender": [
+  "Female",
+  "Male"
+ ],
+ "disc/Gender": [
+  "Male"
+ ],
+ "shovel/Gender": [
+  "Female"
+ ],
+ "coin/Gender": [
+  "Female"
+ ],
+ "chip/Gender": [
+  "Female"
+ ],
+ "card/Gender": [
+  "Female"
+ ],
+ "moon/Gender": [
+  "Female"
+ ],
+ "privet/Gender": [
+  "Male",
+  "Female"
+ ],
+ "glass/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "corruption/Gender": [
+  "Female"
+ ],
+ "orb/Gender": [
+  "Female"
+ ],
+ "blueberries/Gender": [
+  "Male",
+  "Female"
+ ],
+ "magic_cotton/Gender": [
+  "Male"
+ ],
+ "magic_stinger/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "magic_leaf/Gender": [
+  "Female",
+  "Male"
+ ],
+ "magic_cactus/Gender": [
+  "Male"
+ ],
+ "magic_eye/Gender": [
+  "Male"
+ ],
+ "magic_missile/Gender": [
+  "Male"
+ ],
+ "magic_stick/Gender": [
+  "Male",
+  "Female"
+ ],
+ "coral/Gender": [
+  "Male"
+ ],
+ "magic_bubble/Gender": [
+  "Female",
+  "Male"
+ ],
+ "nazar/Gender": [
+  "Male"
+ ],
+ "mimic/Gender": [
+  "Male"
+ ],
+ "mjolnir/not-unique/Name": [
+  "Fragmento",
+  "M"
+ ],
+ "mjolnir/not-unique/FullName": [
+  "Fragmento",
+  "M"
+ ],
+ "mjolnir/not-unique/Description": [
+  "Talvez isso possa ser usado para forjar algo grandioso?.",
+  "C"
+ ],
+ "mjolnir/Gender": [
+  "Male",
+  "{#Petals/mjolnir/{0:rarity}/Gender#Petals/mjolnir/default/Gender}"
+ ],
+ "mjolnir/unique/Gender": [
+  "Male"
+ ],
+ "mecha_missile/Gender": [
+  "Male"
+ ],
+ "wax/Gender": [
+  "Female",
+  "Male"
+ ],
+ "golden_leaf/Gender": [
+  "Female",
+  "Male"
+ ],
+ "cog/Gender": [
+  "Female"
+ ],
+ "monstera/Gender": [
+  "Female"
+ ],
+ "mecha_antennae/Gender": [
+  "Female",
+  "Plural"
+ ],
+ "laser/Gender": [
+  "Male"
+ ],
+ "domino/Gender": [
+  "Male",
+  "Neuter"
+ ],
+ "bandage/Gender": [
+  "Female",
+  "Male"
+ ],
+ "pharaoh_crown/Gender": [
+  "Female"
+ ],
+ "totem/Gender": [
+  "Male"
+ ],
+ "triangle/Gender": [
+  "Male"
+ ],
+ "electric_web/Gender": [
+  "Female"
+ ],
+ "sacrifice/Gender": [
+  "Male",
+  "Female"
+ ],
+ "sawblade/Gender": [
+  "Female"
+ ],
+ "clay/Gender": [
+  "Female"
+ ],
+ "dust/Gender": [
+  "Female"
+ ],
+ "broccoli/Gender": [
+  "Male",
+  "Female"
+ ],
+ "lentil/Gender": [
+  "Female"
+ ],
+ "dead_leaf/Gender": [
+  "Female",
+  "Male"
+ ],
+ "splitter/Gender": [
+  "Male"
+ ],
+ "goggles/Gender": [
+  "Male",
+  "Plural"
+ ],
+ "bean/Gender": [
+  "Male"
+ ],
+ "basic/FullName/Prepositional": [],
+ "light/FullName/Prepositional": [],
+ "rock/FullName/Prepositional": [],
+ "square/FullName/Prepositional": [],
+ "rose/FullName/Prepositional": [],
+ "stinger/FullName/Prepositional": [],
+ "iris/FullName/Prepositional": [],
+ "wing/FullName/Prepositional": [],
+ "missile/FullName/Prepositional": [],
+ "grapes/FullName/Prepositional": [],
+ "cactus/FullName/Prepositional": [],
+ "faster/FullName/Prepositional": [],
+ "bubble/FullName/Prepositional": [],
+ "pollen/FullName/Prepositional": [],
+ "dandelion/FullName/Prepositional": [],
+ "beetle_egg/FullName/Prepositional": [],
+ "antennae/Name/Accusative": [],
+ "antennae/FullName/Prepositional": [],
+ "heavy/FullName/Prepositional": [],
+ "yin_yang/FullName/Prepositional": [],
+ "web/FullName/Prepositional": [],
+ "honey/FullName/Prepositional": [],
+ "leaf/FullName/Prepositional": [],
+ "salt/FullName/Prepositional": [],
+ "rice/FullName/Prepositional": [],
+ "corn/FullName/Prepositional": [],
+ "sand/FullName/Prepositional": [],
+ "pincer/FullName/Prepositional": [],
+ "yucca/FullName/Prepositional": [],
+ "magnet/FullName/Prepositional": [],
+ "yggdrasil/FullName/Prepositional": [],
+ "starfish/FullName/Prepositional": [],
+ "pearl/FullName/Prepositional": [],
+ "lightning/FullName/Prepositional": [],
+ "jelly/Name/Genitive": [],
+ "jelly/FullName/Prepositional": [],
+ "claw/FullName/Prepositional": [],
+ "shell/FullName/Prepositional": [],
+ "cutter/Name/Accusative": [],
+ "cutter/FullName/Prepositional": [],
+ "dahlia/FullName/Prepositional": [],
+ "uranium/FullName/Prepositional": [],
+ "sponge/FullName/Prepositional": [],
+ "soil/FullName/Prepositional": [],
+ "fang/FullName/Prepositional": [],
+ "third_eye/FullName/Prepositional": [],
+ "peas/FullName/Prepositional": [],
+ "stick/FullName/Prepositional": [],
+ "clover/FullName/Prepositional": [],
+ "powder/FullName/Prepositional": [],
+ "air/Name/Accusative": [],
+ "air/FullName/Prepositional": [],
+ "basil/FullName/Prepositional": [],
+ "orange/FullName/Prepositional": [],
+ "ant_egg/FullName/Prepositional": [],
+ "poo/FullName/Prepositional": [],
+ "relic/FullName/Prepositional": [],
+ "lotus/FullName/Prepositional": [],
+ "bulb/FullName/Prepositional": [],
+ "cotton/FullName/Prepositional": [],
+ "carrot/FullName/Prepositional": [],
+ "bone/FullName/Prepositional": [],
+ "plank/FullName/Prepositional": [],
+ "tomato/FullName/Prepositional": [],
+ "mark/FullName/Prepositional": [],
+ "rubber/FullName/Prepositional": [],
+ "blood_stinger/FullName/Prepositional": [],
+ "bur/FullName/Prepositional": [],
+ "root/FullName/Prepositional": [],
+ "ankh/FullName/Prepositional": [],
+ "dice/FullName/Prepositional": [],
+ "talisman/FullName/Prepositional": [],
+ "battery/FullName/Prepositional": [],
+ "amulet/FullName/Prepositional": [],
+ "compass/FullName/Prepositional": [],
+ "disc/FullName/Prepositional": [],
+ "shovel/FullName/Prepositional": [],
+ "coin/Name/Accusative": [],
+ "coin/FullName/Prepositional": [],
+ "chip/Name/Accusative": [],
+ "chip/FullName/Prepositional": [],
+ "card/FullName/Prepositional": [],
+ "moon/FullName/Prepositional": [],
+ "privet/FullName/Prepositional": [],
+ "glass/FullName/Prepositional": [],
+ "corruption/FullName/Prepositional": [],
+ "orb/FullName/Genitive": [],
+ "orb/FullName/Accusative": [],
+ "orb/FullName/Prepositional": [],
+ "blueberries/FullName/Prepositional": [],
+ "magic_cotton/FullName/Prepositional": [],
+ "magic_stinger/FullName/Prepositional": [],
+ "magic_leaf/FullName/Prepositional": [],
+ "magic_cactus/FullName/Prepositional": [],
+ "magic_eye/FullName/Prepositional": [],
+ "magic_missile/FullName/Prepositional": [],
+ "magic_stick/FullName/Prepositional": [],
+ "coral/FullName/Prepositional": [],
+ "magic_bubble/FullName/Prepositional": [],
+ "nazar/FullName/Prepositional": [],
+ "mimic/FullName/Prepositional": [],
+ "mjolnir/FullName/Prepositional": [
+  "{#Petals/mjolnir/{0:rarity}/FullName/Prepositional#Petals/mjolnir/default/FullName/Prepositional}"
+ ],
+ "mjolnir/default/FullName/Prepositional": [],
+ "mjolnir/default/Gender": [
+  "Male"
+ ],
+ "mjolnir/eternal/Name": [],
+ "mjolnir/eternal/FullName": [],
+ "mjolnir/eternal/FullName/Prepositional": [],
+ "mjolnir/eternal/Description": [],
+ "mjolnir/eternal/Gender": [
+  "Male"
+ ],
+ "mjolnir/unique/FullName/Prepositional": [],
+ "mecha_missile/FullName/Instrumental": [],
+ "mecha_missile/FullName/Prepositional": [],
+ "wax/FullName/Prepositional": [],
+ "golden_leaf/FullName/Prepositional": [],
+ "cog/FullName/Prepositional": [],
+ "monstera/FullName/Prepositional": [],
+ "mecha_antennae/FullName/Prepositional": [],
+ "laser/FullName/Prepositional": [],
+ "domino/FullName/Prepositional": [],
+ "bandage/FullName/Prepositional": [],
+ "pharaoh_crown/FullName/Prepositional": [],
+ "totem/FullName/Prepositional": [],
+ "triangle/FullName/Prepositional": [],
+ "electric_web/FullName/Prepositional": [],
+ "sacrifice/FullName/Prepositional": [],
+ "sawblade/FullName/Prepositional": [],
+ "clay/FullName/Prepositional": [],
+ "dust/FullName/Prepositional": [],
+ "broccoli/FullName/Prepositional": [],
+ "lentil/FullName/Prepositional": [],
+ "dead_leaf/FullName/Prepositional": [],
+ "splitter/FullName/Prepositional": [],
+ "goggles/FullName/Prepositional": [],
+ "bean/FullName/Prepositional": [],
+ "champion_crown/FullName/Prepositional": [],
+ "champion_crown/Gender": [
+  "Female"
+ ],
+ "AnnouncementPrefixNoRarity": [
+  "M"
+ ],
+ "basic/SortName": [
+  "c*0o-0 b*0a*3n*0"
+ ],
+ "basic/Clf": [
+  "c"
+ ],
+ "light/SortName": [
+  "n*0h*0e*5"
+ ],
+ "light/Clf": [
+  "c"
+ ],
+ "rock/SortName": [
+  "d+0a*1"
+ ],
+ "rock/Clf": [
+  "t"
+ ],
+ "square/SortName": [
+  "v*0u*0o+0n*0g*0"
+ ],
+ "rose/SortName": [
+  "h*0o+2n*0g*0"
+ ],
+ "rose/Clf": [
+  "c"
+ ],
+ "stinger/SortName": [
+  "n*0g*0o*2i*0"
+ ],
+ "stinger/Clf": [
+  "c"
+ ],
+ "iris/SortName": [
+  "d*0i*0e+0n*0 v*0i*4"
+ ],
+ "iris/Clf": [
+  "c"
+ ],
+ "wing/SortName": [
+  "c*0a*1n*0h*0"
+ ],
+ "wing/Clf": [
+  "c"
+ ],
+ "missile/SortName": [
+  "d+0a*5n*0"
+ ],
+ "missile/Clf": [
+  "vi"
+ ],
+ "grapes/SortName": [
+  "n*0h*0o*0"
+ ],
+ "grapes/Clf": [
+  "ch"
+ ],
+ "cactus/SortName": [
+  "x*0u+0o-0n*0g*0 r*0o+2n*0g*0"
+ ],
+ "cactus/Clf": [
+  "c"
+ ],
+ "faster/SortName": [
+  "n*0h*0a*0n*0h*0"
+ ],
+ "faster/Clf": [
+  "c"
+ ],
+ "bubble/SortName": [
+  "b*0o*0n*0g*0 b*0o*1n*0g*0"
+ ],
+ "bubble/Clf": [
+  "c"
+ ],
+ "pollen/SortName": [
+  "p*0h*0a-1n*0 h*0o*0a*0"
+ ],
+ "pollen/Clf": [
+  "ch"
+ ],
+ "dandelion/SortName": [
+  "b*0o+2 c*0o+0n*0g*0 a*0n*0h*0"
+ ],
+ "dandelion/Clf": [],
+ "beetle_egg/SortName": [
+  "t*0r*0u+1n*0g*0 b*0o*5 c*0a*1n*0h*0 c*0u+1n*0g*0"
+ ],
+ "beetle_egg/Clf": [
+  "qu"
+ ],
+ "antennae/SortName": [
+  "r*0a-0u*0"
+ ],
+ "antennae/Clf": [
+  "chi"
+ ],
+ "heavy/SortName": [
+  "n*0a+5n*0g*0"
+ ],
+ "heavy/Clf": [
+  "c"
+ ],
+ "yin_yang/SortName": [
+  "a-0m*0 d*0u+0o-0n*0g*0"
+ ],
+ "yin_yang/Clf": [
+  "c"
+ ],
+ "web/SortName": [
+  "m*0a*5n*0g*0 n*0h*0e+5n*0"
+ ],
+ "web/Clf": [
+  "c"
+ ],
+ "honey/SortName": [
+  "m*0a-5t*0 o*0n*0g*0"
+ ],
+ "honey/Clf": [
+  "kh"
+ ],
+ "leaf/SortName": [
+  "l*0a*1"
+ ],
+ "leaf/Clf": [
+  "chi"
+ ],
+ "salt/SortName": [
+  "m*0u*0o+1i*0"
+ ],
+ "salt/Clf": [
+  "kh"
+ ],
+ "rice/SortName": [
+  "c*0o-0m*0"
+ ],
+ "rice/Clf": [
+  "h"
+ ],
+ "corn/SortName": [
+  "n*0g*0o+0"
+ ],
+ "corn/Clf": [
+  "h"
+ ],
+ "sand/SortName": [
+  "c*0a*1t*0"
+ ],
+ "sand/Clf": [],
+ "pincer/SortName": [
+  "k*0e*5p*0"
+ ],
+ "pincer/Clf": [
+  "c"
+ ],
+ "yucca/SortName": [
+  "n*0g*0o*5c*0 g*0i*0a*1"
+ ],
+ "yucca/Clf": [
+  "chi"
+ ],
+ "magnet/SortName": [
+  "n*0a*0m*0 c*0h*0a-0m*0"
+ ],
+ "magnet/Clf": [
+  "c"
+ ],
+ "yggdrasil/SortName": [
+  "y*0g*0g*0d*0r*0a*0s*0i*0l*0"
+ ],
+ "yggdrasil/Clf": [
+  "chi"
+ ],
+ "starfish/SortName": [
+  "s*0a*0o*0 b*0i*0e+3n*0"
+ ],
+ "starfish/Clf": [
+  "ch"
+ ],
+ "pearl/SortName": [
+  "n*0g*0o*5c*0 t*0r*0a*0i*0"
+ ],
+ "pearl/Clf": [
+  "h"
+ ],
+ "lightning/SortName": [
+  "s*0e*1t*0"
+ ],
+ "jelly/SortName": [
+  "t*0h*0a*5c*0h*0 s*0u+1a*0"
+ ],
+ "jelly/Clf": [
+  "kh"
+ ],
+ "claw/SortName": [
+  "c*0a*2n*0g*0"
+ ],
+ "claw/Clf": [
+  "c"
+ ],
+ "shell/SortName": [
+  "s*0o*2"
+ ],
+ "shell/Clf": [
+  "c"
+ ],
+ "cutter/SortName": [
+  "l*0u+0o-4i*0 c*0a+1t*0"
+ ],
+ "cutter/Clf": [
+  "c"
+ ],
+ "dahlia/SortName": [
+  "c*0u*1c*0 t*0h*0u+0o-5c*0 d*0u+0o-5c*0"
+ ],
+ "dahlia/Clf": [
+  "c"
+ ],
+ "uranium/SortName": [
+  "u*0r*0a*0n*0i*0u*0m*0"
+ ],
+ "uranium/Clf": [
+  "kh"
+ ],
+ "sponge/SortName": [
+  "b*0o*5t*0 b*0i*0e+3n*0"
+ ],
+ "sponge/Clf": [
+  "c"
+ ],
+ "soil/SortName": [
+  "d+0a-1t*0"
+ ],
+ "soil/Clf": [
+  "kh"
+ ],
+ "fang/SortName": [
+  "n*0a*0n*0h*0"
+ ],
+ "fang/Clf": [
+  "chi"
+ ],
+ "third_eye/SortName": [
+  "m*0a+1t*0"
+ ],
+ "third_eye/Clf": [
+  "con"
+ ],
+ "peas/SortName": [
+  "d+0a-5u*0"
+ ],
+ "peas/Clf": [
+  "ch"
+ ],
+ "stick/SortName": [
+  "g*0a-5y*0 h*0u*0y*0e+2n*0 b*0i*1"
+ ],
+ "stick/Clf": [
+  "c"
+ ],
+ "clover/SortName": [
+  "c*0o*4"
+ ],
+ "clover/Clf": [
+  "c"
+ ],
+ "powder/SortName": [
+  "b*0o+5t*0 h*0u*0y*0e+2n*0 b*0i*1"
+ ],
+ "powder/Clf": [],
+ "air/SortName": [
+  "k*0h*0o+0n*0g*0 k*0h*0i*1"
+ ],
+ "basil/SortName": [
+  "h*0u*1n*0g*0 t*0a-0y*0"
+ ],
+ "basil/Clf": [
+  "c"
+ ],
+ "orange/SortName": [
+  "c*0a*0m*0"
+ ],
+ "orange/Clf": [
+  "ch"
+ ],
+ "ant_egg/SortName": [
+  "t*0r*0u+1n*0g*0 k*0i*0e+1n*0"
+ ],
+ "ant_egg/Clf": [
+  "qu"
+ ],
+ "poo/SortName": [
+  "p*0h*0a-0n*0"
+ ],
+ "poo/Clf": [],
+ "relic/SortName": [
+  "d*0i*0 v*0a-5t*0 h*0u*0y*0e+2n*0 b*0i*1"
+ ],
+ "relic/Clf": [
+  "c"
+ ],
+ "lotus/SortName": [
+  "s*0e*0n*0"
+ ],
+ "lotus/Clf": [
+  "c"
+ ],
+ "bulb/SortName": [
+  "b*0o*1n*0g*0 d+0e*2n*0"
+ ],
+ "bulb/Clf": [
+  "c"
+ ],
+ "cotton/SortName": [
+  "b*0o+0n*0g*0"
+ ],
+ "cotton/Clf": [
+  "ch"
+ ],
+ "carrot/SortName": [
+  "c*0a*2 r*0o+1t*0"
+ ],
+ "carrot/Clf": [
+  "c"
+ ],
+ "bone/SortName": [
+  "x*0u+0o-0n*0g*0"
+ ],
+ "bone/Clf": [
+  "chi"
+ ],
+ "plank/SortName": [
+  "v*0a*1n*0"
+ ],
+ "tomato/SortName": [
+  "c*0a*2 c*0h*0u*0a*0"
+ ],
+ "tomato/Clf": [
+  "qu"
+ ],
+ "mark/SortName": [
+  "d*0a-1u*0"
+ ],
+ "rubber/SortName": [
+  "c*0a*0o*0 s*0u*0"
+ ],
+ "rubber/Clf": [
+  "c"
+ ],
+ "blood_stinger/SortName": [
+  "n*0g*0o*2i*0 c*0h*0i*1c*0h*0 m*0a*1u*0"
+ ],
+ "blood_stinger/Clf": [
+  "c"
+ ],
+ "bur/SortName": [
+  "g*0a*0i*0"
+ ],
+ "root/SortName": [
+  "r*0e+4"
+ ],
+ "root/Clf": [
+  "c"
+ ],
+ "ankh/SortName": [
+  "a*0n*0k*0h*0"
+ ],
+ "ankh/Clf": [
+  "c"
+ ],
+ "dice/SortName": [
+  "x*0u*1c*0 x*0a+1c*0"
+ ],
+ "dice/Clf": [
+  "vi"
+ ],
+ "talisman/SortName": [
+  "b*0u*2a*0 k*0h*0e*1o*0 l*0e*1o*0"
+ ],
+ "talisman/Clf": [
+  "c"
+ ],
+ "battery/SortName": [
+  "p*0i*0n*0"
+ ],
+ "battery/Clf": [
+  "c"
+ ],
+ "amulet/SortName": [
+  "b*0u*2a*0 s*0u+5 s*0o+1n*0g*0"
+ ],
+ "amulet/Clf": [
+  "c"
+ ],
+ "compass/SortName": [
+  "l*0a*0 b*0a*2n*0"
+ ],
+ "compass/Clf": [
+  "c"
+ ],
+ "disc/SortName": [
+  "d+0i*4a*0"
+ ],
+ "disc/Clf": [
+  "c"
+ ],
+ "shovel/SortName": [
+  "x*0e*3n*0g*0"
+ ],
+ "shovel/Clf": [
+  "c"
+ ],
+ "coin/SortName": [
+  "x*0u*0"
+ ],
+ "chip/SortName": [
+  "p*0h*0i*3n*0h*0 x*0i*2 t*0o+1"
+ ],
+ "chip/Clf": [
+  "c"
+ ],
+ "card/SortName": [
+  "t*0h*0e*3 b*0a*2i*0"
+ ],
+ "card/Clf": [
+  "t"
+ ],
+ "moon/SortName": [
+  "t*0r*0a+0n*0g*0"
+ ],
+ "moon/Clf": [
+  "t"
+ ],
+ "privet/SortName": [
+  "m*0o*5n*0g*0"
+ ],
+ "privet/Clf": [
+  "qu"
+ ],
+ "glass/SortName": [
+  "k*0i*1n*0h*0"
+ ],
+ "glass/Clf": [
+  "m"
+ ],
+ "corruption/SortName": [
+  "o+0 u*0e+1"
+ ],
+ "corruption/Clf": [
+  "kh"
+ ],
+ "orb/SortName": [
+  "m*0a*0 c*0a-2u*0"
+ ],
+ "orb/Clf": [
+  "qu"
+ ],
+ "blueberries/SortName": [
+  "v*0i*0e+5t*0 q*0u*0a-1t*0"
+ ],
+ "blueberries/Clf": [
+  "qu"
+ ],
+ "magic_cotton/SortName": [
+  "b*0o+0n*0g*0 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "magic_cotton/Clf": [
+  "ch"
+ ],
+ "magic_stinger/SortName": [
+  "n*0g*0o*2i*0 c*0h*0i*1c*0h*0 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "magic_stinger/Clf": [
+  "c"
+ ],
+ "magic_leaf/SortName": [
+  "l*0a*1 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "magic_leaf/Clf": [
+  "chi"
+ ],
+ "magic_cactus/SortName": [
+  "x*0u+0o-0n*0g*0 r*0o+2n*0g*0 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "magic_cactus/Clf": [
+  "c"
+ ],
+ "magic_eye/SortName": [
+  "m*0a+1t*0"
+ ],
+ "magic_eye/Clf": [
+  "con"
+ ],
+ "magic_missile/SortName": [
+  "d+0a*5n*0 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "magic_missile/Clf": [
+  "vi",
+  "c"
+ ],
+ "magic_stick/SortName": [
+  "g*0a-5y*0 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "coral/SortName": [
+  "s*0a*0n*0 h*0o+0"
+ ],
+ "coral/Clf": [
+  "c"
+ ],
+ "magic_bubble/SortName": [
+  "b*0o*0n*0g*0 b*0o*1n*0g*0 m*0a*0 t*0h*0u*0a-5t*0"
+ ],
+ "magic_bubble/Clf": [
+  "c"
+ ],
+ "nazar/SortName": [
+  "n*0a*0z*0a*0r*0"
+ ],
+ "nazar/Clf": [
+  "c"
+ ],
+ "mimic/SortName": [
+  "m*0a*5o*0 d*0a*0n*0h*0"
+ ],
+ "mimic/Clf": [
+  "c"
+ ],
+ "mjolnir/SortName": [
+  "{#Petals/mjolnir/{0:rarity:is-unique}/SortName}"
+ ],
+ "mjolnir/Clf": [
+  "{#Petals/mjolnir/{0:rarity:is-unique}/Type}"
+ ],
+ "mjolnir/not-unique/SortName": [
+  "m*0a*3n*0h*0 v*0o-4"
+ ],
+ "mjolnir/not-unique/Clf": [],
+ "mjolnir/unique/SortName": [
+  "m*0a*3n*0h*0 v*0o-4"
+ ],
+ "mjolnir/unique/Clf": [
+  "c"
+ ],
+ "mecha_missile/SortName": [
+  "t*0e+0n*0 l*0u+3a*0 m*0a*1y*0"
+ ],
+ "mecha_missile/Clf": [
+  "c"
+ ],
+ "wax/SortName": [
+  "s*0a*1p*0 o*0n*0g*0"
+ ],
+ "wax/Clf": [
+  "kh"
+ ],
+ "golden_leaf/SortName": [
+  "l*0a*1 v*0a*2n*0g*0"
+ ],
+ "golden_leaf/Clf": [
+  "chi"
+ ],
+ "cog/SortName": [
+  "r*0a+0n*0g*0"
+ ],
+ "cog/Clf": [
+  "c"
+ ],
+ "monstera/SortName": [
+  "t*0r*0a-2u*0 b*0a*2"
+ ],
+ "monstera/Clf": [
+  "chi"
+ ],
+ "mecha_antennae/SortName": [
+  "a+0n*0g*0-t*0e*0n*0"
+ ],
+ "mecha_antennae/Clf": [
+  "c"
+ ],
+ "laser/SortName": [
+  "l*0a*0s*0e*0r*0"
+ ],
+ "domino/SortName": [
+  "d*0o*0m*0i*0n*0o*0"
+ ],
+ "domino/Clf": [
+  "c"
+ ],
+ "bandage/SortName": [
+  "b*0a+0n*0g*0 c*0a-1p*0 c*0u+1u*0"
+ ],
+ "bandage/Clf": [
+  "cu"
+ ],
+ "pharaoh_crown/SortName": [
+  "v*0u+0o-0n*0g*0 m*0i*0e+5n*0"
+ ],
+ "pharaoh_crown/Clf": [
+  "chi"
+ ],
+ "totem/SortName": [
+  "v*0a-5t*0 t*0o+3"
+ ],
+ "totem/Clf": [
+  "c"
+ ],
+ "triangle/SortName": [
+  "t*0a*0m*0 g*0i*0a*1c*0"
+ ],
+ "electric_web/SortName": [
+  "m*0a*5n*0g*0 n*0h*0e+5n*0 d+0i*0e+5n*0"
+ ],
+ "sacrifice/SortName": [
+  "m*0a*1u*0"
+ ],
+ "sacrifice/Clf": [
+  "gi"
+ ],
+ "sawblade/SortName": [
+  "c*0u+0a*0"
+ ],
+ "sawblade/Clf": [
+  "c"
+ ],
+ "clay/SortName": [
+  "d+0a-1t*0 s*0e*1t*0"
+ ],
+ "clay/Clf": [
+  "kh"
+ ],
+ "dust/SortName": [
+  "b*0u*5i*0"
+ ],
+ "dust/Clf": [],
+ "broccoli/SortName": [
+  "b*0o+0n*0g*0 c*0a*3i*0"
+ ],
+ "broccoli/Clf": [
+  "c"
+ ],
+ "lentil/SortName": [
+  "d+0a-5u*0 l*0a+0n*0g*0"
+ ],
+ "lentil/Clf": [
+  "h"
+ ],
+ "dead_leaf/SortName": [
+  "l*0a*1"
+ ],
+ "dead_leaf/Clf": [
+  "chi"
+ ],
+ "splitter/SortName": [
+  "t*0a*1c*0h*0 h*0o+2n*0"
+ ],
+ "splitter/Clf": [
+  "c"
+ ],
+ "goggles/SortName": [
+  "k*0i*1n*0h*0"
+ ],
+ "goggles/Clf": [
+  "chi"
+ ],
+ "bean/SortName": [
+  "d+0a-5u*0"
+ ],
+ "bean/Clf": [
+  "h"
+ ],
+ "champion_crown/SortName": [
+  "v*0u+0o-0n*0g*0 m*0i*0e+5n*0"
+ ],
+ "champion_crown/Clf": [
+  "chi"
+ ],
+ "basic/Py": [
+  "jiben"
+ ],
+ "light/Py": [
+  "qing"
+ ],
+ "rock/Py": [
+  "shitou"
+ ],
+ "square/Py": [
+  "zhengfangxing"
+ ],
+ "rose/Py": [
+  "meigui"
+ ],
+ "stinger/Py": [
+  "ci"
+ ],
+ "iris/Py": [
+  "yuanwei"
+ ],
+ "wing/Py": [
+  "chibang"
+ ],
+ "missile/Py": [
+  "daodan"
+ ],
+ "grapes/Py": [
+  "putao"
+ ],
+ "cactus/Py": [
+  "xianrenzhang"
+ ],
+ "faster/Py": [
+  "gengkuai"
+ ],
+ "bubble/Py": [
+  "paopao"
+ ],
+ "pollen/Py": [
+  "huafen"
+ ],
+ "dandelion/Py": [
+  "pugongying"
+ ],
+ "beetle_egg/Py": [
+  "luan"
+ ],
+ "antennae/Py": [
+  "chujiao"
+ ],
+ "heavy/Py": [
+  "zhong"
+ ],
+ "yin_yang/Py": [
+  "yinyang"
+ ],
+ "web/Py": [
+  "wang"
+ ],
+ "honey/Py": [
+  "fengmi"
+ ],
+ "leaf/Py": [
+  "yezi"
+ ],
+ "salt/Py": [
+  "yan"
+ ],
+ "rice/Py": [
+  "mi"
+ ],
+ "corn/Py": [
+  "yumi"
+ ],
+ "sand/Py": [
+  "shazi"
+ ],
+ "pincer/Py": [
+  "shizhen"
+ ],
+ "yucca/Py": [
+  "silan"
+ ],
+ "magnet/Py": [
+  "citie"
+ ],
+ "yggdrasil/Py": [
+  "shijieshu"
+ ],
+ "starfish/Py": [
+  "haixing"
+ ],
+ "pearl/Py": [
+  "zhenzhu"
+ ],
+ "lightning/Py": [
+  "shandian"
+ ],
+ "jelly/Py": [
+  "guodong"
+ ],
+ "claw/Py": [
+  "zhuazi"
+ ],
+ "shell/Py": [
+  "beike"
+ ],
+ "cutter/Py": [
+  "juchi"
+ ],
+ "dahlia/Py": [
+  "dalihua"
+ ],
+ "uranium/Py": [
+  "you"
+ ],
+ "sponge/Py": [
+  "haimian"
+ ],
+ "soil/Py": [
+  "tu"
+ ],
+ "fang/Py": [
+  "jianya"
+ ],
+ "third_eye/Py": [
+  "disanzhiyan"
+ ],
+ "peas/Py": [
+  "wandou"
+ ],
+ "stick/Py": [
+  "shuzhi"
+ ],
+ "clover/Py": [
+  "xingyuncao"
+ ],
+ "powder/Py": [
+  "fenmo"
+ ],
+ "air/Py": [
+  "kongqi"
+ ],
+ "basil/Py": [
+  "luole"
+ ],
+ "orange/Py": [
+  "chengzi"
+ ],
+ "ant_egg/Py": [
+  "luan"
+ ],
+ "poo/Py": [
+  "bianbian"
+ ],
+ "relic/Py": [
+  "yiwu"
+ ],
+ "lotus/Py": [
+  "lianhua"
+ ],
+ "bulb/Py": [
+  "dengpao"
+ ],
+ "cotton/Py": [
+  "mianhua"
+ ],
+ "carrot/Py": [
+  "huluobo"
+ ],
+ "bone/Py": [
+  "gutou"
+ ],
+ "plank/Py": [
+  "muban"
+ ],
+ "tomato/Py": [
+  "fanqie"
+ ],
+ "mark/Py": [
+  "biaoji"
+ ],
+ "rubber/Py": [
+  "xiangjiao"
+ ],
+ "blood_stinger/Py": [
+  "ci"
+ ],
+ "bur/Py": [
+  "ciguo"
+ ],
+ "root/Py": [
+  "gen"
+ ],
+ "ankh/Py": [
+  "anka"
+ ],
+ "dice/Py": [
+  "touzi"
+ ],
+ "talisman/Py": [
+  "hufu"
+ ],
+ "battery/Py": [
+  "dianchi"
+ ],
+ "amulet/Py": [
+  "hufu"
+ ],
+ "compass/Py": [
+  "zhinanzhen"
+ ],
+ "disc/Py": [
+  "yuanpan"
+ ],
+ "shovel/Py": [
+  "chanzi"
+ ],
+ "coin/Py": [
+  "yingbi"
+ ],
+ "chip/Py": [
+  "chouma"
+ ],
+ "card/Py": [
+  "zhipai"
+ ],
+ "moon/Py": [
+  "yueshi"
+ ],
+ "privet/Py": [
+  "nvzhenzi"
+ ],
+ "glass/Py": [
+  "boli"
+ ],
+ "corruption/Py": [
+  "fuhua"
+ ],
+ "orb/Py": [
+  "mofaqiu"
+ ],
+ "blueberries/Py": [
+  "lanmei"
+ ],
+ "magic_cotton/Py": [
+  "mianhua"
+ ],
+ "magic_stinger/Py": [
+  "ci"
+ ],
+ "magic_leaf/Py": [
+  "yezi"
+ ],
+ "magic_cactus/Py": [
+  "xianrenzhang"
+ ],
+ "magic_eye/Py": [
+  "mofazhiyan"
+ ],
+ "magic_missile/Py": [
+  "daodan"
+ ],
+ "magic_stick/Py": [
+  "shuzhi"
+ ],
+ "coral/Py": [
+  "shanhu"
+ ],
+ "magic_bubble/Py": [
+  "paopao"
+ ],
+ "nazar/Py": [
+  "xieyan"
+ ],
+ "mimic/Py": [
+  "nitai"
+ ],
+ "mjolnir/Py": [
+  "{#Petals/mjolnir/{0:rarity}/Py#Petals/mjolnir/default/Py}"
+ ],
+ "mjolnir/default/Py": [
+  "suipian"
+ ],
+ "mjolnir/unique/Py": [
+  "leishenzhichui"
+ ],
+ "mecha_missile/Py": [
+  "daodan"
+ ],
+ "wax/Py": [
+  "fengla"
+ ],
+ "golden_leaf/Py": [
+  "yezi"
+ ],
+ "cog/Py": [
+  "chilun"
+ ],
+ "monstera/Py": [
+  "guibeizhu"
+ ],
+ "mecha_antennae/Py": [
+  "chujiao"
+ ],
+ "laser/Py": [
+  "jiguang"
+ ],
+ "domino/Py": [
+  "gupai"
+ ],
+ "bandage/Py": [
+  "bengdai"
+ ],
+ "crown/Py": [
+  "wangguan"
+ ],
+ "totem/Py": [
+  "tuteng"
+ ],
+ "triangle/Py": [
+  "sanjiaoxing"
+ ],
+ "electric_web/Py": [
+  "wang"
+ ],
+ "sacrifice/Py": [
+  "xueji"
+ ],
+ "sawblade/Py": [
+  "jupian"
+ ],
+ "clay/Py": [
+  "niantu"
+ ],
+ "dust/Py": [
+  "huichen"
+ ],
+ "broccoli/Py": [
+  "xilanhua"
+ ],
+ "lentil/Py": [
+  "xiaobiandou"
+ ],
+ "dead_leaf/Py": [
+  "yezi"
+ ],
+ "splitter/Py": [
+  "fenlie"
+ ],
+ "goggles/Py": [
+  "humujing"
+ ],
+ "bean/Py": [
+  "douzi"
+ ],
+ "champion_crown/Py": [
+  "wangguan"
+ ]
+}

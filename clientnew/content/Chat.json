@@ -1,0 +1,1647 @@
+{
+ "PetalCraftedUnnamed": [
+  "{#Chat/PetalCraftedUnnamed/{0:rarity}#Chat/PetalCraftedUnnamed/default}",
+  "{#Chat/PetalCraftedUnnamed/{0:rarity:is-unique}}!",
+  "{#Chat/PetalCraftedUnnamed/{0:rarity}/{#Petals/{0:base}/Gender}#Chat/PetalCraftedUnnamed/default/{#Petals/{0:base}/Gender}}",
+  "{#Chat/PetalCraftedUnnamed/{0:rarity:is-unique}}"
+ ],
+ "PetalCraftedNamed": [
+  "{#Chat/PetalCraftedNamed/{0:rarity}#Chat/PetalCraftedNamed/default}",
+  "{#Chat/PetalCraftedNamed/{0:rarity:is-unique}}!",
+  "{#Chat/PetalCraftedNamed/{0:rarity}/{#Petals/{0:base}/Gender}#Chat/PetalCraftedNamed/default/{#Petals/{0:base}/Gender}}",
+  "{#Chat/PetalCraftedNamed/{0:rarity:is-unique}}"
+ ],
+ "PetalCraftedUnnamed/unique": [
+  "The {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName} has been forged!",
+  "{#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}",
+  "{#Chat/PetalCraftedUnnamed/unique/{#Petals/{0:base}/Gender}}",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/unique": [
+  "The {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName} has been forged by {1}!",
+  "{#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}",
+  "{#Chat/PetalCraftedUnnamed/unique} por {1}",
+  "{#Petals/AnnouncementPrefix:0}",
+  "{1}"
+ ],
+ "PetalCraftedUnnamed/default": [
+  "{#Petals/AnnouncementPrefix:0} has been crafted!",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/default": [
+  "{#Petals/AnnouncementPrefix:0} has been crafted by {1}!",
+  "{#Petals/AnnouncementPrefix:0}",
+  "{1}"
+ ],
+ "PetalFoundUnnamed": [
+  "{#Chat/PetalFoundUnnamed/{0:base}#Chat/PetalFoundUnnamed/generic}",
+  "{#Chat/PetalFoundUnnamed/{0:base}#Chat/PetalFoundUnnamed/generic/{#Petals/{0:base}/Gender}}"
+ ],
+ "PetalFoundNamed": [
+  "{#Chat/PetalFoundNamed/{0:base}#Chat/PetalFoundNamed/generic}",
+  "{#Chat/PetalFoundNamed/{0:base}#Chat/PetalFoundNamed/generic/{#Petals/{0:base}/Gender}}"
+ ],
+ "PetalFoundUnnamed/generic": [
+  "{#Petals/AnnouncementPrefix:0} has been found!",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundNamed/generic": [
+  "{#Petals/AnnouncementPrefix:0} has been found by {1}!",
+  "{#Petals/AnnouncementPrefix:0}",
+  "{1}"
+ ],
+ "PetalFoundUnnamed/pharaoh_crown": [
+  "The {#Petals/{0:base}/FullName} has been stolen!",
+  "{#Petals/{0:base}/FullName}",
+  "A {#Petals/{0:base}/FullName} foi roubada!",
+  "{#Petals/AnnouncementPrefixNoRarity:0}"
+ ],
+ "PetalFoundNamed/pharaoh_crown": [
+  "The {#Petals/{0:base}/FullName} has been stolen by {1}!",
+  "{#Petals/{0:base}/FullName}",
+  "A {#Petals/{0:base}/FullName} foi roubada por {1}!",
+  "{#Petals/AnnouncementPrefixNoRarity:0}",
+  "{1}"
+ ],
+ "PetalFoundUnnamed/champion_crown": [
+  "The {#Petals/{0:base}/FullName} has been taken!",
+  "{#Petals/{0:base}/FullName}",
+  "{#Petals/AnnouncementPrefixNoRarity:0}"
+ ],
+ "PetalFoundNamed/champion_crown": [
+  "The {#Petals/{0:base}/FullName} has been taken by {1}!",
+  "{#Petals/{0:base}/FullName}",
+  "{#Petals/AnnouncementPrefixNoRarity:0}",
+  "{1}"
+ ],
+ "MobSpawnedHere": [
+  "{#Chat/MobSpawnedHere/Special/{1}#Mobs/{0:base}/Spawn#Chat/MobSpawnedHere/Text}",
+  "{#Chat/MobSpawnedHere/Special/{1}/{#Mobs/{0:base}/Gender}#Mobs/{0:base}/Spawn#Chat/MobSpawnedHere/{#Mobs/{0:base}/Gender}}"
+ ],
+ "MobSpawnedSomewhere": [
+  "{#Chat/MobSpawnedSomewhere/Special/{1}#Mobs/{0:base}/Spawn#Chat/MobSpawnedSomewhere/Text}",
+  "{#Chat/MobSpawnedSomewhere/Special/{1}/{#Mobs/{0:base}/Gender}#Mobs/{0:base}/Spawn#Chat/MobSpawnedSomewhere/{#Mobs/{0:base}/Gender}}"
+ ],
+ "MobSpawnedHere/Text": [
+  "{#Mobs/AnnouncementPrefix:0} has spawned!",
+  "{#Mobs/AnnouncementPrefix:0}",
+  "{#Mobs/AnnouncementPrefix:0} apareceu!",
+  "{#Mobs/AnnouncementPrefix:0} v"
+ ],
+ "MobSpawnedSomewhere/Text": [
+  "{#Mobs/AnnouncementPrefix:0} has spawned somewhere!",
+  "{#Mobs/AnnouncementPrefix:0}",
+  "{#Mobs/AnnouncementPrefix:0} apareceu em algum lugar!",
+  "{#Mobs/AnnouncementPrefix:0} v"
+ ],
+ "MobSpawnedHere/Special/sacrifice": [
+  "{#Mobs/AnnouncementPrefix:0} has been summoned!",
+  "{#Mobs/AnnouncementPrefix:0}",
+  "{#Mobs/AnnouncementPrefix:0} foi {#Sacrifice/{#Mobs/{0:base}/Gender}}!",
+  "{#Mobs/AnnouncementPrefix:0} v"
+ ],
+ "MobSpawnedSomewhere/Special/sacrifice": [
+  "{#Mobs/AnnouncementPrefix:0} has been summoned somewhere!",
+  "{#Mobs/AnnouncementPrefix:0}",
+  "{#Mobs/AnnouncementPrefix:0} foi {#Sacrifice/{#Mobs/{0:base}/Gender}} em algum lugar!",
+  "{#Mobs/AnnouncementPrefix:0} v"
+ ],
+ "MobDefeated": [
+  "{#Chat/MobDefeated/{1}}",
+  "{#Chat/MobDefeated/{#Mobs/{0:base}/Gender}/{1}}",
+  "{#Chat/MobDefeated/{1}/{#Mobs/{0:base}/Gender}}"
+ ],
+ "MobDefeated/0": [
+  "{#Mobs/AnnouncementPrefix:0} has been defeated!",
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/1": [
+  "{#Mobs/AnnouncementPrefix:0} has been defeated by {2}!",
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/2": [
+  "{#Mobs/AnnouncementPrefix:0} has been defeated by {2} and {3}!",
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/3": [
+  "{#Mobs/AnnouncementPrefix:0} has been defeated by {2}, {3} and {4}!",
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/4": [
+  "{#Mobs/AnnouncementPrefix:0} has been defeated by {2}, {3}, {4} and {5}!",
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "Rift/Opened": [
+  "A mysterious rift has opened!",
+  "Uma fenda misteriosa se abriu!",
+  "M"
+ ],
+ "Revived": [
+  "You were revived by {0}.",
+  "{0} te reviveu.",
+  "B",
+  "{0}"
+ ],
+ "Marked": [
+  "You were marked by {0}.",
+  "{0} te amaldi",
+  "B",
+  "{0}"
+ ],
+ "Muted": [
+  "You are not allowed to chat right now because of past inappropriate messages.<n/>You'll be able to chat again in {0:time}.",
+  "Voc",
+  "B"
+ ],
+ "Muted/Message": [
+  "I have previously said things which I regret. Now I ponder in silence.",
+  "Eu disse coisas das quais me arrependo. Agora, reflito em sil",
+  "Tr"
+ ],
+ "Spam": [
+  "You're doing that too much.",
+  "Voc",
+  "B"
+ ],
+ "Alone": [
+  "No one is around to hear you.",
+  "Ningu",
+  "Kh"
+ ],
+ "Banned": [
+  "You're currently banned so you will not be able to play.",
+  "No momento voc",
+  "B"
+ ],
+ "NegativeStars": [
+  "Your payment for stars was reversed, you cannot play while your balance is negative.",
+  "Seu pagamento de estrelas foi revertido, voc",
+  "Thanh to"
+ ],
+ "BadChannel": [
+  "You can't do that",
+  "Voc",
+  "B"
+ ],
+ "SquadChannelNotInSquad": [
+  "Not in a squad.",
+  "N",
+  "Kh"
+ ],
+ "GuildChannelNotInGuild": [
+  "Not in a guild.",
+  "N",
+  "Kh"
+ ],
+ "GuildChannelDisabled": [
+  "You have guild chat disabled.",
+  "Voc",
+  "B"
+ ],
+ "GuestTooChatty": [
+  "Sorry, guest accounts have limited chat privileges until they're level {0}.",
+  "Desculpe, contas de convidados n",
+  "Xin l"
+ ],
+ "PlayerReported": [
+  "Player reported.",
+  "Jogador reportado."
+ ],
+ "PlayerBlocked": [
+  "{0} has been blocked.",
+  "{0}",
+  "{0} Foi bloqueado.",
+  "{0} v"
+ ],
+ "ServerClosing": [
+  "This server is scheduled to close in {0:time}.",
+  "O servidor est",
+  "M"
+ ],
+ "ServerClosed": [
+  "Server is closed, time to leave.",
+  "O servidor est",
+  "M"
+ ],
+ "ServerNoLongerClosing": [
+  "Server is no longer scheduled to close.",
+  "O servidor n",
+  "M"
+ ],
+ "MatchEnding": [
+  "This match ends in {0:time}.",
+  "Tr"
+ ],
+ "MatchEnded": [
+  "Match is over. Good-bye.",
+  "Tr"
+ ],
+ "MatchWinner": [
+  "{0} is the winner of the match.",
+  "{0}",
+  "{0} l"
+ ],
+ "DamageDone/Self": [
+  "You dealt {0:short} damage to the {#Rarities/{1:rarity}/Name} {#Mobs/{1:base}/Name}.",
+  "B"
+ ],
+ "Squad/Created": [
+  "Squad created.",
+  "Time criado."
+ ],
+ "Squad/Joined": [
+  "Joined squad.",
+  "Entrou no time."
+ ],
+ "Squad/Left": [
+  "Left squad.",
+  "Saiu do time."
+ ],
+ "Squad/MemberJoined": [
+  "{0} has joined the squad.",
+  "{0}",
+  "{0} entrou no time.",
+  "{0} v"
+ ],
+ "Squad/MemberLeft": [
+  "{0} has left the squad.",
+  "{0}",
+  "{0} saiu do time.",
+  "{0} v"
+ ],
+ "Squad/InviteSent": [
+  "You invited {0} to the squad.",
+  "{0}",
+  "Voc",
+  "B"
+ ],
+ "Squad/Error/InviteExpired": [
+  "Invite expired or squad no longer exists.",
+  "Convite expirou ou o time n",
+  "L"
+ ],
+ "Squad/Error/NotAllowed": [
+  "Squads not allowed in this mode.",
+  "Times n",
+  "Ch"
+ ],
+ "Squad/Error/Spam": [
+  "You're doing that too much.",
+  "Voc",
+  "B"
+ ],
+ "Squad/Error/DoesNotExist": [
+  "Squad does not exist.",
+  "O time n"
+ ],
+ "Squad/Error/CannotJoin": [
+  "You can't join this squad.",
+  "Voc",
+  "B"
+ ],
+ "Squad/Error/LevelDifference": [
+  "Your level isn't close enough to the squad level.",
+  "Seu n",
+  "C"
+ ],
+ "Squad/Error/Full": [
+  "Squad is full.",
+  "O time est"
+ ],
+ "Squad/Error/PendingInvite": [
+  "Player already has a pending invite.",
+  "Jogador j",
+  "Ng"
+ ],
+ "Squad/Error/AlreadyHasSquad": [
+  "Player is already in a squad.",
+  "Jogador j",
+  "Ng"
+ ],
+ "Squad/Error/WrongTeam": [
+  "You cannot invite players from a different team.",
+  "Voc",
+  "B"
+ ],
+ "Squad/Error/SplittedCannotSquad": [
+  "Only a whole flower can be part of a squad.",
+  "Apenas uma flor inteira pode ser parte de um time.",
+  "Ch"
+ ],
+ "Squad/Error/CannotInviteSplitted": [
+  "You cannot invite less than a whole flower to a squad.",
+  "Voc",
+  "B"
+ ],
+ "Channel/Local": [
+  "Local",
+  "L"
+ ],
+ "Channel/Squad": [
+  "Squad",
+  "Time"
+ ],
+ "Channel/Guild": [
+  "Guild",
+  "Cl",
+  "H"
+ ],
+ "Channel/Whisper": [
+  "Whisper",
+  "Sussurro",
+  "Th"
+ ],
+ "Channel/WhisperTo": [
+  "@{0}"
+ ],
+ "Channel/Map": [
+  "Map",
+  "Mapa",
+  "Khu v"
+ ],
+ "Channel/Global": [
+  "Global",
+  "To"
+ ],
+ "Guild/PlayerJoined": [
+  "{0} has joined the guild.",
+  "{0}",
+  "{0} entrou no cl",
+  "{0} v"
+ ],
+ "Guild/PlayerLeft": [
+  "{0} has left the guild.",
+  "{0}",
+  "{0} saiu do cl",
+  "{0} v"
+ ],
+ "Guild/NewLeader": [
+  "{0} is the new guild leader!",
+  "{0}",
+  "{0} l"
+ ],
+ "Guild/Invited": [
+  "You've been invited to join the guild \"{0}\". Open the guild menu to accept.",
+  "Voc",
+  "B"
+ ],
+ "Guild/Created": [
+  "Guild created.",
+  "Cl"
+ ],
+ "Guild/Left": [
+  "You've left the guild.",
+  "Voc",
+  "B"
+ ],
+ "Guild/InviteSent": [
+  "Invite sent.",
+  "Convite enviado."
+ ],
+ "Guild/LeadershipTransferred": [
+  "Leadership transferred.",
+  "Lideran"
+ ],
+ "Guild/Welcome": [
+  "Welcome to the guild.",
+  "Bem-vindo ao cl",
+  "Ch"
+ ],
+ "Guild/Kicked": [
+  "Player kicked.",
+  "Jogador expulso."
+ ],
+ "Guild/MOTDUpdated": [
+  "MOTD updated.",
+  "MOTD",
+  "MOTD atualizado."
+ ],
+ "CommandError/NoAvailableChannels": [
+  "All chat channels are disabled.",
+  "T"
+ ],
+ "CommandError/MessageTooLong": [
+  "Message too long.",
+  "Tin nh"
+ ],
+ "CommandError/Invalid": [
+  "Invalid command, type /help to list all commands.",
+  "Comando inv",
+  "L"
+ ],
+ "CommandError/SpaceError": [
+  "There can be no space after the /.",
+  "N",
+  "Kh"
+ ],
+ "CommandError/EmptyMessage": [
+  "Message cannot be empty.",
+  "As mensagens n",
+  "Tin nh"
+ ],
+ "CommandError/InvalidNumArguments": [
+  "Invalid number of arguments.",
+  "N",
+  "S"
+ ],
+ "CommandError/VeryInvalidSquadCode": [
+  "That doesn't look like a squad code.",
+  "Isso n",
+  "Tr"
+ ],
+ "CommandError/BlockedPlayerNotFound": [
+  "No such player is on your block list.",
+  "Este jogador n",
+  "Kh"
+ ],
+ "CommandError/NoBlockedPlayers": [
+  "No players are currently blocked.",
+  "Nenhum jogador bloqueado.",
+  "Kh"
+ ],
+ "CommandError/BlockListCleared": [
+  "Removed {0} players from block list.",
+  "{0}",
+  "{0} jogadores removidos da lista de bloqueados."
+ ],
+ "CommandError/NotInSquad": [
+  "Not in a squad.",
+  "N",
+  "Kh"
+ ],
+ "CommandError/MustHaveFlower": [
+  "Must have a flower to do this.",
+  "Precisa ter uma flor pra fazer isso..",
+  "Ph"
+ ],
+ "CommandError/NoFlowersClose": [
+  "No flowers close enough to you.",
+  "Nenhuma flor perto de voc",
+  "Kh"
+ ],
+ "CommandError/InvalidValue": [
+  "Invalid value.",
+  "Valor Inv",
+  "Gi"
+ ],
+ "CommandError/InvalidBooleanArgument": [
+  "Boolean argument must be y or n."
+ ],
+ "CommandError/InvalidNumberArgument": [
+  "Number argument must be a valid number.",
+  "O numero de argumentos tem de ser v"
+ ],
+ "CommandError/InvalidMobTypeArgument": [
+  "Invalid mob type.",
+  "Tipo de bicho inv",
+  "Lo"
+ ],
+ "CommandError/InvalidMobRarityArgument": [
+  "Invalid mob rarity.",
+  "Raridade de bicho inv"
+ ],
+ "CommandError/InvalidMap": [
+  "Invalid map.",
+  "Mapa inv",
+  "Khu v"
+ ],
+ "CommandError/AccountNotLoaded": [
+  "Account not loaded.",
+  "Conta n",
+  "T"
+ ],
+ "CommandError/TargetEmpty": [
+  "Target can't be empty.",
+  "O destinat",
+  "M"
+ ],
+ "CommandError/TargetSelf": [
+  "Can't target yourself.",
+  "Voc",
+  "Kh"
+ ],
+ "CommandError/TargetDisconnected": [
+  "Target disconnected.",
+  "Alvo desconectado.",
+  "M"
+ ],
+ "CommandError/TargetNotFound": [
+  "Target not found.",
+  "Destinat",
+  "Kh"
+ ],
+ "CommandError/TargetMustHaveFlower": [
+  "Target doesn't have a flower.",
+  "O destinat",
+  "M"
+ ],
+ "CommandError/InternalError": [
+  "Internal error.",
+  "Erro interno.",
+  "L"
+ ],
+ "CommandError/InvalidPetalArgument": [
+  "Invalid petal id.",
+  "ID de p",
+  "M"
+ ],
+ "CommandError/InvalidWhisperTarget": [
+  "Invalid target.",
+  "Destinat",
+  "M"
+ ],
+ "CommandError/WhisperTargetNotFound": [
+  "Target not found.",
+  "Destinat",
+  "Kh"
+ ],
+ "CommandError/WhisperTargetNotConnected": [
+  "Target not connected or not accepting whispers.",
+  "Destinat",
+  "M"
+ ],
+ "CommandError/WhisperSelf": [
+  "You can keep those thoughts in your head.",
+  "Deixe esses pensamentos apenas na sua cabe",
+  "B"
+ ],
+ "CommandError/GuestsCannotSendWhispers": [
+  "Guests cannot send whispers.",
+  "Visitantes n",
+  "Kh"
+ ],
+ "CommandError/GuestsCannotReceiveWhispers": [
+  "Guests cannot receive whispers.",
+  "Visitantes n",
+  "Kh"
+ ],
+ "CommandError/WhispersDisabled": [
+  "You cannot send whispers if you have whispers disabled in the settings.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/NotInGuild": [
+  "You're not in a guild.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/MustHaveNameToJoinGuild": [
+  "You must have a name to join a guild.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/SquadsNotAllowedInThisMode": [
+  "Squads are not allowed in this mode.",
+  "Times n",
+  "Ch"
+ ],
+ "CommandError/SquadFull": [
+  "Your squad is full.",
+  "Seu time est"
+ ],
+ "CommandError/AlreadyInGuild": [
+  "You're already in a guild.",
+  "Voce j",
+  "B"
+ ],
+ "CommandError/MustHaveNameToCreateGuild": [
+  "You must have a name to be able to create guilds.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/MustLevelToCreateGuild": [
+  "You must be at least level {0} to be able to create guilds.",
+  "Tenha no m",
+  "B"
+ ],
+ "CommandError/InvalidGuildName": [
+  "Invalid guild name.",
+  "Nome inv",
+  "T"
+ ],
+ "CommandError/InvalidGuildTag": [
+  "Invalid guild tag.",
+  "Tag inv",
+  "Th"
+ ],
+ "CommandError/GuildTagAlreadyInUse": [
+  "Guild tag is already in use.",
+  "Tag pro cl",
+  "Th"
+ ],
+ "CommandError/GuildCreateFailed": [
+  "Failed to create guild.",
+  "Falha ao criar o cl",
+  "T"
+ ],
+ "CommandError/CannotLeaveGuildAsLeader": [
+  "You cannot leave your guild if you're the leader, transfer it first.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/MustBeLeaderToDoThat": [
+  "You must be the leader to do that.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/MustBeLeaderToInvite": [
+  "You must be the leader to invite others.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/GuildFull": [
+  "Guild is full.",
+  "Cl",
+  "H"
+ ],
+ "CommandError/PlayerAlreadyInGuild": [
+  "Player already has a guild.",
+  "Jogador j",
+  "Ng"
+ ],
+ "CommandError/PlayerHasPendingGuildInvite": [
+  "This player already has a pending guild invite.",
+  "Esse jogador j",
+  "Ng"
+ ],
+ "CommandError/GuildInviteExpired": [
+  "Invite has already expired.",
+  "Convite de cl",
+  "L"
+ ],
+ "CommandError/GuildCannotKickSelf": [
+  "You can't kick yourself.",
+  "Voc",
+  "Kh"
+ ],
+ "CommandError/BothInSquadsAlready": [
+  "You and that player are both in squads already.",
+  "Voc",
+  "B"
+ ],
+ "CommandError/OtherPlayerSquadFull": [
+  "That player's squad is full.",
+  "O time desse jogador j"
+ ],
+ "CommandError/SquadIncompatibleLevels": [
+  "Your level isn't compatible enough with theirs to squad.",
+  "Seu n",
+  "C"
+ ],
+ "Oracle/Idle": [
+  "{#Chat/Oracle/Idle/{!math:{0}:%:41}}"
+ ],
+ "Oracle/Idle/0": [
+  "I can see the future",
+  "Eu posso ver o futuro",
+  "Ta c"
+ ],
+ "Oracle/Idle/1": [
+  "We can make a fair exchange",
+  "Podemos fazer uma troca justa",
+  "Ch"
+ ],
+ "Oracle/Idle/2": [
+  "If not now, when?",
+  "Se n",
+  "N"
+ ],
+ "Oracle/Idle/3": [
+  "The Oracle sees all",
+  "O Or",
+  "Nh"
+ ],
+ "Oracle/Idle/4": [
+  "Let if be all that we see or seem",
+  "Que seja tudo o que vemos ou parecemos",
+  "H"
+ ],
+ "Oracle/Idle/5": [
+  "So many paths to choose",
+  "Tantos caminhos para escolher",
+  "C"
+ ],
+ "Oracle/Idle/6": [
+  "Beware what you wish for",
+  "Cuidado com oque voc",
+  "C"
+ ],
+ "Oracle/Idle/7": [
+  "Can one ever be sure?",
+  "Algu",
+  "Li"
+ ],
+ "Oracle/Idle/8": [
+  "If that is what one wants",
+  "Se",
+  "N"
+ ],
+ "Oracle/Idle/9": [
+  "And what if I do?",
+  "E se eu fizer isso?"
+ ],
+ "Oracle/Idle/10": [
+  "And what if I don't?",
+  "E se eu n",
+  "V"
+ ],
+ "Oracle/Idle/11": [
+  "Ho ho! Imagine the outcome",
+  "Ho ho! Imagine o resultado",
+  "Ho ho! H"
+ ],
+ "Oracle/Idle/12": [
+  "It is ever thus",
+  "N"
+ ],
+ "Oracle/Idle/13": [
+  "That is one possible course",
+  "Esse"
+ ],
+ "Oracle/Idle/14": [
+  "There are no guarantees",
+  "Garantias n",
+  "Kh"
+ ],
+ "Oracle/Idle/15": [
+  "So many destinies",
+  "Tantos destinos",
+  "C"
+ ],
+ "Oracle/Idle/16": [
+  "Interpret this!",
+  "Interprete isso!",
+  "H"
+ ],
+ "Oracle/Idle/17": [
+  "Choose wisely",
+  "Escolha sabiamente",
+  "H"
+ ],
+ "Oracle/Idle/18": [
+  "Do not fear to commit",
+  "N"
+ ],
+ "Oracle/Idle/19": [
+  "Commit! Or don't",
+  "Comprometa-se! Ou n",
+  "L"
+ ],
+ "Oracle/Idle/20": [
+  "Don't mind me",
+  "N"
+ ],
+ "Oracle/Idle/21": [
+  "I scry with my little eye",
+  "Eu espio com meu olhinho",
+  "Ta nh"
+ ],
+ "Oracle/Idle/22": [
+  "If is not a word I use lightly",
+  "\"Se\" n",
+  "N"
+ ],
+ "Oracle/Idle/23": [
+  "If only it were all this simple",
+  "Se ao menos fosse tudo t",
+  "Gi"
+ ],
+ "Oracle/Idle/24": [
+  "Beware of stairs",
+  "Cuidado com as escadas",
+  "C"
+ ],
+ "Oracle/Idle/25": [
+  "You will die in a house fire",
+  "Voc",
+  "Ng"
+ ],
+ "Oracle/Idle/26": [
+  "I see you dying of extreme old age. Or perhaps a very old person will kill you. One or the other",
+  "Eu vejo voc",
+  "Ta nh"
+ ],
+ "Oracle/Idle/27": [
+  "This prophecy supersedes all previous prophecies",
+  "Esta profecia substitui todas as profecias anteriores",
+  "L"
+ ],
+ "Oracle/Idle/28": [
+  "Ignore all previous prophecies",
+  "Ignore todas as profecias anteriores",
+  "H"
+ ],
+ "Oracle/Idle/29": [
+  "I have a prophecy to deliver",
+  "Eu tenho uma profecia para entregar",
+  "Ta c"
+ ],
+ "Oracle/Idle/30": [
+  "Ignore all prior utterances",
+  "Ignore todas as declara",
+  "H"
+ ],
+ "Oracle/Idle/31": [
+  "Prepare for unforeseen consequences",
+  "Prepare-se para consequ",
+  "H"
+ ],
+ "Oracle/Idle/32": [
+  "Some fates are indeterminate",
+  "Alguns destinos s",
+  "M"
+ ],
+ "Oracle/Idle/33": [
+  "I appear to be suffering from a blind spot",
+  "Parece que estou sofrendo de um ponto cego",
+  "C"
+ ],
+ "Oracle/Idle/34": [
+  "A vague anomaly when one considers this particular future. Troubling",
+  "Uma vaga anomalia quando se considera este futuro em particular. Preocupante",
+  "M"
+ ],
+ "Oracle/Idle/35": [
+  "Fate cannot be denied",
+  "O destino n",
+  "S"
+ ],
+ "Oracle/Idle/36": [
+  "Some futures cannot be bought",
+  "Alguns futuros n",
+  "Kh"
+ ],
+ "Oracle/Idle/37": [
+  "The cost of certainty",
+  "O custo da certeza",
+  "Gi"
+ ],
+ "Oracle/Idle/38": [
+  "Again, again, and once again",
+  "De novo, de novo e de novo",
+  "Th"
+ ],
+ "Oracle/Idle/39": [
+  "Precisely as planned",
+  "Exatamente como planejado",
+  "Ch"
+ ],
+ "Oracle/Idle/40": [
+  "I cannot be held responsible for all the outcomes",
+  "N",
+  "Ta kh"
+ ],
+ "Oracle/Prediction": [
+  "{#Chat/Oracle/Prediction/{!math:{0}:%:3}}"
+ ],
+ "Oracle/Prediction/0": [
+  "Ah yes, the prophecy... it should happen any time now...",
+  "Ah sim, a profecia... deve acontecer a qualquer momento.."
+ ],
+ "Oracle/Prediction/1": [
+  "It was foretold, this is the moment...",
+  "Foi predito, este",
+  "N"
+ ],
+ "Oracle/Prediction/2": [
+  "I was waiting for this moment...",
+  "Eu estava esperando por esse momento...",
+  "Ta"
+ ],
+ "Oracle/ShopPrediction/No": [
+  "The future is too cloudy to tell",
+  "O futuro",
+  "T"
+ ],
+ "Oracle/ShopPrediction/Distance0": [
+  "It is imminent",
+  "N"
+ ],
+ "Oracle/ShopPrediction/Distance1": [
+  "Soon",
+  "Brevemente",
+  "S"
+ ],
+ "Oracle/ShopPrediction/Distance2": [
+  "Eventually",
+  "Eventualmente",
+  "R"
+ ],
+ "Oracle/ShopPrediction/Distance3": [
+  "Perhaps some futures are just indeterminate",
+  "Talvez alguns futuros sejam apenas indeterminados",
+  "C"
+ ],
+ "Oracle/ShopPrediction/Request": [
+  "Oracle, oracle, make me a prediction about {#Rarities/{0:rarity}/Name} {#Petals/{0:base}/FullName}",
+  "Or",
+  "Nh"
+ ],
+ "TargetDummy/Damaged/1": [
+  "Ouch",
+  "Ai",
+  "Ui da"
+ ],
+ "TargetDummy/Damaged/2": [
+  "I mean",
+  "Quero dizer"
+ ],
+ "TargetDummy/Damaged/3": [
+  "Beep boop"
+ ],
+ "TargetDummy/Damaged/4": [
+  "I'm a robot",
+  "Sou um rob",
+  "T"
+ ],
+ "Gambler/Idle": [
+  "{#Chat/Gambler/Idle/{!math:{0}:%:10}}"
+ ],
+ "Gambler/Idle/0": [
+  "I LOVE GAMBLING",
+  "EU AMO APOSTAR",
+  "TAO Y"
+ ],
+ "Gambler/Idle/1": [
+  "Where are the blackjack tables?",
+  "Onde est",
+  "B",
+  "21"
+ ],
+ "Gambler/Idle/2": [
+  "Where are the slots?",
+  "Onde est",
+  "M"
+ ],
+ "Gambler/Idle/3": [
+  "99% of gamblers quit just before they win big",
+  "99%",
+  "99% dos apostadores desistem pouco antes de ganhar muito",
+  "99% con b"
+ ],
+ "Gambler/Idle/4": [
+  "Just one more game...",
+  "Apenas mais um jogo.",
+  "C"
+ ],
+ "Gambler/Idle/5": [
+  "I'M ALL IN",
+  "ESTOU DENTRO",
+  "T"
+ ],
+ "Gambler/Idle/6": [
+  "I'm feeling lucky",
+  "Estou me sentindo sortudo",
+  "S"
+ ],
+ "Gambler/Idle/7": [
+  "Thirty-seventh time's the charm",
+  "Trig",
+  "L"
+ ],
+ "Gambler/Idle/8": [
+  "Double or nothing?",
+  "O dobro ou nada?"
+ ],
+ "Gambler/Idle/9": [
+  "Winner winner!",
+  "Vencedor, vencedor!",
+  "B"
+ ],
+ "Titan/Idle": [
+  "{#Chat/Titan/Idle/{!math:{0}:%:8}}"
+ ],
+ "Titan/Idle/0": [
+  "There can be only one",
+  "S",
+  "Ch"
+ ],
+ "Titan/Idle/1": [
+  "I was the hammer at the Founding",
+  "Eu era o martelo na Funda",
+  "Ta l"
+ ],
+ "Titan/Idle/2": [
+  "What is weak must break",
+  "O que",
+  "C"
+ ],
+ "Titan/Idle/3": [
+  "The forge of creation burns hotter",
+  "A forja da cria",
+  "L"
+ ],
+ "Titan/Idle/4": [
+  "The Worldsmith wanders",
+  "O forjador do mundo vagueia",
+  "Th"
+ ],
+ "Titan/Idle/5": [
+  "Formed of the forge",
+  "Formado da forja"
+ ],
+ "Titan/Idle/6": [
+  "As the Shaper wills",
+  "Como o forjador deseja",
+  "Theo"
+ ],
+ "Titan/Idle/7": [
+  "I stride the terrene plane",
+  "Eu caminho pelo plano terrestre",
+  "Ta b"
+ ],
+ "Trader/Idle": [
+  "{#Chat/Trader/Idle/{!math:{0}:%:3}}"
+ ],
+ "Trader/Idle/0": [
+  "May I interest you in a little trade?",
+  "Posso interess",
+  "T"
+ ],
+ "Trader/Idle/1": [
+  "I'm looking to expand my collection...",
+  "Estou querendo expandir minha cole",
+  "T"
+ ],
+ "Trader/Idle/2": [
+  "I have the coin, if you have wares",
+  "Eu tenho a moeda, se voc",
+  "T"
+ ],
+ "Command/help/Args": [
+  "[cmd]",
+  "[",
+  "[l"
+ ],
+ "Command/help/Description": [
+  "List all commands or list help for a specific command",
+  "Lista todos os commandos ou lista uma ajuda para um commando espec",
+  "Li"
+ ],
+ "Command/guild/Args": [
+  "<message>",
+  "<",
+  "<Mensagem>",
+  "<tin nh"
+ ],
+ "Command/guild/Description": [
+  "Sends a message only to other guild members",
+  "Manda uma mensagem apenas para jogadores do seu cl",
+  "G"
+ ],
+ "Command/guild-create/Args": [
+  "<name> <tag>",
+  "<",
+  "<nome> <tag>",
+  "<t"
+ ],
+ "Command/guild-create/Description": [
+  "Creates a new guild. Name must be 3-13 chars. Tag must be 2-4 chars",
+  "Cria um novo cl",
+  "T"
+ ],
+ "Command/guild-invite/Args": [
+  "<name>",
+  "<",
+  "<nome>",
+  "<t"
+ ],
+ "Command/guild-invite/Description": [
+  "Invites player to guild. Must be the leader. Player must be near you",
+  "Convida um jogador para seu cl",
+  "M"
+ ],
+ "Command/guild-transfer-leader/Args": [
+  "<target>",
+  "<",
+  "<alvo>",
+  "<m"
+ ],
+ "Command/guild-transfer-leader/Description": [
+  "Transfer guild leadership to someone else",
+  "Transfere a lideran",
+  "Chuy"
+ ],
+ "Command/guild-motd/Args": [
+  "<text>",
+  "<",
+  "<texto>",
+  "<v"
+ ],
+ "Command/guild-motd/Description": [
+  "Sets the guild MOTD",
+  "Define o MOTD do cl",
+  "Thi"
+ ],
+ "Command/squad/Args": [
+  "<message>",
+  "<",
+  "<mensagem>",
+  "<tin nh"
+ ],
+ "Command/squad/Description": [
+  "Sends a message only to other squad members",
+  "Define o MOTD do cl",
+  "G"
+ ],
+ "Command/squad-create/Args": [],
+ "Command/squad-create/Description": [
+  "Creates a squad",
+  "Cria um time",
+  "T"
+ ],
+ "Command/squad-invite/Args": [
+  "<target>",
+  "<",
+  "<m"
+ ],
+ "Command/squad-invite/Description": [
+  "Invite the target player to the squad",
+  "Convida um jogador pra seu time",
+  "M"
+ ],
+ "Command/squad-leave/Args": [],
+ "Command/squad-leave/Description": [
+  "Leaves squad",
+  "Sai de um time",
+  "R"
+ ],
+ "Command/squad-find-public/Args": [],
+ "Command/squad-find-public/Description": [
+  "Joins a random public squad",
+  "Entra num time p",
+  "Tham gia"
+ ],
+ "Command/squad-public/Args": [],
+ "Command/squad-public/Description": [
+  "Make squad public",
+  "Faz um time ser p",
+  "C"
+ ],
+ "Command/squad-private/Args": [],
+ "Command/squad-private/Description": [
+  "Make squad private",
+  "Faz um time ser privado",
+  "L"
+ ],
+ "Command/whisper/Args": [
+  "<target> <message>",
+  "<",
+  "<alvo> <mensagem>",
+  "<m"
+ ],
+ "Command/whisper/Description": [
+  "Sends a message to a specific player",
+  "G"
+ ],
+ "Command/w/Args": [
+  "{#Chat/Command/whisper/Args}"
+ ],
+ "Command/w/Description": [
+  "{#Chat/Command/whisper/Description}"
+ ],
+ "Command/reply/Args": [
+  "<message>",
+  "<",
+  "<mensagem>",
+  "<tin nh"
+ ],
+ "Command/reply/Description": [
+  "Reply to the latest received whisper",
+  "Responde ao",
+  "Tr"
+ ],
+ "Command/r/Args": [
+  "{#Chat/Command/reply/Args}"
+ ],
+ "Command/r/Description": [
+  "{#Chat/Command/reply/Description}"
+ ],
+ "Command/local/Args": [
+  "<message>",
+  "<",
+  "<mensagem>",
+  "<tin nh"
+ ],
+ "Command/local/Description": [
+  "Sends a message only to people around you",
+  "Manda uma mensagem para apenas jogadores a sua volta",
+  "G"
+ ],
+ "Command/map/Args": [
+  "<message>",
+  "<",
+  "<mensagem>",
+  "<tin nh"
+ ],
+ "Command/map/Description": [
+  "Sends a map message",
+  "Manda uma mensagem para o mapa",
+  "G"
+ ],
+ "Command/global/Args": [
+  "<message>",
+  "<",
+  "<mensagem>",
+  "<tin nh"
+ ],
+ "Command/global/Description": [
+  "Sends a global message",
+  "Manda uma mensagem global",
+  "G"
+ ],
+ "Command/unblock/Args": [
+  "<name>",
+  "<",
+  "<nome>",
+  "<t"
+ ],
+ "Command/unblock/Description": [
+  "Remove someone from your block list",
+  "Remove alguem da sua lista de bloqueados",
+  "X"
+ ],
+ "Command/unblock-all/Args": [],
+ "Command/unblock-all/Description": [
+  "Unblock everyone in your block list",
+  "Remove todo mundo da sua lista de bloqueados",
+  "X"
+ ],
+ "Command/rot-speed/Args": [
+  "<value>",
+  "<",
+  "<gi"
+ ],
+ "Command/rot-speed/Description": [
+  "Set petal rotation speed, from 0.0 to 1.0",
+  "Muda velocidade de rota"
+ ],
+ "Command/print-players/Args": [],
+ "Command/print-players/Description": [
+  "Lists the account id of the players near you",
+  "Lista o id das contas de jogadores perto de voc",
+  "Li"
+ ],
+ "PetalCraftedUnnamed/unique/Male": [
+  "Um {#Petals/{0:base}/FullName} {#Rarities/{0:rarity}/Male/Name} foi forjado",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/unique/Female": [
+  "Uma {#Petals/{0:base}/FullName} {#Rarities/{0:rarity}/Female/Name} foi forjado",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/not-unique": [
+  "{#Chat/PetalCraftedUnnamed/not-unique/{#Petals/{0:base}/Gender}}",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/not-unique/Male": [
+  "Um {#Petals/{0:base}/FullName} {#Rarities/{0:rarity}/Male/Name} foi combinado"
+ ],
+ "PetalCraftedUnnamed/not-unique/Female": [
+  "Uma {#Petals/{0:base}/FullName} {#Rarities/{0:rarity}/Female/Name} foi combinada"
+ ],
+ "PetalCraftedNamed/not-unique": [
+  "{#Chat/PetalCraftedUnnamed/not-unique} por {1}",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundUnnamed/generic/Male": [
+  "{#Petals/AnnouncementPrefix:0} foi encontrado!",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundUnnamed/generic/Female": [
+  "{#Petals/AnnouncementPrefix:0} foi encontrada!",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundNamed/generic/Male": [
+  "{#Petals/AnnouncementPrefix:0} foi encontrado por {1}!",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundNamed/generic/Female": [
+  "{#Petals/AnnouncementPrefix:0} foi encontrada por {1}!",
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/Male/0": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotado!"
+ ],
+ "MobDefeated/Male/1": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotado por {2}!"
+ ],
+ "MobDefeated/Male/2": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotado por {2} e {3}!"
+ ],
+ "MobDefeated/Male/3": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotado por {2}, {3} e {4}!"
+ ],
+ "MobDefeated/Male/4": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotado por {2}, {3}, {4} e {5}!"
+ ],
+ "MobDefeated/Female/0": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotada!"
+ ],
+ "MobDefeated/Female/1": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotada por {2}!"
+ ],
+ "MobDefeated/Female/2": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotada por {2} e {3}!"
+ ],
+ "MobDefeated/Female/3": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotada por {2}, {3} e {4}!"
+ ],
+ "MobDefeated/Female/4": [
+  "{#Mobs/AnnouncementPrefix:0} foi derrotada por {2}, {3}, {4} e {5}!"
+ ],
+ "PetalCraftedUnnamed/unique/Neuter": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/unique/Plural": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/unique/Male": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/unique/Female": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/unique/Neuter": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/unique/Plural": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/default/Male": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/default/Female": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/default/Neuter": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedUnnamed/default/Plural": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/default/Male": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/default/Female": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/default/Neuter": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalCraftedNamed/default/Plural": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundUnnamed/generic/Neuter": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundUnnamed/generic/Plural": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundNamed/generic/Neuter": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "PetalFoundNamed/generic/Plural": [
+  "{#Petals/AnnouncementPrefix:0}"
+ ],
+ "MobSpawnedHere/Male": [],
+ "MobSpawnedHere/Female": [],
+ "MobSpawnedHere/Neuter": [],
+ "MobSpawnedHere/Plural": [],
+ "MobSpawnedSomewhere/Male": [],
+ "MobSpawnedSomewhere/Female": [],
+ "MobSpawnedSomewhere/Neuter": [],
+ "MobSpawnedSomewhere/Plural": [],
+ "MobSpawnedHere/Special/sacrifice/Male": [],
+ "MobSpawnedHere/Special/sacrifice/Female": [],
+ "MobSpawnedHere/Special/sacrifice/Neuter": [],
+ "MobSpawnedHere/Special/sacrifice/Plural": [],
+ "MobSpawnedSomewhere/Special/sacrifice/Male": [],
+ "MobSpawnedSomewhere/Special/sacrifice/Female": [],
+ "MobSpawnedSomewhere/Special/sacrifice/Neuter": [],
+ "MobSpawnedSomewhere/Special/sacrifice/Plural": [],
+ "MobDefeated/0/Male": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/0/Female": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/0/Neuter": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/0/Plural": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/1/Male": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/1/Female": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/1/Neuter": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/1/Plural": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/2/Male": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/2/Female": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/2/Neuter": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/2/Plural": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/3/Male": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/3/Female": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/3/Neuter": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/3/Plural": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/4/Male": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/4/Female": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/4/Neuter": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "MobDefeated/4/Plural": [
+  "{#Mobs/AnnouncementPrefix:0}"
+ ],
+ "Command/fake-achievements/Args": [
+  "[n]"
+ ],
+ "Command/fake-achievements/Description": [
+  "Make some fake achievement notifications"
+ ],
+ "Command/fill-chat/Args": [],
+ "Command/fill-chat/Description": [
+  "Fill chat with messages"
+ ],
+ "Command/disable-save/Args": [],
+ "Command/disable-save/Description": [
+  "Disables saving progress on this account"
+ ],
+ "Command/reset-talents/Args": [],
+ "Command/reset-talents/Description": [
+  "Resets talent tree"
+ ],
+ "Command/one-of-everything/Args": [
+  "[n]"
+ ],
+ "Command/one-of-everything/Description": [
+  "Gives 1 petal of every kind"
+ ],
+ "Command/wipe/Args": [],
+ "Command/wipe/Description": [
+  "Removes everything from account"
+ ],
+ "Command/flush/Args": [],
+ "Command/flush/Description": [
+  "Forces an account flush"
+ ],
+ "Command/make-enemies/Args": [],
+ "Command/make-enemies/Description": [
+  "Everyone else is an enemy"
+ ],
+ "Command/spawn-mob/Args": [
+  "<type> <rarity> <normal drops? y/n> <enemy? y/n> [num] [global? y/n]"
+ ],
+ "Command/spawn-mob/Description": [
+  "Spawns a mob"
+ ],
+ "Command/warp/Args": [
+  "<map>"
+ ],
+ "Command/warp/Description": [
+  "Warp to a specific map"
+ ],
+ "Command/warp-everyone/Args": [
+  "<map>"
+ ],
+ "Command/warp-everyone/Description": [
+  "Warp everyone to a specific map"
+ ],
+ "Command/kill/Args": [],
+ "Command/kill/Description": [
+  "Kills self"
+ ],
+ "Command/kill-everyone/Args": [],
+ "Command/kill-everyone/Description": [
+  "Kills everyone"
+ ],
+ "Command/revive-everyone/Args": [],
+ "Command/revive-everyone/Description": [
+  "Revives everyone"
+ ],
+ "Command/kill-mobs/Args": [
+  "<drops? y/n>"
+ ],
+ "Command/kill-mobs/Description": [
+  "Kills every mob"
+ ],
+ "Command/revive/Args": [],
+ "Command/revive/Description": [
+  "Revives self"
+ ],
+ "Command/set-loadout/Args": [],
+ "Command/set-loadout/Description": [
+  "Set loadout"
+ ],
+ "Command/set-loadout-all/Args": [],
+ "Command/set-loadout-all/Description": [
+  "Set everyone's loadout"
+ ],
+ "Command/levelup/Args": [
+  "[n]"
+ ],
+ "Command/levelup/Description": [
+  "Level up"
+ ],
+ "Command/isolate/Args": [
+  "<target>"
+ ],
+ "Command/isolate/Description": [
+  "Isolate player"
+ ],
+ "Command/unisolate/Args": [],
+ "Command/unisolate/Description": [
+  "Unisolates"
+ ],
+ "Command/change-name/Args": [
+  "<name>"
+ ],
+ "Command/change-name/Description": [
+  "Changes flower's name temporarily"
+ ],
+ "Command/dev-boss/Args": [],
+ "Command/dev-boss/Description": [],
+ "Command/afk-check/Args": [
+  "[target]"
+ ],
+ "Command/afk-check/Description": [
+  "Runs manual AFK check"
+ ],
+ "Command/bot-finder/Args": [
+  "<start/y/n/print>"
+ ],
+ "Command/bot-finder/Description": [
+  "Hehehe"
+ ],
+ "Command/wipe-achievements/Args": [],
+ "Command/wipe-achievements/Description": [
+  "Wipe achievements"
+ ],
+ "Command/reset-coin-delay/Args": [],
+ "Command/reset-coin-delay/Description": [
+  "Reset coin trade delay"
+ ],
+ "Command/bring/Args": [
+  "<target>"
+ ],
+ "Command/bring/Description": [
+  "Bring player to me"
+ ],
+ "Command/goto/Args": [
+  "<target>"
+ ],
+ "Command/goto/Description": [
+  "Go to player"
+ ],
+ "Command/bring-everyone/Args": [],
+ "Command/bring-everyone/Description": [
+  "Bring everyone to me"
+ ],
+ "Command/contagious-corruption/Args": [],
+ "Command/contagious-corruption/Description": [
+  "Start the plague"
+ ],
+ "Command/purge-contagious-corruption/Args": [],
+ "Command/purge-contagious-corruption/Description": [
+  "End the plague"
+ ],
+ "Command/calculate-next-shop/Args": [
+  "<petal:rarity> [min discount level 0~3]"
+ ],
+ "Command/calculate-next-shop/Description": [
+  "Calculates in how many periods the petal will appear in shop"
+ ],
+ "Command/lock-in-hel/Args": [
+  "<target>"
+ ],
+ "Command/lock-in-hel/Description": [
+  "Locks player in Hel for 1 hour"
+ ]
+}

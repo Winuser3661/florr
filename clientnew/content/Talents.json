@@ -1,0 +1,1181 @@
+{
+ "crafting/Description": [
+  "Unlocks the ability to craft <c val=\"{#Colors/{0:rarity}}\">{#Rarities/{0:rarity}/Name}</c> petals",
+  "<c val=\"{#Colors/{0:rarity}}\">{#Rarities/{0:rarity}/Name}</c>",
+  "Permite a combina",
+  "M"
+ ],
+ "crafting_unusual/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_unusual/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "crafting_rare/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_rare/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "crafting_epic/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_epic/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "crafting_legendary/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_legendary/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "crafting_mythic/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_mythic/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "crafting_ultra/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_ultra/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "crafting_super/Name": [
+  "{#Talents/crafting/Name}"
+ ],
+ "crafting_super/Description": [
+  "{#Talents/crafting/Description}"
+ ],
+ "inventory6/Name": [
+  "Loadout",
+  "Invent",
+  "B"
+ ],
+ "inventory6/Description": [
+  "Enables a 6th loadout slot to equip petals.",
+  "Concede um sexto slot para equipar p",
+  "M"
+ ],
+ "inventory7/Name": [
+  "Loadout",
+  "Invent",
+  "B"
+ ],
+ "inventory7/Description": [
+  "Enables a 7th loadout slot to equip petals.",
+  "Concede um s",
+  "M"
+ ],
+ "inventory8/Name": [
+  "Loadout",
+  "Invent",
+  "B"
+ ],
+ "inventory8/Description": [
+  "Enables a 8th loadout slot to equip petals.",
+  "Concede um oitavo slot para equipar p",
+  "M"
+ ],
+ "inventory9/Name": [
+  "Loadout",
+  "Invent",
+  "B"
+ ],
+ "inventory9/Description": [
+  "Enables a 9th loadout slot to equip petals.",
+  "Concede um nono slot para equipar p",
+  "M"
+ ],
+ "inventory10/Name": [
+  "Loadout",
+  "Invent",
+  "B"
+ ],
+ "inventory10/Description": [
+  "Enables a 10th loadout slot to equip petals.",
+  "Concede um d",
+  "M"
+ ],
+ "health/Name": [
+  "Health",
+  "Vida",
+  "Sinh T"
+ ],
+ "health/Description": [
+  "Increases base {#Flower/Attribute/HealthNoColon} from {1:perc}% to {2:perc}%.",
+  "{#Flower/Attribute/HealthNoColon}",
+  "Aumenta a {#Flower/Attribute/HealthNoColon} de {1:perc}% para {2:perc}%.",
+  "{#Talents/health/Description/1xx/{!cmp:{1:perc}:<:200}}",
+  "T"
+ ],
+ "health1/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health1/Description": [
+  "Increases base {#Flower/Attribute/HealthNoColon} by {0:perc}%.",
+  "{#Flower/Attribute/HealthNoColon}",
+  "Aumenta a {#Flower/Attribute/HealthNoColon} em {0:perc}%.",
+  "T"
+ ],
+ "health2/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health2/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health3/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health3/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health4/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health4/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health5/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health5/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health6/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health6/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health7/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health7/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health8/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health8/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "health9/Name": [
+  "{#Talents/health/Name}"
+ ],
+ "health9/Description": [
+  "{#Talents/health/Description}"
+ ],
+ "luck/Name": [
+  "Luck",
+  "Sorte",
+  "V"
+ ],
+ "luck/Description": [
+  "Increases {#Flower/Attribute/LuckNoColon} by {0:tooltip}.<n/>{#UI/Luck/Help}",
+  "{#Flower/Attribute/LuckNoColon}",
+  "Aumenta a {#Flower/Attribute/LuckNoColon} em {0:tooltip}.<n/>{#UI/Luck/Help}",
+  "T"
+ ],
+ "luck1/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck1/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck2/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck2/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck3/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck3/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck4/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck4/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck5/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck5/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck6/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck6/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck7/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck7/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck8/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck8/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "luck9/Name": [
+  "{#Talents/luck/Name}"
+ ],
+ "luck9/Description": [
+  "{#Talents/luck/Description}"
+ ],
+ "medic/Name": [
+  "Medic",
+  "M",
+  "Nh"
+ ],
+ "medic/Description": [
+  "Increases {#Flower/Attribute/HealingNoColon} from your petals from {1:perc}% to {2:perc}%.<n/>Affects allies healed by your petals.",
+  "Aumenta {#Flower/Attribute/HealingNoColon} de suas p",
+  "{#Talents/medic/Description/1xx/{!cmp:{1:perc}:<:200}}",
+  "T"
+ ],
+ "medic1/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic1/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic2/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic2/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic3/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic3/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic4/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic4/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic5/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic5/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic6/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic6/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic7/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic7/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic8/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic8/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "medic9/Name": [
+  "{#Talents/medic/Name}"
+ ],
+ "medic9/Description": [
+  "{#Talents/medic/Description}"
+ ],
+ "summoner/Name": [
+  "Summoner",
+  "Invocador",
+  "Tri"
+ ],
+ "summoner/Description": [
+  "Increases {#Mob/Attribute/HealthNoColon} of summoned mobs from {1:perc}% to {2:perc}%.",
+  "Aumenta a {#Mob/Attribute/HealthNoColon} de bichos invocados de {1:perc}% para {2:perc}%.",
+  "{#Talents/summoner/Description/1xx/{!cmp:{1:perc}:<:200}}",
+  "T"
+ ],
+ "summoner1/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner1/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner2/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner2/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner3/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner3/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner4/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner4/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner5/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner5/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner6/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner6/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner7/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner7/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner8/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner8/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "summoner9/Name": [
+  "{#Talents/summoner/Name}"
+ ],
+ "summoner9/Description": [
+  "{#Talents/summoner/Description}"
+ ],
+ "reload1/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload1/Description": [
+  "Decreases the reload time for petals by -{0:perc}%.<n/>Decreases minimum reload time when swapping petals from {3}s to {2}s.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload2/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload2/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.<n/>Decreases minimum reload time when swapping petals from {3}s to {2}s.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload3/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload3/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.<n/>Decreases minimum reload time when swapping petals from {3}s to {2}s.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload4/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload4/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.<n/>Decreases minimum reload time when swapping petals from {3}s to {2}s.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload5/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload5/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.<n/>Decreases minimum reload time when swapping petals from {3}s to {2}s.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload6/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload6/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload7/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload7/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload8/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload8/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "reload9/Name": [
+  "Reload",
+  "Recarga",
+  "T"
+ ],
+ "reload9/Description": [
+  "Decreases the reload time for petals from -{1:perc}% to -{0:perc}%.",
+  "Reduz o tempo de recarga para p",
+  "Gi"
+ ],
+ "body_damage/Name": [
+  "Sharp Edges",
+  "Bordas Afiadas",
+  "Gi"
+ ],
+ "body_damage/Description": [
+  "Increases {#Flower/Attribute/BodyDamageNoColon} by {0:perc}%.",
+  "{#Flower/Attribute/BodyDamageNoColon}",
+  "Aumenta o {#Flower/Attribute/BodyDamageNoColon} em {0:perc}%.",
+  "T"
+ ],
+ "body_damage1/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage1/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage2/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage2/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage3/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage3/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage4/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage4/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage5/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage5/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage6/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage6/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage7/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage7/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "body_damage8/Name": [
+  "{#Talents/body_damage/Name}"
+ ],
+ "body_damage8/Description": [
+  "{#Talents/body_damage/Description}"
+ ],
+ "petal_rotation/Name": [
+  "Petal Rotation",
+  "Rota",
+  "T"
+ ],
+ "petal_rotation/Description": [
+  "Increases petal {#Flower/Attribute/RotationSpeedNoColon} from {1:tooltip} to {0:tooltip} rad/s.",
+  "Aumenta a {#Flower/Attribute/RotationSpeedNoColon} de {1:tooltip} para {0:tooltip} rad/s.",
+  "T"
+ ],
+ "petal_rotation1/Name": [
+  "{#Talents/petal_rotation/Name}"
+ ],
+ "petal_rotation1/Description": [
+  "{#Talents/petal_rotation/Description}"
+ ],
+ "petal_rotation2/Name": [
+  "{#Talents/petal_rotation/Name}"
+ ],
+ "petal_rotation2/Description": [
+  "{#Talents/petal_rotation/Description}"
+ ],
+ "petal_rotation3/Name": [
+  "{#Talents/petal_rotation/Name}"
+ ],
+ "petal_rotation3/Description": [
+  "{#Talents/petal_rotation/Description}"
+ ],
+ "petal_rotation4/Name": [
+  "{#Talents/petal_rotation/Name}"
+ ],
+ "petal_rotation4/Description": [
+  "{#Talents/petal_rotation/Description}"
+ ],
+ "petal_rotation5/Name": [
+  "{#Talents/petal_rotation/Name}"
+ ],
+ "petal_rotation5/Description": [
+  "{#Talents/petal_rotation/Description}"
+ ],
+ "reach/Name": [
+  "Reach",
+  "Alcance",
+  "T"
+ ],
+ "reach/Description": [
+  "Increases petal {#Flower/Attribute/AttackRangeNoColon} by {0:tooltip}.",
+  "Aumenta o {#Flower/Attribute/AttackRangeNoColon} em {0:tooltip}.",
+  "T"
+ ],
+ "reach1/Name": [
+  "{#Talents/reach/Name}"
+ ],
+ "reach1/Description": [
+  "{#Talents/reach/Description}"
+ ],
+ "reach2/Name": [
+  "{#Talents/reach/Name}"
+ ],
+ "reach2/Description": [
+  "{#Talents/reach/Description}"
+ ],
+ "reach3/Name": [
+  "{#Talents/reach/Name}"
+ ],
+ "reach3/Description": [
+  "{#Talents/reach/Description}"
+ ],
+ "second_chance1/Name": [
+  "Second Chance",
+  "Segunda Chance",
+  "C"
+ ],
+ "second_chance1/Description": [
+  "Prevents death for {0:tooltip}s upon taking fatal damage. Has a {1:tooltip}s cooldown.",
+  "Previne a morte por {0:tooltip}s ao sofrer dano fatal. Tem {1:tooltip}s de recarregamento.",
+  "B"
+ ],
+ "second_chance2/Name": [
+  "Second Chance",
+  "Segunda Chance",
+  "C"
+ ],
+ "second_chance2/Description": [
+  "Increases duration to {0:tooltip}s, decreases cooldown to {1:tooltip}s.",
+  "Aumenta a dura",
+  "T"
+ ],
+ "magnetism/Name": [
+  "Magnetism",
+  "Magnetismo",
+  "Ng"
+ ],
+ "magnetism/Description": [
+  "Increases petal pick up range by {0} while alive.",
+  "Aumenta o alcance de coleta de p",
+  "T"
+ ],
+ "body_toxicity/Name": [
+  "Body Toxicity",
+  "Toxicidade Corporal"
+ ],
+ "body_toxicity/Description": [
+  "When colliding with an enemy, deals additional damage<n/>equal to {0:tooltip}x {#Flower/Attribute/BodyDamageNoColon} as {#Attribute/PoisonNoColon} over {1:tooltip}s.",
+  "Quando colidindo com um inimigo, causa dano adicional <n/>igual a {0:tooltip}x {#Flower/Attribute/BodyDamageNoColon} como {#Attribute/PoisonNoColon} por {1:tooltip}s.",
+  "Khi va ch"
+ ],
+ "poison/Name": [
+  "Poison",
+  "Veneno"
+ ],
+ "poison/Description": [
+  "Increases all {#Attribute/PoisonNoColon} damage by {0:perc}%.",
+  "Aumenta todo dano {#Attribute/PoisonNoColon} por segundo em {0:perc}%.",
+  "T"
+ ],
+ "poison1/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison1/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison2/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison2/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison3/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison3/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison4/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison4/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison5/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison5/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison6/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison6/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison7/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison7/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison8/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison8/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "poison9/Name": [
+  "{#Talents/poison/Name}"
+ ],
+ "poison9/Description": [
+  "{#Talents/poison/Description}"
+ ],
+ "concentrated_poison/Name": [
+  "Concentrated Poison",
+  "Veneno Concentrado",
+  "C"
+ ],
+ "concentrated_poison/Description": [
+  "Increases {#Attribute/PoisonNoColon} damage per second by {0:perc}%.<n/>Decreases {#Attribute/PoisonNoColon} duration by {1:perc}%.",
+  "{#Attribute/PoisonNoColon}",
+  "Aumenta o dano {#Attribute/PoisonNoColon} por segundo em {0:perc}%.<n/>Reduz {#Attribute/PoisonNoColon} dura",
+  "T"
+ ],
+ "duplicator/Name": [
+  "Duplicator",
+  "Duplicador",
+  "Nh"
+ ],
+ "duplicator/Description": [
+  "Adds an extra copy for petals that have at least {0:tooltip} copies.",
+  "Adiciona uma c",
+  "T"
+ ],
+ "duplicator2/Name": [
+  "Duplicator",
+  "Duplicador",
+  "Nh"
+ ],
+ "duplicator2/Description": [
+  "Adds an extra copy for petals that have at least {0:tooltip} copies.",
+  "Adiciona uma c",
+  "T"
+ ],
+ "duplicator3/Name": [
+  "Duplicator",
+  "Duplicador",
+  "Nh"
+ ],
+ "duplicator3/Description": [
+  "Adds an extra copy for the left-most petal in the loadout.<n/>Does not affect {#Rarities/{0}/NameColored} and {#Rarities/{1}/NameColored} petals.<n/>Does not affect <c val=\"{#Colors/generic}\">Unstackable</c> petals.",
+  "Adiciona uma c",
+  "T"
+ ],
+ "duplicator4/Name": [
+  "Duplicator",
+  "Duplicador",
+  "Nh"
+ ],
+ "duplicator4/Description": [
+  "Allows the previous talent to affect {#Rarities/{0}/NameColored} and {#Rarities/{1}/NameColored} petals.",
+  "Permite que o talento anterior afete p",
+  "L"
+ ],
+ "antennae1/Name": [
+  "Antennae",
+  "Antena",
+  "R"
+ ],
+ "antennae1/Description": [
+  "Increases vision range by {0:perc}%.",
+  "Aumenta o campo de vis",
+  "T"
+ ],
+ "antennae2/Name": [
+  "Antennae",
+  "Antena",
+  "R"
+ ],
+ "antennae2/Description": [
+  "Increases extra vision range from {2:perc}% to {1:perc}%.",
+  "Aumenta o campo de vis",
+  "T"
+ ],
+ "antennae3/Name": [
+  "Antennae",
+  "Antena",
+  "R"
+ ],
+ "antennae3/Description": [
+  "Increases extra vision range from {2:perc}% to {1:perc}%.",
+  "Aumenta o campo de vis",
+  "T"
+ ],
+ "petal_health/Name": [
+  "Petal Health",
+  "Vida da P",
+  "M"
+ ],
+ "petal_health/Description": [
+  "Increases {#Flower/Attribute/PetalHealthNoColon} from {1:perc}% to {2:perc}%.",
+  "{#Flower/Attribute/PetalHealthNoColon}",
+  "Aumenta a {#Flower/Attribute/PetalHealthNoColon} de {1:perc}% para {2:perc}%.",
+  "{#Talents/petal_health/Description/1xx/{!cmp:{1:perc}:<:200}}",
+  "T"
+ ],
+ "petal_health1/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health1/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health2/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health2/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health3/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health3/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health4/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health4/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health5/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health5/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health6/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health6/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health7/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health7/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health8/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health8/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "petal_health9/Name": [
+  "{#Talents/petal_health/Name}"
+ ],
+ "petal_health9/Description": [
+  "{#Talents/petal_health/Description}"
+ ],
+ "crafting/Name": [
+  "Combina",
+  "Ch"
+ ],
+ "crafting/Gender": [
+  "Male"
+ ],
+ "crafting_unusual/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "crafting_rare/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "crafting_epic/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "crafting_legendary/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "crafting_mythic/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "crafting_ultra/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "crafting_super/Gender": [
+  "{#Talents/crafting/Gender}"
+ ],
+ "inventory6/Gender": [
+  "Neuter"
+ ],
+ "inventory7/Gender": [
+  "Neuter"
+ ],
+ "inventory8/Gender": [
+  "Neuter"
+ ],
+ "inventory9/Gender": [
+  "Neuter"
+ ],
+ "inventory10/Gender": [
+  "Neuter"
+ ],
+ "health/Description/1xx/0": [],
+ "health/Description/1xx/1": [],
+ "health/Gender": [
+  "Neuter"
+ ],
+ "health1/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health2/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health3/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health4/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health5/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health6/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health7/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health8/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "health9/Gender": [
+  "{#Talents/health/Gender}"
+ ],
+ "luck/Gender": [
+  "Female"
+ ],
+ "luck1/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck2/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck3/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck4/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck5/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck6/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck7/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck8/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "luck9/Gender": [
+  "{#Talents/luck/Gender}"
+ ],
+ "medic/Description/1xx/0": [],
+ "medic/Description/1xx/1": [],
+ "medic/Gender": [
+  "Male"
+ ],
+ "medic1/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic2/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic3/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic4/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic5/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic6/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic7/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic8/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "medic9/Gender": [
+  "{#Talents/medic/Gender}"
+ ],
+ "summoner/Description/1xx/0": [],
+ "summoner/Description/1xx/1": [],
+ "summoner/Gender": [
+  "Male"
+ ],
+ "summoner1/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner2/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner3/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner4/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner5/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner6/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner7/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner8/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "summoner9/Gender": [
+  "{#Talents/summoner/Gender}"
+ ],
+ "reload1/Gender": [
+  "Female"
+ ],
+ "reload2/Gender": [
+  "Female"
+ ],
+ "reload3/Gender": [
+  "Female"
+ ],
+ "reload4/Gender": [
+  "Female"
+ ],
+ "reload5/Gender": [
+  "Female"
+ ],
+ "reload6/Gender": [
+  "Female"
+ ],
+ "reload7/Gender": [
+  "Female"
+ ],
+ "reload8/Gender": [
+  "Female"
+ ],
+ "reload9/Gender": [
+  "Female"
+ ],
+ "body_damage/Gender": [
+  "Plural"
+ ],
+ "body_damage1/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage2/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage3/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage4/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage5/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage6/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage7/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "body_damage8/Gender": [
+  "{#Talents/body_damage/Gender}"
+ ],
+ "petal_rotation/Gender": [
+  "Neuter"
+ ],
+ "petal_rotation1/Gender": [
+  "{#Talents/petal_rotation/Gender}"
+ ],
+ "petal_rotation2/Gender": [
+  "{#Talents/petal_rotation/Gender}"
+ ],
+ "petal_rotation3/Gender": [
+  "{#Talents/petal_rotation/Gender}"
+ ],
+ "petal_rotation4/Gender": [
+  "{#Talents/petal_rotation/Gender}"
+ ],
+ "petal_rotation5/Gender": [
+  "{#Talents/petal_rotation/Gender}"
+ ],
+ "reach/Gender": [
+  "Male"
+ ],
+ "reach1/Gender": [
+  "{#Talents/reach/Gender}"
+ ],
+ "reach2/Gender": [
+  "{#Talents/reach/Gender}"
+ ],
+ "reach3/Gender": [
+  "{#Talents/reach/Gender}"
+ ],
+ "second_chance1/Gender": [
+  "Male"
+ ],
+ "second_chance2/Gender": [
+  "Male"
+ ],
+ "magnetism/Gender": [
+  "Male"
+ ],
+ "body_toxicity/Gender": [
+  "Female"
+ ],
+ "poison/Gender": [
+  "Male"
+ ],
+ "poison1/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison2/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison3/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison4/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison5/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison6/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison7/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison8/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "poison9/Gender": [
+  "{#Talents/poison/Gender}"
+ ],
+ "concentrated_poison/Gender": [
+  "Male"
+ ],
+ "duplicator/Gender": [
+  "Male"
+ ],
+ "duplicator2/Gender": [
+  "Male"
+ ],
+ "duplicator3/Gender": [
+  "Male"
+ ],
+ "duplicator4/Gender": [
+  "Male"
+ ],
+ "antennae1/Gender": [
+  "Plural"
+ ],
+ "antennae2/Gender": [
+  "Plural"
+ ],
+ "antennae3/Gender": [
+  "Plural"
+ ],
+ "petal_health/Description/1xx/0": [],
+ "petal_health/Description/1xx/1": [],
+ "petal_health/Gender": [
+  "Neuter"
+ ],
+ "petal_health1/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health2/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health3/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health4/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health5/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health6/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health7/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health8/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ],
+ "petal_health9/Gender": [
+  "{#Talents/petal_health/Gender}"
+ ]
+}

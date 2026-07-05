@@ -1,0 +1,15 @@
+
+clientnew.wasm:	file format wasm 0x1
+
+Sections:
+
+     Type start=0x0000000b end=0x000005bb (size=0x000005b0) count: 182
+   Import start=0x000005be end=0x00000f69 (size=0x000009ab) count: 361
+ Function start=0x00000f6c end=0x0000281d (size=0x000018b1) count: 6265
+    Table start=0x0000281f end=0x00002826 (size=0x00000007) count: 1
+   Memory start=0x00002828 end=0x0000282e (size=0x00000006) count: 1
+   Global start=0x00002830 end=0x00002839 (size=0x00000009) count: 1
+   Export start=0x0000283c end=0x0000294f (size=0x00000113) count: 46
+     Elem start=0x00002952 end=0x00005d3f (size=0x000033ed) count: 1
+     Code start=0x00005d44 end=0x004cca94 (size=0x004c6d50) count: 6265
+     Data start=0x004cca99 end=0x008f3995 (size=0x00426efc) count: 3171

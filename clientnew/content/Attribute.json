@@ -1,0 +1,16 @@
+{
+ "PoisonNoColon": [
+  "<c val=\"{#Colors/poison}\">Poison</c>",
+  "<c val=\"{#Colors/poison}\">",
+  "<c val=\"{#Colors/poison}\">Venenoso</c>"
+ ],
+ "PoisonNoColon/Genitive": [
+  "<c val=\"{#Colors/poison}\">"
+ ],
+ "LightningNoColon": [
+  "<c val=\"{#Colors/lightning}\">"
+ ],
+ "ManaNoColon": [
+  "<c val=\"{#Colors/mana}\">N"
+ ]
+}

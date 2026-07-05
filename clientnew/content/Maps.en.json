@@ -1,0 +1,54 @@
+{
+ "ant_hell": {
+  "Name": "Inferno de Formigas"
+ },
+ "ant_hole1": {
+  "Name": "Termite Mound"
+ },
+ "ant_hole2": {
+  "Name": "Termite Mound"
+ },
+ "ant_hole3": {
+  "Name": "Termite Mound"
+ },
+ "ant_hole4": {
+  "Name": "Termite Mound"
+ },
+ "ant_hole5": {
+  "Name": "Termite Mound"
+ },
+ "br": {},
+ "crystal_room": {
+  "Name": "Sala do Cristal"
+ },
+ "desert": {
+  "Name": "Deserto"
+ },
+ "factory": {
+  "Name": "Factory"
+ },
+ "garden": {
+  "Name": "Garden"
+ },
+ "hel": {
+  "Name": "Hel"
+ },
+ "jungle": {
+  "Name": "Jungle"
+ },
+ "ocean": {
+  "Name": "Oceano"
+ },
+ "pyramid": {
+  "Name": "Pyramid"
+ },
+ "sewers": {
+  "Name": "Sewers"
+ },
+ "training_grounds": {
+  "Name": "Campos de Treinamento"
+ },
+ "worm": {
+  "Name": "Minhoca"
+ }
+}

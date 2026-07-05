@@ -1,0 +1,596 @@
+{
+ "AnnouncementPrefix": {},
+ "AnnouncementPrefixNoRarity": {},
+ "air": {
+  "Name": "Air",
+  "FullName": "Air",
+  "Description": "It's literally nothing."
+ },
+ "amulet": {
+  "Name": "Amuleto",
+  "FullName": "Amuleto",
+  "Description": "Converte uma parte da cura em escudo quando a vida do usu"
+ },
+ "ankh": {
+  "Name": "Ankh",
+  "FullName": "Ankh",
+  "Description": "An ancient relic.<n/>When destroyed, will teleport the flower back to where it was destroyed."
+ },
+ "ant_egg": {
+  "Name": "Egg",
+  "FullName": "Ovo de Formiga",
+  "Description": "Something interesting might pop out of this."
+ },
+ "antennae": {
+  "Name": "Antennae",
+  "FullName": "Antennae",
+  "Description": "Permite que sua flor veja inimigos mais distantes."
+ },
+ "bandage": {
+  "Name": "Bandagem",
+  "FullName": "Bandagem",
+  "Description": "Turns the flower <c val=\"{#Colors/undead}\">Undead</c> for a limited time on death.<n/>Delays death until expiration.<n/>Flower <c val=\"{#Colors/damage}\">Body Damage</c> is reduced during this period.<n/>Prevents revival for some time afterwards."
+ },
+ "basic": {
+  "Name": "Basic",
+  "FullName": "Basic",
+  "Description": "A nice petal, not too strong but not too weak."
+ },
+ "basil": {
+  "Name": "Manjeric",
+  "FullName": "Manjeric",
+  "Description": "Increases all healing received."
+ },
+ "battery": {
+  "Name": "Battery",
+  "FullName": "Battery",
+  "Description": "Discharges electricity whenever the flower gets hit."
+ },
+ "bean": {
+  "Name": "Bean",
+  "FullName": "Bean",
+  "Description": "Deals more damage if there are no allied flowers around you."
+ },
+ "beetle_egg": {
+  "Name": "Egg",
+  "FullName": "Ovo de Besouro",
+  "Description": "Something interesting might pop out of this."
+ },
+ "blood_stinger": {
+  "Name": "Stinger",
+  "FullName": "Blood Stinger",
+  "Description": "It really hurts, but it's very fragile.<n/>Deals damage to self when spawned."
+ },
+ "blueberries": {
+  "Name": "Blueberries",
+  "FullName": "Blueberries",
+  "Description": "It goes poof. Now with the extra secret ingredient: lightning."
+ },
+ "bone": {
+  "Name": "Bone",
+  "FullName": "Bone",
+  "Description": "Resistente. Perde metade da armadura a cada impacto."
+ },
+ "broccoli": {
+  "Name": "Broccoli",
+  "FullName": "Broccoli",
+  "Description": "Explodes when it hits something. For reasons unknown."
+ },
+ "bubble": {
+  "Name": "Bubble",
+  "FullName": "Bubble",
+  "Description": "Physics are for the weak."
+ },
+ "bulb": {
+  "Name": "Bulb",
+  "FullName": "Light Bulb",
+  "Description": "A shiny lightbulb. Draws aggro from mobs."
+ },
+ "bur": {
+  "Name": "Capim",
+  "FullName": "Capim-carrapicho",
+  "Description": "Decreases armor of affected unit. Does not stack with itself."
+ },
+ "cactus": {
+  "Name": "Cactus",
+  "FullName": "Cactus",
+  "Description": "Not very strong, but somehow increases your maximum health."
+ },
+ "card": {
+  "Name": "Carta",
+  "FullName": "Carta",
+  "Description": "Uma carta de baralho. Provavelmente marcada."
+ },
+ "carrot": {
+  "Name": "Cenoura",
+  "FullName": "Cenoura",
+  "Description": "Sturdy and reliable. Can be shot and bounces off walls."
+ },
+ "champion_crown": {
+  "Name": "Crown",
+  "FullName": "Champion's Crown",
+  "Description": "Gives flowers around you a {#Rarities/super/NameColored} {#Petals/basic/FullName}.<n/>You receive credit for damage dealt using it."
+ },
+ "chip": {
+  "Name": "Ficha",
+  "FullName": "Ficha de Poker",
+  "Description": "APOSTE TUDO!."
+ },
+ "claw": {
+  "Name": "Garra",
+  "FullName": "Garra",
+  "Description": "Deals extra damage if the victim is above 80% health.<n/>-50% damage vs other flowers."
+ },
+ "clay": {
+  "Name": "Argila",
+  "FullName": "Argila",
+  "Description": "It sticks to dust in the air to get bigger and stronger."
+ },
+ "clover": {
+  "Name": "Clover",
+  "FullName": "Clover",
+  "Description": "Increases your luck.<n/>{#UI/Luck/Help}"
+ },
+ "cog": {
+  "Name": "Roda",
+  "FullName": "Roda Dentada",
+  "Description": "Doesn't seem to do much..."
+ },
+ "coin": {
+  "Name": "Moeda",
+  "FullName": "Moeda",
+  "Description": "The power of capitalism compels you!"
+ },
+ "compass": {
+  "Name": "Compass",
+  "FullName": "Compass",
+  "Description": "This crappy thing might be able to find something interesting..."
+ },
+ "coral": {
+  "Name": "Coral",
+  "FullName": "Coral",
+  "Description": "Breaks apart on impact.<n/>Each piece has 50% of the stats of the predecessor."
+ },
+ "corn": {
+  "Name": "Milho",
+  "FullName": "Milho",
+  "Description": "Leva bastante tempo para carregar, mas possui muita vida."
+ },
+ "corruption": {
+  "Name": "Corruption",
+  "FullName": "Corruption",
+  "Description": "Corrupts one's soul, turning them against their own kind."
+ },
+ "cotton": {
+  "Name": "Cotton",
+  "FullName": "Cotton",
+  "Description": "Absorbs damage taken by the flower."
+ },
+ "crown": {},
+ "cutter": {
+  "Name": "Cortador",
+  "FullName": "Cortador",
+  "Description": "A friend used to own this... now it's time for revenge.<n/>Increases body damage."
+ },
+ "dahlia": {
+  "Name": "Dahlia",
+  "FullName": "Dahlia",
+  "Description": "Uma pequena quantidade de cura, mas bastante consistente."
+ },
+ "dandelion": {
+  "Name": "Dandelion",
+  "FullName": "Dandelion",
+  "Description": "Its interesting properties inhibits healing effects on affected units.<n/>Affected units have their healing reduced by 20%. Stacks with itself."
+ },
+ "dead_leaf": {
+  "Name": "Folha",
+  "FullName": "Folha Morta",
+  "Description": "Increases petal health but makes them reload slower."
+ },
+ "dice": {
+  "Name": "Dice",
+  "FullName": "Dice",
+  "Description": "Possui 5% de chance de causar 35x dano.<n/>As chances aumentam em 4% por cada ponto em sorte."
+ },
+ "disc": {
+  "Name": "Disco",
+  "FullName": "Disco",
+  "Description": "Reduces damage taken from collisions with mobs and flowers."
+ },
+ "domino": {
+  "Name": "Domino",
+  "FullName": "Domino",
+  "Description": "Damage depends on how many dots it has."
+ },
+ "dust": {
+  "Name": "Poeira",
+  "FullName": "Poeira",
+  "Description": "Sometimes it sticks together, sometimes it doesn't."
+ },
+ "electric_web": {
+  "Name": "Teia",
+  "FullName": "Electric Web",
+  "Description": "It's a little less sticky, but a bit more shocking."
+ },
+ "fang": {
+  "Name": "Presa",
+  "FullName": "Presa",
+  "Description": "Heals based on damage dealt by this petal."
+ },
+ "faster": {
+  "Name": "Acelerador",
+  "FullName": "Acelerador",
+  "Description": "It's so light it makes your other petals spin faster."
+ },
+ "glass": {
+  "Name": "Glass",
+  "FullName": "Glass",
+  "Description": "Phases through enemies.<n/>Cannot damage enemies more often than a certain interval."
+ },
+ "goggles": {
+  "Name": "Goggles",
+  "FullName": "Paranormal Goggles",
+  "Description": "Permite detectar algumas atividades paranormais."
+ },
+ "golden_leaf": {
+  "Name": "Folha",
+  "FullName": "Folha Dourada",
+  "Description": "A very special leaf, seems to allow you to use your other petals even more."
+ },
+ "grapes": {
+  "Name": "Grapes",
+  "FullName": "Grapes",
+  "Description": "It goes poof. Now with a secret ingredient: poison."
+ },
+ "heavy": {
+  "Name": "Pesado",
+  "FullName": "Pesado",
+  "Description": "This thing is so heavy that nothing gets in the way.<n/>Slows down petal rotation speed when equipped."
+ },
+ "honey": {
+  "Name": "Honey",
+  "FullName": "Honey",
+  "Description": "Mobs love this. Attracts them in a large radius.<n/>Mobs will prioritize this over flowers.<n/>Affected units develop immunity to its effects after some time."
+ },
+ "iris": {
+  "Name": "Iris",
+  "FullName": "Iris",
+  "Description": "Muito venenoso, mas leva um tempo para fazer o seu trabalho.<n/>-50% dano contra outras flores."
+ },
+ "jelly": {
+  "Name": "Geleia",
+  "FullName": "Geleia",
+  "Description": "No one likes touching this."
+ },
+ "laser": {
+  "Name": "Laser",
+  "FullName": "Tia Laser",
+  "Description": "Pew pew."
+ },
+ "leaf": {
+  "Name": "Folha",
+  "FullName": "Folha",
+  "Description": "Gathers energy from the sun to heal your flower passively."
+ },
+ "lentil": {
+  "Name": "Lentilha",
+  "FullName": "Lentilha",
+  "Description": "Increases petal attraction to enemies."
+ },
+ "light": {
+  "Name": "Light",
+  "FullName": "Light",
+  "Description": "Weaker than most petals, but recharges very quickly."
+ },
+ "lightning": {
+  "Name": "Lightning",
+  "FullName": "Lightning",
+  "Description": "Strikes several nearby enemies."
+ },
+ "lotus": {
+  "Name": "Lotus",
+  "FullName": "Hoa Sen",
+  "Description": "Absorbs poison damage taken by the flower."
+ },
+ "magic_bubble": {
+  "Name": "Bubble",
+  "FullName": "Magic Bubble",
+  "Description": "Physics are for the magicless."
+ },
+ "magic_cactus": {
+  "Name": "Cactus",
+  "FullName": "Magic Cactus",
+  "Description": "Increases maximum mana capacity."
+ },
+ "magic_cotton": {
+  "Name": "Cotton",
+  "FullName": "Magic Cotton",
+  "Description": "Absorbs damage taken by the flower."
+ },
+ "magic_eye": {
+  "Name": "Magic Eye",
+  "FullName": "Magic Eye",
+  "Description": "Consumes half the current mana and deals damage based on that value."
+ },
+ "magic_leaf": {
+  "Name": "Folha",
+  "FullName": "Magic Leaf",
+  "Description": "Gathers mana from the environment passively."
+ },
+ "magic_missile": {
+  "Name": "Missile",
+  "FullName": "Magic Missile",
+  "Description": "You can actually shoot this one... with magic."
+ },
+ "magic_stick": {
+  "Name": "Stick",
+  "FullName": "Magic Stick",
+  "Description": "A mysterious stick that summons the forces of the wind... with magic."
+ },
+ "magic_stinger": {
+  "Name": "Stinger",
+  "FullName": "Magic Stinger",
+  "Description": "It really hurts, but it's very fragile."
+ },
+ "magnet": {
+  "Name": "Magnet",
+  "FullName": "Magnet",
+  "Description": "Increases drop pick up range."
+ },
+ "mark": {
+  "Name": "Marca",
+  "FullName": "Marca Escura",
+  "Description": "A dark mark that binds itself to a fallen soul."
+ },
+ "mecha_antennae": {
+  "Name": "Antennae",
+  "FullName": "Mecha Antennae",
+  "Description": "Allows your flower to sense foes farther away.<n/>And it has a blinking red light on top."
+ },
+ "mecha_missile": {
+  "Name": "Missile",
+  "FullName": "Mecha Missile",
+  "Description": "Locked on."
+ },
+ "mimic": {
+  "Name": "Mimic",
+  "FullName": "Mimic",
+  "Description": "Copies the petal to the left of this, with the same rarity as this."
+ },
+ "missile": {
+  "Name": "Missile",
+  "FullName": "Missile",
+  "Description": "You can actually shoot this one."
+ },
+ "mjolnir": {
+  "Name": "{#Petals/mjolnir/{0:rarity}/Name#Petals/mjolnir/default/Name}",
+  "FullName": "{#Petals/mjolnir/{0:rarity}/FullName#Petals/mjolnir/default/FullName}",
+  "Description": "{#Petals/mjolnir/{0:rarity}/Description#Petals/mjolnir/default/Description}"
+ },
+ "monstera": {
+  "Name": "Monstera",
+  "FullName": "Monstera",
+  "Description": "Cura flores ao seu redor.<n/>O efeito se torna mais fraco conforme"
+ },
+ "moon": {
+  "Name": "Moon",
+  "FullName": "Rocha da Lua",
+  "Description": "This thing is so big your petals orbit it instead.<n/>Where did you find this anyway?"
+ },
+ "nazar": {
+  "Name": "Nazar",
+  "FullName": "Amuleto Nazar",
+  "Description": "When the flower receives damage, reduces it by 98% and consumes a charge."
+ },
+ "none": {},
+ "orange": {
+  "Name": "Laranja",
+  "FullName": "Laranja",
+  "Description": "A sweet citrus fruit."
+ },
+ "orb": {
+  "Name": "Esfera",
+  "FullName": "Esfera de Mana",
+  "Description": "Creates mana."
+ },
+ "pearl": {
+  "Name": "Pearl",
+  "FullName": "Pearl",
+  "Description": "Just drop it off somewhere and use your kinetic powers so you don't lose it."
+ },
+ "peas": {
+  "Name": "Ervilha",
+  "FullName": "Ervilha",
+  "Description": "Elas estouram."
+ },
+ "pharaoh_crown": {
+  "Name": "Crown",
+  "FullName": "Pharaoh's Crown",
+  "Description": "Invoca Besouros <c val=\"{#Colors/undead}\">Zumbi</c> para lutar ao seu lado."
+ },
+ "pincer": {
+  "Name": "Pincer",
+  "FullName": "Pincer",
+  "Description": "Debilitates enemies temporarily, reducing their movement speed."
+ },
+ "plank": {
+  "Name": "Plank",
+  "FullName": "Plank",
+  "Description": "Does 20x damage vs projectiles and petals."
+ },
+ "pollen": {
+  "Name": "Pollen",
+  "FullName": "Pollen",
+  "Description": "Asthmatics beware."
+ },
+ "poo": {
+  "Name": "Poo",
+  "FullName": "Poo",
+  "Description": "Faz os bichos terem menos vontade de atacar voc"
+ },
+ "powder": {
+  "Name": "Powder",
+  "FullName": "Mysterious Powder",
+  "Description": "Increases movement speed.<n/>Disabled if flower takes damage or if near a mob higher than a certain rarity."
+ },
+ "privet": {
+  "Name": "Alfeneiro",
+  "FullName": "Baga de Alfeneiro",
+  "Description": "Deals extra {#Attribute/PoisonNoColon} damage based on the existing {#Attribute/PoisonNoColon} damage per second."
+ },
+ "relic": {
+  "Name": "Relic",
+  "FullName": "Mysterious Relic",
+  "Description": "A strange relic. Significantly increases maximum health.<n/>Damage taken is spread among other wearers."
+ },
+ "rice": {
+  "Name": "Arroz",
+  "FullName": "Arroz",
+  "Description": "Spawns very quickly, but not very strong."
+ },
+ "rock": {
+  "Name": "Pedra",
+  "FullName": "Pedra",
+  "Description": "Extremely durable, but takes a bit longer to recharge."
+ },
+ "root": {
+  "Name": "Root",
+  "FullName": "Root",
+  "Description": "Fornece uma camada de armadura adicional a cada intervalo, uma camada"
+ },
+ "rose": {
+  "Name": "Rose",
+  "FullName": "Hoa H",
+  "Description": "Its healing properties are amazing. Not so good at combat though."
+ },
+ "rubber": {
+  "Name": "Borracha",
+  "FullName": "Borracha",
+  "Description": "Increases knockback received. Also absorbs lightning damage dealt to the flower."
+ },
+ "sacrifice": {
+  "Name": "Sacrifice",
+  "FullName": "Blood Sacrifice",
+  "Description": "On death, summons a mob to fight again.<n/>Mob type depends on where the sacrifice happens.<n/>Cannot be used in low mob rarity areas."
+ },
+ "salt": {
+  "Name": "Salt",
+  "FullName": "Salt",
+  "Description": "Reflects some of the damage you take back to the enemy that dealt it.<n/>Higher rarity mobs have higher resistance to damage reflection."
+ },
+ "sand": {
+  "Name": "Areia",
+  "FullName": "Areia",
+  "Description": "A bunch of sand particles."
+ },
+ "sawblade": {
+  "Name": "Sawblade",
+  "FullName": "Sawblade",
+  "Description": "This looks like it'd hurt."
+ },
+ "shell": {
+  "Name": "Concha",
+  "FullName": "Concha",
+  "Description": "Adds a temporary shield to yourself or allies."
+ },
+ "shovel": {
+  "Name": "Shovel",
+  "FullName": "Shovel",
+  "Description": "Becomes untargetable but unable to use petals for a limited time."
+ },
+ "soil": {
+  "Name": "Soil",
+  "FullName": "Soil",
+  "Description": "Increases health, but also increases flower size and decreases movement speed."
+ },
+ "splitter": {
+  "Name": "Splitter",
+  "FullName": "Divisor de Almas",
+  "Description": "{#Petals/splitter/Description/{0:rarity}#Petals/splitter/Description/default}"
+ },
+ "sponge": {
+  "Name": "Esponja",
+  "FullName": "Esponja",
+  "Description": "Distribui o dano recebido pela flor ao longo do tempo.<n/>Se retirada, causa o dano total de uma vez.<n/>N"
+ },
+ "square": {
+  "Name": "Quadrado",
+  "FullName": "Quadrado",
+  "Description": "This shape... it looks familiar..."
+ },
+ "starfish": {
+  "Name": "Starfish",
+  "FullName": "Estrela-do-mar",
+  "Description": "Cura a sua flor enquanto estiver com a vida abaixo de 75%"
+ },
+ "stick": {
+  "Name": "Stick",
+  "FullName": "Mysterious Stick",
+  "Description": "A mysterious stick that summons the forces of the wind."
+ },
+ "stinger": {
+  "Name": "Stinger",
+  "FullName": "Stinger",
+  "Description": "It really hurts, but it's very fragile."
+ },
+ "talisman": {
+  "Name": "Talisman",
+  "FullName": "Talisman of Evasion",
+  "Description": "A necklace that allows the wearer to anticipate enemy attacks."
+ },
+ "third_eye": {
+  "Name": "Third Eye",
+  "FullName": "Terceiro Olho",
+  "Description": "Allows your flower to expand your petals further out."
+ },
+ "tomato": {
+  "Name": "Tomato",
+  "FullName": "Tomato",
+  "Description": "Fica mais forte conforme o tempo."
+ },
+ "totem": {
+  "Name": "Totem",
+  "FullName": "Totem",
+  "Description": "Grants health regen for a certain duration after killing a mob."
+ },
+ "triangle": {
+  "Name": "Triangle",
+  "FullName": "Triangle",
+  "Description": "Each copy of this petal equipped grants additional damage to it."
+ },
+ "uranium": {
+  "Name": "Uranium",
+  "FullName": "Uranium",
+  "Description": "Periodically releases radiation.<n/>-75% damage versus other flowers.<n/>Effect strength depends on distance to petal."
+ },
+ "wax": {
+  "Name": "Cera",
+  "FullName": "Cera",
+  "Description": "Don't ask where it came from."
+ },
+ "web": {
+  "Name": "Teia",
+  "FullName": "Teia",
+  "Description": "It's really sticky."
+ },
+ "wing": {
+  "Name": "Wing",
+  "FullName": "Wing",
+  "Description": "It comes and goes."
+ },
+ "yggdrasil": {
+  "Name": "Yggdrasil",
+  "FullName": "Yggdrasil",
+  "Description": "A dried leaf from the Yggdrasil tree.<n/>Rumored to be able to bring the fallen back to life."
+ },
+ "yin_yang": {
+  "Name": "Yin Yang",
+  "FullName": "Yin Yang",
+  "Description": "This mysterious petal affects the rotation of your petals in unpredictable ways."
+ },
+ "yucca": {
+  "Name": "Yucca",
+  "FullName": "Yucca",
+  "Description": "Heals your flower but only while in the defensive position."
+ }
+}
