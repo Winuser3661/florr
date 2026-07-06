@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>skills.rs editor</title>
+<style>
+  :root {
+    --bg: #16181d;
+    --panel: #1e2128;
+    --panel2: #262a33;
+    --border: #343a46;
+    --text: #e8eaf0;
+    --dim: #8b93a3;
+    --accent: #55b1f0;
+    --accent2: #f0c355;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: flex; flex-direction: column;
+    background: var(--bg); color: var(--text);
+    font: 13px/1.45 "Segoe UI", system-ui, sans-serif;
+    overflow: hidden;
+  }
+  header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 8px 14px; background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    flex: 0 0 auto;
+  }
+  header h1 { font-size: 14px; margin: 0; font-weight: 600; letter-spacing: .3px; }
+  header .hint { color: var(--dim); font-size: 12px; }
+  header .spacer { flex: 1; }
+  main { flex: 1; display: flex; min-height: 0; }
+  #sidebar {
+    width: 210px; flex: 0 0 auto; background: var(--panel);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column; min-height: 0;
+  }
+  #lineList { flex: 1; overflow-y: auto; padding: 6px; }
+  .lineItem {
+    display: flex; align-items: center; gap: 8px;
+    padding: 6px 8px; border-radius: 6px; cursor: pointer;
+    border: 1px solid transparent; margin-bottom: 2px;
+    user-select: none;
+  }
+  .lineItem:hover { background: var(--panel2); }
+  .lineItem.sel { background: var(--panel2); border-color: var(--accent); }
+  .lineItem .dot { width: 12px; height: 12px; border-radius: 50%; flex: 0 0 auto; border: 1px solid #0006; }
+  .lineItem .nm { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .lineItem .branch { color: var(--dim); font-size: 11px; }
+  #sidebar .btns { padding: 8px; border-top: 1px solid var(--border); display: flex; gap: 6px; }
+  #stage { flex: 1; position: relative; min-width: 0; background: #101216; }
+  canvas { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; }
+  canvas.dragging { cursor: grabbing; }
+  #inspector {
+    width: 300px; flex: 0 0 auto; background: var(--panel);
+    border-left: 1px solid var(--border);
+    overflow-y: auto; padding: 10px 12px;
+  }
+  fieldset {
+    border: 1px solid var(--border); border-radius: 8px;
+    margin: 0 0 12px; padding: 8px 10px 10px;
+  }
+  legend { color: var(--accent); font-size: 12px; font-weight: 600; padding: 0 4px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+  .row label { flex: 0 0 108px; color: var(--dim); font-size: 12px; }
+  .row input[type=text], .row input[type=number], .row select {
+    flex: 1; min-width: 0;
+    background: var(--bg); color: var(--text);
+    border: 1px solid var(--border); border-radius: 5px;
+    padding: 4px 6px; font: inherit;
+  }
+  .row input[type=range] { flex: 1; accent-color: var(--accent); }
+  .row .val { flex: 0 0 52px; text-align: right; color: var(--accent2); font-variant-numeric: tabular-nums; font-size: 12px; }
+  .row input[type=checkbox] { accent-color: var(--accent); }
+  button {
+    background: var(--panel2); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 5px 10px; font: inherit; cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #0d1117; font-weight: 600; }
+  button.danger:hover { border-color: #e05252; color: #e05252; }
+  #exportOverlay {
+    position: absolute; inset: 0; display: none;
+    background: #000a; z-index: 10;
+    align-items: center; justify-content: center;
+  }
+  #exportOverlay.open { display: flex; }
+  #exportBox {
+    width: min(760px, 90%); height: min(560px, 85%);
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    display: flex; flex-direction: column; padding: 12px;
+  }
+  #exportBox textarea {
+    flex: 1; background: var(--bg); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px;
+    font: 12px/1.4 Consolas, monospace; padding: 8px; resize: none; white-space: pre;
+  }
+  #exportBox .bar { display: flex; gap: 8px; margin-top: 8px; justify-content: flex-end; }
+  #status {
+    position: absolute; left: 10px; bottom: 8px; color: var(--dim);
+    font-size: 11px; pointer-events: none; user-select: none;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>skills.rs — layout editor</h1>
+  <span class="hint">drag empty space to spin the fan &middot; drag a node to re-angle its chain &middot; click to select</span>
+  <span class="spacer"></span>
+  <label class="hint"><input type="checkbox" id="swayChk"> sway</label>
+  <label class="hint"><input type="checkbox" id="viewportChk" checked> viewport</label>
+  <button class="primary" id="exportBtn">Export Rust</button>
+</header>
+<main>
+  <div id="sidebar">
+    <div id="lineList"></div>
+    <div class="btns">
+      <button id="addBtn">+ Add line</button>
+      <button id="delBtn" class="danger">Delete</button>
+    </div>
+  </div>
+  <div id="stage">
+    <canvas id="cv"></canvas>
+    <div id="status"></div>
+    <div id="exportOverlay">
+      <div id="exportBox">
+        <textarea id="exportText" spellcheck="false"></textarea>
+        <div class="bar">
+          <button id="copyBtn">Copy</button>
+          <button id="closeBtn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="inspector"></div>
+</main>
+<script>
+"use strict";
+const TAU = Math.PI * 2;
+
+const RARITIES = [
+  { name: "Common",    color: "#7eef6d" },
+  { name: "Unusual",   color: "#ffe65d" },
+  { name: "Rare",      color: "#4d52e3" },
+  { name: "Epic",      color: "#861fde" },
+  { name: "Legendary", color: "#de1f1f" },
+  { name: "Mythic",    color: "#1fdbde" },
+  { name: "Ultra",     color: "#ff2b75" },
+];
+
+// ---- Data model: mirrors skills.rs ------------------------------------
+
+const G = {
+  WORLD_WIDTH: 898, WORLD_HEIGHT: 640,
+  FLOWER_X: 449, FLOWER_Y: 552,
+  RING0: 205, TIER_SPACING: 60,
+  X_STRETCH: 0.88, Y_STRETCH: 0.90,
+  FAN_DIP: 0.90,
+  BASE_LOADOUT_SLOTS: 5,
+};
+
+// { key, icon, costs:[..], startRarity, prereq: {line: index, tier} | null,
+//   angle, curl, stagger }
+let lines = [
+  { key: "health",           icon: "svgs/talents/12.svg", costs: [2,5,8,11,14,17,20], startRarity: 0, prereq: null,                       angle: 0.30,  curl: 0.014, stagger: false },
+  { key: "loadout",          icon: "svgs/talents/7.svg",  costs: [3,6,9],             startRarity: 0, prereq: null,                       angle: 5.20,  curl: 0.014, stagger: false },
+  { key: "sharp_edges",      icon: "svgs/talents/47.svg", costs: [2,3,4,5,6,7,8],     startRarity: 0, prereq: null,                       angle: 4.55,  curl: 0.014, stagger: true  },
+  { key: "rigid_body",       icon: "svgs/talents/89.svg", costs: [5],                 startRarity: 6, prereq: { line: 2, tier: 5 },       angle: 0.26,  curl: 0.0,   stagger: false },
+  { key: "reload",           icon: "svgs/talents/32.svg", costs: [2,6,10,12,16,20,24],startRarity: 0, prereq: null,                       angle: 5.85,  curl: 0.014, stagger: true  },
+  { key: "petal_rotation",   icon: "svgs/talents/52.svg", costs: [1,2,3,4,5],         startRarity: 0, prereq: null,                       angle: 2.22,  curl: 0.014, stagger: true  },
+  { key: "medic",            icon: "svgs/talents/22.svg", costs: [2,5,8,11,14,17,20], startRarity: 0, prereq: null,                       angle: 0.98,  curl: 0.014, stagger: true  },
+  { key: "summoner",         icon: "svgs/talents/27.svg", costs: [2,5,8,11,14,17,20], startRarity: 0, prereq: null,                       angle: 1.60,  curl: 0.014, stagger: false },
+  { key: "crafting",         icon: "svgs/talents/1.svg",  costs: [1,2,3,4,5,6],       startRarity: 1, prereq: null,                       angle: 3.38,  curl: 0.014, stagger: false },
+  { key: "skilled_crafting", icon: "svgs/talents/20.svg", costs: [5,10],              startRarity: 4, prereq: { line: 8, tier: 2 },       angle: -0.26, curl: 0.0,   stagger: false },
+  { key: "salvaging",        icon: "svgs/talents/42.svg", costs: [2,3,4,5],           startRarity: 3, prereq: { line: 8, tier: 1 },       angle: 0.26,  curl: 0.014, stagger: false },
+];
+
+// The exact index-constant order used by skills.rs, so exports keep the
+// wire-format line ids stable even though the editor list is in array order.
+const ORIGINAL_ORDER = ["health","loadout","sharp_edges","rigid_body","reload",
+  "petal_rotation","medic","summoner","crafting","skilled_crafting","salvaging"];
+
+let rot = 0;            // interactive spin offset (logical radians)
+let selected = 0;       // selected line index
+let sway = false;
+let showViewport = true;
+
+// ---- Layout math (1:1 port of skills.rs) ------------------------------
+
+function fanMin() { return -Math.PI - G.FAN_DIP; }
+function fanMax() { return G.FAN_DIP; }
+
+function fanAngle(logical) {
+  const frac = ((logical % TAU) + TAU) % TAU / TAU;
+  return fanMin() + frac * (fanMax() - fanMin());
+}
+
+function chainRoot(i) {
+  let seen = 0;
+  while (lines[i].prereq && seen++ < 32) i = lines[i].prereq.line;
+  return i;
+}
+
+function ringStagger(i) { return lines[i].stagger ? G.TIER_SPACING * 0.5 : 0; }
+
+function relPolar(i, tier) {
+  const def = lines[i];
+  const t = tier - 1;
+  if (!def.prereq) {
+    return [t * def.curl, G.RING0 + ringStagger(i) + t * G.TIER_SPACING];
+  }
+  const [pa, pr] = relPolar(def.prereq.line, def.prereq.tier);
+  return [pa + def.angle + t * def.curl, pr + (t + 1) * G.TIER_SPACING];
+}
+
+function nodePos(i, tier, rot) {
+  const base = fanAngle(lines[chainRoot(i)].angle + rot);
+  const [rel, r] = relPolar(i, tier);
+  const a = base + rel;
+  return [
+    G.FLOWER_X + r * Math.cos(a) * G.X_STRETCH,
+    G.FLOWER_Y + r * Math.sin(a) * G.Y_STRETCH,
+  ];
+}
+
+function nodeSway(i, tier, now) {
+  const phase = (i * 5 + tier * 3) * 1.7;
+  const a = now * 0.0006 + phase;
+  return [3.2 * Math.cos(a), 3.2 * Math.sin(a)];
+}
+
+function rarityOf(i, tier) {
+  return RARITIES[Math.min(lines[i].startRarity + tier - 1, RARITIES.length - 1)];
+}
+
+// ---- Canvas rendering ---------------------------------------------------
+
+const cv = document.getElementById("cv");
+const ctx = cv.getContext("2d");
+const statusEl = document.getElementById("status");
+let view = { scale: 1, ox: 0, oy: 0 }; // world -> screen
+
+function fitView() {
+  const r = cv.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  cv.width = r.width * dpr; cv.height = r.height * dpr;
+  const pad = 24;
+  const s = Math.min((r.width - pad) / G.WORLD_WIDTH, (r.height - pad) / G.WORLD_HEIGHT);
+  view.scale = s;
+  view.ox = (r.width - G.WORLD_WIDTH * s) / 2;
+  view.oy = (r.height - G.WORLD_HEIGHT * s) / 2;
+}
+
+function w2s(x, y) { return [view.ox + x * view.scale, view.oy + y * view.scale]; }
+function s2w(x, y) { return [(x - view.ox) / view.scale, (y - view.oy) / view.scale]; }
+
+const NODE_R = 17; // world units
+
+function draw(now) {
+  const dpr = window.devicePixelRatio || 1;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const r = cv.getBoundingClientRect();
+  ctx.clearRect(0, 0, r.width, r.height);
+
+  // World / viewport frame.
+  if (showViewport) {
+    const [x0, y0] = w2s(0, 0);
+    ctx.strokeStyle = "#3a4150";
+    ctx.setLineDash([5, 5]);
+    ctx.strokeRect(x0, y0, G.WORLD_WIDTH * view.scale, G.WORLD_HEIGHT * view.scale);
+    ctx.setLineDash([]);
+  }
+
+  const positions = lines.map((def, i) =>
+    def.costs.map((_, t) => {
+      let [x, y] = nodePos(i, t + 1, rot);
+      if (sway) { const [sx, sy] = nodeSway(i, t + 1, now); x += sx; y += sy; }
+      return [x, y];
+    })
+  );
+
+  // Links: flower->tier1 (roots) or prereq node->tier1 (branches), then
+  // tier->tier along the chain.
+  ctx.lineWidth = Math.max(1.5, 5 * view.scale);
+  for (let i = 0; i < lines.length; i++) {
+    const def = lines[i];
+    ctx.strokeStyle = i === selected ? "#55b1f0aa" : "#4a505e88";
+    let prev;
+    if (!def.prereq) prev = [G.FLOWER_X, G.FLOWER_Y];
+    else prev = positions[def.prereq.line]?.[def.prereq.tier - 1] ?? [G.FLOWER_X, G.FLOWER_Y];
+    for (const p of positions[i]) {
+      const [ax, ay] = w2s(prev[0], prev[1]);
+      const [bx, by] = w2s(p[0], p[1]);
+      ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
+      prev = p;
+    }
+  }
+
+  // Flower.
+  {
+    const [fx, fy] = w2s(G.FLOWER_X, G.FLOWER_Y);
+    const fr = 30 * view.scale;
+    ctx.beginPath(); ctx.arc(fx, fy, fr, 0, TAU);
+    ctx.fillStyle = "#ffe763"; ctx.fill();
+    ctx.lineWidth = fr * 0.16; ctx.strokeStyle = "#cfb64f"; ctx.stroke();
+  }
+
+  // Nodes.
+  ctx.textAlign = "center"; ctx.textBaseline = "middle";
+  for (let i = 0; i < lines.length; i++) {
+    for (let t = 0; t < positions[i].length; t++) {
+      const [x, y] = w2s(positions[i][t][0], positions[i][t][1]);
+      const rad = NODE_R * view.scale;
+      const rar = rarityOf(i, t + 1);
+      ctx.beginPath(); ctx.arc(x, y, rad, 0, TAU);
+      ctx.fillStyle = rar.color; ctx.fill();
+      ctx.lineWidth = rad * 0.18;
+      ctx.strokeStyle = i === selected ? "#ffffff" : "#00000055";
+      ctx.stroke();
+      ctx.fillStyle = "#0b0e12";
+      ctx.font = `600 ${Math.max(9, rad * 0.85)}px "Segoe UI"`;
+      ctx.fillText(String(t + 1), x, y + rad * 0.05);
+    }
+    // Chain label just past the last node.
+    const last = positions[i][positions[i].length - 1];
+    const first = !lines[i].prereq
+      ? [G.FLOWER_X, G.FLOWER_Y]
+      : positions[lines[i].prereq.line]?.[lines[i].prereq.tier - 1] ?? [G.FLOWER_X, G.FLOWER_Y];
+    const dx = last[0] - first[0], dy = last[1] - first[1];
+    const len = Math.hypot(dx, dy) || 1;
+    const [lx, ly] = w2s(last[0] + dx / len * 34, last[1] + dy / len * 34);
+    ctx.fillStyle = i === selected ? "#55b1f0" : "#8b93a3";
+    ctx.font = `${Math.max(9, 12 * view.scale)}px "Segoe UI"`;
+    ctx.fillText(lines[i].key, lx, ly);
+  }
+
+  statusEl.textContent =
+    `rot ${rot.toFixed(3)} rad — fan span ${((fanMax() - fanMin()) * 180 / Math.PI).toFixed(0)}°`;
+}
+
+// ---- Interaction --------------------------------------------------------
+
+let drag = null; // {kind:'spin', startRot, startPtr} | {kind:'node', line}
+
+function hitNode(wx, wy) {
+  for (let i = lines.length - 1; i >= 0; i--) {
+    for (let t = lines[i].costs.length; t >= 1; t--) {
+      const [x, y] = nodePos(i, t, rot);
+      if (Math.hypot(wx - x, wy - y) <= NODE_R + 4) return { line: i, tier: t };
+    }
+  }
+  return null;
+}
+
+function ptrAngle(wx, wy) {
+  return Math.atan2((wy - G.FLOWER_Y) / G.Y_STRETCH, (wx - G.FLOWER_X) / G.X_STRETCH);
+}
+
+cv.addEventListener("pointerdown", e => {
+  cv.setPointerCapture(e.pointerId);
+  cv.classList.add("dragging");
+  const [wx, wy] = s2w(e.offsetX, e.offsetY);
+  const hit = hitNode(wx, wy);
+  if (hit) {
+    selected = hit.line;
+    renderSidebar(); renderInspector();
+    drag = { kind: "node", line: hit.line, tier: hit.tier, moved: false };
+  } else {
+    drag = { kind: "spin", startRot: rot, startA: ptrAngle(wx, wy) };
+  }
+});
+
+cv.addEventListener("pointermove", e => {
+  if (!drag) return;
+  const [wx, wy] = s2w(e.offsetX, e.offsetY);
+  if (drag.kind === "spin") {
+    // Map angular pointer motion (screen space) back to logical rotation:
+    // screen span (FAN_MAX-FAN_MIN) covers a logical TAU.
+    const da = ptrAngle(wx, wy) - drag.startA;
+    rot = drag.startRot + da * TAU / (fanMax() - fanMin());
+  } else {
+    drag.moved = true;
+    const def = lines[drag.line];
+    const a = ptrAngle(wx, wy);
+    if (!def.prereq) {
+      // Invert: a = fanAngle(angle + rot) + tier*curl
+      const target = a - (drag.tier - 1) * def.curl;
+      const frac = (target - fanMin()) / (fanMax() - fanMin());
+      def.angle = ((frac * TAU - rot) % TAU + TAU) % TAU;
+    } else {
+      // Invert: a = base + pa + angle + tier*curl
+      const base = fanAngle(lines[chainRoot(drag.line)].angle + rot);
+      const [pa] = relPolar(def.prereq.line, def.prereq.tier);
+      let off = a - base - pa - (drag.tier - 1) * def.curl;
+      while (off > Math.PI) off -= TAU;
+      while (off < -Math.PI) off += TAU;
+      def.angle = off;
+    }
+    renderInspector();
+  }
+});
+
+function endDrag() { drag = null; cv.classList.remove("dragging"); }
+cv.addEventListener("pointerup", endDrag);
+cv.addEventListener("pointercancel", endDrag);
+
+// ---- Sidebar ------------------------------------------------------------
+
+function renderSidebar() {
+  const list = document.getElementById("lineList");
+  list.innerHTML = "";
+  lines.forEach((def, i) => {
+    const div = document.createElement("div");
+    div.className = "lineItem" + (i === selected ? " sel" : "");
+    const dot = document.createElement("span");
+    dot.className = "dot";
+    dot.style.background = RARITIES[Math.min(def.startRarity, RARITIES.length - 1)].color;
+    const nm = document.createElement("span");
+    nm.className = "nm"; nm.textContent = def.key;
+    div.append(dot, nm);
+    if (def.prereq) {
+      const b = document.createElement("span");
+      b.className = "branch";
+      b.textContent = "↳ " + (lines[def.prereq.line]?.key ?? "?");
+      div.append(b);
+    }
+    div.onclick = () => { selected = i; renderSidebar(); renderInspector(); };
+    list.append(div);
+  });
+}
+
+document.getElementById("addBtn").onclick = () => {
+  lines.push({
+    key: "new_skill", icon: "svgs/talents/1.svg", costs: [1, 2, 3],
+    startRarity: 0, prereq: null, angle: 0, curl: 0.014, stagger: false,
+  });
+  selected = lines.length - 1;
+  renderSidebar(); renderInspector();
+};
+
+document.getElementById("delBtn").onclick = () => {
+  if (lines.length <= 1) return;
+  const dead = selected;
+  if (lines.some((l, i) => i !== dead && l.prereq && l.prereq.line === dead)) {
+    alert("Other lines branch off this one — delete or re-parent them first.");
+    return;
+  }
+  lines.splice(dead, 1);
+  for (const l of lines) if (l.prereq && l.prereq.line > dead) l.prereq.line--;
+  selected = Math.min(selected, lines.length - 1);
+  renderSidebar(); renderInspector();
+};
+
+// ---- Inspector ----------------------------------------------------------
+
+const insp = document.getElementById("inspector");
+
+function row(labelText, input, valEl) {
+  const div = document.createElement("div");
+  div.className = "row";
+  const label = document.createElement("label");
+  label.textContent = labelText;
+  div.append(label, input);
+  if (valEl) div.append(valEl);
+  return div;
+}
+
+function textInput(value, onchange) {
+  const el = document.createElement("input");
+  el.type = "text"; el.value = value;
+  el.onchange = () => onchange(el.value);
+  return el;
+}
+
+function numInput(value, step, onchange) {
+  const el = document.createElement("input");
+  el.type = "number"; el.value = value; el.step = step;
+  el.onchange = () => onchange(parseFloat(el.value) || 0);
+  return el;
+}
+
+function slider(value, min, max, step, onInput) {
+  const el = document.createElement("input");
+  el.type = "range"; el.min = min; el.max = max; el.step = step; el.value = value;
+  const val = document.createElement("span");
+  val.className = "val"; val.textContent = (+value).toFixed(3);
+  el.oninput = () => { val.textContent = (+el.value).toFixed(3); onInput(+el.value); };
+  return [el, val];
+}
+
+function renderInspector() {
+  insp.innerHTML = "";
+  const def = lines[selected];
+  if (!def) return;
+
+  // -- Selected line --
+  const fs = document.createElement("fieldset");
+  const lg = document.createElement("legend");
+  lg.textContent = "Line: " + def.key;
+  fs.append(lg);
+
+  fs.append(row("key", textInput(def.key, v => {
+    def.key = v.trim().replace(/\s+/g, "_");
+    renderSidebar(); renderInspector();
+  })));
+  fs.append(row("icon", textInput(def.icon, v => { def.icon = v; })));
+  fs.append(row("costs (SP)", textInput(def.costs.join(", "), v => {
+    const parsed = v.split(/[,\s]+/).map(Number).filter(n => Number.isFinite(n) && n >= 0);
+    if (parsed.length) def.costs = parsed.map(n => Math.round(n));
+    renderInspector();
+  })));
+
+  const raritySel = document.createElement("select");
+  RARITIES.forEach((r, i) => {
+    const o = document.createElement("option");
+    o.value = i; o.textContent = `${i} — ${r.name}`;
+    raritySel.append(o);
+  });
+  raritySel.value = def.startRarity;
+  raritySel.onchange = () => { def.startRarity = +raritySel.value; renderSidebar(); };
+  fs.append(row("start rarity", raritySel));
+
+  const prereqSel = document.createElement("select");
+  {
+    const none = document.createElement("option");
+    none.value = "-1"; none.textContent = "(root — hangs off flower)";
+    prereqSel.append(none);
+    lines.forEach((l, i) => {
+      if (i === selected) return;
+      // Prevent obvious cycles: skip lines whose chain passes through us.
+      let j = i, cyc = false, guard = 0;
+      while (lines[j].prereq && guard++ < 32) { j = lines[j].prereq.line; if (j === selected) { cyc = true; break; } }
+      if (cyc) return;
+      const o = document.createElement("option");
+      o.value = i; o.textContent = l.key;
+      prereqSel.append(o);
+    });
+    prereqSel.value = def.prereq ? String(def.prereq.line) : "-1";
+    prereqSel.onchange = () => {
+      const v = +prereqSel.value;
+      if (v < 0) { def.prereq = null; def.angle = ((def.angle % TAU) + TAU) % TAU; }
+      else def.prereq = { line: v, tier: Math.min(def.prereq?.tier ?? 1, lines[v].costs.length) };
+      renderSidebar(); renderInspector();
+    };
+  }
+  fs.append(row("prereq line", prereqSel));
+
+  if (def.prereq) {
+    const maxT = lines[def.prereq.line].costs.length;
+    fs.append(row("prereq tier", numInput(def.prereq.tier, 1, v => {
+      def.prereq.tier = Math.max(1, Math.min(maxT, Math.round(v)));
+      renderInspector();
+    })));
+    const [angEl, angVal] = slider(def.angle, -1.5, 1.5, 0.005, v => { def.angle = v; });
+    fs.append(row("kink angle", angEl, angVal));
+  } else {
+    const [angEl, angVal] = slider(def.angle, 0, TAU, 0.005, v => { def.angle = v; });
+    fs.append(row("carousel angle", angEl, angVal));
+  }
+
+  const [curlEl, curlVal] = slider(def.curl, -0.06, 0.06, 0.001, v => { def.curl = v; });
+  fs.append(row("curl", curlEl, curlVal));
+
+  const stag = document.createElement("input");
+  stag.type = "checkbox"; stag.checked = def.stagger;
+  stag.onchange = () => { def.stagger = stag.checked; };
+  fs.append(row("ring stagger", stag));
+  insp.append(fs);
+
+  // -- Fan / spin --
+  const fs2 = document.createElement("fieldset");
+  const lg2 = document.createElement("legend");
+  lg2.textContent = "Fan";
+  fs2.append(lg2);
+  const [rotEl, rotVal] = slider(((rot % TAU) + TAU) % TAU, 0, TAU, 0.005, v => { rot = v; });
+  fs2.append(row("spin (preview)", rotEl, rotVal));
+  const [dipEl, dipVal] = slider(G.FAN_DIP, 0, 1.5, 0.01, v => { G.FAN_DIP = v; });
+  fs2.append(row("FAN_DIP", dipEl, dipVal));
+  insp.append(fs2);
+
+  // -- World constants --
+  const fs3 = document.createElement("fieldset");
+  const lg3 = document.createElement("legend");
+  lg3.textContent = "World constants";
+  fs3.append(lg3);
+  const consts = [
+    ["RING0", "RING0", 1], ["TIER_SPACING", "TIER_SPACING", 1],
+    ["X_STRETCH", "X_STRETCH", 0.01], ["Y_STRETCH", "Y_STRETCH", 0.01],
+    ["WORLD_WIDTH", "WORLD_WIDTH", 1], ["WORLD_HEIGHT", "WORLD_HEIGHT", 1],
+    ["FLOWER_X", "FLOWER_X", 1], ["FLOWER_Y", "FLOWER_Y", 1],
+  ];
+  for (const [label, k, step] of consts) {
+    fs3.append(row(label, numInput(G[k], step, v => { G[k] = v; })));
+  }
+  insp.append(fs3);
+}
+
+// ---- Rust export ----------------------------------------------------------
+
+function fmtF64(n) {
+  if (Number.isInteger(n)) return n.toFixed(1);
+  let s = String(n);
+  if (!s.includes(".") && !s.includes("e")) s += ".0";
+  return s;
+}
+
+function constNameOf(key) { return key.toUpperCase(); }
+
+function exportRust() {
+  const out = [];
+  const push = s => out.push(s);
+
+  push(`// Generated by skills_editor.html — paste into client/src/skills.rs`);
+  push(`// and mirror any structural change in server/arena_server/skills.hpp.`);
+  push(``);
+  lines.forEach((l, i) => push(`pub const ${constNameOf(l.key)}: usize = ${i};`));
+  push(`pub const COUNT: usize = ${lines.length};`);
+  push(``);
+  push(`pub const WORLD_WIDTH: f64 = ${fmtF64(G.WORLD_WIDTH)};`);
+  push(`pub const WORLD_HEIGHT: f64 = ${fmtF64(G.WORLD_HEIGHT)};`);
+  push(`pub const FLOWER_POS: (f64, f64) = (${fmtF64(G.FLOWER_X)}, ${fmtF64(G.FLOWER_Y)});`);
+  push(`const RING0: f64 = ${fmtF64(G.RING0)};`);
+  push(`const TIER_SPACING: f64 = ${fmtF64(G.TIER_SPACING)};`);
+  push(`const X_STRETCH: f64 = ${fmtF64(G.X_STRETCH)};`);
+  push(`const Y_STRETCH: f64 = ${fmtF64(G.Y_STRETCH)};`);
+  push(`const FAN_DIP: f64 = ${fmtF64(G.FAN_DIP)};`);
+  push(``);
+  push(`pub const LINES: [SkillLineDef; COUNT] = [`);
+  for (const l of lines) {
+    push(`    SkillLineDef {`);
+    push(`        key: "${l.key}",`);
+    push(`        icon: "${l.icon}",`);
+    push(`        costs: &[${l.costs.join(", ")}],`);
+    push(`        start_rarity: ${l.startRarity}, // ${RARITIES[Math.min(l.startRarity, RARITIES.length - 1)].name}`);
+    if (l.prereq) {
+      push(`        prereq: Some((${constNameOf(lines[l.prereq.line].key)}, ${l.prereq.tier})),`);
+    } else {
+      push(`        prereq: None,`);
+    }
+    push(`        angle: ${fmtF64(+l.angle.toFixed(4))},`);
+    push(`        curl: ${fmtF64(+l.curl.toFixed(4))},`);
+    push(`    },`);
+  }
+  push(`];`);
+  push(``);
+  const staggered = lines.map((l, i) => l.stagger ? constNameOf(l.key) : null).filter(Boolean);
+  push(`fn ring_stagger(line: usize) -> f64 {`);
+  push(`    match line {`);
+  if (staggered.length) {
+    push(`        ${staggered.join(" | ")} => TIER_SPACING * 0.5,`);
+  }
+  push(`        _ => 0.0,`);
+  push(`    }`);
+  push(`}`);
+
+  const changedOrder =
+    lines.length !== ORIGINAL_ORDER.length ||
+    lines.some((l, i) => l.key !== ORIGINAL_ORDER[i]);
+  if (changedOrder) {
+    push(``);
+    push(`// WARNING: line ids changed vs the original order — the u8 line`);
+    push(`// indices are wire format AND persisted server-side. Update`);
+    push(`// server/arena_server/skills.hpp to match, and migrate saved tiers.`);
+  }
+  return out.join("\n");
+}
+
+const overlay = document.getElementById("exportOverlay");
+document.getElementById("exportBtn").onclick = () => {
+  document.getElementById("exportText").value = exportRust();
+  overlay.classList.add("open");
+};
+document.getElementById("closeBtn").onclick = () => overlay.classList.remove("open");
+document.getElementById("copyBtn").onclick = async () => {
+  const ta = document.getElementById("exportText");
+  ta.select();
+  try { await navigator.clipboard.writeText(ta.value); } catch { document.execCommand("copy"); }
+  document.getElementById("copyBtn").textContent = "Copied!";
+  setTimeout(() => document.getElementById("copyBtn").textContent = "Copy", 1200);
+};
+
+// ---- Toggles & loop -------------------------------------------------------
+
+document.getElementById("swayChk").onchange = e => { sway = e.target.checked; };
+document.getElementById("viewportChk").onchange = e => { showViewport = e.target.checked; };
+window.addEventListener("resize", fitView);
+
+fitView();
+renderSidebar();
+renderInspector();
+(function loop(now) {
+  draw(now || 0);
+  requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
